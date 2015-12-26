@@ -1,0 +1,1490 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     48363,       1481]
+NotebookOptionsPosition[     41087,       1236]
+NotebookOutlinePosition[     42283,       1274]
+CellTagsIndexPosition[     42204,       1269]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ TogglerBox[2, {1->
+  OverlayBox[{
+   TagBox[GridBox[{
+      {
+       GraphicsBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBLECOU2VJahIzkCEFxAJADBL8//8/
+Qfzo0SP2GzduCF29elXs/Pnz0sgYn747d+5wA9VoArE/EB8B4uPoGJu+Fy9e
+MF+4cEENKB8AxBeB+AMQ/wXif+gYi1tBdvoB8QUg/ghV9x8XRtb7/PlzFqje
+t1D7cOrDpv/ixYvqUHuJ0ousHxpWAVA3E6UXWT80nC8S8i82/Q8ePOAgx26Y
+/uvXrwsD2UdJ8Tey/kuXLolD0wNJbofpB6YVSUr0n4ek5QHTT6n7KQ0/SuOP
+0vRDafqlRv6BxgPZ+Ret/HhHrBl4yi9QWHwiFB7Yyk+QO6B+CTxPYvmJjG/f
+vs17nozyG1f9cR6t7gBhAPeiQ4A=
+         "], {{0, 26}, {16, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{16, 26},
+        PlotRange->{{0, 16}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJzt2d9OVFcUB2DSNmkfQRFEiRQ1gCK1vW4fwT6BJu1tE9uk8fUUERE9aECC
+qLGYEmKkErWxtont2mGdcDLVOpNgZijfJB9hzp+99j6zb9b5Hb3ww7nvP+rr
+6/vxs/hz7vzPX1+8eP7St5/El28u/fTdhY/jn/6w8GlfXzlYVdWhDgyEwXT4
+HQYbBho6qQMAAOxt/Q0HWxxo0TzX3xij7juGwpFwNAyHY2EkfB6OhxPhZBgL
+42EinAqnw2SYSl+Es+HL9FWb6uvP5hj1eJNZ41TWHM85nMw5Hc85juSch3MN
+R3JNdf/UfGbtPqf6WdW6/XsDAADsV7vd/7b2vqPV2/veuuc9k6Za1Mfr3vVt
+feto9e+eVb9KL2tmz81M+n25dadZ9bU2zYXbYSmshNXwoOF+uJfn7obFcKfa
+/twMN8L1MNtBTQAAYO+ZSVfTdLqSLreoj0/n9eXe0jeUHmQ+3AoL1XZ/UfqR
+5Wq77yg9yMPwS3gcfg0b4Ul4Gn4LW+F5eBl+D6/CH+F1+DP99Q71+dd5z6sc
+42WOuZU1nmbNjZzD45zTw5zjSs55KdewkGuazzXONp5Xu8+pflb185rpgd8d
+AABgv/kQ/W/J4krGVvrIkruVDO5RWAvr1U7fuxmeVTt9b/Ei1d+38prNaqdv
+Xc+xHuXY97LWYtbWr9Jryj4sGXPJmkvmXD7l/UrZsyWTLu9dyj4u72Ca2fVq
+nivvY8renuug5ps2/b2L2q0JAADwX3azT/kQuv18AAAA2Pv0rOxn3djz3X6f
+BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAADsHW/a1I2aAAAAAAAAsJ91OyOEburGnr/W
+prlwOyyFlbAaHjTcD/fy3N2wGO5U25+b4Ua4HmY7qAkAAAAAAAC9aCZdTdPp
+Srrcoj4+ndeXe0tuVjK4+XCr2s7iSsa2XG3nbiWDexTWwnrYCE/CZngWtsLz
+9CLV37fyms28ZyPHWMsxH2SN5ax5O+cwn3Oabayv3XXVa6vXN9MDvxN7W9mH
+JWMuWXPJnMunZNBlz5ZMumTTZR+XrLqZXa/muZJtl70910HNQx0YCIPp8DsM
+Ngw0dFIHAAAAAAAAel1/w8EWB1o0z/U3xqhzt6FwNAyHY2EkjIYT4WQYC+Nh
+IpwOk+FMmmpRH5/Mayfy3rEc60SOPZK1hrP2ULWT9zXX2O666rXVuv378P/S
+zJ6bmfT7cuuOsup/AFmW9vs=
+         "], {{0, 26}, {2000, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{2000, 26},
+        PlotRange->{{0, 2000}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJy9lstOwkAUhhthQUJcuUBl5cr4GPoABvEJINGtCZoYng4Il4Z7gXAJYUHY
+QAi3GlYQPZ5/4pCm0pYC2uSDaXvmn5lzzpzpVfQl/HyiKMqrj3/CkffbWCwS
+f/TyzV387Snq4cYlc87gYbVaDbpB07SLRqMR6Pf7PiJSnOA+6h7kmBBz0+12
+Tx30v/bgk9GZOvPAa7oejUYeC306AIz1wWjM/WAw8B9ZX4L1TDHGcDj02ulX
+KpUNbt79jKHBV1b66Fcul3fCYgzEJNTr9fxmfaldKpWoUChQPp8X/8ViUWB8
+BhuLMRCPGvJqmz76QWOxWFCtVqNsNku5XE6AdqfToclkImxga7cGuT/M+uw/
+ms/ntF6vqdlsUjKZFKCNC/pynTZxyLbb7bNt/sHcMpkMzWYzoVev1wW4xuOx
+WAdsbGIAH6ncJ7BNH/6FRjqdJl3XSV7T6VSsA76CDWxt9oSKOmLOH/RBLKEP
+LVVVN/qJRGKjDxsnfSZoN3/4CPNfrVa/5n+IvtH/iDHu9/G/2T/G/JT5A41U
+KiXm3Wq1xBhcx5zy0zK+Mj+Xy6XIf5n7EuQ/9sYh+Wneqy73r+3+2rX2OPh+
+a31wqpHG5xbatvXtCDjW5wO1Z9UdzheXyPMRPrc6H49yvpvn/Y/fJ3/6ffUN
+AyH/6w==
+         "], {{0, 26}, {24, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{24, 26},
+        PlotRange->{{0, 24}, {0, 26}}]}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {Automatic, 
+         Scaled[0.6], Automatic}},
+     GridBoxSpacings->{"Columns" -> {{0}}, "Rows" -> {{0}}}],
+    "Grid"], 
+   PaneBox[
+    StyleBox[
+     RowBox[{
+     "Background", " ", "images", " ", "and", " ", "text", " ", "colors", " ",
+       "have", " ", "been", " ", "adjusted", " ", "for", " ", "editing", " ", 
+      
+      RowBox[{"purposes", "."}]}],
+     LineBreakWithin->False,
+     FontFamily->"Helvetica",
+     FontSize->12,
+     FontColor->GrayLevel[0.4]],
+    Alignment->Center,
+    ImageSize->Scaled[0.5],
+    ScrollPosition->{0., 0.}]},
+   Alignment->{Center, Center}], 2->""}, "1"]], "SlideShowNavigationBar", \
+"FirstSlide",
+ CellMargins->{{0, 0}, {0, 0}},
+ CellFrameLabelMargins->2,
+ CellSize->{Inherited, 30},
+ CellChangeTimes->{3.647361175465108*^9},
+ TextAlignment->Center,
+ CellTags->"SlideShowHeader"],
+
+Cell["\<\
+Notebook 01:
+The Graphics Command\
+\>", "Title",
+ CellChangeTimes->{
+  3.559948400406288*^9, {3.647331852839075*^9, 3.647331861295168*^9}, {
+   3.647331922221755*^9, 3.647331924532915*^9}, {3.647332658962614*^9, 
+   3.64733266480881*^9}, {3.6473611327373047`*^9, 3.647361139759391*^9}, {
+   3.647448943135475*^9, 3.6474489472294493`*^9}, {3.658337416821965*^9, 
+   3.65833742904038*^9}, {3.658337677781981*^9, 3.658337703010659*^9}, {
+   3.658337733491186*^9, 3.658337739609025*^9}}],
+
+Cell[TextData[{
+ "William J Turkel, ",
+ StyleBox["wturkel@uwo.ca",
+  FontSlant->"Italic",
+  FontColor->RGBColor[
+   0.396078431372549, 0.596078431372549, 0.796078431372549]],
+ "\nDigital Humanities 1011B"
+}], "Subtitle",
+ CellChangeTimes->{{3.647331955723979*^9, 3.6473319708190517`*^9}, 
+   3.647332103720562*^9, {3.6583374336085033`*^9, 3.658337439311952*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Introducing the Graphics command", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.658337802446971*^9, 3.6583378041097717`*^9}, {3.658338112071342*^9, 
+  3.6583381285337667`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Circle and Disk", "Subsection",
+ CellChangeTimes->{{3.658338118278393*^9, 3.658338120149979*^9}}],
+
+Cell[TextData[{
+ "Here is how you use the ",
+ StyleBox["Graphics",
+  FontWeight->"Bold"],
+ " command to draw a circle. You have to put the empty square brackets after \
+the ",
+ StyleBox["Circle",
+  FontWeight->"Bold"],
+ " command."
+}], "Text",
+ CellChangeTimes->{{3.658600335288493*^9, 3.6586003443110027`*^9}, {
+  3.660150621198207*^9, 3.6601506336597633`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"Circle", "[", "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.658337743712842*^9, 3.658337755216345*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[CircleBox[{0, 0}]]], "Output",
+ CellChangeTimes->{{3.658337749798889*^9, 3.6583377555787067`*^9}, 
+   3.66015139543416*^9}]
+}, Open  ]],
+
+Cell[TextData[{
+ "A ",
+ StyleBox["Disk",
+  FontWeight->"Bold"],
+ " is a filled circle. Here is how you draw one. You have to put the empty \
+square brackets after the ",
+ StyleBox["Disk",
+  FontWeight->"Bold"],
+ " command."
+}], "Text",
+ CellChangeTimes->{{3.658600352776116*^9, 3.658600364806333*^9}, {
+  3.660150640828046*^9, 3.6601506540035467`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"Disk", "[", "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.658337762766925*^9, 3.65833779667904*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[DiskBox[{0, 0}]]], "Output",
+ CellChangeTimes->{3.658337797360878*^9, 3.660151395788225*^9}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Line weights, colours and styles", "Subsection",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.65833781547731*^9, 3.65833782049296*^9}, {3.6583380474598837`*^9, 
+  3.658338056625495*^9}}],
+
+Cell[TextData[{
+ "Multiple drawing commands are enclosed in curly braces. A collection of \
+items in curly braces is called a ",
+ StyleBox["List",
+  FontWeight->"Bold"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.65833789467406*^9, 3.658337927191765*^9}, {
+  3.658337981013967*^9, 3.65833799520446*^9}, {3.6583381647019863`*^9, 
+  3.658338182475211*^9}}],
+
+Cell[TextData[{
+ StyleBox["Thick",
+  FontWeight->"Bold"],
+ " makes a wider line. Note that you have to change line thickness ",
+ StyleBox["before",
+  FontSlant->"Italic"],
+ " you draw the circle."
+}], "Text",
+ CellChangeTimes->{{3.65833789467406*^9, 3.658337927191765*^9}, {
+   3.658337981013967*^9, 3.65833799520446*^9}, 3.6583381647019863`*^9, {
+   3.658341214094159*^9, 3.658341214382188*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"{", 
+   RowBox[{"Thick", ",", 
+    RowBox[{"Circle", "[", "]"}]}], "}"}], "]"}]], "Input",
+ CellChangeTimes->{{3.658337831451344*^9, 3.6583378785702353`*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[
+  {Thickness[Large], CircleBox[{0, 0}]}]], "Output",
+ CellChangeTimes->{{3.658337851876416*^9, 3.6583378797393703`*^9}, 
+   3.66015139580767*^9}]
+}, Open  ]],
+
+Cell["\<\
+This is how you change the line colour and style of the circle.\
+\>", "Text",
+ CellChangeTimes->{{3.658337949310628*^9, 3.6583379791347733`*^9}, {
+  3.6583380128675537`*^9, 3.658338017147345*^9}, {3.6601506652755613`*^9, 
+  3.660150668979618*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"{", 
+   RowBox[{"Red", ",", "Dashed", ",", " ", 
+    RowBox[{"Circle", "[", "]"}]}], "}"}], "]"}]], "Input",
+ CellChangeTimes->{{3.658337937638762*^9, 3.658337945638957*^9}, {
+  3.658338020484126*^9, 3.658338029742152*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[
+  {RGBColor[1, 0, 0], Dashing[{Small, Small}], CircleBox[{0, 0}]}]], "Output",\
+
+ CellChangeTimes->{3.658338030624906*^9, 3.660151395834918*^9}]
+}, Open  ]],
+
+Cell[TextData[{
+ "It doesn\[CloseCurlyQuote]t matter if you put ",
+ StyleBox["Red",
+  FontWeight->"Bold"],
+ " before ",
+ StyleBox["Dashed",
+  FontWeight->"Bold"],
+ " or vice versa, as long as both come before ",
+ StyleBox["Circle",
+  FontWeight->"Bold"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.658597894946147*^9, 3.6585979117445*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Coordinates and scale", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.658338805037574*^9, 3.658338822227734*^9}, {3.6583388846573143`*^9, 
+  3.65833888598451*^9}, {3.658339081470874*^9, 3.658339090830378*^9}}],
+
+Cell[TextData[{
+ "Unless you specify otherwise, ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " draws a circle or disk centred at {0,0} with a radius of 1. We can display \
+the coordinate system by giving ",
+ StyleBox["Graphics",
+  FontWeight->"Bold"],
+ " the options ",
+ StyleBox["Gridlines \[Rule] Automatic",
+  FontSlant->"Italic"],
+ " and ",
+ StyleBox["Frame \[Rule] True",
+  FontSlant->"Italic"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.658339028170498*^9, 3.658339141203908*^9}, {3.6583412214219227`*^9, 
+  3.658341221574006*^9}}],
+
+Cell["You make the little arrows by typing \[EscapeKey]->\[EscapeKey]", "Text",
+ CellChangeTimes->{{3.658339153011939*^9, 3.6583391773060637`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"Thick", ",", 
+     RowBox[{"Circle", "[", "]"}]}], "}"}], ",", 
+   RowBox[{"GridLines", "\[Rule]", "Automatic"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.658337831451344*^9, 3.6583378785702353`*^9}, {
+  3.6583389808127947`*^9, 3.658339019723778*^9}, {3.658339057041514*^9, 
+  3.6583390614838*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[
+  {Thickness[Large], CircleBox[{0, 0}]},
+  Frame->True,
+  GridLines->Automatic]], "Output",
+ CellChangeTimes->{{3.658338987374457*^9, 3.6583390203008623`*^9}, {
+   3.658339057781148*^9, 3.65833906992428*^9}, 3.660151395851366*^9}]
+}, Open  ]],
+
+Cell["\<\
+Look at the figure above and make sure that you can identify the centre, \
+radius and diameter of the circle.\
+\>", "Text",
+ CellChangeTimes->{{3.660150691307644*^9, 3.660150708818832*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Moving the centre of a circle", "Subsection",
+ CellChangeTimes->{{3.65833836863459*^9, 3.658338390136939*^9}, {
+  3.6583385171786957`*^9, 3.658338522266438*^9}, {3.658339308076517*^9, 
+  3.6583393133553133`*^9}}],
+
+Cell["\<\
+Compare the coordinates of this circle with the previous one. We have moved \
+it\[CloseCurlyQuote]s centre one unit to the left.\
+\>", "Text",
+ CellChangeTimes->{{3.658339222200594*^9, 3.658339232631339*^9}, {
+  3.658339282333737*^9, 3.658339292132473*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"Thick", ",", 
+     RowBox[{"Circle", "[", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"-", "1"}], ",", "0"}], "}"}], "]"}]}], "}"}], ",", 
+   RowBox[{"GridLines", "\[Rule]", "Automatic"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.658337831451344*^9, 3.6583378785702353`*^9}, {
+  3.6583389808127947`*^9, 3.658339019723778*^9}, {3.658339057041514*^9, 
+  3.6583390614838*^9}, {3.6583392399999037`*^9, 3.6583392434469976`*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[
+  {Thickness[Large], CircleBox[{-1, 0}]},
+  Frame->True,
+  GridLines->Automatic]], "Output",
+ CellChangeTimes->{3.658339247232604*^9, 3.660151395886651*^9}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Changing the radius", "Subsection",
+ CellChangeTimes->{{3.6583393216430683`*^9, 3.6583393240348577`*^9}}],
+
+Cell["\<\
+Here is how you change the radius. Note the centre of this circle is the \
+origin {0,0}\
+\>", "Text",
+ CellChangeTimes->{{3.658339329754533*^9, 3.658339355321417*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"Thick", ",", 
+     RowBox[{"Circle", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"0", ",", "0"}], "}"}], ",", "2"}], "]"}]}], "}"}], ",", 
+   RowBox[{"GridLines", "\[Rule]", "Automatic"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.658337831451344*^9, 3.6583378785702353`*^9}, {
+  3.6583389808127947`*^9, 3.658339019723778*^9}, {3.658339057041514*^9, 
+  3.6583390614838*^9}, {3.6583392399999037`*^9, 3.6583392434469976`*^9}, {
+  3.658339359009403*^9, 3.658339362593114*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[
+  {Thickness[Large], CircleBox[{0, 0}, 2]},
+  Frame->True,
+  GridLines->Automatic]], "Output",
+ CellChangeTimes->{3.658339368935246*^9, 3.66015139591848*^9}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["N.B. Circle size versus image size", "Subsection",
+ CellChangeTimes->{{3.6583393779288692`*^9, 3.658339394471365*^9}}],
+
+Cell[TextData[{
+ "Even though this circle has twice the radius as the one drawn before it, ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " renders the image of each the same size. (We can only tell they are \
+actually different sizes by looking at their coordinates)."
+}], "Text",
+ CellChangeTimes->{{3.658339419262164*^9, 3.6583394722915173`*^9}, {
+  3.6583395395368*^9, 3.658339585997946*^9}, {3.658596853582243*^9, 
+  3.658596854344387*^9}}],
+
+Cell["\<\
+If we draw multiple elements in the same figure, their differences in \
+location and size become clear.\
+\>", "Text",
+ CellChangeTimes->{{3.6585969308472137`*^9, 3.658596963940344*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Changing the size of an image", "Subsection",
+ CellChangeTimes->{{3.6601507406903048`*^9, 3.660150749098309*^9}}],
+
+Cell[TextData[{
+ "We can change the size of the image (rather than the size of the object) by \
+providing a value for the ",
+ StyleBox["ImageSize",
+  FontSlant->"Italic"],
+ " attribute. Each of the following is a picture of the default ",
+ StyleBox["Circle",
+  FontWeight->"Bold"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.660150756538746*^9, 3.66015075710609*^9}, {
+  3.660151097574684*^9, 3.66015116688465*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Circle", "[", "]"}], ",", 
+   RowBox[{"GridLines", "\[Rule]", "Automatic"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", " ", 
+   RowBox[{"ImageSize", "\[Rule]", "Tiny"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.658337831451344*^9, 3.6583378785702353`*^9}, {
+  3.6583389808127947`*^9, 3.658339019723778*^9}, {3.658339057041514*^9, 
+  3.6583390614838*^9}, {3.660151187141927*^9, 3.660151195564118*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[CircleBox[{0, 0}],
+  Frame->True,
+  GridLines->Automatic,
+  ImageSize->Tiny]], "Output",
+ CellChangeTimes->{3.660151197295368*^9, 3.660151395955737*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Circle", "[", "]"}], ",", 
+   RowBox[{"GridLines", "\[Rule]", "Automatic"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", " ", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.658337831451344*^9, 3.6583378785702353`*^9}, {
+  3.6583389808127947`*^9, 3.658339019723778*^9}, {3.658339057041514*^9, 
+  3.6583390614838*^9}, {3.660151187141927*^9, 3.6601512048841476`*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[CircleBox[{0, 0}],
+  Frame->True,
+  GridLines->Automatic,
+  ImageSize->Small]], "Output",
+ CellChangeTimes->{3.660151205225339*^9, 3.660151395985716*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Circle", "[", "]"}], ",", 
+   RowBox[{"GridLines", "\[Rule]", "Automatic"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", " ", 
+   RowBox[{"ImageSize", "\[Rule]", "Medium"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.658337831451344*^9, 3.6583378785702353`*^9}, {
+  3.6583389808127947`*^9, 3.658339019723778*^9}, {3.658339057041514*^9, 
+  3.6583390614838*^9}, {3.660151187141927*^9, 3.660151213284246*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[CircleBox[{0, 0}],
+  Frame->True,
+  GridLines->Automatic,
+  ImageSize->Medium]], "Output",
+ CellChangeTimes->{3.6601512137669697`*^9, 3.660151396000781*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Circle", "[", "]"}], ",", 
+   RowBox[{"GridLines", "\[Rule]", "Automatic"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", " ", 
+   RowBox[{"ImageSize", "\[Rule]", "Large"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.658337831451344*^9, 3.6583378785702353`*^9}, {
+  3.6583389808127947`*^9, 3.658339019723778*^9}, {3.658339057041514*^9, 
+  3.6583390614838*^9}, {3.660151187141927*^9, 3.660151218475814*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[CircleBox[{0, 0}],
+  Frame->True,
+  GridLines->Automatic,
+  ImageSize->Large]], "Output",
+ CellChangeTimes->{3.660151218781989*^9, 3.6601513960359077`*^9}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Building up an image", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, 
+   3.6583380604676857`*^9}],
+
+Cell[CellGroupData[{
+
+Cell["Multiple elements", "Subsection",
+ CellChangeTimes->{{3.6583383514514427`*^9, 3.658338361434388*^9}}],
+
+Cell["\<\
+Things are drawn in the order they appear in the list. Later items are drawn \
+on top of earlier ones. Here the dotted blue circle is drawn later than--and \
+thus on top of--the green disk.\
+\>", "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.6583380656177187`*^9, 3.658338087503879*^9}, {3.658338230193869*^9, 
+  3.658338246744204*^9}, {3.658596976727365*^9, 3.658596997675815*^9}, {
+  3.6585975212472153`*^9, 3.658597527164027*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"Green", ",", 
+     RowBox[{"Disk", "[", "]"}], ",", "Blue", ",", " ", "Dotted", ",", " ", 
+     "Thick", ",", " ", 
+     RowBox[{"Circle", "[", "]"}]}], "}"}], ",", 
+   RowBox[{"GridLines", "\[Rule]", "Automatic"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.658338256030693*^9, 3.658338299829473*^9}, 
+   3.658339608609189*^9}],
+
+Cell[BoxData[
+ GraphicsBox[{
+   {RGBColor[0, 1, 0], DiskBox[{0, 0}]}, 
+   {RGBColor[0, 0, 1], Thickness[Large], Dashing[{0, Small}], 
+    CircleBox[{0, 0}]}},
+  Frame->True,
+  GridLines->Automatic]], "Output",
+ CellChangeTimes->{3.6583383011744843`*^9, 3.65833960965716*^9, 
+  3.660151396068322*^9}]
+}, Open  ]],
+
+Cell["\<\
+The green disk below is centred to the left of {0,0} by one unit. The blue \
+circle is drawn centred on the origin. Both have a default radius of one unit.\
+\>", "Text",
+ CellChangeTimes->{{3.658338393152782*^9, 3.658338448598056*^9}, {
+   3.658338504284218*^9, 3.658338528970118*^9}, {3.65833862965315*^9, 
+   3.658338650028227*^9}, 3.65833903748281*^9, {3.658339647499576*^9, 
+   3.658339660498135*^9}, {3.658597540198563*^9, 3.658597551315579*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"Green", ",", 
+     RowBox[{"Disk", "[", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"-", "1"}], ",", "0"}], "}"}], "]"}], ",", "Blue", ",", 
+     RowBox[{"Circle", "[", "]"}]}], "}"}], ",", 
+   RowBox[{"GridLines", "\[Rule]", "Automatic"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.658338450668537*^9, 3.658338511707114*^9}, {
+   3.658338543986638*^9, 3.6583385445600967`*^9}, 3.658339617736156*^9}],
+
+Cell[BoxData[
+ GraphicsBox[{
+   {RGBColor[0, 1, 0], DiskBox[{-1, 0}]}, 
+   {RGBColor[0, 0, 1], CircleBox[{0, 0}]}},
+  Frame->True,
+  GridLines->Automatic]], "Output",
+ CellChangeTimes->{
+  3.658338492901251*^9, {3.658338530988982*^9, 3.658338544942925*^9}, 
+   3.658339618824499*^9, 3.660151396082242*^9}]
+}, Open  ]],
+
+Cell["\<\
+Here is how you change the radius of the green disk to 1/2 unit\
+\>", "Text",
+ CellChangeTimes->{{3.6583385774242773`*^9, 3.6583386546839848`*^9}, {
+  3.658343703446899*^9, 3.658343713813108*^9}, {3.6585970222432013`*^9, 
+  3.658597022434939*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"Green", ",", 
+     RowBox[{"Disk", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"-", "1"}], ",", "0"}], "}"}], ",", 
+       RowBox[{"1", "/", "2"}]}], "]"}], ",", "Blue", ",", 
+     RowBox[{"Circle", "[", "]"}]}], "}"}], ",", 
+   RowBox[{"GridLines", "\[Rule]", "Automatic"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.658338450668537*^9, 3.658338511707114*^9}, {
+   3.658338543986638*^9, 3.6583385445600967`*^9}, {3.658338662716436*^9, 
+   3.6583386633316727`*^9}, 3.658339669725582*^9}],
+
+Cell[BoxData[
+ GraphicsBox[{
+   {RGBColor[0, 1, 0], DiskBox[{-1, 0}, NCache[Rational[1, 2], 0.5]]}, 
+   {RGBColor[0, 0, 1], CircleBox[{0, 0}]}},
+  Frame->True,
+  GridLines->Automatic]], "Output",
+ CellChangeTimes->{3.658338664992173*^9, 3.658339671198444*^9, 
+  3.660151396118957*^9}]
+}, Open  ]],
+
+Cell["Here we change both radii to 1/2 unit", "Text",
+ CellChangeTimes->{{3.658338734160605*^9, 3.658338737575878*^9}, {
+  3.658343718220693*^9, 3.6583437214046183`*^9}, {3.6585970270669107`*^9, 
+  3.6585970272431*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"Green", ",", 
+     RowBox[{"Disk", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"-", "1"}], ",", "0"}], "}"}], ",", 
+       RowBox[{"1", "/", "2"}]}], "]"}], ",", "Blue", ",", 
+     RowBox[{"Circle", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"0", ",", "0"}], "}"}], ",", 
+       RowBox[{"1", "/", "2"}]}], "]"}]}], "}"}], ",", 
+   RowBox[{"GridLines", "\[Rule]", "Automatic"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.658338450668537*^9, 3.658338511707114*^9}, {
+   3.658338543986638*^9, 3.6583385445600967`*^9}, {3.658338662716436*^9, 
+   3.6583386633316727`*^9}, {3.658338749026875*^9, 3.658338753272047*^9}, 
+   3.658339689628756*^9}],
+
+Cell[BoxData[
+ GraphicsBox[{
+   {RGBColor[0, 1, 0], DiskBox[{-1, 0}, NCache[Rational[1, 2], 0.5]]}, 
+   {RGBColor[0, 0, 1], CircleBox[{0, 0}, NCache[Rational[1, 2], 0.5]]}},
+  Frame->True,
+  GridLines->Automatic]], "Output",
+ CellChangeTimes->{3.658338753658326*^9, 3.65833969045702*^9, 
+  3.6601513961523333`*^9}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Some other shapes", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.658339773510007*^9, 3.658339775372437*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Ellipse", "Subsection",
+ CellChangeTimes->{{3.6585981407627993`*^9, 3.6585981437375717`*^9}}],
+
+Cell[TextData[{
+ "To plot an ellipse, we use a version of the ",
+ StyleBox["Disk",
+  FontWeight->"Bold"],
+ " command. The first pair of coordinates is the location of the centre, and \
+the second pair is the radius in the horizontal and vertical directions."
+}], "Text",
+ CellChangeTimes->{{3.6585981475371113`*^9, 3.658598184752305*^9}, {
+  3.65859839267605*^9, 3.6585984301290216`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"Orange", ",", 
+     RowBox[{"Disk", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"0", ",", "0"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"3", ",", "1"}], "}"}]}], "]"}]}], "}"}], ",", 
+   RowBox[{"GridLines", "\[Rule]", "Automatic"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.658344539379642*^9, 3.658344601137857*^9}, {
+  3.658344632153777*^9, 3.658344714026092*^9}, {3.658344756451874*^9, 
+  3.658344784953269*^9}, {3.658598263647552*^9, 3.658598309474329*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[
+  {RGBColor[1, 0.5, 0], DiskBox[{0, 0}, {3., 1.}]},
+  Frame->True,
+  GridLines->Automatic]], "Output",
+ CellChangeTimes->{3.6585983107807913`*^9, 3.6601513961855927`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"Yellow", ",", 
+     RowBox[{"Disk", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"1", ",", "1"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"1", ",", "3"}], "}"}]}], "]"}]}], "}"}], ",", 
+   RowBox[{"GridLines", "\[Rule]", "Automatic"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.658344539379642*^9, 3.658344601137857*^9}, {
+  3.658344632153777*^9, 3.658344714026092*^9}, {3.658344756451874*^9, 
+  3.658344784953269*^9}, {3.658598263647552*^9, 3.658598353451419*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[
+  {RGBColor[1, 1, 0], DiskBox[{1, 1}, {1., 3.}]},
+  Frame->True,
+  GridLines->Automatic]], "Output",
+ CellChangeTimes->{{3.6585983411278563`*^9, 3.658598354500394*^9}, 
+   3.660151396219021*^9}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Rectangles", "Subsection",
+ CellChangeTimes->{{3.658339819818169*^9, 3.658339821698183*^9}}],
+
+Cell["\<\
+The default rectangle is a filled square with the lower left corner at the \
+origin and sides of length 1\
+\>", "Text",
+ CellChangeTimes->{{3.658339869336404*^9, 3.658339875663558*^9}, {
+  3.6583399079266777`*^9, 3.6583399258769827`*^9}, {3.65859714305046*^9, 
+  3.658597144071493*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Rectangle", "[", "]"}], ",", 
+   RowBox[{"GridLines", "\[Rule]", "Automatic"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.658339827377061*^9, 3.658339891663664*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[RectangleBox[{0, 0}],
+  Frame->True,
+  GridLines->Automatic]], "Output",
+ CellChangeTimes->{3.658339892003335*^9, 3.660151396251388*^9}]
+}, Open  ]],
+
+Cell["\<\
+We can move the unit square around by adjusting its lower left corner. Its \
+sides will still have length 1\
+\>", "Text",
+ CellChangeTimes->{{3.658340158202182*^9, 3.6583401887920303`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"Red", ",", 
+     RowBox[{"Rectangle", "[", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"-", "1"}], ",", "0"}], "}"}], "]"}], ",", "Green", ",", 
+     RowBox[{"Rectangle", "[", 
+      RowBox[{"{", 
+       RowBox[{"0", ",", "0"}], "}"}], "]"}], ",", " ", "Blue", ",", 
+     RowBox[{"Rectangle", "[", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"-", "1"}], ",", 
+        RowBox[{"-", "1"}]}], "}"}], "]"}], ",", " ", "Yellow", ",", 
+     RowBox[{"Rectangle", "[", 
+      RowBox[{"{", 
+       RowBox[{"0", ",", 
+        RowBox[{"-", "1"}]}], "}"}], "]"}]}], "}"}], ",", 
+   RowBox[{"GridLines", "\[Rule]", "Automatic"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.658339827377061*^9, 3.658339891663664*^9}, {
+  3.65833999059483*^9, 3.658340133100051*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[{
+   {RGBColor[1, 0, 0], RectangleBox[{-1, 0}]}, 
+   {RGBColor[0, 1, 0], RectangleBox[{0, 0}]}, 
+   {RGBColor[0, 0, 1], RectangleBox[{-1, -1}]}, 
+   {RGBColor[1, 1, 0], RectangleBox[{0, -1}]}},
+  Frame->True,
+  GridLines->Automatic]], "Output",
+ CellChangeTimes->{
+  3.6583400515944757`*^9, {3.6583400856197767`*^9, 3.658340133586385*^9}, 
+   3.660151396264338*^9}]
+}, Open  ]],
+
+Cell["\<\
+If we want to draw a rectangle instead of a square, we provide coordinates \
+for lower left and upper right hand corners.\
+\>", "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.658340194063752*^9, 3.658340220398551*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"Purple", ",", 
+     RowBox[{"Rectangle", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"-", "1"}], ",", 
+         RowBox[{"-", "3"}]}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"2", ",", "1"}], "}"}]}], "]"}], ",", "Orange", ",", 
+     RowBox[{"Rectangle", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"1", ",", 
+         RowBox[{"-", "2"}]}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"3", ",", "2"}], "}"}]}], "]"}]}], "}"}], ",", 
+   RowBox[{"GridLines", "\[Rule]", "Automatic"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.658339827377061*^9, 3.658339891663664*^9}, {
+  3.658340245022294*^9, 3.6583403224909077`*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[{
+   {RGBColor[0.5, 0, 0.5], RectangleBox[{-1, -3}, {2, 1}]}, 
+   {RGBColor[1, 0.5, 0], RectangleBox[{1, -2}, {3, 2}]}},
+  Frame->True,
+  GridLines->Automatic]], "Output",
+ CellChangeTimes->{{3.6583402598885107`*^9, 3.658340268217061*^9}, {
+   3.658340301937561*^9, 3.65834032287109*^9}, 3.660151396284835*^9}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Symbols", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.658339837066244*^9, 3.658339850896781*^9}}],
+
+Cell[TextData[{
+ "We can give a collection of commands a name (in ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " this is called a ",
+ StyleBox["symbol",
+  FontSlant->"Italic"],
+ "). We start with a shape we like..."
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.65834034732196*^9, 3.658340371327039*^9}, {3.65834074456628*^9, 
+  3.658340749388612*^9}, {3.658340787251443*^9, 3.6583407875548286`*^9}, {
+  3.6585976670026283`*^9, 3.658597682311542*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"Purple", ",", 
+     RowBox[{"Rectangle", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"1", ",", 
+         RowBox[{"-", "1"}]}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"5", ",", "0"}], "}"}]}], "]"}], ",", 
+     RowBox[{"Rectangle", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"2", ",", "0"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"4", ",", 
+         RowBox[{"1", "/", "2"}]}], "}"}]}], "]"}], ",", "Black", ",", 
+     RowBox[{"Disk", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"2", ",", 
+         RowBox[{"-", "1"}]}], "}"}], ",", 
+       RowBox[{"1", "/", "2"}]}], "]"}], ",", 
+     RowBox[{"Disk", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"4", ",", 
+         RowBox[{"-", "1"}]}], "}"}], ",", 
+       RowBox[{"1", "/", "2"}]}], "]"}], ",", "Orange", ",", 
+     RowBox[{"Disk", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"2", ",", 
+         RowBox[{"-", "1"}]}], "}"}], ",", 
+       RowBox[{"1", "/", "4"}]}], "]"}], ",", 
+     RowBox[{"Disk", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"4", ",", 
+         RowBox[{"-", "1"}]}], "}"}], ",", 
+       RowBox[{"1", "/", "4"}]}], "]"}]}], "}"}], ",", 
+   RowBox[{"GridLines", "\[Rule]", "Automatic"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.658339827377061*^9, 3.658339891663664*^9}, {
+  3.658340245022294*^9, 3.6583403224909077`*^9}, {3.6583404404207487`*^9, 
+  3.658340696023754*^9}, {3.658342312899225*^9, 3.658342361904023*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[{
+   {RGBColor[0.5, 0, 0.5], RectangleBox[{1, -1}, {5, 0}], 
+    RectangleBox[{2, 0}, NCache[{4, Rational[1, 2]}, {4, 0.5}]]}, 
+   {GrayLevel[0], DiskBox[{2, -1}, NCache[Rational[1, 2], 0.5]], 
+    DiskBox[{4, -1}, NCache[Rational[1, 2], 0.5]]}, 
+   {RGBColor[1, 0.5, 0], DiskBox[{2, -1}, NCache[Rational[1, 4], 0.25]], 
+    DiskBox[{4, -1}, NCache[Rational[1, 4], 0.25]]}},
+  Frame->True,
+  GridLines->Automatic]], "Output",
+ CellChangeTimes->{{3.6583406064329453`*^9, 3.6583406163139143`*^9}, 
+   3.658340651871634*^9, 3.6583406969268303`*^9, {3.658342336916442*^9, 
+   3.65834236237141*^9}, 3.658342763714643*^9, 3.658597379369385*^9, 
+   3.660151396299016*^9}]
+}, Open  ]],
+
+Cell["\<\
+... and we pull out the list of commands and give it a name that starts with \
+a lowercase letter. The semicolon at the end of the command suppresses any \
+output.\
+\>", "Text",
+ CellChangeTimes->{{3.658340790290628*^9, 3.65834082615311*^9}, {
+  3.6583427775632143`*^9, 3.658342782890287*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"car", "=", 
+   RowBox[{"{", 
+    RowBox[{"Purple", ",", 
+     RowBox[{"Rectangle", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"1", ",", 
+         RowBox[{"-", "1"}]}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"5", ",", "0"}], "}"}]}], "]"}], ",", 
+     RowBox[{"Rectangle", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"2", ",", "0"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"4", ",", 
+         RowBox[{"1", "/", "2"}]}], "}"}]}], "]"}], ",", "Black", ",", 
+     RowBox[{"Disk", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"2", ",", 
+         RowBox[{"-", "1"}]}], "}"}], ",", 
+       RowBox[{"1", "/", "2"}]}], "]"}], ",", 
+     RowBox[{"Disk", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"4", ",", 
+         RowBox[{"-", "1"}]}], "}"}], ",", 
+       RowBox[{"1", "/", "2"}]}], "]"}], ",", "Orange", ",", 
+     RowBox[{"Disk", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"2", ",", 
+         RowBox[{"-", "1"}]}], "}"}], ",", 
+       RowBox[{"1", "/", "4"}]}], "]"}], ",", 
+     RowBox[{"Disk", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"4", ",", 
+         RowBox[{"-", "1"}]}], "}"}], ",", 
+       RowBox[{"1", "/", "4"}]}], "]"}]}], "}"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.658340760230999*^9, 3.658340776950919*^9}, 
+   3.658340810825726*^9, 3.6583423745542183`*^9, 3.658342757755898*^9}],
+
+Cell["Now we can draw the object with the following command.", "Text",
+ CellChangeTimes->{{3.6583414526504927`*^9, 3.658341460682158*^9}, {
+  3.658341494561263*^9, 3.658341501024316*^9}, {3.658342041030854*^9, 
+  3.658342049485746*^9}, {3.658342577165187*^9, 3.6583425886915493`*^9}, {
+  3.658343302417794*^9, 3.658343303648861*^9}, {3.658597267469639*^9, 
+  3.65859727349953*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", "car", "]"}]], "Input",
+ CellChangeTimes->{{3.658341464307035*^9, 3.658341471473852*^9}, {
+   3.6583415034560833`*^9, 3.658341511950201*^9}, 3.658342539743161*^9, 
+   3.658342760795504*^9, {3.6583433110418377`*^9, 3.658343347783136*^9}, {
+   3.658597280270069*^9, 3.658597280596529*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[{
+   {RGBColor[0.5, 0, 0.5], RectangleBox[{1, -1}, {5, 0}], 
+    RectangleBox[{2, 0}, NCache[{4, Rational[1, 2]}, {4, 0.5}]]}, 
+   {GrayLevel[0], DiskBox[{2, -1}, NCache[Rational[1, 2], 0.5]], 
+    DiskBox[{4, -1}, NCache[Rational[1, 2], 0.5]]}, 
+   {RGBColor[1, 0.5, 0], DiskBox[{2, -1}, NCache[Rational[1, 4], 0.25]], 
+    DiskBox[{4, -1}, NCache[Rational[1, 4], 0.25]]}}]], "Output",
+ CellChangeTimes->{
+  3.65834151392832*^9, 3.658342037606539*^9, 3.658342103336153*^9, {
+   3.6583423868722343`*^9, 3.658342416958685*^9}, {3.658342475908002*^9, 
+   3.658342485452443*^9}, {3.658342528937458*^9, 3.6583425682441893`*^9}, 
+   3.658342615298607*^9, 3.658342653384816*^9, {3.658342738628635*^9, 
+   3.6583427639181757`*^9}, 3.658343348623555*^9, 3.6585973797556763`*^9, 
+   3.660151396321102*^9}]
+}, Open  ]],
+
+Cell[TextData[{
+ "If we want to draw a background, we can include that as follows. The ",
+ StyleBox["Join",
+  FontWeight->"Bold"],
+ " command puts the contents of multiple lists into a single list."
+}], "Text",
+ CellChangeTimes->{{3.6583433523992243`*^9, 3.6583433645099707`*^9}, {
+   3.658343441530897*^9, 3.6583434619373093`*^9}, {3.658597753005034*^9, 
+   3.658597770580974*^9}, 3.6585979924543543`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"background", "=", 
+   RowBox[{"{", 
+    RowBox[{"LightBlue", ",", 
+     RowBox[{"Rectangle", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"0", ",", 
+         RowBox[{"-", "2"}]}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"6", ",", "1"}], "}"}]}], "]"}]}], "}"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.658597969345076*^9, 3.658597984151833*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"Join", "[", 
+   RowBox[{"background", ",", "car"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{
+  3.658597749751124*^9, {3.658597782926948*^9, 3.6585977900778503`*^9}, 
+   3.658597820084248*^9, {3.658597981171197*^9, 3.658597987710471*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[{
+   {RGBColor[0.87, 0.94, 1], RectangleBox[{0, -2}, {6, 1}]}, 
+   {RGBColor[0.5, 0, 0.5], RectangleBox[{1, -1}, {5, 0}], 
+    RectangleBox[{2, 0}, NCache[{4, Rational[1, 2]}, {4, 0.5}]]}, 
+   {GrayLevel[0], DiskBox[{2, -1}, NCache[Rational[1, 2], 0.5]], 
+    DiskBox[{4, -1}, NCache[Rational[1, 2], 0.5]]}, 
+   {RGBColor[1, 0.5, 0], DiskBox[{2, -1}, NCache[Rational[1, 4], 0.25]], 
+    DiskBox[{4, -1}, NCache[Rational[1, 4], 0.25]]}}]], "Output",
+ CellChangeTimes->{3.658597790608972*^9, 3.6585978212057734`*^9, 
+  3.658597996305056*^9, 3.6601513963335953`*^9}]
+}, Open  ]],
+
+Cell[TextData[{
+ "In this case we have used ",
+ StyleBox["absolute",
+  FontSlant->"Italic"],
+ " coordinates for the object we are drawing. The car, in other words, will \
+always be centred at the same point, which is {3,-1/2}. We will soon learn a \
+better way to do things."
+}], "Text",
+ CellChangeTimes->{{3.658342804769539*^9, 3.6583429120919647`*^9}, {
+  3.6583435683814907`*^9, 3.658343569884058*^9}, {3.658343633378387*^9, 
+  3.658343633465048*^9}, {3.658597318892241*^9, 3.65859734567343*^9}, {
+  3.6585974126102533`*^9, 3.6585974246310997`*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["In-Class Activity", "Section",
+ CellChangeTimes->{{3.647716402186221*^9, 3.647716405353856*^9}, {
+  3.6583374723271*^9, 3.658337478437811*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Using the Graphics command, draw a picture that has at least six elements.\
+\>", "Subsection",
+ CellChangeTimes->{{3.658342919123855*^9, 3.658342975881028*^9}, {
+  3.6583434783447313`*^9, 3.6583434786245127`*^9}}],
+
+Cell["NAME:", "Subsubsection",
+ CellChangeTimes->{{3.658337538475717*^9, 3.658337539778943*^9}}],
+
+Cell["STUDENT NUMBER:", "Subsubsection",
+ CellChangeTimes->{{3.658337543114833*^9, 3.658337546026588*^9}}],
+
+Cell["DATE:", "Subsubsection",
+ CellChangeTimes->{{3.6583375490023537`*^9, 3.658337550162354*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Upload your notebook", "Section",
+ CellChangeTimes->{{3.649950784924818*^9, 3.649950788859275*^9}}],
+
+Cell["\<\
+Don\[CloseCurlyQuote]t forget to upload a copy of your notebook for this day\
+\[CloseCurlyQuote]s class to the OWL Site for the course\
+\>", "Text",
+ CellChangeTimes->{{3.649950792779258*^9, 3.649950818634288*^9}, {
+  3.658337509093232*^9, 3.658337512508254*^9}}]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1217, 1245},
+WindowMargins->{{Automatic, 594}, {Automatic, 7}},
+TaggingRules->{"SlideShow" -> True},
+Magnification:>1.25 Inherited,
+FrontEndVersion->"10.2 for Mac OS X x86 (32-bit, 64-bit Kernel) (July 6, \
+2015)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "SlideShowHeader"->{
+  Cell[580, 22, 4299, 96, 75, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[5777, 146, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[10169, 302, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[18880, 572, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[24539, 741, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[30981, 947, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[39733, 1188, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[40589, 1219, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"SlideShowHeader", 41467, 1249}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 4299, 96, 75, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[4882, 120, 493, 10, 183, "Title"],
+Cell[5378, 132, 362, 9, 99, "Subtitle"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5777, 146, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[5866, 151, 221, 3, 80, "Section"],
+Cell[CellGroupData[{
+Cell[6112, 158, 103, 1, 54, "Subsection"],
+Cell[6218, 161, 362, 11, 37, "Text"],
+Cell[CellGroupData[{
+Cell[6605, 176, 155, 3, 36, "Input"],
+Cell[6763, 181, 150, 3, 467, "Output"]
+}, Open  ]],
+Cell[6928, 187, 352, 11, 37, "Text"],
+Cell[CellGroupData[{
+Cell[7305, 202, 152, 3, 36, "Input"],
+Cell[7460, 207, 119, 2, 467, "Output"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7628, 215, 220, 3, 54, "Subsection"],
+Cell[7851, 220, 350, 9, 37, "Text"],
+Cell[8204, 231, 396, 10, 37, "Text"],
+Cell[CellGroupData[{
+Cell[8625, 245, 210, 5, 36, "Input"],
+Cell[8838, 252, 173, 4, 467, "Output"]
+}, Open  ]],
+Cell[9026, 259, 257, 5, 37, "Text"],
+Cell[CellGroupData[{
+Cell[9308, 268, 275, 6, 36, "Input"],
+Cell[9586, 276, 172, 4, 467, "Output"]
+}, Open  ]],
+Cell[9773, 283, 335, 12, 37, "Text"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10169, 302, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[10258, 307, 253, 3, 80, "Section"],
+Cell[10514, 312, 593, 18, 61, "Text"],
+Cell[11110, 332, 147, 1, 37, "Text"],
+Cell[CellGroupData[{
+Cell[11282, 337, 427, 10, 36, "Input"],
+Cell[11712, 349, 258, 6, 457, "Output"]
+}, Open  ]],
+Cell[11985, 358, 199, 4, 37, "Text"],
+Cell[CellGroupData[{
+Cell[12209, 366, 218, 3, 54, "Subsection"],
+Cell[12430, 371, 267, 5, 37, "Text"],
+Cell[CellGroupData[{
+Cell[12722, 380, 561, 13, 36, "Input"],
+Cell[13286, 395, 184, 5, 457, "Output"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[13519, 406, 111, 1, 54, "Subsection"],
+Cell[13633, 409, 177, 4, 37, "Text"],
+Cell[CellGroupData[{
+Cell[13835, 417, 615, 14, 36, "Input"],
+Cell[14453, 433, 185, 5, 467, "Output"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[14687, 444, 124, 1, 54, "Subsection"],
+Cell[14814, 447, 451, 9, 61, "Text"],
+Cell[15268, 458, 195, 4, 37, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[15500, 467, 119, 1, 54, "Subsection"],
+Cell[15622, 470, 411, 11, 61, "Text"],
+Cell[CellGroupData[{
+Cell[16058, 485, 474, 9, 36, "Input"],
+Cell[16535, 496, 179, 5, 132, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[16751, 506, 477, 9, 36, "Input"],
+Cell[17231, 517, 180, 5, 232, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[17448, 527, 476, 9, 36, "Input"],
+Cell[17927, 538, 183, 5, 457, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[18147, 548, 475, 9, 36, "Input"],
+Cell[18625, 559, 182, 5, 727, "Output"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[18880, 572, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[18969, 577, 135, 2, 80, "Section"],
+Cell[CellGroupData[{
+Cell[19129, 583, 107, 1, 54, "Subsection"],
+Cell[19239, 586, 478, 8, 61, "Text"],
+Cell[CellGroupData[{
+Cell[19742, 598, 455, 11, 36, "Input"],
+Cell[20200, 611, 299, 8, 457, "Output"]
+}, Open  ]],
+Cell[20514, 622, 461, 7, 61, "Text"],
+Cell[CellGroupData[{
+Cell[21000, 633, 537, 13, 36, "Input"],
+Cell[21540, 648, 305, 8, 323, "Output"]
+}, Open  ]],
+Cell[21860, 659, 257, 5, 37, "Text"],
+Cell[CellGroupData[{
+Cell[22142, 668, 647, 16, 36, "Input"],
+Cell[22792, 686, 284, 7, 377, "Output"]
+}, Open  ]],
+Cell[23091, 696, 219, 3, 37, "Text"],
+Cell[CellGroupData[{
+Cell[23335, 703, 814, 21, 36, "Input"],
+Cell[24152, 726, 314, 7, 256, "Output"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[24539, 741, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[24628, 746, 153, 2, 80, "Section"],
+Cell[CellGroupData[{
+Cell[24806, 752, 99, 1, 54, "Subsection"],
+Cell[24908, 755, 388, 8, 61, "Text"],
+Cell[CellGroupData[{
+Cell[25321, 767, 616, 15, 36, "Input"],
+Cell[25940, 784, 198, 5, 189, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[26175, 794, 616, 15, 36, "Input"],
+Cell[26794, 811, 222, 6, 558, "Output"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[27065, 823, 98, 1, 54, "Subsection"],
+Cell[27166, 826, 296, 6, 37, "Text"],
+Cell[CellGroupData[{
+Cell[27487, 836, 275, 6, 36, "Input"],
+Cell[27765, 844, 163, 4, 465, "Output"]
+}, Open  ]],
+Cell[27943, 851, 199, 4, 37, "Text"],
+Cell[CellGroupData[{
+Cell[28167, 859, 896, 24, 57, "Input"],
+Cell[29066, 885, 392, 10, 457, "Output"]
+}, Open  ]],
+Cell[29473, 898, 262, 5, 37, "Text"],
+Cell[CellGroupData[{
+Cell[29760, 907, 808, 23, 57, "Input"],
+Cell[30571, 932, 337, 7, 558, "Output"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[30981, 947, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[31070, 952, 143, 2, 80, "Section"],
+Cell[31216, 956, 498, 12, 37, "Text"],
+Cell[CellGroupData[{
+Cell[31739, 972, 1623, 47, 78, "Input"],
+Cell[33365, 1021, 691, 13, 256, "Output"]
+}, Open  ]],
+Cell[34071, 1037, 303, 6, 61, "Text"],
+Cell[34377, 1045, 1439, 44, 57, "Input"],
+Cell[35819, 1091, 381, 5, 37, "Text"],
+Cell[CellGroupData[{
+Cell[36225, 1100, 327, 5, 36, "Input"],
+Cell[36555, 1107, 823, 14, 252, "Output"]
+}, Open  ]],
+Cell[37393, 1124, 406, 8, 37, "Text"],
+Cell[37802, 1134, 404, 12, 36, "Input"],
+Cell[CellGroupData[{
+Cell[38231, 1150, 292, 6, 36, "Input"],
+Cell[38526, 1158, 590, 10, 286, "Output"]
+}, Open  ]],
+Cell[39131, 1171, 553, 11, 61, "Text"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[39733, 1188, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[39822, 1193, 149, 2, 80, "Section"],
+Cell[CellGroupData[{
+Cell[39996, 1199, 223, 4, 54, "Subsection"],
+Cell[40222, 1205, 96, 1, 43, "Subsubsection"],
+Cell[40321, 1208, 106, 1, 34, "Subsubsection"],
+Cell[40430, 1211, 98, 1, 34, "Subsubsection"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[40589, 1219, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[40678, 1224, 105, 1, 80, "Section"],
+Cell[40786, 1227, 273, 5, 37, "Text"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
