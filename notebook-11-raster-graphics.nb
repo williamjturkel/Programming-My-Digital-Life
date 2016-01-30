@@ -1,0 +1,1967 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     68431,       1958]
+NotebookOptionsPosition[     60586,       1698]
+NotebookOutlinePosition[     61790,       1736]
+CellTagsIndexPosition[     61711,       1731]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ TogglerBox[2, {1->
+  OverlayBox[{
+   TagBox[GridBox[{
+      {
+       GraphicsBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBLECOU2VJahIzkCEFxAJADBL8//8/
+Qfzo0SP2GzduCF29elXs/Pnz0sgYn747d+5wA9VoArE/EB8B4uPoGJu+Fy9e
+MF+4cEENKB8AxBeB+AMQ/wXif+gYi1tBdvoB8QUg/ghV9x8XRtb7/PlzFqje
+t1D7cOrDpv/ixYvqUHuJ0ousHxpWAVA3E6UXWT80nC8S8i82/Q8ePOAgx26Y
+/uvXrwsD2UdJ8Tey/kuXLolD0wNJbofpB6YVSUr0n4ek5QHTT6n7KQ0/SuOP
+0vRDafqlRv6BxgPZ+Ret/HhHrBl4yi9QWHwiFB7Yyk+QO6B+CTxPYvmJjG/f
+vs17nozyG1f9cR6t7gBhAPeiQ4A=
+         "], {{0, 26}, {16, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{16, 26},
+        PlotRange->{{0, 16}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJzt2d9OVFcUB2DSNmkfQRFEiRQ1gCK1vW4fwT6BJu1tE9uk8fUUERE9aECC
+qLGYEmKkErWxtont2mGdcDLVOpNgZijfJB9hzp+99j6zb9b5Hb3ww7nvP+rr
+6/vxs/hz7vzPX1+8eP7St5/El28u/fTdhY/jn/6w8GlfXzlYVdWhDgyEwXT4
+HQYbBho6qQMAAOxt/Q0HWxxo0TzX3xij7juGwpFwNAyHY2EkfB6OhxPhZBgL
+42EinAqnw2SYSl+Es+HL9FWb6uvP5hj1eJNZ41TWHM85nMw5Hc85juSch3MN
+R3JNdf/UfGbtPqf6WdW6/XsDAADsV7vd/7b2vqPV2/veuuc9k6Za1Mfr3vVt
+feto9e+eVb9KL2tmz81M+n25dadZ9bU2zYXbYSmshNXwoOF+uJfn7obFcKfa
+/twMN8L1MNtBTQAAYO+ZSVfTdLqSLreoj0/n9eXe0jeUHmQ+3AoL1XZ/UfqR
+5Wq77yg9yMPwS3gcfg0b4Ul4Gn4LW+F5eBl+D6/CH+F1+DP99Q71+dd5z6sc
+42WOuZU1nmbNjZzD45zTw5zjSs55KdewkGuazzXONp5Xu8+pflb185rpgd8d
+AABgv/kQ/W/J4krGVvrIkruVDO5RWAvr1U7fuxmeVTt9b/Ei1d+38prNaqdv
+Xc+xHuXY97LWYtbWr9Jryj4sGXPJmkvmXD7l/UrZsyWTLu9dyj4u72Ca2fVq
+nivvY8renuug5ps2/b2L2q0JAADwX3azT/kQuv18AAAA2Pv0rOxn3djz3X6f
+BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAADsHW/a1I2aAAAAAAAAsJ91OyOEburGnr/W
+prlwOyyFlbAaHjTcD/fy3N2wGO5U25+b4Ua4HmY7qAkAAAAAAAC9aCZdTdPp
+Srrcoj4+ndeXe0tuVjK4+XCr2s7iSsa2XG3nbiWDexTWwnrYCE/CZngWtsLz
+9CLV37fyms28ZyPHWMsxH2SN5ax5O+cwn3Oabayv3XXVa6vXN9MDvxN7W9mH
+JWMuWXPJnMunZNBlz5ZMumTTZR+XrLqZXa/muZJtl70910HNQx0YCIPp8DsM
+Ngw0dFIHAAAAAAAAel1/w8EWB1o0z/U3xqhzt6FwNAyHY2EkjIYT4WQYC+Nh
+IpwOk+FMmmpRH5/Mayfy3rEc60SOPZK1hrP2ULWT9zXX2O666rXVuv378P/S
+zJ6bmfT7cuuOsup/AFmW9vs=
+         "], {{0, 26}, {2000, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{2000, 26},
+        PlotRange->{{0, 2000}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJy9lstOwkAUhhthQUJcuUBl5cr4GPoABvEJINGtCZoYng4Il4Z7gXAJYUHY
+QAi3GlYQPZ5/4pCm0pYC2uSDaXvmn5lzzpzpVfQl/HyiKMqrj3/CkffbWCwS
+f/TyzV387Snq4cYlc87gYbVaDbpB07SLRqMR6Pf7PiJSnOA+6h7kmBBz0+12
+Tx30v/bgk9GZOvPAa7oejUYeC306AIz1wWjM/WAw8B9ZX4L1TDHGcDj02ulX
+KpUNbt79jKHBV1b66Fcul3fCYgzEJNTr9fxmfaldKpWoUChQPp8X/8ViUWB8
+BhuLMRCPGvJqmz76QWOxWFCtVqNsNku5XE6AdqfToclkImxga7cGuT/M+uw/
+ms/ntF6vqdlsUjKZFKCNC/pynTZxyLbb7bNt/sHcMpkMzWYzoVev1wW4xuOx
+WAdsbGIAH6ncJ7BNH/6FRjqdJl3XSV7T6VSsA76CDWxt9oSKOmLOH/RBLKEP
+LVVVN/qJRGKjDxsnfSZoN3/4CPNfrVa/5n+IvtH/iDHu9/G/2T/G/JT5A41U
+KiXm3Wq1xBhcx5zy0zK+Mj+Xy6XIf5n7EuQ/9sYh+Wneqy73r+3+2rX2OPh+
+a31wqpHG5xbatvXtCDjW5wO1Z9UdzheXyPMRPrc6H49yvpvn/Y/fJ3/6ffUN
+AyH/6w==
+         "], {{0, 26}, {24, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{24, 26},
+        PlotRange->{{0, 24}, {0, 26}}]}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {Automatic, 
+         Scaled[0.6], Automatic}},
+     GridBoxSpacings->{"Columns" -> {{0}}, "Rows" -> {{0}}}],
+    "Grid"], 
+   PaneBox[
+    StyleBox[
+     RowBox[{
+     "Background", " ", "images", " ", "and", " ", "text", " ", "colors", " ",
+       "have", " ", "been", " ", "adjusted", " ", "for", " ", "editing", " ", 
+      
+      RowBox[{"purposes", "."}]}],
+     LineBreakWithin->False,
+     FontFamily->"Helvetica",
+     FontSize->12,
+     FontColor->GrayLevel[0.4]],
+    Alignment->Center,
+    ImageSize->Scaled[0.5],
+    ScrollPosition->{0., 0.}]},
+   Alignment->{Center, Center}], 2->""}, "1"]], "SlideShowNavigationBar", \
+"FirstSlide",
+ CellMargins->{{0, 0}, {0, 0}},
+ CellFrameLabelMargins->2,
+ CellSize->{Inherited, 30},
+ CellChangeTimes->{3.647361175465108*^9},
+ TextAlignment->Center,
+ CellTags->"SlideShowHeader"],
+
+Cell["\<\
+Notebook 11:
+Raster Graphics\
+\>", "Title",
+ CellChangeTimes->{
+  3.559948400406288*^9, {3.647331852839075*^9, 3.647331861295168*^9}, {
+   3.647331922221755*^9, 3.647331924532915*^9}, {3.647332658962614*^9, 
+   3.64733266480881*^9}, {3.6473611327373047`*^9, 3.647361139759391*^9}, {
+   3.647448943135475*^9, 3.6474489472294493`*^9}, {3.658337416821965*^9, 
+   3.65833742904038*^9}, {3.658337677781981*^9, 3.658337703010659*^9}, {
+   3.663179930044013*^9, 3.6631799337142572`*^9}}],
+
+Cell[TextData[{
+ "William J Turkel, ",
+ StyleBox["wturkel@uwo.ca",
+  FontSlant->"Italic",
+  FontColor->RGBColor[
+   0.396078431372549, 0.596078431372549, 0.796078431372549]],
+ "\nDigital Humanities 1011B"
+}], "Subtitle",
+ CellChangeTimes->{{3.647331955723979*^9, 3.6473319708190517`*^9}, 
+   3.647332103720562*^9, {3.6583374336085033`*^9, 3.658337439311952*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["The Raster command", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.663179984053647*^9, 3.6631800099220953`*^9}}],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["Raster",
+  FontWeight->"Bold"],
+ " command allows us to describe a graphic element in terms of rows and \
+columns of white, black, grayscale or coloured ",
+ StyleBox["pixels",
+  FontSlant->"Italic"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.6631800234403257`*^9, 3.663180104359087*^9}, {
+  3.663180215538905*^9, 3.6631802276329927`*^9}, {3.6631802827656193`*^9, 
+  3.663180287731102*^9}}],
+
+Cell["\<\
+Here is how we draw a single black pixel. Note the coordinates.\
+\>", "Text",
+ CellChangeTimes->{{3.6631801198764687`*^9, 3.6631801525213537`*^9}, {
+  3.663180183125469*^9, 3.663180250294345*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", 
+    RowBox[{"{", 
+     RowBox[{"{", "0", "}"}], "}"}], "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663048283771574*^9, 3.663048298914262*^9}, {
+   3.663048357084038*^9, 3.663048385847886*^9}, 3.663048450896418*^9, {
+   3.6630484826205883`*^9, 3.663048483148017*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[RasterBox[{{0}}],
+  Frame->True,
+  ImageSize->Small]], "Output",
+ CellChangeTimes->{3.663048451981318*^9, 3.663048483656271*^9}]
+}, Open  ]],
+
+Cell["Here is a single white pixel.", "Text",
+ CellChangeTimes->{{3.663180258645499*^9, 3.663180264780772*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", 
+    RowBox[{"{", 
+     RowBox[{"{", "1", "}"}], "}"}], "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663048283771574*^9, 3.663048298914262*^9}, {
+  3.663048357084038*^9, 3.663048385847886*^9}, {3.663048462942998*^9, 
+  3.663048486979525*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[RasterBox[{{1}}],
+  Frame->True,
+  ImageSize->Small]], "Output",
+ CellChangeTimes->{{3.663048464250139*^9, 3.663048487352659*^9}}]
+}, Open  ]],
+
+Cell[TextData[{
+ "We give the ",
+ StyleBox["Raster",
+  FontWeight->"Bold"],
+ " command a nested list. We can think of this list as containing a list of \
+rows, each of which is comprised of a list of columns. The raster image is \
+built one row at a time from the lower left hand corner."
+}], "Text",
+ CellChangeTimes->{{3.663180285375164*^9, 3.663180339916552*^9}}],
+
+Cell["\<\
+Here is a raster image containing one row. The row consists of two columns, a \
+black pixel followed by a white one.\
+\>", "Text",
+ CellChangeTimes->{{3.663180346395471*^9, 3.663180392262775*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", 
+    RowBox[{"{", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", "1"}], "}"}], "}"}], "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663048283771574*^9, 3.663048298914262*^9}, {
+   3.663048357084038*^9, 3.663048385847886*^9}, 3.663048450896418*^9, {
+   3.6630484826205883`*^9, 3.663048483148017*^9}, {3.663048616803988*^9, 
+   3.663048616939703*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[RasterBox[{{0, 1}}],
+  Frame->True,
+  ImageSize->Small]], "Output",
+ CellChangeTimes->{3.663048617803892*^9}]
+}, Open  ]],
+
+Cell["\<\
+This raster image is also one row high by two columns wide. The first pixel \
+is white this time.\
+\>", "Text",
+ CellChangeTimes->{{3.6631804000129833`*^9, 3.6631804169716682`*^9}, {
+  3.663180567052024*^9, 3.6631805710356607`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", 
+    RowBox[{"{", 
+     RowBox[{"{", 
+      RowBox[{"1", ",", "0"}], "}"}], "}"}], "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663048283771574*^9, 3.663048298914262*^9}, {
+   3.663048357084038*^9, 3.663048385847886*^9}, 3.663048450896418*^9, {
+   3.6630484826205883`*^9, 3.663048483148017*^9}, {3.663048616803988*^9, 
+   3.663048626825893*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[RasterBox[{{1, 0}}],
+  Frame->True,
+  ImageSize->Small]], "Output",
+ CellChangeTimes->{3.663048627199976*^9}]
+}, Open  ]],
+
+Cell["Here are rasters that are two rows high by one column wide.", "Text",
+ CellChangeTimes->{{3.6631804249227753`*^9, 3.663180453399824*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", "0", "}"}], ",", 
+      RowBox[{"{", "1", "}"}]}], "}"}], "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663048283771574*^9, 3.663048298914262*^9}, {
+   3.663048357084038*^9, 3.663048385847886*^9}, 3.663048450896418*^9, {
+   3.6630484826205883`*^9, 3.6630485063054028`*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[RasterBox[{{0}, {1}}],
+  Frame->True,
+  ImageSize->Small]], "Output",
+ CellChangeTimes->{3.663048507176833*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", "1", "}"}], ",", 
+      RowBox[{"{", "0", "}"}]}], "}"}], "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663048283771574*^9, 3.663048298914262*^9}, {
+   3.663048357084038*^9, 3.663048385847886*^9}, 3.663048450896418*^9, {
+   3.6630484826205883`*^9, 3.663048519511221*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[RasterBox[{{1}, {0}}],
+  Frame->True,
+  ImageSize->Small]], "Output",
+ CellChangeTimes->{3.6630485198588743`*^9}]
+}, Open  ]],
+
+Cell["\<\
+Here are some 2x2 raster images. Note the coordinates: the units measure the \
+number of pixels along each dimension.\
+\>", "Text",
+ CellChangeTimes->{{3.663180492074772*^9, 3.663180553445437*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"0", ",", "1"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"1", ",", "1"}], "}"}]}], "}"}], "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663048283771574*^9, 3.663048298914262*^9}, {
+   3.663048357084038*^9, 3.663048385847886*^9}, 3.663048450896418*^9, {
+   3.6630484826205883`*^9, 3.6630485063054028`*^9}, {3.663048672325472*^9, 
+   3.66304867948419*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[RasterBox[{{0, 1}, {1, 1}}],
+  Frame->True,
+  ImageSize->Small]], "Output",
+ CellChangeTimes->{3.663048680303156*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"0", ",", "1"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"1", ",", "0"}], "}"}]}], "}"}], "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663048283771574*^9, 3.663048298914262*^9}, {
+   3.663048357084038*^9, 3.663048385847886*^9}, 3.663048450896418*^9, {
+   3.6630484826205883`*^9, 3.6630485063054028`*^9}, {3.663048672325472*^9, 
+   3.663048698458453*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[RasterBox[{{0, 1}, {1, 0}}],
+  Frame->True,
+  ImageSize->Small]], "Output",
+ CellChangeTimes->{3.6630486988311167`*^9}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Constructing raster images with the Table command", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.663180472381814*^9, 3.663180484292035*^9}}],
+
+Cell[TextData[{
+ "Since a reasonable-sized raster image contains many pixels, organized into \
+rows and columns, it makes sense to generate the pixel information using a ",
+ StyleBox["Table",
+  FontWeight->"Bold"],
+ " command with two iterators."
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.663182900317213*^9, 3.663182989009387*^9}}],
+
+Cell["Here is a table of 1s with ten rows and five columns.", "Text",
+ CellChangeTimes->{{3.663182997696232*^9, 3.663183020829608*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Table", "[", 
+  RowBox[{"1", ",", 
+   RowBox[{"{", 
+    RowBox[{"r", ",", "10"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"c", ",", "5"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663049001740191*^9, 3.663049063309928*^9}, {
+  3.663049107240448*^9, 3.6630491088478327`*^9}, {3.663049156226384*^9, 
+  3.663049164721274*^9}, {3.663049253630471*^9, 3.6630492641090603`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"1", ",", "1", ",", "1", ",", "1", ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"1", ",", "1", ",", "1", ",", "1", ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"1", ",", "1", ",", "1", ",", "1", ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"1", ",", "1", ",", "1", ",", "1", ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"1", ",", "1", ",", "1", ",", "1", ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"1", ",", "1", ",", "1", ",", "1", ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"1", ",", "1", ",", "1", ",", "1", ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"1", ",", "1", ",", "1", ",", "1", ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"1", ",", "1", ",", "1", ",", "1", ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"1", ",", "1", ",", "1", ",", "1", ",", "1"}], "}"}]}], 
+  "}"}]], "Output",
+ CellChangeTimes->{3.663049064708885*^9, 3.663049109589649*^9, 
+  3.663049165310686*^9, 3.6630492647840347`*^9}]
+}, Open  ]],
+
+Cell["\<\
+When we visualize the raster image, we find it is a tall, white rectangle. \
+Note the coordinates.\
+\>", "Text",
+ CellChangeTimes->{{3.663183028108459*^9, 3.663183058136797*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", 
+    RowBox[{"Table", "[", 
+     RowBox[{"1", ",", 
+      RowBox[{"{", 
+       RowBox[{"r", ",", "10"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"c", ",", "5"}], "}"}]}], "]"}], "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663048283771574*^9, 3.663048298914262*^9}, {
+   3.663048357084038*^9, 3.663048385847886*^9}, 3.663048450896418*^9, {
+   3.6630484826205883`*^9, 3.6630485063054028`*^9}, {3.663048672325472*^9, 
+   3.663048698458453*^9}, {3.6630492828755503`*^9, 3.6630493411410437`*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[
+  RasterBox[{{1, 1, 1, 1, 1}, {1, 1, 1, 1, 1}, {1, 1, 1, 1, 1}, {1, 1, 1, 1, 
+   1}, {1, 1, 1, 1, 1}, {1, 1, 1, 1, 1}, {1, 1, 1, 1, 1}, {1, 1, 1, 1, 1}, {1,
+    1, 1, 1, 1}, {1, 1, 1, 1, 1}}],
+  Frame->True,
+  ImageSize->Small]], "Output",
+ CellChangeTimes->{{3.663049284359136*^9, 3.663049341691414*^9}}]
+}, Open  ]],
+
+Cell["\<\
+Here is a ten by ten black raster image. Note there are 100 pixels, all the \
+same colour.\
+\>", "Text",
+ CellChangeTimes->{{3.663183065601324*^9, 3.663183096028339*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", 
+    RowBox[{"Table", "[", 
+     RowBox[{"0", ",", 
+      RowBox[{"{", 
+       RowBox[{"r", ",", "10"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"c", ",", "10"}], "}"}]}], "]"}], "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663048283771574*^9, 3.663048298914262*^9}, {
+   3.663048357084038*^9, 3.663048385847886*^9}, 3.663048450896418*^9, {
+   3.6630484826205883`*^9, 3.6630485063054028`*^9}, {3.663048672325472*^9, 
+   3.663048698458453*^9}, {3.6630492828755503`*^9, 3.6630493530982447`*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[
+  RasterBox[{{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, {0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, {
+   0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, {0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, {0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0}, {0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, {0, 0, 0, 0, 0, 0, 0, 
+   0, 0, 0}, {0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, {0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, {
+   0, 0, 0, 0, 0, 0, 0, 0, 0, 0}}],
+  Frame->True,
+  ImageSize->Small]], "Output",
+ CellChangeTimes->{3.663049353533969*^9}]
+}, Open  ]],
+
+Cell["\<\
+If we use a conditional statement to choose the pixel colour, we can make a \
+wide variety of patterns.\
+\>", "Text",
+ CellChangeTimes->{{3.6631831035234613`*^9, 3.663183126376622*^9}}],
+
+Cell["Here we test the row value:", "Text",
+ CellChangeTimes->{{3.6631831430219584`*^9, 3.663183162635994*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", 
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{"If", "[", 
+       RowBox[{
+        RowBox[{"r", "<", "6"}], ",", "1", ",", "0"}], "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"r", ",", "10"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"c", ",", "10"}], "}"}]}], "]"}], "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663048283771574*^9, 3.663048298914262*^9}, {
+   3.663048357084038*^9, 3.663048385847886*^9}, 3.663048450896418*^9, {
+   3.6630484826205883`*^9, 3.6630485063054028`*^9}, {3.663048672325472*^9, 
+   3.663048698458453*^9}, {3.6630492828755503`*^9, 3.663049391566764*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[
+  RasterBox[{{1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {
+   1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 1, 1,
+    1, 1, 1, 1, 1, 1}, {0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, {0, 0, 0, 0, 0, 0, 0, 
+   0, 0, 0}, {0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, {0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, {
+   0, 0, 0, 0, 0, 0, 0, 0, 0, 0}}],
+  Frame->True,
+  ImageSize->Small]], "Output",
+ CellChangeTimes->{{3.6630493863706713`*^9, 3.66304939197154*^9}}]
+}, Open  ]],
+
+Cell["Here we test the column value:", "Text",
+ CellChangeTimes->{{3.6631831543010683`*^9, 3.663183165843975*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", 
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{"If", "[", 
+       RowBox[{
+        RowBox[{"c", "<", "2"}], ",", "0", ",", "1"}], "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"r", ",", "10"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"c", ",", "10"}], "}"}]}], "]"}], "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663048283771574*^9, 3.663048298914262*^9}, {
+   3.663048357084038*^9, 3.663048385847886*^9}, 3.663048450896418*^9, {
+   3.6630484826205883`*^9, 3.6630485063054028`*^9}, {3.663048672325472*^9, 
+   3.663048698458453*^9}, {3.6630492828755503`*^9, 3.663049415482378*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[
+  RasterBox[{{0, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {0, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {
+   0, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {0, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {0, 1, 1, 1,
+    1, 1, 1, 1, 1, 1}, {0, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {0, 1, 1, 1, 1, 1, 1, 
+   1, 1, 1}, {0, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {0, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {
+   0, 1, 1, 1, 1, 1, 1, 1, 1, 1}}],
+  Frame->True,
+  ImageSize->Small]], "Output",
+ CellChangeTimes->{3.663049416014873*^9}]
+}, Open  ]],
+
+Cell["\<\
+Here is a condition that is based on both the row and column:\
+\>", "Text",
+ CellChangeTimes->{{3.663183173355009*^9, 3.6631831857452908`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", 
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{"If", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"r", "+", "c"}], "<=", "10"}], ",", "0", ",", "1"}], "]"}], 
+      ",", 
+      RowBox[{"{", 
+       RowBox[{"r", ",", "10"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"c", ",", "10"}], "}"}]}], "]"}], "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663048283771574*^9, 3.663048298914262*^9}, {
+   3.663048357084038*^9, 3.663048385847886*^9}, 3.663048450896418*^9, {
+   3.6630484826205883`*^9, 3.6630485063054028`*^9}, {3.663048672325472*^9, 
+   3.663048698458453*^9}, {3.6630492828755503`*^9, 3.663049445679207*^9}, 
+   3.6630494798274803`*^9}],
+
+Cell[BoxData[
+ GraphicsBox[
+  RasterBox[{{0, 0, 0, 0, 0, 0, 0, 0, 0, 1}, {0, 0, 0, 0, 0, 0, 0, 0, 1, 1}, {
+   0, 0, 0, 0, 0, 0, 0, 1, 1, 1}, {0, 0, 0, 0, 0, 0, 1, 1, 1, 1}, {0, 0, 0, 0,
+    0, 1, 1, 1, 1, 1}, {0, 0, 0, 0, 1, 1, 1, 1, 1, 1}, {0, 0, 0, 1, 1, 1, 1, 
+   1, 1, 1}, {0, 0, 1, 1, 1, 1, 1, 1, 1, 1}, {0, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {
+   1, 1, 1, 1, 1, 1, 1, 1, 1, 1}}],
+  Frame->True,
+  ImageSize->Small]], "Output",
+ CellChangeTimes->{{3.663049437062562*^9, 3.6630494460924673`*^9}, 
+   3.663049480503962*^9}]
+}, Open  ]],
+
+Cell["\<\
+Here we test to see whether the sum of the row and column value are even:\
+\>", "Text",
+ CellChangeTimes->{{3.663183201511425*^9, 3.663183233418666*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"EvenQ", "[", "2", "]"}]], "Input",
+ CellChangeTimes->{{3.6630472548574867`*^9, 3.663047257236126*^9}}],
+
+Cell[BoxData["True"], "Output",
+ CellChangeTimes->{3.66304725764703*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"EvenQ", "[", "3", "]"}]], "Input",
+ CellChangeTimes->{{3.663047258313842*^9, 3.663047262795126*^9}}],
+
+Cell[BoxData["False"], "Output",
+ CellChangeTimes->{3.663047263154325*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", 
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{"If", "[", 
+       RowBox[{
+        RowBox[{"EvenQ", "[", 
+         RowBox[{"r", "+", "c"}], "]"}], ",", "0", ",", "1"}], "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"r", ",", "10"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"c", ",", "10"}], "}"}]}], "]"}], "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663048283771574*^9, 3.663048298914262*^9}, {
+   3.663048357084038*^9, 3.663048385847886*^9}, 3.663048450896418*^9, {
+   3.6630484826205883`*^9, 3.6630485063054028`*^9}, {3.663048672325472*^9, 
+   3.663048698458453*^9}, {3.6630492828755503`*^9, 3.663049445679207*^9}, 
+   3.6630494798274803`*^9, {3.663049514783101*^9, 3.6630495212212353`*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[
+  RasterBox[{{0, 1, 0, 1, 0, 1, 0, 1, 0, 1}, {1, 0, 1, 0, 1, 0, 1, 0, 1, 0}, {
+   0, 1, 0, 1, 0, 1, 0, 1, 0, 1}, {1, 0, 1, 0, 1, 0, 1, 0, 1, 0}, {0, 1, 0, 1,
+    0, 1, 0, 1, 0, 1}, {1, 0, 1, 0, 1, 0, 1, 0, 1, 0}, {0, 1, 0, 1, 0, 1, 0, 
+   1, 0, 1}, {1, 0, 1, 0, 1, 0, 1, 0, 1, 0}, {0, 1, 0, 1, 0, 1, 0, 1, 0, 1}, {
+   1, 0, 1, 0, 1, 0, 1, 0, 1, 0}}],
+  Frame->True,
+  ImageSize->Small]], "Output",
+ CellChangeTimes->{3.663049521545806*^9}]
+}, Open  ]],
+
+Cell["We can also choose a pixel value randomly:", "Text",
+ CellChangeTimes->{{3.663183246545847*^9, 3.663183285612514*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", 
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{"RandomInteger", "[", "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"r", ",", "10"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"c", ",", "10"}], "}"}]}], "]"}], "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663048283771574*^9, 3.663048298914262*^9}, {
+   3.663048357084038*^9, 3.663048385847886*^9}, 3.663048450896418*^9, {
+   3.6630484826205883`*^9, 3.6630485063054028`*^9}, {3.663048672325472*^9, 
+   3.663048698458453*^9}, {3.6630492828755503`*^9, 3.663049445679207*^9}, 
+   3.6630494798274803`*^9, {3.663049514783101*^9, 3.663049540380131*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[
+  RasterBox[{{0, 0, 1, 0, 0, 0, 1, 1, 1, 0}, {1, 1, 0, 0, 0, 0, 1, 1, 1, 0}, {
+   0, 1, 0, 0, 0, 0, 0, 1, 1, 1}, {0, 1, 0, 1, 0, 1, 1, 0, 0, 0}, {1, 1, 1, 1,
+    0, 1, 0, 1, 0, 1}, {0, 0, 0, 1, 1, 0, 0, 0, 0, 1}, {0, 0, 0, 0, 1, 0, 0, 
+   1, 1, 0}, {1, 0, 1, 0, 1, 1, 1, 0, 1, 0}, {1, 0, 0, 1, 1, 0, 1, 0, 0, 1}, {
+   1, 1, 1, 1, 1, 1, 1, 1, 0, 1}}],
+  Frame->True,
+  ImageSize->Small]], "Output",
+ CellChangeTimes->{3.663049540752284*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", 
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{"RandomChoice", "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{".1", ",", ".9"}], "}"}], "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"1", ",", "0"}], "}"}]}], "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"r", ",", "10"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"c", ",", "10"}], "}"}]}], "]"}], "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663048283771574*^9, 3.663048298914262*^9}, {
+   3.663048357084038*^9, 3.663048385847886*^9}, 3.663048450896418*^9, {
+   3.6630484826205883`*^9, 3.6630485063054028`*^9}, {3.663048672325472*^9, 
+   3.663048698458453*^9}, {3.6630492828755503`*^9, 3.663049445679207*^9}, 
+   3.6630494798274803`*^9, {3.663049514783101*^9, 3.663049540380131*^9}, {
+   3.663183308418659*^9, 3.663183329527935*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[
+  RasterBox[{{0, 0, 0, 0, 0, 0, 0, 0, 0, 1}, {0, 0, 1, 0, 0, 0, 0, 0, 0, 0}, {
+   1, 1, 0, 0, 0, 0, 0, 0, 1, 0}, {0, 0, 1, 1, 0, 1, 0, 0, 0, 0}, {1, 0, 0, 0,
+    0, 0, 0, 0, 0, 0}, {0, 0, 0, 0, 0, 1, 0, 1, 0, 0}, {1, 0, 0, 0, 0, 0, 0, 
+   0, 0, 0}, {0, 0, 0, 0, 0, 0, 0, 0, 1, 0}, {0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, {
+   0, 0, 0, 0, 0, 0, 0, 0, 0, 0}}],
+  Frame->True,
+  ImageSize->Small]], "Output",
+ CellChangeTimes->{3.663183330077907*^9}]
+}, Open  ]],
+
+Cell["\<\
+Gradually increasing the probability of a black pixel from 0 to 1:\
+\>", "Text",
+ CellChangeTimes->{{3.663183463239216*^9, 3.663183478789323*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", 
+  RowBox[{
+   RowBox[{"Graphics", "[", 
+    RowBox[{"Raster", "[", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"RandomChoice", "[", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"p", ",", 
+           RowBox[{"1", "-", "p"}]}], "}"}], "\[Rule]", 
+         RowBox[{"{", 
+          RowBox[{"0", ",", "1"}], "}"}]}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"r", ",", "10"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"c", ",", "10"}], "}"}]}], "]"}], "]"}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"p", ",", "0", ",", "1", ",", ".05"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663048283771574*^9, 3.663048298914262*^9}, {
+   3.663048357084038*^9, 3.663048385847886*^9}, 3.663048450896418*^9, {
+   3.6630484826205883`*^9, 3.6630485063054028`*^9}, {3.663048672325472*^9, 
+   3.663048698458453*^9}, {3.6630492828755503`*^9, 3.663049445679207*^9}, 
+   3.6630494798274803`*^9, {3.663049514783101*^9, 3.663049540380131*^9}, {
+   3.663183308418659*^9, 3.663183359324032*^9}, {3.663183405358769*^9, 
+   3.6631834378506536`*^9}}],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`p$$ = 0.05, Typeset`show$$ = True, 
+    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"untitled\"", Typeset`specs$$ = {{
+      Hold[$CellContext`p$$], 0, 1, 0.05}}, Typeset`size$$ = {
+    450., {221., 228.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
+    Typeset`skipInitDone$$ = True, $CellContext`p$276013$$ = 0}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, "Variables" :> {$CellContext`p$$ = 0}, 
+      "ControllerVariables" :> {
+        Hold[$CellContext`p$$, $CellContext`p$276013$$, 0]}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> Graphics[
+        Raster[
+         Table[
+          
+          RandomChoice[{$CellContext`p$$, 1 - $CellContext`p$$} -> {0, 
+            1}], {$CellContext`r, 10}, {$CellContext`c, 10}]]], 
+      "Specifications" :> {{$CellContext`p$$, 0, 1, 0.05}}, "Options" :> {}, 
+      "DefaultOptions" :> {}],
+     ImageSizeCache->{505., {272., 279.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{3.663183443736969*^9}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Turning individual pixels on or off", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.663180606703786*^9, 3.663180612662674*^9}}],
+
+Cell["\<\
+If we wish to set individual pixels in a black and white image, we start with \
+a base colour (whichever is more common in the desired image), then set \
+pixels to the opposite colour one-by-one.\
+\>", "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.663183495156168*^9, 3.663183558746772*^9}, {3.6631835890877523`*^9, 
+  3.66318361482795*^9}}],
+
+Cell["Here is a white 10 x 10 background.", "Text",
+ CellChangeTimes->{{3.663183619651992*^9, 3.663183639569615*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Table", "[", 
+  RowBox[{"1", ",", 
+   RowBox[{"{", 
+    RowBox[{"r", ",", "10"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"c", ",", "10"}], "}"}]}], "]"}]], "Input"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+    "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1",
+      ",", "1", ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+    "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1",
+      ",", "1", ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+    "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1",
+      ",", "1", ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+    "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1",
+      ",", "1", ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+    "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1",
+      ",", "1", ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+    "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1",
+      ",", "1", ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+    "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1",
+      ",", "1", ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+    "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1",
+      ",", "1", ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+    "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1",
+      ",", "1", ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+    "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1",
+      ",", "1", ",", "1"}], "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.663049657921708*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", 
+    RowBox[{"Table", "[", 
+     RowBox[{"1", ",", 
+      RowBox[{"{", 
+       RowBox[{"r", ",", "10"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"c", ",", "10"}], "}"}]}], "]"}], "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663048283771574*^9, 3.663048298914262*^9}, {
+   3.663048357084038*^9, 3.663048385847886*^9}, 3.663048450896418*^9, {
+   3.6630484826205883`*^9, 3.6630485063054028`*^9}, {3.663048672325472*^9, 
+   3.663048698458453*^9}, {3.6630492828755503`*^9, 3.6630493530982447`*^9}, 
+   3.6630496469193*^9}],
+
+Cell[BoxData[
+ GraphicsBox[
+  RasterBox[{{1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {
+   1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 1, 1,
+    1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 1, 1, 1, 
+   1, 1, 1}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {
+   1, 1, 1, 1, 1, 1, 1, 1, 1, 1}}],
+  Frame->True,
+  ImageSize->Small]], "Output",
+ CellChangeTimes->{3.6630496472581387`*^9}]
+}, Open  ]],
+
+Cell[TextData[{
+ "We use the ",
+ StyleBox["ReplacePart",
+  FontWeight->"Bold"],
+ " command to change one element of our table, resulting in a single black \
+pixel."
+}], "Text",
+ CellChangeTimes->{{3.6631836435523567`*^9, 3.663183674821217*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ReplacePart", "[", 
+  RowBox[{
+   RowBox[{"Table", "[", 
+    RowBox[{"1", ",", 
+     RowBox[{"{", 
+      RowBox[{"r", ",", "10"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"c", ",", "10"}], "}"}]}], "]"}], ",", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"2", ",", "3"}], "}"}], "\[Rule]", "0"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663049669748341*^9, 3.6630496879862013`*^9}, {
+  3.663049731628271*^9, 3.663049742563072*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+    "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1",
+      ",", "1", ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+    "1", ",", "1", ",", "0", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1",
+      ",", "1", ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+    "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1",
+      ",", "1", ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+    "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1",
+      ",", "1", ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+    "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1",
+      ",", "1", ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+    "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1",
+      ",", "1", ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+    "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1",
+      ",", "1", ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+    "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1",
+      ",", "1", ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+    "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1",
+      ",", "1", ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+    "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1",
+      ",", "1", ",", "1"}], "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.663049743112185*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", 
+    RowBox[{"ReplacePart", "[", 
+     RowBox[{
+      RowBox[{"Table", "[", 
+       RowBox[{"1", ",", 
+        RowBox[{"{", 
+         RowBox[{"r", ",", "10"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"c", ",", "10"}], "}"}]}], "]"}], ",", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"2", ",", "3"}], "}"}], "\[Rule]", "0"}]}], "]"}], "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663048283771574*^9, 3.663048298914262*^9}, {
+   3.663048357084038*^9, 3.663048385847886*^9}, 3.663048450896418*^9, {
+   3.6630484826205883`*^9, 3.6630485063054028`*^9}, {3.663048672325472*^9, 
+   3.663048698458453*^9}, {3.6630492828755503`*^9, 3.6630493530982447`*^9}, 
+   3.6630496469193*^9, 3.663049768285823*^9}],
+
+Cell[BoxData[
+ GraphicsBox[
+  RasterBox[{{1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 0, 1, 1, 1, 1, 1, 1, 1}, {
+   1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 1, 1,
+    1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 1, 1, 1, 
+   1, 1, 1}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {
+   1, 1, 1, 1, 1, 1, 1, 1, 1, 1}}],
+  Frame->True,
+  ImageSize->Small]], "Output",
+ CellChangeTimes->{3.6630497709402237`*^9, 3.663183681987911*^9}]
+}, Open  ]],
+
+Cell[TextData[{
+ "We can give ",
+ StyleBox["ReplacePart",
+  FontWeight->"Bold"],
+ " a list of changes to make."
+}], "Text",
+ CellChangeTimes->{{3.6631836846120253`*^9, 3.663183696146537*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", 
+    RowBox[{"ReplacePart", "[", 
+     RowBox[{
+      RowBox[{"Table", "[", 
+       RowBox[{"1", ",", 
+        RowBox[{"{", 
+         RowBox[{"r", ",", "10"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"c", ",", "10"}], "}"}]}], "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"2", ",", "3"}], "}"}], "\[Rule]", "0"}], ",", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"5", ",", "3"}], "}"}], "\[Rule]", "0"}], ",", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"9", ",", "9"}], "}"}], "\[Rule]", "0"}]}], "}"}]}], "]"}], 
+    "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663048283771574*^9, 3.663048298914262*^9}, {
+   3.663048357084038*^9, 3.663048385847886*^9}, 3.663048450896418*^9, {
+   3.6630484826205883`*^9, 3.6630485063054028`*^9}, {3.663048672325472*^9, 
+   3.663048698458453*^9}, {3.6630492828755503`*^9, 3.6630493530982447`*^9}, 
+   3.6630496469193*^9, 3.663049768285823*^9, {3.663049836128385*^9, 
+   3.6630498573252563`*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[
+  RasterBox[{{1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 0, 1, 1, 1, 1, 1, 1, 1}, {
+   1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 0, 1,
+    1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 1, 1, 1, 
+   1, 1, 1}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 1, 1, 1, 1, 0, 1}, {
+   1, 1, 1, 1, 1, 1, 1, 1, 1, 1}}],
+  Frame->True,
+  ImageSize->Small]], "Output",
+ CellChangeTimes->{3.663049858441133*^9}]
+}, Open  ]],
+
+Cell["\<\
+You can even draw a picture this way (it is a bit painstaking).\
+\>", "Text",
+ CellChangeTimes->{{3.6631837097769737`*^9, 3.663183720079595*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"rasterFace", "=", 
+   RowBox[{"ReplacePart", "[", 
+    RowBox[{
+     RowBox[{"Table", "[", 
+      RowBox[{"1", ",", 
+       RowBox[{"{", 
+        RowBox[{"r", ",", "10"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"c", ",", "10"}], "}"}]}], "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"2", ",", "5"}], "}"}], "\[Rule]", "0"}], ",", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"2", ",", "6"}], "}"}], "\[Rule]", "0"}], ",", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"2", ",", "7"}], "}"}], "\[Rule]", "0"}], ",", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"2", ",", "8"}], "}"}], "\[Rule]", "0"}], ",", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"3", ",", "4"}], "}"}], "\[Rule]", "0"}], ",", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"3", ",", "5"}], "}"}], "\[Rule]", "0"}], ",", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"3", ",", "6"}], "}"}], "\[Rule]", "0"}], ",", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"3", ",", "7"}], "}"}], "\[Rule]", "0"}], ",", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"3", ",", "8"}], "}"}], "\[Rule]", "0"}], ",", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"3", ",", "9"}], "}"}], "\[Rule]", "0"}], ",", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"4", ",", "3"}], "}"}], "\[Rule]", "0"}], ",", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"5", ",", "6"}], "}"}], "\[Rule]", "0"}], ",", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"5", ",", "7"}], "}"}], "\[Rule]", "0"}], ",", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"7", ",", "4"}], "}"}], "\[Rule]", "0"}], ",", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"7", ",", "5"}], "}"}], "\[Rule]", "0"}], ",", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"8", ",", "3"}], "}"}], "\[Rule]", "0"}], ",", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"8", ",", "5"}], "}"}], "\[Rule]", "0"}], ",", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"7", ",", "8"}], "}"}], "\[Rule]", "0"}], ",", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"8", ",", "7"}], "}"}], "\[Rule]", "0"}], ",", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"7", ",", "9"}], "}"}], "\[Rule]", "0"}], ",", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"8", ",", "9"}], "}"}], "\[Rule]", "0"}], ",", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"9", ",", "3"}], "}"}], "\[Rule]", "0"}], ",", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"9", ",", "4"}], "}"}], "\[Rule]", "0"}], ",", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"9", ",", "7"}], "}"}], "\[Rule]", "0"}], ",", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"9", ",", "8"}], "}"}], "\[Rule]", "0"}]}], "}"}]}], "]"}]}],
+   ";"}]], "Input",
+ CellChangeTimes->{{3.663050530969697*^9, 3.663050703815118*^9}, {
+  3.6630507349966793`*^9, 3.6630507826469707`*^9}, {3.663050818358068*^9, 
+  3.663050857198119*^9}, {3.663050899362954*^9, 3.663050912061418*^9}, {
+  3.663050944395316*^9, 3.663051010073625*^9}, {3.663051061069387*^9, 
+  3.663051104463966*^9}, {3.663180773996291*^9, 3.663180784131463*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", "rasterFace", "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6630505970369596`*^9, 3.6630506108265667`*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[
+  RasterBox[{{1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 0, 0, 0, 0, 1, 1}, {
+   1, 1, 1, 0, 0, 0, 0, 0, 0, 1}, {1, 1, 0, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 1, 1,
+    1, 0, 0, 1, 1, 1}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 1, 0, 0, 1, 1, 
+   0, 0, 1}, {1, 1, 0, 1, 0, 1, 0, 1, 0, 1}, {1, 1, 0, 0, 1, 1, 0, 0, 1, 1}, {
+   1, 1, 1, 1, 1, 1, 1, 1, 1, 1}}],
+  Frame->True,
+  ImageSize->Small]], "Output",
+ CellChangeTimes->{{3.6630506114040947`*^9, 3.6630506288897257`*^9}, {
+   3.663050668212551*^9, 3.6630507067728033`*^9}, {3.663050741472699*^9, 
+   3.66305078452731*^9}, {3.6630508303331203`*^9, 3.6630508588373528`*^9}, 
+   3.66305091398589*^9, {3.663050963952229*^9, 3.6630510123385487`*^9}, 
+   3.663051070595387*^9, {3.663051101072016*^9, 3.663051106391354*^9}, {
+   3.66318078081003*^9, 3.663180786228146*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Grayscale raster images", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.663180653818323*^9, 3.663180658440093*^9}}],
+
+Cell["\<\
+If we give each pixel a real value between 0 and 1, we end up with a \
+grayscale raster image.\
+\>", "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.6631837637871437`*^9, 3.663183786719059*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", 
+    RowBox[{"{", 
+     RowBox[{"{", "0.25", "}"}], "}"}], "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663048283771574*^9, 3.663048298914262*^9}, {
+   3.663048357084038*^9, 3.663048385847886*^9}, 3.663048450896418*^9, {
+   3.6630484826205883`*^9, 3.663048483148017*^9}, {3.66305024935036*^9, 
+   3.663050250453755*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[RasterBox[{{0.25}}],
+  Frame->True,
+  ImageSize->Small]], "Output",
+ CellChangeTimes->{3.663050251573011*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", 
+    RowBox[{"{", 
+     RowBox[{"{", "0.75", "}"}], "}"}], "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663048283771574*^9, 3.663048298914262*^9}, {
+   3.663048357084038*^9, 3.663048385847886*^9}, 3.663048450896418*^9, {
+   3.6630484826205883`*^9, 3.663048483148017*^9}, {3.66305024935036*^9, 
+   3.663050260252952*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[RasterBox[{{0.75}}],
+  Frame->True,
+  ImageSize->Small]], "Output",
+ CellChangeTimes->{3.663050260671818*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"0", ",", ".25"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"0.5", ",", "1"}], "}"}]}], "}"}], "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663048283771574*^9, 3.663048298914262*^9}, {
+   3.663048357084038*^9, 3.663048385847886*^9}, 3.663048450896418*^9, {
+   3.6630484826205883`*^9, 3.6630485063054028`*^9}, {3.663048672325472*^9, 
+   3.663048698458453*^9}, {3.663049922733827*^9, 3.6630499230934477`*^9}, {
+   3.663050271411951*^9, 3.6630502772745533`*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[RasterBox[{{0, 0.25}, {0.5, 1}}],
+  Frame->True,
+  ImageSize->Small]], "Output",
+ CellChangeTimes->{3.663049923560369*^9, 3.663050277768545*^9}]
+}, Open  ]],
+
+Cell["Each pixel set to a random value:", "Text",
+ CellChangeTimes->{{3.663183801013459*^9, 3.6631838236268587`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", 
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{"RandomReal", "[", "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"r", ",", "10"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"c", ",", "10"}], "}"}]}], "]"}], "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663048283771574*^9, 3.663048298914262*^9}, {
+   3.663048357084038*^9, 3.663048385847886*^9}, 3.663048450896418*^9, {
+   3.6630484826205883`*^9, 3.6630485063054028`*^9}, {3.663048672325472*^9, 
+   3.663048698458453*^9}, {3.6630492828755503`*^9, 3.663049445679207*^9}, 
+   3.6630494798274803`*^9, {3.663049514783101*^9, 3.663049540380131*^9}, {
+   3.663049946906971*^9, 3.663049947290786*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[RasterBox[CompressedData["
+1:eJwBMQPO/CFib1JlAgAAAAoAAAAKAAAA4jPILr085T9goEytkiK6PwzzTtTw
+RtA/sJtevIMV6z9U9g3IlLjRP2A4iO55ksw/GEBj3O8Mxz/Iq8qlCTPiP1wO
+tTaWX9g/DJ45Wdsu1z9sxEc10NPVPzAQSqwfdcU/gojIUMt56T9QTQdy2Te4
+P0xBJ5eoPdM/uLoNxYaz2j/Add8ZpA/qP5hH59YtEN8/2IdFd9IS6j+AErmT
+CD3oPwxDK24Wrd8//IroqEXK4j9MaMkhMnTRP/i8C62Nb8I/gPydgM37yD/2
+Z3hfPUnjP+Q7tNbRcNI/DJtZ75Lu1j8ASpGhYXN9P8zuLberYeU/jA/StcGJ
+7j/SGhhJn2XnPwh1/8hdv+4/jFLuejt12T8AYPFpxOjoP0RKfMCGRu4/gC33
+ysjPvD8cKKU4gTHfP7BKEtQqVbo/gAtH/aqitD9MYyc4eTHUP4A43Va5s9A/
+tBUQNw2i0j/EYguDDU3jP9DJcmq4mcA/XHhdrokQ1z+UTTecwQnhP/Dj1loW
+oOY/sFlqx99k3D9w9MHJnLvvP5DcXAUot7E/qGXuUEaG1T+WDVf/Bu7oP7Zz
+EK9QTOE//CJeHwfv2z8eiNJr1zbuP/DErfk2n+8/2Jo5tTq40T/YFu3KxBbr
+P8wL4lilEdo/MhknOK6v6T9A14k3eZLbPyz5cWjnjek/HNhzRwmE2D/oA5wt
+cjDoP5wdFrV/nOA/xhJXY5JP7D+QHOtjt0C4PyxPZpgyve0/qCbdqtvZ6j9Y
+uAZqsEXlPxyfadYb/Oc/XLqCLd3p2T84qsN5QIDOPxD3xOcnRMA/3M4bVnfB
+6D9ol8MItM7nP/RqNV2EE+k/aPoiqUrb1z88fTaprDTfP1CL+BTppcI/IF63
+eNriuD+ExlsVyq3XPzK8hgcz2+Q/BD9L7iSm5T+YtBUgRbrUP27DNCVX+eE/
+RCeo8KUv4T8ANtubuYytPxJsVrTjBew/gKsso8bcmT+QmW2H94O2PxCrfL2N
+p70/VnR5LX7j5j+GAu2sCnTpP9RSWYN6qN4/6vOgk9GE5D9UyotEeqnuP8hc
+PbNYAts/SKX+DhrN5z+hSpUs
+   "]],
+  Frame->True,
+  ImageSize->Small]], "Output",
+ CellChangeTimes->{3.663049948082307*^9}]
+}, Open  ]],
+
+Cell["\<\
+Using Table to systematically vary the darkness results in a two-dimensional \
+gradient:\
+\>", "Text",
+ CellChangeTimes->{{3.66318383432959*^9, 3.663183862070312*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", 
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"r", ",", "c"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"r", ",", ".1", ",", "1", ",", ".1"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"c", ",", ".1", ",", "1", ",", ".1"}], "}"}]}], "]"}], "]"}], 
+   ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663049963152609*^9, 3.66305004792638*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[RasterBox[CompressedData["
+1:eJx1lMEJAjEQRYPe7MIa9G4PliCoR+vRTixhQE+echMEIeAhJWgW/yzzooFl
++OxmePz5s/PNYb2dppRm32fyeU7Hds6r39VcLxft3PA+u07DubsePl88XO93
+7Txxv7i+Xtp5oV/tOKIea+Qz8Bn4DHwGPgOfgc+cj76QQ5pVfNLikxaftPji
+/eJafLFf7eZEX8gR3481+pfhX4Z/Gf5l+Jedj7nhnOgLOaRZxSctvni/uBZf
+7FO7HDM3nBN9IYc0q/ji/eJafLFf7faKOWZuOCf6Qg5pVvFJiy/2q8gB9966
+HDM3nBN9IUe8P9aYv+J8/O9wz7lXzDFzwznRF3JIs8b9qNiPiv2of/eee8Zc
+M0ecG30i1xu7A731
+   "]],
+  Frame->True,
+  ImageSize->Small]], "Output",
+ CellChangeTimes->{{3.663050025100421*^9, 3.6630500486738997`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", 
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"1", "-", "r"}], ",", "c"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"r", ",", ".1", ",", "1", ",", ".1"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"c", ",", ".1", ",", "1", ",", ".1"}], "}"}]}], "]"}], "]"}], 
+   ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663049963152609*^9, 3.66305004792638*^9}, {
+  3.663050083002338*^9, 3.663050083146215*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[RasterBox[CompressedData["
+1:eJxlk0FKBEEMRYPu5hZeocd93cEjCE4vvY7OTXKEAl25yk4QhAIXdQSnR/+H
+/zvQFI900m9qkrvH54en24g4/D83l+f9bYufdn7dIptyJ98ft/iwfJHjGp/k
+6+vHL/J62uLb6gfZz79+k+/BT7mT4af5IsMPDD8w/LR+7Dy132wnqUvjToaf
+5osMPzD8wPDT+kGGn/ab9jvTuJPhp/kiww/s52refs8+F/DT/yWNOxl+mi+y
+n+692j37XPgc6/yVzV/Z/JXNX+1O9/Z71vmr3Rz73sFvke+mcSfDbzHPxe4V
+DD8w/LR+kOGn/WZ7kXtK406Gn+aLDD8w/MDw0/pBhp/2g1+aX5pfml+aX5pf
+ml+aX5pfml/afkTofoA7WfcD+SLrXEfofkTofqB+kHU/ELP9Ah3ksdk=
+   "]],
+  Frame->True,
+  ImageSize->Small]], "Output",
+ CellChangeTimes->{3.663050083631974*^9}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Combining vector and raster graphics", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.663180677159203*^9, 3.6631806900046873`*^9}}],
+
+Cell["\<\
+Raster graphics can be mixed in with the vector graphic elements that we have \
+been using all along. Here we use a raster image for the chessboard, and \
+vector elements for a chess piece.\
+\>", "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.663180695724998*^9, 3.663180708937852*^9}, {3.663181328717959*^9, 
+  3.6631813709366913`*^9}, {3.6631839269830008`*^9, 3.6631839448119297`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"board", "=", 
+   RowBox[{"{", 
+    RowBox[{"Raster", "[", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"If", "[", 
+        RowBox[{
+         RowBox[{"EvenQ", "[", 
+          RowBox[{"r", "+", "c"}], "]"}], ",", "0", ",", "1"}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"r", ",", "8"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"c", ",", "8"}], "}"}]}], "]"}], "]"}], "}"}]}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.663181256053602*^9, 3.663181273495261*^9}, {
+  3.66318142006839*^9, 3.663181421945799*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"rook", "=", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"Rectangle", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"0.25", ",", "0"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"4.25", ",", "6.5"}], "}"}]}], "]"}], ",", 
+     RowBox[{"Rectangle", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"0", ",", "0"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"4.5", ",", "1"}], "}"}]}], "]"}], ",", 
+     RowBox[{"Rectangle", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"0", ",", "1"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"4.5", ",", "1.5"}], "}"}]}], "]"}], ",", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"Rectangle", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"c", "-", ".5"}], ",", "6"}], "}"}], ",", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"c", "-", "1"}], ",", "7"}], "}"}]}], "]"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"c", ",", "5"}], "}"}]}], "]"}]}], "}"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.663181243232275*^9, 3.663181248319337*^9}, 
+   3.66318131164235*^9, {3.663181472517647*^9, 3.663181808868993*^9}, {
+   3.6631818467199783`*^9, 3.663181938972568*^9}, {3.663182178911392*^9, 
+   3.6631821892269*^9}, {3.663182228793335*^9, 3.663182231757901*^9}, {
+   3.663182262500924*^9, 3.663182268297633*^9}, {3.663182311190672*^9, 
+   3.6631824945524397`*^9}, {3.663182591836553*^9, 3.663182648719623*^9}, {
+   3.66318271887637*^9, 3.663182750742569*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"Darker", "[", "Gray", "]"}], ",", 
+    RowBox[{"Rectangle", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"-", ".25"}], ",", 
+        RowBox[{"-", ".25"}]}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"8.25", ",", "8.25"}], "}"}]}], "]"}], ",", "board", ",", 
+    RowBox[{"EdgeForm", "[", 
+     RowBox[{"{", 
+      RowBox[{"Thick", ",", "Red"}], "}"}], "]"}], ",", 
+    RowBox[{"Darker", "[", "Red", "]"}], ",", 
+    RowBox[{"Translate", "[", 
+     RowBox[{"rook", ",", 
+      RowBox[{"{", 
+       RowBox[{"1.75", ",", ".5"}], "}"}]}], "]"}]}], "}"}], "]"}]], "Input",
+ CellChangeTimes->{{3.663048283771574*^9, 3.663048298914262*^9}, {
+   3.663048357084038*^9, 3.663048385847886*^9}, 3.663048450896418*^9, {
+   3.6630484826205883`*^9, 3.6630485063054028`*^9}, {3.663048672325472*^9, 
+   3.663048698458453*^9}, {3.6630492828755503`*^9, 3.663049445679207*^9}, 
+   3.6630494798274803`*^9, {3.663049514783101*^9, 3.6630495212212353`*^9}, {
+   3.663180882229925*^9, 3.6631812365454073`*^9}, {3.663181268823936*^9, 
+   3.663181270597067*^9}, {3.6631813072673283`*^9, 3.6631813087203627`*^9}, {
+   3.663181460341997*^9, 3.6631814613889112`*^9}, {3.6631819888051233`*^9, 
+   3.6631820550680237`*^9}, {3.663182085081567*^9, 3.663182124916039*^9}, {
+   3.663182161159655*^9, 3.663182162103141*^9}, {3.663182502669907*^9, 
+   3.663182579868187*^9}, {3.663182658322825*^9, 3.663182680760331*^9}, {
+   3.663182770156103*^9, 3.663182786130424*^9}, {3.663182816151927*^9, 
+   3.663182824462676*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[{
+   {RGBColor[
+    0.33333333333333337`, 0.33333333333333337`, 0.33333333333333337`], 
+    RectangleBox[{-0.25, -0.25}, {8.25, 8.25}], 
+    RasterBox[{{0, 1, 0, 1, 0, 1, 0, 1}, {1, 0, 1, 0, 1, 0, 1, 0}, {0, 1, 0, 
+     1, 0, 1, 0, 1}, {1, 0, 1, 0, 1, 0, 1, 0}, {0, 1, 0, 1, 0, 1, 0, 1}, {1, 
+     0, 1, 0, 1, 0, 1, 0}, {0, 1, 0, 1, 0, 1, 0, 1}, {1, 0, 1, 0, 1, 0, 1, 
+     0}}]}, 
+   {RGBColor[
+     NCache[
+      Rational[2, 3], 0.6666666666666666], 0, 0], EdgeForm[{RGBColor[1, 0, 0],
+     Thickness[Large]}], 
+    GeometricTransformationBox[{RectangleBox[{0.25, 0}, {4.25, 6.5}], 
+      RectangleBox[{0, 0}, {4.5, 1}], 
+      RectangleBox[{0, 1}, {4.5, 1.5}], {RectangleBox[{0.5, 6}, {0, 7}], 
+       RectangleBox[{1.5, 6}, {1, 7}], RectangleBox[{2.5, 6}, {2, 7}], 
+       RectangleBox[{3.5, 6}, {3, 7}], RectangleBox[{4.5, 6}, {4, 7}]}}, {
+     1.75, 0.5}]}}]], "Output",
+ CellChangeTimes->{{3.663180929870688*^9, 3.663180992846339*^9}, {
+   3.663181028359291*^9, 3.6631810942247143`*^9}, {3.6631811264935093`*^9, 
+   3.663181237470973*^9}, 3.663181280968568*^9, 3.663181314053087*^9, 
+   3.6631814245351954`*^9, {3.6631814622490807`*^9, 3.6631816554294024`*^9}, {
+   3.6631817134332848`*^9, 3.6631818104405727`*^9}, {3.663181851380527*^9, 
+   3.663181940626726*^9}, {3.663182011568928*^9, 3.663182125295216*^9}, {
+   3.663182163188202*^9, 3.663182192752821*^9}, 3.6631822333853807`*^9, {
+   3.663182264411611*^9, 3.6631822700408373`*^9}, {3.663182342500112*^9, 
+   3.663182634962573*^9}, {3.663182668538268*^9, 3.663182691611274*^9}, {
+   3.6631827241360064`*^9, 3.663182786511042*^9}, {3.6631828173371897`*^9, 
+   3.663182824752886*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["In-Class Activity", "Section",
+ CellChangeTimes->{{3.647716402186221*^9, 3.647716405353856*^9}, {
+  3.6583374723271*^9, 3.658337478437811*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Draw a picture using the Graphics and Raster commands. You can include vector \
+elements if you\[CloseCurlyQuote]d like.\
+\>", "Subsection",
+ CellChangeTimes->{{3.663179944521693*^9, 3.6631799763976603`*^9}}],
+
+Cell["NAME:", "Subsubsection",
+ CellChangeTimes->{{3.658337538475717*^9, 3.658337539778943*^9}}],
+
+Cell["STUDENT NUMBER:", "Subsubsection",
+ CellChangeTimes->{{3.658337543114833*^9, 3.658337546026588*^9}}],
+
+Cell["DATE:", "Subsubsection",
+ CellChangeTimes->{{3.6583375490023537`*^9, 3.658337550162354*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Upload your notebook", "Section",
+ CellChangeTimes->{{3.649950784924818*^9, 3.649950788859275*^9}}],
+
+Cell["\<\
+Don\[CloseCurlyQuote]t forget to upload a copy of your notebook for this day\
+\[CloseCurlyQuote]s class to the OWL Site for the course\
+\>", "Text",
+ CellChangeTimes->{{3.649950792779258*^9, 3.649950818634288*^9}, {
+  3.658337509093232*^9, 3.658337512508254*^9}}]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1422, 1107},
+WindowMargins->{{253, Automatic}, {Automatic, 62}},
+TaggingRules->{"SlideShow" -> True},
+Magnification:>1.25 Inherited,
+FrontEndVersion->"10.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (December 10, \
+2015)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "SlideShowHeader"->{
+  Cell[580, 22, 4299, 96, 75, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[5774, 146, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[13612, 400, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[31177, 873, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[45344, 1277, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[53016, 1496, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[59237, 1650, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[60088, 1681, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"SlideShowHeader", 60972, 1711}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 4299, 96, 75, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[4882, 120, 490, 10, 183, "Title"],
+Cell[5375, 132, 362, 9, 99, "Subtitle"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5774, 146, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[5863, 151, 156, 2, 80, "Section"],
+Cell[6022, 155, 422, 12, 37, "Text"],
+Cell[6447, 169, 206, 4, 37, "Text"],
+Cell[CellGroupData[{
+Cell[6678, 177, 448, 10, 36, "Input"],
+Cell[7129, 189, 155, 4, 240, "Output"]
+}, Open  ]],
+Cell[7299, 196, 111, 1, 37, "Text"],
+Cell[CellGroupData[{
+Cell[7435, 201, 422, 10, 36, "Input"],
+Cell[7860, 213, 157, 4, 240, "Output"]
+}, Open  ]],
+Cell[8032, 220, 366, 8, 61, "Text"],
+Cell[8401, 230, 206, 4, 37, "Text"],
+Cell[CellGroupData[{
+Cell[8632, 238, 525, 12, 36, "Input"],
+Cell[9160, 252, 136, 4, 144, "Output"]
+}, Open  ]],
+Cell[9311, 259, 242, 5, 37, "Text"],
+Cell[CellGroupData[{
+Cell[9578, 268, 525, 12, 36, "Input"],
+Cell[10106, 282, 136, 4, 144, "Output"]
+}, Open  ]],
+Cell[10257, 289, 143, 1, 37, "Text"],
+Cell[CellGroupData[{
+Cell[10425, 294, 504, 12, 36, "Input"],
+Cell[10932, 308, 138, 4, 288, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[11107, 317, 502, 12, 36, "Input"],
+Cell[11612, 331, 140, 4, 288, "Output"]
+}, Open  ]],
+Cell[11767, 338, 207, 4, 37, "Text"],
+Cell[CellGroupData[{
+Cell[11999, 346, 609, 15, 36, "Input"],
+Cell[12611, 363, 144, 4, 240, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[12792, 372, 610, 15, 36, "Input"],
+Cell[13405, 389, 146, 4, 240, "Output"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[13612, 400, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[13701, 405, 185, 2, 80, "Section"],
+Cell[13889, 409, 375, 8, 61, "Text"],
+Cell[14267, 419, 135, 1, 37, "Text"],
+Cell[CellGroupData[{
+Cell[14427, 424, 404, 9, 35, "Input"],
+Cell[14834, 435, 1059, 25, 57, "Output"]
+}, Open  ]],
+Cell[15908, 463, 188, 4, 37, "Text"],
+Cell[CellGroupData[{
+Cell[16121, 471, 680, 15, 36, "Input"],
+Cell[16804, 488, 333, 7, 288, "Output"]
+}, Open  ]],
+Cell[17152, 498, 180, 4, 37, "Text"],
+Cell[CellGroupData[{
+Cell[17357, 506, 681, 15, 36, "Input"],
+Cell[18041, 523, 467, 9, 244, "Output"]
+}, Open  ]],
+Cell[18523, 535, 195, 4, 37, "Text"],
+Cell[18721, 541, 111, 1, 37, "Text"],
+Cell[CellGroupData[{
+Cell[18857, 546, 779, 18, 36, "Input"],
+Cell[19639, 566, 492, 9, 244, "Output"]
+}, Open  ]],
+Cell[20146, 578, 114, 1, 37, "Text"],
+Cell[CellGroupData[{
+Cell[20285, 583, 779, 18, 36, "Input"],
+Cell[21067, 603, 467, 9, 244, "Output"]
+}, Open  ]],
+Cell[21549, 615, 153, 3, 37, "Text"],
+Cell[CellGroupData[{
+Cell[21727, 622, 846, 21, 36, "Input"],
+Cell[22576, 645, 519, 10, 244, "Output"]
+}, Open  ]],
+Cell[23110, 658, 163, 3, 37, "Text"],
+Cell[CellGroupData[{
+Cell[23298, 665, 126, 2, 35, "Input"],
+Cell[23427, 669, 72, 1, 35, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[23536, 675, 124, 2, 35, "Input"],
+Cell[23663, 679, 74, 1, 35, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[23774, 685, 894, 20, 36, "Input"],
+Cell[24671, 707, 467, 9, 244, "Output"]
+}, Open  ]],
+Cell[25153, 719, 124, 1, 37, "Text"],
+Cell[CellGroupData[{
+Cell[25302, 724, 792, 17, 36, "Input"],
+Cell[26097, 743, 467, 9, 244, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[26601, 757, 1000, 23, 36, "Input"],
+Cell[27604, 782, 467, 9, 244, "Output"]
+}, Open  ]],
+Cell[28086, 794, 156, 3, 37, "Text"],
+Cell[CellGroupData[{
+Cell[28267, 801, 1115, 26, 36, "Input"],
+Cell[29385, 829, 1731, 37, 571, "Output"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[31177, 873, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[31266, 878, 171, 2, 80, "Section"],
+Cell[31440, 882, 386, 7, 61, "Text"],
+Cell[31829, 891, 117, 1, 37, "Text"],
+Cell[CellGroupData[{
+Cell[31971, 896, 191, 6, 35, "Input"],
+Cell[32165, 904, 1595, 43, 78, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[33797, 952, 705, 16, 36, "Input"],
+Cell[34505, 970, 469, 9, 244, "Output"]
+}, Open  ]],
+Cell[34989, 982, 244, 7, 37, "Text"],
+Cell[CellGroupData[{
+Cell[35258, 993, 461, 13, 36, "Input"],
+Cell[35722, 1008, 1595, 43, 78, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[37354, 1056, 895, 21, 36, "Input"],
+Cell[38252, 1079, 491, 9, 244, "Output"]
+}, Open  ]],
+Cell[38758, 1091, 191, 6, 37, "Text"],
+Cell[CellGroupData[{
+Cell[38974, 1101, 1215, 31, 36, "Input"],
+Cell[40192, 1134, 467, 9, 244, "Output"]
+}, Open  ]],
+Cell[40674, 1146, 155, 3, 37, "Text"],
+Cell[40832, 1151, 3297, 93, 99, "Input"],
+Cell[CellGroupData[{
+Cell[44154, 1248, 286, 6, 36, "Input"],
+Cell[44443, 1256, 840, 14, 244, "Output"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[45344, 1277, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[45433, 1282, 159, 2, 80, "Section"],
+Cell[45595, 1286, 237, 5, 37, "Text"],
+Cell[CellGroupData[{
+Cell[45857, 1295, 500, 11, 36, "Input"],
+Cell[46360, 1308, 136, 4, 240, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[46533, 1317, 500, 11, 36, "Input"],
+Cell[47036, 1330, 136, 4, 240, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[47209, 1339, 714, 16, 36, "Input"],
+Cell[47926, 1357, 171, 4, 240, "Output"]
+}, Open  ]],
+Cell[48112, 1364, 117, 1, 37, "Text"],
+Cell[CellGroupData[{
+Cell[48254, 1369, 839, 18, 36, "Input"],
+Cell[49096, 1389, 1275, 24, 244, "Output"]
+}, Open  ]],
+Cell[50386, 1416, 177, 4, 37, "Text"],
+Cell[CellGroupData[{
+Cell[50588, 1424, 555, 15, 36, "Input"],
+Cell[51146, 1441, 561, 12, 244, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[51744, 1458, 633, 17, 36, "Input"],
+Cell[52380, 1477, 575, 12, 244, "Output"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[53016, 1496, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[53105, 1501, 174, 2, 80, "Section"],
+Cell[53282, 1505, 431, 7, 61, "Text"],
+Cell[53716, 1514, 576, 17, 35, "Input"],
+Cell[54295, 1533, 1585, 42, 57, "Input"],
+Cell[CellGroupData[{
+Cell[55905, 1579, 1597, 33, 57, "Input"],
+Cell[57505, 1614, 1671, 29, 467, "Output"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[59237, 1650, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[59326, 1655, 149, 2, 80, "Section"],
+Cell[CellGroupData[{
+Cell[59500, 1661, 218, 4, 54, "Subsection"],
+Cell[59721, 1667, 96, 1, 43, "Subsubsection"],
+Cell[59820, 1670, 106, 1, 34, "Subsubsection"],
+Cell[59929, 1673, 98, 1, 34, "Subsubsection"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[60088, 1681, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[60177, 1686, 105, 1, 80, "Section"],
+Cell[60285, 1689, 273, 5, 37, "Text"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
