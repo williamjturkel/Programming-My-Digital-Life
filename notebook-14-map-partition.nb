@@ -1,0 +1,1577 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     57341,       1568]
+NotebookOptionsPosition[     50947,       1381]
+NotebookOutlinePosition[     52150,       1419]
+CellTagsIndexPosition[     52071,       1414]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ TogglerBox[2, {1->
+  OverlayBox[{
+   TagBox[GridBox[{
+      {
+       GraphicsBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBLECOU2VJahIzkCEFxAJADBL8//8/
+Qfzo0SP2GzduCF29elXs/Pnz0sgYn747d+5wA9VoArE/EB8B4uPoGJu+Fy9e
+MF+4cEENKB8AxBeB+AMQ/wXif+gYi1tBdvoB8QUg/ghV9x8XRtb7/PlzFqje
+t1D7cOrDpv/ixYvqUHuJ0ousHxpWAVA3E6UXWT80nC8S8i82/Q8ePOAgx26Y
+/uvXrwsD2UdJ8Tey/kuXLolD0wNJbofpB6YVSUr0n4ek5QHTT6n7KQ0/SuOP
+0vRDafqlRv6BxgPZ+Ret/HhHrBl4yi9QWHwiFB7Yyk+QO6B+CTxPYvmJjG/f
+vs17nozyG1f9cR6t7gBhAPeiQ4A=
+         "], {{0, 26}, {16, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{16, 26},
+        PlotRange->{{0, 16}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJzt2d9OVFcUB2DSNmkfQRFEiRQ1gCK1vW4fwT6BJu1tE9uk8fUUERE9aECC
+qLGYEmKkErWxtont2mGdcDLVOpNgZijfJB9hzp+99j6zb9b5Hb3ww7nvP+rr
+6/vxs/hz7vzPX1+8eP7St5/El28u/fTdhY/jn/6w8GlfXzlYVdWhDgyEwXT4
+HQYbBho6qQMAAOxt/Q0HWxxo0TzX3xij7juGwpFwNAyHY2EkfB6OhxPhZBgL
+42EinAqnw2SYSl+Es+HL9FWb6uvP5hj1eJNZ41TWHM85nMw5Hc85juSch3MN
+R3JNdf/UfGbtPqf6WdW6/XsDAADsV7vd/7b2vqPV2/veuuc9k6Za1Mfr3vVt
+feto9e+eVb9KL2tmz81M+n25dadZ9bU2zYXbYSmshNXwoOF+uJfn7obFcKfa
+/twMN8L1MNtBTQAAYO+ZSVfTdLqSLreoj0/n9eXe0jeUHmQ+3AoL1XZ/UfqR
+5Wq77yg9yMPwS3gcfg0b4Ul4Gn4LW+F5eBl+D6/CH+F1+DP99Q71+dd5z6sc
+42WOuZU1nmbNjZzD45zTw5zjSs55KdewkGuazzXONp5Xu8+pflb185rpgd8d
+AABgv/kQ/W/J4krGVvrIkruVDO5RWAvr1U7fuxmeVTt9b/Ei1d+38prNaqdv
+Xc+xHuXY97LWYtbWr9Jryj4sGXPJmkvmXD7l/UrZsyWTLu9dyj4u72Ca2fVq
+nivvY8renuug5ps2/b2L2q0JAADwX3azT/kQuv18AAAA2Pv0rOxn3djz3X6f
+BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAADsHW/a1I2aAAAAAAAAsJ91OyOEburGnr/W
+prlwOyyFlbAaHjTcD/fy3N2wGO5U25+b4Ua4HmY7qAkAAAAAAAC9aCZdTdPp
+Srrcoj4+ndeXe0tuVjK4+XCr2s7iSsa2XG3nbiWDexTWwnrYCE/CZngWtsLz
+9CLV37fyms28ZyPHWMsxH2SN5ax5O+cwn3Oabayv3XXVa6vXN9MDvxN7W9mH
+JWMuWXPJnMunZNBlz5ZMumTTZR+XrLqZXa/muZJtl70910HNQx0YCIPp8DsM
+Ngw0dFIHAAAAAAAAel1/w8EWB1o0z/U3xqhzt6FwNAyHY2EkjIYT4WQYC+Nh
+IpwOk+FMmmpRH5/Mayfy3rEc60SOPZK1hrP2ULWT9zXX2O666rXVuv378P/S
+zJ6bmfT7cuuOsup/AFmW9vs=
+         "], {{0, 26}, {2000, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{2000, 26},
+        PlotRange->{{0, 2000}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJy9lstOwkAUhhthQUJcuUBl5cr4GPoABvEJINGtCZoYng4Il4Z7gXAJYUHY
+QAi3GlYQPZ5/4pCm0pYC2uSDaXvmn5lzzpzpVfQl/HyiKMqrj3/CkffbWCwS
+f/TyzV387Snq4cYlc87gYbVaDbpB07SLRqMR6Pf7PiJSnOA+6h7kmBBz0+12
+Tx30v/bgk9GZOvPAa7oejUYeC306AIz1wWjM/WAw8B9ZX4L1TDHGcDj02ulX
+KpUNbt79jKHBV1b66Fcul3fCYgzEJNTr9fxmfaldKpWoUChQPp8X/8ViUWB8
+BhuLMRCPGvJqmz76QWOxWFCtVqNsNku5XE6AdqfToclkImxga7cGuT/M+uw/
+ms/ntF6vqdlsUjKZFKCNC/pynTZxyLbb7bNt/sHcMpkMzWYzoVev1wW4xuOx
+WAdsbGIAH6ncJ7BNH/6FRjqdJl3XSV7T6VSsA76CDWxt9oSKOmLOH/RBLKEP
+LVVVN/qJRGKjDxsnfSZoN3/4CPNfrVa/5n+IvtH/iDHu9/G/2T/G/JT5A41U
+KiXm3Wq1xBhcx5zy0zK+Mj+Xy6XIf5n7EuQ/9sYh+Wneqy73r+3+2rX2OPh+
+a31wqpHG5xbatvXtCDjW5wO1Z9UdzheXyPMRPrc6H49yvpvn/Y/fJ3/6ffUN
+AyH/6w==
+         "], {{0, 26}, {24, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{24, 26},
+        PlotRange->{{0, 24}, {0, 26}}]}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {Automatic, 
+         Scaled[0.6], Automatic}},
+     GridBoxSpacings->{"Columns" -> {{0}}, "Rows" -> {{0}}}],
+    "Grid"], 
+   PaneBox[
+    StyleBox[
+     RowBox[{
+     "Background", " ", "images", " ", "and", " ", "text", " ", "colors", " ",
+       "have", " ", "been", " ", "adjusted", " ", "for", " ", "editing", " ", 
+      
+      RowBox[{"purposes", "."}]}],
+     LineBreakWithin->False,
+     FontFamily->"Helvetica",
+     FontSize->12,
+     FontColor->GrayLevel[0.4]],
+    Alignment->Center,
+    ImageSize->Scaled[0.5],
+    ScrollPosition->{0., 0.}]},
+   Alignment->{Center, Center}], 2->""}, "1"]], "SlideShowNavigationBar", \
+"FirstSlide",
+ CellMargins->{{0, 0}, {0, 0}},
+ CellFrameLabelMargins->2,
+ CellSize->{Inherited, 30},
+ CellChangeTimes->{3.647361175465108*^9},
+ TextAlignment->Center,
+ CellTags->"SlideShowHeader"],
+
+Cell["\<\
+Notebook 14:
+Map and Partition\
+\>", "Title",
+ CellChangeTimes->{
+  3.559948400406288*^9, {3.647331852839075*^9, 3.647331861295168*^9}, {
+   3.647331922221755*^9, 3.647331924532915*^9}, {3.647332658962614*^9, 
+   3.64733266480881*^9}, {3.6473611327373047`*^9, 3.647361139759391*^9}, {
+   3.647448943135475*^9, 3.6474489472294493`*^9}, {3.658337416821965*^9, 
+   3.65833742904038*^9}, {3.658337677781981*^9, 3.658337703010659*^9}, {
+   3.664867683155233*^9, 3.664867689737268*^9}}],
+
+Cell[TextData[{
+ "William J Turkel, ",
+ StyleBox["wturkel@uwo.ca",
+  FontSlant->"Italic",
+  FontColor->RGBColor[
+   0.396078431372549, 0.596078431372549, 0.796078431372549]],
+ "\nDigital Humanities 1011B"
+}], "Subtitle",
+ CellChangeTimes->{{3.647331955723979*^9, 3.6473319708190517`*^9}, 
+   3.647332103720562*^9, {3.6583374336085033`*^9, 3.658337439311952*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Tables of Coordinates", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.664867703450053*^9, 3.664867706000613*^9}}],
+
+Cell[TextData[{
+ "Often when we have wanted to repeate a visual element, \
+we\[CloseCurlyQuote]ve used the ",
+ StyleBox["Table",
+  FontWeight->"Bold"],
+ " command to generate coordinates. We can visualize these with ",
+ StyleBox["Point",
+  FontWeight->"Bold"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.664867731439513*^9, 3.664867797397396*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"horizontalPoints", "=", 
+   RowBox[{"Table", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"x", ",", "0"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"x", ",", "1", ",", "50", ",", "4"}], "}"}]}], "]"}]}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.664867876835162*^9, 3.664867906880868*^9}, {
+  3.6648680411330423`*^9, 3.664868041757127*^9}, {3.664870484917947*^9, 
+  3.664870508949085*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"PointSize", "[", "Medium", "]"}], ",", "Orange", ",", 
+    RowBox[{"Point", "[", "horizontalPoints", "]"}]}], "}"}], "]"}]], "Input",\
+
+ CellChangeTimes->{{3.664867908946906*^9, 3.6648679459757147`*^9}, {
+  3.664868045132752*^9, 3.664868045987821*^9}, {3.664868084531127*^9, 
+  3.664868085362121*^9}, {3.664868580351713*^9, 3.664868580806972*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"zigZagPoints", "=", 
+   RowBox[{"Table", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"x", ",", 
+       RowBox[{"If", "[", 
+        RowBox[{
+         RowBox[{"EvenQ", "[", "x", "]"}], ",", "1", ",", 
+         RowBox[{"-", "1"}]}], "]"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"x", ",", "50"}], "}"}]}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.664867953202106*^9, 3.6648679611908817`*^9}, {
+  3.664868005728643*^9, 3.664868012260747*^9}, {3.664868069147946*^9, 
+  3.6648680697388563`*^9}, {3.6648705624828367`*^9, 3.66487057331332*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"PointSize", "[", "Medium", "]"}], ",", "Purple", ",", 
+    RowBox[{"Point", "[", "zigZagPoints", "]"}]}], "}"}], "]"}]], "Input",
+ CellChangeTimes->{{3.664867908946906*^9, 3.6648679459757147`*^9}, {
+  3.664868027420391*^9, 3.6648680328522787`*^9}, {3.664868073666834*^9, 
+  3.664868089025983*^9}, {3.66486857720795*^9, 3.664868578022983*^9}}],
+
+Cell[TextData[{
+ "We haven\[CloseCurlyQuote]t done this yet, but it is also possible to \
+generate curves by putting an equation inside the ",
+ StyleBox["Table",
+  FontWeight->"Bold"],
+ " command. Here is how to create circles and spirals of points. If you haven\
+\[CloseCurlyQuote]t studied Trigonometry, don\[CloseCurlyQuote]t worry too \
+much about the formulas. We just want to use them to get some interesting \
+coordinates."
+}], "Text",
+ CellChangeTimes->{{3.664868133888589*^9, 3.664868144847658*^9}, {
+  3.664868176431141*^9, 3.6648682212525473`*^9}, {3.664868342640641*^9, 
+  3.664868379550857*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"circlePoints", "=", 
+   RowBox[{"Table", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"10", 
+        RowBox[{"Sin", "[", "theta", "]"}]}], ",", 
+       RowBox[{"10", 
+        RowBox[{"Cos", "[", "theta", "]"}]}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"theta", ",", "0", ",", 
+       RowBox[{"360", " ", "Degree"}], ",", 
+       RowBox[{"4", " ", "Degree"}]}], "}"}]}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.664868232360194*^9, 3.6648682470634327`*^9}, {
+  3.664868277699224*^9, 3.664868298889935*^9}, {3.6648706001375027`*^9, 
+  3.66487060276827*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"PointSize", "[", "Medium", "]"}], ",", "Orange", ",", 
+    RowBox[{"Point", "[", "circlePoints", "]"}]}], "}"}], "]"}]], "Input",
+ CellChangeTimes->{{3.664867908946906*^9, 3.6648679459757147`*^9}, {
+  3.664868027420391*^9, 3.6648680328522787`*^9}, {3.664868073666834*^9, 
+  3.664868089025983*^9}, {3.6648683069622583`*^9, 3.664868309887141*^9}, {
+  3.664868551872967*^9, 3.664868552431988*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"spiralPoints", "=", 
+   RowBox[{"Table", "[", 
+    RowBox[{
+     RowBox[{"{", " ", 
+      RowBox[{
+       RowBox[{"2", 
+        SuperscriptBox[
+         RowBox[{"(", "1.2", ")"}], "theta"], 
+        RowBox[{"Cos", "[", "theta", "]"}]}], ",", 
+       RowBox[{"2", 
+        SuperscriptBox[
+         RowBox[{"(", "1.2", ")"}], "theta"], 
+        RowBox[{"Sin", "[", "theta", "]"}]}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"theta", ",", "0", ",", 
+       RowBox[{"720", " ", "Degree"}], ",", 
+       RowBox[{"8", " ", "Degree"}]}], "}"}]}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.664868436671604*^9, 3.664868448783778*^9}, {
+  3.6648685034616632`*^9, 3.664868507770608*^9}, {3.66487019971385*^9, 
+  3.664870304268968*^9}, {3.664870361978772*^9, 3.6648704060716057`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"PointSize", "[", "Medium", "]"}], ",", "Purple", ",", 
+    RowBox[{"Point", "[", "spiralPoints", "]"}]}], "}"}], "]"}]], "Input",
+ CellChangeTimes->{{3.664867908946906*^9, 3.6648679459757147`*^9}, {
+  3.664868027420391*^9, 3.6648680328522787`*^9}, {3.664868073666834*^9, 
+  3.664868089025983*^9}, {3.6648683069622583`*^9, 3.664868309887141*^9}, {
+  3.6648685577607183`*^9, 3.664868564079576*^9}}],
+
+Cell[TextData[{
+ "Note that in each case we are generating lists of coordinate pairs. Here \
+are the first 5 coordinate pairs in ",
+ StyleBox["spiralPoints",
+  FontSlant->"Italic"]
+}], "Text",
+ CellChangeTimes->{{3.6648695471056147`*^9, 3.664869573831933*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Take", "[", 
+  RowBox[{"spiralPoints", ",", "5"}], "]"}]], "Input",
+ CellChangeTimes->{{3.6648695791830587`*^9, 3.664869582447713*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["The Map command", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.664869606400388*^9, 3.664869608486309*^9}}],
+
+Cell[TextData[{
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " has a number of very powerful commands for writing code in a style known \
+as ",
+ StyleBox["functional programming",
+  FontSlant->"Italic"],
+ ". One of these is ",
+ StyleBox["Map",
+  FontWeight->"Bold"],
+ ". It allows you to apply a function to each member of a list."
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.6648696116463223`*^9, 3.664869689523629*^9}}],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["Framed",
+  FontWeight->"Bold"],
+ " command draws a box around a ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " expression."
+}], "Text",
+ CellChangeTimes->{{3.664869693371073*^9, 3.664869700898992*^9}, {
+  3.664869764392405*^9, 3.66486976789647*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Framed", "[", "a", "]"}]], "Input",
+ CellChangeTimes->{{3.664869704755043*^9, 3.664869707403687*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Framed", "[", 
+  RowBox[{"{", 
+   RowBox[{"a", ",", "b", ",", "c"}], "}"}], "]"}]], "Input",
+ CellChangeTimes->{{3.664869709653281*^9, 3.6648697200271053`*^9}}],
+
+Cell[TextData[{
+ "If we want to draw a box around each element in a list, we can use ",
+ StyleBox["Map",
+  FontWeight->"Bold"],
+ " as follows"
+}], "Text",
+ CellChangeTimes->{{3.664869726177801*^9, 3.664869736697709*^9}, {
+  3.664869775215899*^9, 3.6648697814976673`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Map", "[", 
+  RowBox[{"Framed", ",", 
+   RowBox[{"{", 
+    RowBox[{"a", ",", "b", ",", "c"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.664869785528152*^9, 3.6648697919996767`*^9}}],
+
+Cell[TextData[{
+ "Now suppose we have a function for drawing a UFO with relative coordinates. \
+Note that we have defined this function to take a ",
+ StyleBox["single argument",
+  FontSlant->"Italic"],
+ ", a list, which contains two elements, the x- and y-coordinates. Definining \
+our functions so they take a single argument will make them easier to use \
+with ",
+ StyleBox["Map",
+  FontWeight->"Bold"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.664869802638879*^9, 3.6648698368065653`*^9}, {
+  3.664869898732012*^9, 3.6648699790721693`*^9}, {3.664870134971015*^9, 
+  3.6648701460915833`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"drawUFO", "[", 
+   RowBox[{"{", 
+    RowBox[{"x_", ",", "y_"}], "}"}], "]"}], ":=", "\[IndentingNewLine]", 
+  RowBox[{"{", 
+   RowBox[{"Orange", ",", 
+    RowBox[{"Disk", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"x", ",", "y"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"3", ",", "1"}], "}"}]}], "]"}], ",", "LightOrange", ",", 
+    RowBox[{"Disk", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"x", ",", 
+        RowBox[{"y", "+", 
+         RowBox[{"1", "/", "2"}]}]}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"3", "/", "2"}], ",", "1"}], "}"}]}], "]"}]}], 
+   "}"}]}]], "Input",
+ CellChangeTimes->{{3.658345349365903*^9, 3.658345443625517*^9}, {
+  3.658345608050774*^9, 3.658345612121172*^9}, {3.658345715190041*^9, 
+  3.658345746426568*^9}, {3.658346349678823*^9, 3.658346351813287*^9}}],
+
+Cell["\<\
+We can draw a copy of our UFO at each point in the spiralPoints list by \
+mapping the drawing function across the list\
+\>", "Text",
+ CellChangeTimes->{{3.664869987431662*^9, 3.6648699904397993`*^9}, {
+  3.664870322676207*^9, 3.664870347306007*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"Map", "[", 
+   RowBox[{"drawUFO", ",", "spiralPoints"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.664870003464912*^9, 3.664870068629889*^9}, 
+   3.6648702197917643`*^9}],
+
+Cell["\<\
+The same technique works for each of our other lists of points\
+\>", "Text",
+ CellChangeTimes->{{3.6648704454311523`*^9, 3.664870459341674*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"Map", "[", 
+   RowBox[{"drawUFO", ",", "horizontalPoints"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.664870003464912*^9, 3.664870068629889*^9}, 
+   3.6648702197917643`*^9, {3.664870499900835*^9, 3.664870500497775*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"Map", "[", 
+   RowBox[{"drawUFO", ",", "zigZagPoints"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.664870003464912*^9, 3.664870068629889*^9}, 
+   3.6648702197917643`*^9, {3.664870499900835*^9, 3.664870500497775*^9}, {
+   3.664870535139434*^9, 3.6648705360249233`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"Map", "[", 
+   RowBox[{"drawUFO", ",", "circlePoints"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.664870003464912*^9, 3.664870068629889*^9}, 
+   3.6648702197917643`*^9, {3.664870499900835*^9, 3.664870500497775*^9}, {
+   3.664870535139434*^9, 3.6648705360249233`*^9}, {3.664870587649292*^9, 
+   3.664870590846417*^9}}],
+
+Cell[TextData[{
+ "Once you get used to thinking in terms of ",
+ StyleBox["Map",
+  FontWeight->"Bold"],
+ ", you can do all kinds of things with it. Suppose you have a function that \
+draws a green ellipse with random rotation..."
+}], "Text",
+ CellChangeTimes->{{3.664870675581593*^9, 3.664870722875433*^9}, {
+  3.6648708221192636`*^9, 3.664870822255591*^9}, {3.66487089142137*^9, 
+  3.664870892164879*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"drawRandomlyRotatedEllipse", "[", 
+   RowBox[{"{", 
+    RowBox[{"x_", ",", "y_"}], "}"}], "]"}], ":=", "\[IndentingNewLine]", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"Darker", "[", "Green", "]"}], ",", 
+    RowBox[{"Opacity", "[", ".5", "]"}], ",", 
+    RowBox[{"Rotate", "[", 
+     RowBox[{
+      RowBox[{"Disk", "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"x", ",", "y"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"3", ",", "1"}], "}"}]}], "]"}], ",", 
+      RowBox[{
+       RowBox[{"RandomInteger", "[", "360", "]"}], "Degree"}]}], "]"}]}], 
+   "}"}]}]], "Input",
+ CellChangeTimes->{{3.664870727691921*^9, 3.6648707984090233`*^9}, {
+  3.664870877990814*^9, 3.664870881485497*^9}}],
+
+Cell["... you can map that across any list of coordinates.", "Text",
+ CellChangeTimes->{{3.664870804064736*^9, 3.6648708188557053`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"Map", "[", 
+   RowBox[{"drawRandomlyRotatedEllipse", ",", "zigZagPoints"}], "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.6648708384416313`*^9, 3.6648708697261257`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"Map", "[", 
+   RowBox[{"drawRandomlyRotatedEllipse", ",", "circlePoints"}], "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.6648708384416313`*^9, 3.6648708697261257`*^9}, {
+  3.6648709043571463`*^9, 3.664870905020466*^9}}],
+
+Cell[TextData[{
+ "Here we just draw a ",
+ StyleBox["Circle",
+  FontWeight->"Bold"],
+ " with a radius of 1 unit at each point in the ",
+ StyleBox["circlePoints",
+  FontSlant->"Italic"],
+ " list."
+}], "Text",
+ CellChangeTimes->{{3.664872496526928*^9, 3.664872515941983*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"{", 
+   RowBox[{"Red", ",", 
+    RowBox[{"Map", "[", 
+     RowBox[{"Circle", ",", "circlePoints"}], "]"}]}], "}"}], "]"}]], "Input",\
+
+ CellChangeTimes->{{3.664870003464912*^9, 3.664870068629889*^9}, 
+   3.6648702197917643`*^9, {3.664870499900835*^9, 3.664870500497775*^9}, {
+   3.664870535139434*^9, 3.6648705360249233`*^9}, {3.664870587649292*^9, 
+   3.664870590846417*^9}, {3.66487248279187*^9, 3.664872491103504*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Partitioning lists", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.66487094815532*^9, 3.664870951098489*^9}}],
+
+Cell[TextData[{
+ "The drawing functions that we have been using take a single pair as an \
+argument, so we can ",
+ StyleBox["Map",
+  FontWeight->"Bold"],
+ " them over ",
+ StyleBox["flat",
+  FontSlant->"Italic"],
+ " lists of coordinate pairs. Look again at the structure of the ",
+ StyleBox["horizontalPoints",
+  FontSlant->"Italic"],
+ " list:"
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.664870954154159*^9, 3.664871085333596*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Take", "[", 
+  RowBox[{"horizontalPoints", ",", "5"}], "]"}]], "Input",
+ CellChangeTimes->{{3.6648710350525827`*^9, 3.664871043358989*^9}}],
+
+Cell[TextData[{
+ "What if we wanted to use a drawing command like ",
+ StyleBox["Line",
+  FontWeight->"Bold"],
+ "? At the least, ",
+ StyleBox["Line",
+  FontWeight->"Bold"],
+ " requires a list containing two pairs of coordinates, the beginning point \
+and the ending point."
+}], "Text",
+ CellChangeTimes->{{3.66487109871623*^9, 3.664871163546358*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"Line", "[", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"1", ",", "1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"3", ",", "2"}], "}"}]}], "}"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.664871166366097*^9, 3.6648711864736423`*^9}}],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["Partition",
+  FontWeight->"Bold"],
+ " command takes a list and partitions it into sublists. These sublists may \
+or may not be overlapping. "
+}], "Text",
+ CellChangeTimes->{{3.6648712022489443`*^9, 3.664871210064518*^9}, {
+  3.66487124316877*^9, 3.664871275142111*^9}}],
+
+Cell["\<\
+Here we ask for nonoverlapping sublists of length 2. Note that the last \
+element in our list is dropped.\
+\>", "Text",
+ CellChangeTimes->{{3.66487129374095*^9, 3.66487131893229*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Partition", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"a", ",", "b", ",", "c", ",", "d", ",", "e", ",", "f", ",", "g"}],
+     "}"}], ",", "2"}], "]"}]], "Input",
+ CellChangeTimes->{{3.664871278617176*^9, 3.6648712899895563`*^9}, {
+  3.6648713553470783`*^9, 3.6648713559070272`*^9}}],
+
+Cell["\<\
+Here we ask for nonoverlapping sublists of length 3. Note that the last \
+element in our list is dropped again.\
+\>", "Text",
+ CellChangeTimes->{{3.66487129374095*^9, 3.66487131893229*^9}, {
+  3.664871455663745*^9, 3.664871468150462*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Partition", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"a", ",", "b", ",", "c", ",", "d", ",", "e", ",", "f", ",", "g"}],
+     "}"}], ",", "3"}], "]"}]], "Input",
+ CellChangeTimes->{{3.664871278617176*^9, 3.6648712899895563`*^9}, {
+   3.6648713553470783`*^9, 3.6648713559070272`*^9}, 3.6648714585188227`*^9}],
+
+Cell["\<\
+Here we ask for sublists of length 2 that have an offset of 1.\
+\>", "Text",
+ CellChangeTimes->{{3.664871323627668*^9, 3.66487133641921*^9}, {
+  3.6648714111284018`*^9, 3.664871413288661*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Partition", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"a", ",", "b", ",", "c", ",", "d", ",", "e", ",", "f", ",", "g"}],
+     "}"}], ",", "2", ",", "1"}], "]"}]], "Input",
+ CellChangeTimes->{{3.664871278617176*^9, 3.6648712899895563`*^9}, {
+  3.664871343803946*^9, 3.6648713608830357`*^9}}],
+
+Cell["\<\
+Here we ask for sublists of length 3 that have an offset of 1.\
+\>", "Text",
+ CellChangeTimes->{{3.664871323627668*^9, 3.66487133641921*^9}, 
+   3.664871370266967*^9, {3.664871416976243*^9, 3.664871420536381*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Partition", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"a", ",", "b", ",", "c", ",", "d", ",", "e", ",", "f", ",", "g"}],
+     "}"}], ",", "3", ",", "1"}], "]"}]], "Input",
+ CellChangeTimes->{{3.664871278617176*^9, 3.6648712899895563`*^9}, {
+  3.664871343803946*^9, 3.6648713734274817`*^9}}],
+
+Cell["\<\
+Here we ask for sublists of length 3 that have an offset of 2.\
+\>", "Text",
+ CellChangeTimes->{{3.664871323627668*^9, 3.66487133641921*^9}, {
+  3.664871370266967*^9, 3.664871383610553*^9}, {3.6648714247037992`*^9, 
+  3.664871426999992*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Partition", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"a", ",", "b", ",", "c", ",", "d", ",", "e", ",", "f", ",", "g"}],
+     "}"}], ",", "3", ",", "2"}], "]"}]], "Input",
+ CellChangeTimes->{{3.664871278617176*^9, 3.6648712899895563`*^9}, {
+  3.664871343803946*^9, 3.6648713872176113`*^9}}],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["Partition",
+  FontWeight->"Bold"],
+ " command allows us to create sublists of our lists of coordinate pairs. We \
+can then ",
+ StyleBox["Map",
+  FontWeight->"Bold"],
+ " drawing functions over the resulting list."
+}], "Text",
+ CellChangeTimes->{{3.664871483382172*^9, 3.664871540051723*^9}}],
+
+Cell[TextData[{
+ "Here are the first four elements of ",
+ StyleBox["zigZagPoints",
+  FontSlant->"Italic"]
+}], "Text",
+ CellChangeTimes->{{3.66487155244256*^9, 3.664871619944744*^9}, {
+  3.664871718429398*^9, 3.664871748259534*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Take", "[", 
+  RowBox[{"zigZagPoints", ",", "4"}], "]"}]], "Input",
+ CellChangeTimes->{{3.66487157556428*^9, 3.664871607616549*^9}, 
+   3.664871729884171*^9}],
+
+Cell[TextData[{
+ "Here we partition ",
+ StyleBox["zigZagPoints",
+  FontSlant->"Italic"],
+ " into sublists of two pairs, with an offset of 1, then look at the first \
+three elements"
+}], "Text",
+ CellChangeTimes->{{3.664871586873459*^9, 3.6648716420396357`*^9}, {
+  3.664871685549713*^9, 3.664871691301862*^9}, {3.6648717430516376`*^9, 
+  3.6648717439559393`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Take", "[", 
+  RowBox[{
+   RowBox[{"Partition", "[", 
+    RowBox[{"zigZagPoints", ",", "2", ",", "1"}], "]"}], ",", "3"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.6648716744267473`*^9, 3.6648717004855537`*^9}, 
+   3.6648717380198593`*^9}],
+
+Cell[TextData[{
+ "This partitioned list is in the correct form for us to ",
+ StyleBox["Map",
+  FontWeight->"Bold"],
+ " the ",
+ StyleBox["Line",
+  FontWeight->"Bold"],
+ " function across it"
+}], "Text",
+ CellChangeTimes->{{3.664871754722993*^9, 3.6648717751064863`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"{", 
+   RowBox[{"Thick", ",", "Purple", ",", 
+    RowBox[{"Map", "[", 
+     RowBox[{"Line", ",", 
+      RowBox[{"Partition", "[", 
+       RowBox[{"zigZagPoints", ",", "2", ",", "1"}], "]"}]}], "]"}]}], "}"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.664867908946906*^9, 3.6648679459757147`*^9}, {
+  3.664868027420391*^9, 3.6648680328522787`*^9}, {3.664868073666834*^9, 
+  3.664868089025983*^9}, {3.66486857720795*^9, 3.664868578022983*^9}, {
+  3.664871796546382*^9, 3.664871816193611*^9}}],
+
+Cell[TextData[{
+ "If we replace the ",
+ StyleBox["zigZagPoints",
+  FontSlant->"Italic"],
+ " list in the command above with the ",
+ StyleBox["spiralPoints",
+  FontSlant->"Italic"],
+ " list, we can ",
+ StyleBox["Map",
+  FontWeight->"Bold"],
+ " the ",
+ StyleBox["Line",
+  FontWeight->"Bold"],
+ " command across it, too"
+}], "Text",
+ CellChangeTimes->{{3.6648718277289267`*^9, 3.664871863791073*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"{", 
+   RowBox[{"Thick", ",", "Purple", ",", 
+    RowBox[{"Map", "[", 
+     RowBox[{"Line", ",", 
+      RowBox[{"Partition", "[", 
+       RowBox[{"spiralPoints", ",", "2", ",", "1"}], "]"}]}], "]"}]}], "}"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.664867908946906*^9, 3.6648679459757147`*^9}, {
+  3.664868027420391*^9, 3.6648680328522787`*^9}, {3.664868073666834*^9, 
+  3.664868089025983*^9}, {3.66486857720795*^9, 3.664868578022983*^9}, {
+  3.664871796546382*^9, 3.664871816193611*^9}, {3.66487187652741*^9, 
+  3.664871877126872*^9}}],
+
+Cell["\<\
+Here we superimpose the pattern of points on top of the lines we have just \
+drawn\
+\>", "Text",
+ CellChangeTimes->{{3.664872299094549*^9, 3.6648723131656923`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"{", 
+   RowBox[{"Thick", ",", "Purple", ",", 
+    RowBox[{"Map", "[", 
+     RowBox[{"Line", ",", 
+      RowBox[{"Partition", "[", 
+       RowBox[{"spiralPoints", ",", "2", ",", "1"}], "]"}]}], "]"}], ",", 
+    "Orange", ",", 
+    RowBox[{"PointSize", "[", "Large", "]"}], ",", 
+    RowBox[{"Point", "[", "spiralPoints", "]"}]}], "}"}], "]"}]], "Input",
+ CellChangeTimes->{{3.664867908946906*^9, 3.6648679459757147`*^9}, {
+  3.664868027420391*^9, 3.6648680328522787`*^9}, {3.664868073666834*^9, 
+  3.664868089025983*^9}, {3.66486857720795*^9, 3.664868578022983*^9}, {
+  3.664871796546382*^9, 3.664871816193611*^9}, {3.66487187652741*^9, 
+  3.664871877126872*^9}, {3.664872266048278*^9, 3.664872294318791*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Larger Partitions and Different Offset Values", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.6648720719047937`*^9, 3.664872075510903*^9}, {3.664872212353177*^9, 
+  3.664872217841411*^9}}],
+
+Cell["\<\
+If a drawing function requires a longer list, we just need to increase the \
+size of our partitions.\
+\>", "Text",
+ CellChangeTimes->{{3.6648721056380043`*^9, 3.6648721327726994`*^9}}],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["Triangle",
+  FontWeight->"Bold"],
+ " command needs lists of three elements, so we have to change the ",
+ StyleBox["Partition",
+  FontWeight->"Bold"],
+ " size to 3. We also change the ",
+ StyleBox["EdgeForm",
+  FontWeight->"Bold"],
+ " so we can see the edges of each triangle. Each of these triangles shares \
+two coordinate pairs with the triangle on either side."
+}], "Text",
+ CellChangeTimes->{{3.664871902805903*^9, 3.664872019744748*^9}, {
+  3.664872357555702*^9, 3.6648723990900803`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"Thick", ",", 
+     RowBox[{"EdgeForm", "[", "Orange", "]"}], ",", "Purple", ",", 
+     RowBox[{"Map", "[", 
+      RowBox[{"Triangle", ",", 
+       RowBox[{"Partition", "[", 
+        RowBox[{"zigZagPoints", ",", "3", ",", "1"}], "]"}]}], "]"}]}], "}"}],
+    ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Full"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.664867908946906*^9, 3.6648679459757147`*^9}, {
+  3.664868027420391*^9, 3.6648680328522787`*^9}, {3.664868073666834*^9, 
+  3.664868089025983*^9}, {3.66486857720795*^9, 3.664868578022983*^9}, {
+  3.664871796546382*^9, 3.664871816193611*^9}, {3.664871960956167*^9, 
+  3.664871965443726*^9}, {3.664872011202324*^9, 3.664872026880928*^9}, {
+  3.664872086830453*^9, 3.66487209271845*^9}}],
+
+Cell["\<\
+If we increase the offset for our partition, we get a different pattern of \
+triangles. These triangles each share one coordinate pair with the triangle \
+one either side.\
+\>", "Text",
+ CellChangeTimes->{{3.66487214719629*^9, 3.6648721650434237`*^9}, {
+  3.664872350669403*^9, 3.6648724103620453`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"Thick", ",", 
+     RowBox[{"EdgeForm", "[", "Orange", "]"}], ",", "Purple", ",", 
+     RowBox[{"Map", "[", 
+      RowBox[{"Triangle", ",", 
+       RowBox[{"Partition", "[", 
+        RowBox[{"zigZagPoints", ",", "3", ",", "2"}], "]"}]}], "]"}]}], "}"}],
+    ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Full"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.664867908946906*^9, 3.6648679459757147`*^9}, {
+   3.664868027420391*^9, 3.6648680328522787`*^9}, {3.664868073666834*^9, 
+   3.664868089025983*^9}, {3.66486857720795*^9, 3.664868578022983*^9}, {
+   3.664871796546382*^9, 3.664871816193611*^9}, {3.664871960956167*^9, 
+   3.664871965443726*^9}, {3.664872011202324*^9, 3.664872026880928*^9}, {
+   3.664872086830453*^9, 3.66487209271845*^9}, 3.6648721420368967`*^9}],
+
+Cell["\<\
+If we partition the list of coordinate pairs into nonoverlapping sublists, \
+the triangles don\[CloseCurlyQuote]t share any coordinate pairs with their \
+neighbours.\
+\>", "Text",
+ CellChangeTimes->{{3.664872197322233*^9, 3.664872209401641*^9}, {
+  3.664872413985506*^9, 3.6648724280494127`*^9}, {3.664872543406374*^9, 
+  3.664872557300393*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"Thick", ",", 
+     RowBox[{"EdgeForm", "[", "Orange", "]"}], ",", "Purple", ",", 
+     RowBox[{"Map", "[", 
+      RowBox[{"Triangle", ",", 
+       RowBox[{"Partition", "[", 
+        RowBox[{"zigZagPoints", ",", "3"}], "]"}]}], "]"}]}], "}"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Full"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.664867908946906*^9, 3.6648679459757147`*^9}, {
+   3.664868027420391*^9, 3.6648680328522787`*^9}, {3.664868073666834*^9, 
+   3.664868089025983*^9}, {3.66486857720795*^9, 3.664868578022983*^9}, {
+   3.664871796546382*^9, 3.664871816193611*^9}, {3.664871960956167*^9, 
+   3.664871965443726*^9}, {3.664872011202324*^9, 3.664872026880928*^9}, {
+   3.664872086830453*^9, 3.66487209271845*^9}, 3.6648721420368967`*^9, 
+   3.664872194155002*^9}],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["Polygon",
+  FontWeight->"Bold"],
+ " command needs lists of three or more coordinate pairs. Here we show \
+variations that are possible with sublists of ",
+ StyleBox["zigZagPoints",
+  FontSlant->"Italic"],
+ " that have four elements."
+}], "Text",
+ CellChangeTimes->{{3.6648725660203238`*^9, 3.664872601938895*^9}, {
+  3.6648726561689377`*^9, 3.664872698974989*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"Thick", ",", 
+     RowBox[{"EdgeForm", "[", "Blue", "]"}], ",", "LightBlue", ",", 
+     RowBox[{"Map", "[", 
+      RowBox[{"Polygon", ",", 
+       RowBox[{"Partition", "[", 
+        RowBox[{"zigZagPoints", ",", "4"}], "]"}]}], "]"}]}], "}"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Full"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.664867908946906*^9, 3.6648679459757147`*^9}, {
+  3.664868027420391*^9, 3.6648680328522787`*^9}, {3.664868073666834*^9, 
+  3.664868089025983*^9}, {3.66486857720795*^9, 3.664868578022983*^9}, {
+  3.664871796546382*^9, 3.664871816193611*^9}, {3.664871960956167*^9, 
+  3.664871965443726*^9}, {3.664872011202324*^9, 3.664872026880928*^9}, {
+  3.664872086830453*^9, 3.66487209271845*^9}, {3.6648727137991667`*^9, 
+  3.664872734549778*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"Thick", ",", 
+     RowBox[{"EdgeForm", "[", "Blue", "]"}], ",", "LightBlue", ",", 
+     RowBox[{"Map", "[", 
+      RowBox[{"Polygon", ",", 
+       RowBox[{"Partition", "[", 
+        RowBox[{"zigZagPoints", ",", "4", ",", "1"}], "]"}]}], "]"}]}], "}"}],
+    ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Full"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.664867908946906*^9, 3.6648679459757147`*^9}, {
+  3.664868027420391*^9, 3.6648680328522787`*^9}, {3.664868073666834*^9, 
+  3.664868089025983*^9}, {3.66486857720795*^9, 3.664868578022983*^9}, {
+  3.664871796546382*^9, 3.664871816193611*^9}, {3.664871960956167*^9, 
+  3.664871965443726*^9}, {3.664872011202324*^9, 3.664872026880928*^9}, {
+  3.664872086830453*^9, 3.66487209271845*^9}, {3.6648727137991667`*^9, 
+  3.66487275812484*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"Blue", ",", 
+     RowBox[{"Opacity", "[", ".3", "]"}], ",", 
+     RowBox[{"Map", "[", 
+      RowBox[{"Polygon", ",", 
+       RowBox[{"Partition", "[", 
+        RowBox[{"zigZagPoints", ",", "4", ",", "1"}], "]"}]}], "]"}]}], "}"}],
+    ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Full"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.664867908946906*^9, 3.6648679459757147`*^9}, {
+  3.664868027420391*^9, 3.6648680328522787`*^9}, {3.664868073666834*^9, 
+  3.664868089025983*^9}, {3.66486857720795*^9, 3.664868578022983*^9}, {
+  3.664871796546382*^9, 3.664871816193611*^9}, {3.664871960956167*^9, 
+  3.664871965443726*^9}, {3.664872011202324*^9, 3.664872026880928*^9}, {
+  3.664872086830453*^9, 3.66487209271845*^9}, {3.6648727137991667`*^9, 
+  3.66487275812484*^9}, {3.664874086658559*^9, 3.664874115553587*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"Thick", ",", 
+     RowBox[{"EdgeForm", "[", "Blue", "]"}], ",", "LightBlue", ",", 
+     RowBox[{"Map", "[", 
+      RowBox[{"Polygon", ",", 
+       RowBox[{"Partition", "[", 
+        RowBox[{"zigZagPoints", ",", "4", ",", "2"}], "]"}]}], "]"}]}], "}"}],
+    ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Full"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.664867908946906*^9, 3.6648679459757147`*^9}, {
+  3.664868027420391*^9, 3.6648680328522787`*^9}, {3.664868073666834*^9, 
+  3.664868089025983*^9}, {3.66486857720795*^9, 3.664868578022983*^9}, {
+  3.664871796546382*^9, 3.664871816193611*^9}, {3.664871960956167*^9, 
+  3.664871965443726*^9}, {3.664872011202324*^9, 3.664872026880928*^9}, {
+  3.664872086830453*^9, 3.66487209271845*^9}, {3.6648727137991667`*^9, 
+  3.664872734549778*^9}, {3.664872766036907*^9, 3.664872766092473*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"Thick", ",", 
+     RowBox[{"EdgeForm", "[", "Blue", "]"}], ",", "LightBlue", ",", 
+     RowBox[{"Map", "[", 
+      RowBox[{"Polygon", ",", 
+       RowBox[{"Partition", "[", 
+        RowBox[{"zigZagPoints", ",", "4", ",", "3"}], "]"}]}], "]"}]}], "}"}],
+    ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Full"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.664867908946906*^9, 3.6648679459757147`*^9}, {
+  3.664868027420391*^9, 3.6648680328522787`*^9}, {3.664868073666834*^9, 
+  3.664868089025983*^9}, {3.66486857720795*^9, 3.664868578022983*^9}, {
+  3.664871796546382*^9, 3.664871816193611*^9}, {3.664871960956167*^9, 
+  3.664871965443726*^9}, {3.664872011202324*^9, 3.664872026880928*^9}, {
+  3.664872086830453*^9, 3.66487209271845*^9}, {3.6648727137991667`*^9, 
+  3.664872734549778*^9}, {3.664872774548546*^9, 3.664872774612205*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Randomizing the Order of Coordinate Pairs", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.6648728442826014`*^9, 3.664872854545121*^9}}],
+
+Cell["\<\
+In the examples above, we see regular patterns because the coordinate pairs \
+are generated systematically and listed in order. If we randomize the order \
+of a list of such coordinates, we can generate many interesting results.\
+\>", "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.664872880297039*^9, 3.6648729830122557`*^9}}],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["RandomSample",
+  FontWeight->"Bold"],
+ " command shuffles a list into random order."
+}], "Text",
+ CellChangeTimes->{{3.664872987383646*^9, 3.6648729892759323`*^9}, {
+  3.66487302012323*^9, 3.6648730353635883`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Range", "[", "10", "]"}]], "Input",
+ CellChangeTimes->{{3.66487299891523*^9, 3.664873000539422*^9}}],
+
+Cell[BoxData[
+ RowBox[{"RandomSample", "[", 
+  RowBox[{"Range", "[", "10", "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.664872991005569*^9, 3.664873017378964*^9}}],
+
+Cell["\<\
+Here we randomize the order of our various coordinate pair lists before \
+drawing lines\
+\>", "Text",
+ CellChangeTimes->{{3.664873114935248*^9, 3.664873140470083*^9}, {
+  3.664873170916552*^9, 3.664873179444201*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"Thick", ",", "Purple", ",", "Dotted", ",", 
+     RowBox[{"Map", "[", 
+      RowBox[{"Line", ",", 
+       RowBox[{"Partition", "[", 
+        RowBox[{
+         RowBox[{"RandomSample", "[", "zigZagPoints", "]"}], ",", "2", ",", 
+         "1"}], "]"}]}], "]"}]}], "}"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Full"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.664867908946906*^9, 3.6648679459757147`*^9}, {
+  3.664868027420391*^9, 3.6648680328522787`*^9}, {3.664868073666834*^9, 
+  3.664868089025983*^9}, {3.66486857720795*^9, 3.664868578022983*^9}, {
+  3.664871796546382*^9, 3.664871816193611*^9}, {3.6648730628177223`*^9, 
+  3.66487310211318*^9}, {3.664874140801119*^9, 3.664874153047473*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"Dashed", ",", "Red", ",", 
+     RowBox[{"Map", "[", 
+      RowBox[{"Line", ",", 
+       RowBox[{"Partition", "[", 
+        RowBox[{
+         RowBox[{"RandomSample", "[", "circlePoints", "]"}], ",", "2", ",", 
+         "1"}], "]"}]}], "]"}]}], "}"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Medium"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.664867908946906*^9, 3.6648679459757147`*^9}, {
+  3.664868027420391*^9, 3.6648680328522787`*^9}, {3.664868073666834*^9, 
+  3.664868089025983*^9}, {3.66486857720795*^9, 3.664868578022983*^9}, {
+  3.664871796546382*^9, 3.664871816193611*^9}, {3.6648730628177223`*^9, 
+  3.66487310211318*^9}, {3.664873192572791*^9, 3.664873206731823*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"Thickness", "[", ".05", "]"}], ",", 
+     RowBox[{"Opacity", "[", ".08", "]"}], ",", 
+     RowBox[{"CapForm", "[", "\"\<Round\>\"", "]"}], ",", 
+     RowBox[{"Darker", "[", "Gray", "]"}], ",", 
+     RowBox[{"Map", "[", 
+      RowBox[{"Line", ",", 
+       RowBox[{"Partition", "[", 
+        RowBox[{
+         RowBox[{"RandomSample", "[", "spiralPoints", "]"}], ",", "2", ",", 
+         "1"}], "]"}]}], "]"}]}], "}"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Medium"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.664867908946906*^9, 3.6648679459757147`*^9}, {
+  3.664868027420391*^9, 3.6648680328522787`*^9}, {3.664868073666834*^9, 
+  3.664868089025983*^9}, {3.66486857720795*^9, 3.664868578022983*^9}, {
+  3.664871796546382*^9, 3.664871816193611*^9}, {3.6648730628177223`*^9, 
+  3.66487310211318*^9}, {3.664873192572791*^9, 3.664873272202022*^9}, {
+  3.6648733042653227`*^9, 3.664873407809227*^9}}],
+
+Cell["\<\
+Here are some triangles drawn with randomized coordinate pair lists\
+\>", "Text",
+ CellChangeTimes->{{3.664873452730098*^9, 3.6648734771210737`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"Opacity", "[", ".1", "]"}], ",", 
+     RowBox[{"EdgeForm", "[", "White", "]"}], ",", "Purple", ",", 
+     RowBox[{"Map", "[", 
+      RowBox[{"Triangle", ",", 
+       RowBox[{"Partition", "[", 
+        RowBox[{
+         RowBox[{"RandomSample", "[", "zigZagPoints", "]"}], ",", "3"}], 
+        "]"}]}], "]"}]}], "}"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Full"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.664867908946906*^9, 3.6648679459757147`*^9}, {
+  3.664868027420391*^9, 3.6648680328522787`*^9}, {3.664868073666834*^9, 
+  3.664868089025983*^9}, {3.66486857720795*^9, 3.664868578022983*^9}, {
+  3.664871796546382*^9, 3.664871816193611*^9}, {3.6648730628177223`*^9, 
+  3.66487310211318*^9}, {3.664873793773665*^9, 3.6648738177727947`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"Opacity", "[", ".2", "]"}], ",", 
+     RowBox[{"EdgeForm", "[", "White", "]"}], ",", "Purple", ",", 
+     RowBox[{"Map", "[", 
+      RowBox[{"Triangle", ",", 
+       RowBox[{"Partition", "[", 
+        RowBox[{
+         RowBox[{"RandomSample", "[", "zigZagPoints", "]"}], ",", "3", ",", 
+         "1"}], "]"}]}], "]"}]}], "}"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Full"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.664867908946906*^9, 3.6648679459757147`*^9}, {
+  3.664868027420391*^9, 3.6648680328522787`*^9}, {3.664868073666834*^9, 
+  3.664868089025983*^9}, {3.66486857720795*^9, 3.664868578022983*^9}, {
+  3.664871796546382*^9, 3.664871816193611*^9}, {3.6648730628177223`*^9, 
+  3.66487310211318*^9}, {3.664873793773665*^9, 3.664873883890695*^9}, {
+  3.664873947395105*^9, 3.664873962999422*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"Opacity", "[", ".7", "]"}], ",", 
+     RowBox[{"EdgeForm", "[", "White", "]"}], ",", "Purple", ",", 
+     RowBox[{"Map", "[", 
+      RowBox[{"Triangle", ",", 
+       RowBox[{"Partition", "[", 
+        RowBox[{
+         RowBox[{"RandomSample", "[", "zigZagPoints", "]"}], ",", "3", ",", 
+         "2"}], "]"}]}], "]"}]}], "}"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Full"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.664867908946906*^9, 3.6648679459757147`*^9}, {
+  3.664868027420391*^9, 3.6648680328522787`*^9}, {3.664868073666834*^9, 
+  3.664868089025983*^9}, {3.66486857720795*^9, 3.664868578022983*^9}, {
+  3.664871796546382*^9, 3.664871816193611*^9}, {3.6648730628177223`*^9, 
+  3.66487310211318*^9}, {3.664873793773665*^9, 3.664873883890695*^9}, {
+  3.664873947395105*^9, 3.664874008392085*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"Opacity", "[", ".1", "]"}], ",", 
+     RowBox[{"EdgeForm", "[", "Red", "]"}], ",", "Orange", ",", 
+     RowBox[{"Map", "[", 
+      RowBox[{"Triangle", ",", 
+       RowBox[{"Partition", "[", 
+        RowBox[{
+         RowBox[{"RandomSample", "[", "circlePoints", "]"}], ",", "3", ",", 
+         "1"}], "]"}]}], "]"}]}], "}"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Medium"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.664867908946906*^9, 3.6648679459757147`*^9}, {
+  3.664868027420391*^9, 3.6648680328522787`*^9}, {3.664868073666834*^9, 
+  3.664868089025983*^9}, {3.66486857720795*^9, 3.664868578022983*^9}, {
+  3.664871796546382*^9, 3.664871816193611*^9}, {3.6648730628177223`*^9, 
+  3.66487310211318*^9}, {3.664873192572791*^9, 3.664873206731823*^9}, {
+  3.664873511016267*^9, 3.664873532467538*^9}, {3.6648737181457787`*^9, 
+  3.664873728192409*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"Opacity", "[", ".5", "]"}], ",", 
+     RowBox[{"EdgeForm", "[", "Red", "]"}], ",", "Orange", ",", 
+     RowBox[{"Map", "[", 
+      RowBox[{"Triangle", ",", 
+       RowBox[{"Partition", "[", 
+        RowBox[{
+         RowBox[{"RandomSample", "[", "circlePoints", "]"}], ",", "3", ",", 
+         "2"}], "]"}]}], "]"}]}], "}"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Medium"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.664867908946906*^9, 3.6648679459757147`*^9}, {
+  3.664868027420391*^9, 3.6648680328522787`*^9}, {3.664868073666834*^9, 
+  3.664868089025983*^9}, {3.66486857720795*^9, 3.664868578022983*^9}, {
+  3.664871796546382*^9, 3.664871816193611*^9}, {3.6648730628177223`*^9, 
+  3.66487310211318*^9}, {3.664873192572791*^9, 3.664873206731823*^9}, {
+  3.664873511016267*^9, 3.664873532467538*^9}, {3.6648735642783947`*^9, 
+  3.664873564405303*^9}, {3.664873734352107*^9, 3.664873741766982*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"EdgeForm", "[", "Red", "]"}], ",", "Orange", ",", 
+     RowBox[{"Map", "[", 
+      RowBox[{"Triangle", ",", 
+       RowBox[{"Partition", "[", 
+        RowBox[{
+         RowBox[{"RandomSample", "[", "circlePoints", "]"}], ",", "3"}], 
+        "]"}]}], "]"}]}], "}"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Medium"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.664867908946906*^9, 3.6648679459757147`*^9}, {
+  3.664868027420391*^9, 3.6648680328522787`*^9}, {3.664868073666834*^9, 
+  3.664868089025983*^9}, {3.66486857720795*^9, 3.664868578022983*^9}, {
+  3.664871796546382*^9, 3.664871816193611*^9}, {3.6648730628177223`*^9, 
+  3.66487310211318*^9}, {3.664873192572791*^9, 3.664873206731823*^9}, {
+  3.664873511016267*^9, 3.664873532467538*^9}, {3.6648735642783947`*^9, 
+  3.664873576885294*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"Opacity", "[", ".08", "]"}], ",", 
+     RowBox[{"Darker", "[", "Blue", "]"}], ",", 
+     RowBox[{"Map", "[", 
+      RowBox[{"Triangle", ",", 
+       RowBox[{"Partition", "[", 
+        RowBox[{
+         RowBox[{"RandomSample", "[", "spiralPoints", "]"}], ",", "3"}], 
+        "]"}]}], "]"}]}], "}"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Medium"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.664867908946906*^9, 3.6648679459757147`*^9}, {
+  3.664868027420391*^9, 3.6648680328522787`*^9}, {3.664868073666834*^9, 
+  3.664868089025983*^9}, {3.66486857720795*^9, 3.664868578022983*^9}, {
+  3.664871796546382*^9, 3.664871816193611*^9}, {3.6648730628177223`*^9, 
+  3.66487310211318*^9}, {3.664873192572791*^9, 3.664873206731823*^9}, {
+  3.664873511016267*^9, 3.664873532467538*^9}, {3.6648735642783947`*^9, 
+  3.664873633240572*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"Opacity", "[", ".08", "]"}], ",", 
+     RowBox[{"Darker", "[", "Blue", "]"}], ",", 
+     RowBox[{"Map", "[", 
+      RowBox[{"Triangle", ",", 
+       RowBox[{"Partition", "[", 
+        RowBox[{
+         RowBox[{"RandomSample", "[", "spiralPoints", "]"}], ",", "3", ",", 
+         "1"}], "]"}]}], "]"}]}], "}"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Medium"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.664867908946906*^9, 3.6648679459757147`*^9}, {
+  3.664868027420391*^9, 3.6648680328522787`*^9}, {3.664868073666834*^9, 
+  3.664868089025983*^9}, {3.66486857720795*^9, 3.664868578022983*^9}, {
+  3.664871796546382*^9, 3.664871816193611*^9}, {3.6648730628177223`*^9, 
+  3.66487310211318*^9}, {3.664873192572791*^9, 3.664873206731823*^9}, {
+  3.664873511016267*^9, 3.664873532467538*^9}, {3.6648735642783947`*^9, 
+  3.664873644258762*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"Opacity", "[", ".08", "]"}], ",", 
+     RowBox[{"Darker", "[", "Blue", "]"}], ",", 
+     RowBox[{"Map", "[", 
+      RowBox[{"Triangle", ",", 
+       RowBox[{"Partition", "[", 
+        RowBox[{
+         RowBox[{"RandomSample", "[", "spiralPoints", "]"}], ",", "3", ",", 
+         "2"}], "]"}]}], "]"}]}], "}"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Medium"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.664867908946906*^9, 3.6648679459757147`*^9}, {
+  3.664868027420391*^9, 3.6648680328522787`*^9}, {3.664868073666834*^9, 
+  3.664868089025983*^9}, {3.66486857720795*^9, 3.664868578022983*^9}, {
+  3.664871796546382*^9, 3.664871816193611*^9}, {3.6648730628177223`*^9, 
+  3.66487310211318*^9}, {3.664873192572791*^9, 3.664873206731823*^9}, {
+  3.664873511016267*^9, 3.664873532467538*^9}, {3.6648735642783947`*^9, 
+  3.664873650210558*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["In-Class Activity", "Section",
+ CellChangeTimes->{{3.647716402186221*^9, 3.647716405353856*^9}, {
+  3.6583374723271*^9, 3.658337478437811*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Create some images using Graphic with Map and Partition", "Subsection",
+ CellChangeTimes->{{3.664867805972597*^9, 3.6648678219724197`*^9}}],
+
+Cell["NAME:", "Subsubsection",
+ CellChangeTimes->{{3.658337538475717*^9, 3.658337539778943*^9}}],
+
+Cell["STUDENT NUMBER:", "Subsubsection",
+ CellChangeTimes->{{3.658337543114833*^9, 3.658337546026588*^9}}],
+
+Cell["DATE:", "Subsubsection",
+ CellChangeTimes->{{3.6583375490023537`*^9, 3.658337550162354*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Upload your notebook", "Section",
+ CellChangeTimes->{{3.649950784924818*^9, 3.649950788859275*^9}}],
+
+Cell["\<\
+Don\[CloseCurlyQuote]t forget to upload a copy of your notebook for this day\
+\[CloseCurlyQuote]s class to the OWL Site for the course\
+\>", "Text",
+ CellChangeTimes->{{3.649950792779258*^9, 3.649950818634288*^9}, {
+  3.658337509093232*^9, 3.658337512508254*^9}}]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1422, 1107},
+WindowMargins->{{Automatic, -70}, {Automatic, 80}},
+TaggingRules->{"SlideShow" -> True},
+Magnification:>1.25 Inherited,
+FrontEndVersion->"10.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (December 10, \
+2015)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "SlideShowHeader"->{
+  Cell[580, 22, 4299, 96, 75, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[5774, 146, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[11762, 314, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[19282, 541, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[28068, 811, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[37197, 1033, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[49671, 1336, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[50449, 1364, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"SlideShowHeader", 51333, 1394}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 4299, 96, 75, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[4882, 120, 490, 10, 183, "Title"],
+Cell[5375, 132, 362, 9, 99, "Subtitle"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5774, 146, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[5863, 151, 157, 2, 80, "Section"],
+Cell[6023, 155, 343, 10, 37, "Text"],
+Cell[6369, 167, 436, 12, 35, "Input"],
+Cell[6808, 181, 429, 9, 36, "Input"],
+Cell[7240, 192, 595, 15, 36, "Input"],
+Cell[7838, 209, 424, 8, 36, "Input"],
+Cell[8265, 219, 608, 12, 61, "Text"],
+Cell[8876, 233, 629, 17, 36, "Input"],
+Cell[9508, 252, 476, 9, 36, "Input"],
+Cell[9987, 263, 820, 21, 42, "Input"],
+Cell[10810, 286, 478, 9, 36, "Input"],
+Cell[11291, 297, 260, 6, 37, "Text"],
+Cell[11554, 305, 159, 3, 36, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[11762, 314, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[11851, 319, 151, 2, 80, "Section"],
+Cell[12005, 323, 467, 13, 61, "Text"],
+Cell[12475, 338, 293, 10, 37, "Text"],
+Cell[12771, 350, 125, 2, 35, "Input"],
+Cell[12899, 354, 184, 4, 35, "Input"],
+Cell[13086, 360, 271, 7, 37, "Text"],
+Cell[13360, 369, 211, 5, 36, "Input"],
+Cell[13574, 376, 592, 14, 61, "Text"],
+Cell[14169, 392, 880, 25, 57, "Input"],
+Cell[15052, 419, 259, 5, 37, "Text"],
+Cell[15314, 426, 226, 5, 36, "Input"],
+Cell[15543, 433, 154, 3, 37, "Text"],
+Cell[15700, 438, 276, 5, 36, "Input"],
+Cell[15979, 445, 324, 6, 36, "Input"],
+Cell[16306, 453, 374, 7, 36, "Input"],
+Cell[16683, 462, 405, 9, 37, "Text"],
+Cell[17091, 473, 747, 21, 57, "Input"],
+Cell[17841, 496, 136, 1, 37, "Text"],
+Cell[17980, 499, 224, 5, 36, "Input"],
+Cell[18207, 506, 275, 6, 36, "Input"],
+Cell[18485, 514, 272, 9, 37, "Text"],
+Cell[18760, 525, 473, 10, 36, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[19282, 541, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[19371, 546, 153, 2, 80, "Section"],
+Cell[19527, 550, 472, 14, 61, "Text"],
+Cell[20002, 566, 163, 3, 35, "Input"],
+Cell[20168, 571, 349, 10, 37, "Text"],
+Cell[20520, 583, 315, 9, 36, "Input"],
+Cell[20838, 594, 305, 8, 37, "Text"],
+Cell[21146, 604, 193, 4, 37, "Text"],
+Cell[21342, 610, 310, 7, 36, "Input"],
+Cell[21655, 619, 248, 5, 37, "Text"],
+Cell[21906, 626, 335, 7, 36, "Input"],
+Cell[22244, 635, 202, 4, 37, "Text"],
+Cell[22449, 641, 318, 7, 36, "Input"],
+Cell[22770, 650, 223, 4, 37, "Text"],
+Cell[22996, 656, 318, 7, 36, "Input"],
+Cell[23317, 665, 251, 5, 37, "Text"],
+Cell[23571, 672, 318, 7, 36, "Input"],
+Cell[23892, 681, 326, 10, 37, "Text"],
+Cell[24221, 693, 231, 6, 37, "Text"],
+Cell[24455, 701, 182, 4, 36, "Input"],
+Cell[24640, 707, 363, 9, 37, "Text"],
+Cell[25006, 718, 264, 7, 36, "Input"],
+Cell[25273, 727, 269, 9, 37, "Text"],
+Cell[25545, 738, 542, 12, 36, "Input"],
+Cell[26090, 752, 396, 15, 37, "Text"],
+Cell[26489, 769, 590, 13, 36, "Input"],
+Cell[27082, 784, 174, 4, 37, "Text"],
+Cell[27259, 790, 760, 15, 36, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[28068, 811, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[28157, 816, 232, 3, 80, "Section"],
+Cell[28392, 821, 194, 4, 37, "Text"],
+Cell[28589, 827, 529, 14, 61, "Text"],
+Cell[29121, 843, 813, 17, 36, "Input"],
+Cell[29937, 862, 313, 6, 37, "Text"],
+Cell[30253, 870, 842, 17, 36, "Input"],
+Cell[31098, 889, 355, 7, 37, "Text"],
+Cell[31456, 898, 854, 17, 36, "Input"],
+Cell[32313, 917, 400, 11, 37, "Text"],
+Cell[32716, 930, 850, 17, 36, "Input"],
+Cell[33569, 949, 863, 18, 36, "Input"],
+Cell[34435, 969, 887, 18, 36, "Input"],
+Cell[35325, 989, 910, 18, 36, "Input"],
+Cell[36238, 1009, 910, 18, 36, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[37197, 1033, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[37286, 1038, 179, 2, 80, "Section"],
+Cell[37468, 1042, 371, 6, 61, "Text"],
+Cell[37842, 1050, 250, 7, 37, "Text"],
+Cell[38095, 1059, 124, 2, 36, "Input"],
+Cell[38222, 1063, 164, 3, 36, "Input"],
+Cell[38389, 1068, 226, 5, 37, "Text"],
+Cell[38618, 1075, 776, 16, 36, "Input"],
+Cell[39397, 1093, 761, 16, 36, "Input"],
+Cell[40161, 1111, 993, 21, 57, "Input"],
+Cell[41157, 1134, 159, 3, 37, "Text"],
+Cell[41319, 1139, 842, 18, 57, "Input"],
+Cell[42164, 1159, 900, 19, 57, "Input"],
+Cell[43067, 1180, 900, 19, 57, "Input"],
+Cell[43970, 1201, 951, 20, 57, "Input"],
+Cell[44924, 1223, 997, 20, 57, "Input"],
+Cell[45924, 1245, 892, 19, 36, "Input"],
+Cell[46819, 1266, 925, 20, 36, "Input"],
+Cell[47747, 1288, 936, 20, 36, "Input"],
+Cell[48686, 1310, 936, 20, 36, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[49671, 1336, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[49760, 1341, 149, 2, 80, "Section"],
+Cell[CellGroupData[{
+Cell[49934, 1347, 145, 1, 54, "Subsection"],
+Cell[50082, 1350, 96, 1, 43, "Subsubsection"],
+Cell[50181, 1353, 106, 1, 34, "Subsubsection"],
+Cell[50290, 1356, 98, 1, 34, "Subsubsection"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[50449, 1364, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[50538, 1369, 105, 1, 80, "Section"],
+Cell[50646, 1372, 273, 5, 37, "Text"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
