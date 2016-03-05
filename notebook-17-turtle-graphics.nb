@@ -1,0 +1,1423 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     48783,       1414]
+NotebookOptionsPosition[     43201,       1248]
+NotebookOutlinePosition[     44402,       1286]
+CellTagsIndexPosition[     44323,       1281]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ TogglerBox[2, {1->
+  OverlayBox[{
+   TagBox[GridBox[{
+      {
+       GraphicsBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBLECOU2VJahIzkCEFxAJADBL8//8/
+Qfzo0SP2GzduCF29elXs/Pnz0sgYn747d+5wA9VoArE/EB8B4uPoGJu+Fy9e
+MF+4cEENKB8AxBeB+AMQ/wXif+gYi1tBdvoB8QUg/ghV9x8XRtb7/PlzFqje
+t1D7cOrDpv/ixYvqUHuJ0ousHxpWAVA3E6UXWT80nC8S8i82/Q8ePOAgx26Y
+/uvXrwsD2UdJ8Tey/kuXLolD0wNJbofpB6YVSUr0n4ek5QHTT6n7KQ0/SuOP
+0vRDafqlRv6BxgPZ+Ret/HhHrBl4yi9QWHwiFB7Yyk+QO6B+CTxPYvmJjG/f
+vs17nozyG1f9cR6t7gBhAPeiQ4A=
+         "], {{0, 26}, {16, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{16, 26},
+        PlotRange->{{0, 16}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJzt2d9OVFcUB2DSNmkfQRFEiRQ1gCK1vW4fwT6BJu1tE9uk8fUUERE9aECC
+qLGYEmKkErWxtont2mGdcDLVOpNgZijfJB9hzp+99j6zb9b5Hb3ww7nvP+rr
+6/vxs/hz7vzPX1+8eP7St5/El28u/fTdhY/jn/6w8GlfXzlYVdWhDgyEwXT4
+HQYbBho6qQMAAOxt/Q0HWxxo0TzX3xij7juGwpFwNAyHY2EkfB6OhxPhZBgL
+42EinAqnw2SYSl+Es+HL9FWb6uvP5hj1eJNZ41TWHM85nMw5Hc85juSch3MN
+R3JNdf/UfGbtPqf6WdW6/XsDAADsV7vd/7b2vqPV2/veuuc9k6Za1Mfr3vVt
+feto9e+eVb9KL2tmz81M+n25dadZ9bU2zYXbYSmshNXwoOF+uJfn7obFcKfa
+/twMN8L1MNtBTQAAYO+ZSVfTdLqSLreoj0/n9eXe0jeUHmQ+3AoL1XZ/UfqR
+5Wq77yg9yMPwS3gcfg0b4Ul4Gn4LW+F5eBl+D6/CH+F1+DP99Q71+dd5z6sc
+42WOuZU1nmbNjZzD45zTw5zjSs55KdewkGuazzXONp5Xu8+pflb185rpgd8d
+AABgv/kQ/W/J4krGVvrIkruVDO5RWAvr1U7fuxmeVTt9b/Ei1d+38prNaqdv
+Xc+xHuXY97LWYtbWr9Jryj4sGXPJmkvmXD7l/UrZsyWTLu9dyj4u72Ca2fVq
+nivvY8renuug5ps2/b2L2q0JAADwX3azT/kQuv18AAAA2Pv0rOxn3djz3X6f
+BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAADsHW/a1I2aAAAAAAAAsJ91OyOEburGnr/W
+prlwOyyFlbAaHjTcD/fy3N2wGO5U25+b4Ua4HmY7qAkAAAAAAAC9aCZdTdPp
+Srrcoj4+ndeXe0tuVjK4+XCr2s7iSsa2XG3nbiWDexTWwnrYCE/CZngWtsLz
+9CLV37fyms28ZyPHWMsxH2SN5ax5O+cwn3Oabayv3XXVa6vXN9MDvxN7W9mH
+JWMuWXPJnMunZNBlz5ZMumTTZR+XrLqZXa/muZJtl70910HNQx0YCIPp8DsM
+Ngw0dFIHAAAAAAAAel1/w8EWB1o0z/U3xqhzt6FwNAyHY2EkjIYT4WQYC+Nh
+IpwOk+FMmmpRH5/Mayfy3rEc60SOPZK1hrP2ULWT9zXX2O666rXVuv378P/S
+zJ6bmfT7cuuOsup/AFmW9vs=
+         "], {{0, 26}, {2000, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{2000, 26},
+        PlotRange->{{0, 2000}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJy9lstOwkAUhhthQUJcuUBl5cr4GPoABvEJINGtCZoYng4Il4Z7gXAJYUHY
+QAi3GlYQPZ5/4pCm0pYC2uSDaXvmn5lzzpzpVfQl/HyiKMqrj3/CkffbWCwS
+f/TyzV387Snq4cYlc87gYbVaDbpB07SLRqMR6Pf7PiJSnOA+6h7kmBBz0+12
+Tx30v/bgk9GZOvPAa7oejUYeC306AIz1wWjM/WAw8B9ZX4L1TDHGcDj02ulX
+KpUNbt79jKHBV1b66Fcul3fCYgzEJNTr9fxmfaldKpWoUChQPp8X/8ViUWB8
+BhuLMRCPGvJqmz76QWOxWFCtVqNsNku5XE6AdqfToclkImxga7cGuT/M+uw/
+ms/ntF6vqdlsUjKZFKCNC/pynTZxyLbb7bNt/sHcMpkMzWYzoVev1wW4xuOx
+WAdsbGIAH6ncJ7BNH/6FRjqdJl3XSV7T6VSsA76CDWxt9oSKOmLOH/RBLKEP
+LVVVN/qJRGKjDxsnfSZoN3/4CPNfrVa/5n+IvtH/iDHu9/G/2T/G/JT5A41U
+KiXm3Wq1xBhcx5zy0zK+Mj+Xy6XIf5n7EuQ/9sYh+Wneqy73r+3+2rX2OPh+
+a31wqpHG5xbatvXtCDjW5wO1Z9UdzheXyPMRPrc6H49yvpvn/Y/fJ3/6ffUN
+AyH/6w==
+         "], {{0, 26}, {24, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{24, 26},
+        PlotRange->{{0, 24}, {0, 26}}]}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {Automatic, 
+         Scaled[0.6], Automatic}},
+     GridBoxSpacings->{"Columns" -> {{0}}, "Rows" -> {{0}}}],
+    "Grid"], 
+   PaneBox[
+    StyleBox[
+     RowBox[{
+     "Background", " ", "images", " ", "and", " ", "text", " ", "colors", " ",
+       "have", " ", "been", " ", "adjusted", " ", "for", " ", "editing", " ", 
+      
+      RowBox[{"purposes", "."}]}],
+     LineBreakWithin->False,
+     FontFamily->"Helvetica",
+     FontSize->12,
+     FontColor->GrayLevel[0.4]],
+    Alignment->Center,
+    ImageSize->Scaled[0.5],
+    ScrollPosition->{0., 0.}]},
+   Alignment->{Center, Center}], 2->""}, "1"]], "SlideShowNavigationBar", \
+"FirstSlide",
+ CellMargins->{{0, 0}, {0, 0}},
+ CellFrameLabelMargins->2,
+ CellSize->{Inherited, 30},
+ CellChangeTimes->{3.647361175465108*^9},
+ TextAlignment->Center,
+ CellTags->"SlideShowHeader"],
+
+Cell["\<\
+Notebook 17:
+Turtle Graphics\
+\>", "Title",
+ CellChangeTimes->{
+  3.559948400406288*^9, {3.647331852839075*^9, 3.647331861295168*^9}, {
+   3.647331922221755*^9, 3.647331924532915*^9}, {3.647332658962614*^9, 
+   3.64733266480881*^9}, {3.6473611327373047`*^9, 3.647361139759391*^9}, {
+   3.647448943135475*^9, 3.6474489472294493`*^9}, {3.658337416821965*^9, 
+   3.65833742904038*^9}, {3.658337677781981*^9, 3.658337703010659*^9}, {
+   3.666172719136508*^9, 3.66617272430268*^9}}],
+
+Cell[TextData[{
+ "William J Turkel, ",
+ StyleBox["wturkel@uwo.ca",
+  FontSlant->"Italic",
+  FontColor->RGBColor[
+   0.396078431372549, 0.596078431372549, 0.796078431372549]],
+ "\nDigital Humanities 1011B"
+}], "Subtitle",
+ CellChangeTimes->{{3.647331955723979*^9, 3.6473319708190517`*^9}, 
+   3.647332103720562*^9, {3.6583374336085033`*^9, 3.658337439311952*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["The Turtle", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.6661727523337097`*^9, 3.666172754245558*^9}}],
+
+Cell[TextData[{
+ "Originally, the ",
+ StyleBox["turtle",
+  FontSlant->"Italic"],
+ " was a small, wheeled robot with a pen underneath. You could raise and \
+lower the pen. You controlled the turtle by giving it a ",
+ StyleBox["turn angle",
+  FontSlant->"Italic"],
+ " (a direction specified in degrees) and a distance to travel. If the pen \
+was down, it the turtle would draw a line as it moved to a succession of \
+desired locations."
+}], "Text",
+ CellChangeTimes->{{3.66617275682129*^9, 3.666172809323741*^9}, {
+  3.6661728560661383`*^9, 3.666172878625394*^9}, {3.666173332883417*^9, 
+  3.66617333560214*^9}}],
+
+Cell[TextData[{
+ "In ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ ", the ",
+ StyleBox["AnglePath",
+  FontWeight->"Bold"],
+ " command allows you to draw with Turtle Graphics. By itself, the command \
+takes a list of headings and outputs a list of coordinates. The default \
+starting location is the origin. Here we ask the turtle to take three steps, \
+turning 90 degrees before each."
+}], "Text",
+ CellChangeTimes->{{3.666172817243156*^9, 3.666172832947091*^9}, {
+  3.666172881976935*^9, 3.6661728854810867`*^9}, {3.6661729201686487`*^9, 
+  3.666172975862253*^9}, {3.666173345465376*^9, 3.666173387912006*^9}}],
+
+Cell[BoxData[
+ RowBox[{"AnglePath", "[", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"90", " ", "Degree"}], ",", 
+    RowBox[{"90", " ", "Degree"}], ",", " ", 
+    RowBox[{"90", "Degree"}]}], "}"}], "]"}]], "Input",
+ CellChangeTimes->{{3.666172890425687*^9, 3.666172914704219*^9}, {
+  3.666173157105112*^9, 3.666173188023774*^9}}],
+
+Cell[TextData[{
+ "If you wrap ",
+ StyleBox["AnglePath",
+  FontWeight->"Bold"],
+ " in ",
+ StyleBox["Graphics",
+  FontWeight->"Bold"],
+ " and ",
+ StyleBox["Point",
+  FontWeight->"Bold"],
+ ", ",
+ StyleBox["Line",
+  FontWeight->"Bold"],
+ " or ",
+ StyleBox["Arrow",
+  FontWeight->"Bold"],
+ ", it will draw points at each coordinate it visits, or a line from one \
+place to the next."
+}], "Text",
+ CellChangeTimes->{{3.6661729791258307`*^9, 3.6661730138849287`*^9}, {
+  3.66617307077185*^9, 3.666173076106674*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"PointSize", "[", "Large", "]"}], ",", "Red", ",", 
+     RowBox[{"Point", "[", 
+      RowBox[{"AnglePath", "[", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"90", " ", "Degree"}], ",", 
+         RowBox[{"90", " ", "Degree"}], ",", " ", 
+         RowBox[{"90", "Degree"}]}], "}"}], "]"}], "]"}]}], "}"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.666172890425687*^9, 3.666172914704219*^9}, {
+   3.666173026957013*^9, 3.6661730334281883`*^9}, {3.666173084810899*^9, 
+   3.666173088562277*^9}, 3.666173198858491*^9, {3.66617324335028*^9, 
+   3.666173246357253*^9}, {3.666173400424861*^9, 3.666173416151518*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"Thick", ",", " ", "Red", ",", 
+     RowBox[{"Line", "[", 
+      RowBox[{"AnglePath", "[", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"90", " ", "Degree"}], ",", 
+         RowBox[{"90", " ", "Degree"}], ",", " ", 
+         RowBox[{"90", "Degree"}]}], "}"}], "]"}], "]"}]}], "}"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.666172890425687*^9, 3.666172914704219*^9}, {
+   3.666173026957013*^9, 3.6661730334281883`*^9}, {3.666173084810899*^9, 
+   3.666173097759549*^9}, 3.666173203666744*^9, 3.6661732595684757`*^9, {
+   3.666173422575778*^9, 3.666173427399579*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"Arrowheads", "[", ".1", "]"}], ",", "Thick", ",", " ", "Red", 
+     ",", 
+     RowBox[{"Arrow", "[", 
+      RowBox[{"AnglePath", "[", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"90", " ", "Degree"}], ",", 
+         RowBox[{"90", " ", "Degree"}], ",", " ", 
+         RowBox[{"90", "Degree"}]}], "}"}], "]"}], "]"}]}], "}"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.666172890425687*^9, 3.666172914704219*^9}, {
+   3.666173026957013*^9, 3.6661730334281883`*^9}, {3.666173084810899*^9, 
+   3.666173097759549*^9}, 3.666173203666744*^9, 3.6661732595684757`*^9, {
+   3.666173422575778*^9, 3.666173427399579*^9}, {3.666173502093116*^9, 
+   3.666173516156103*^9}}],
+
+Cell[TextData[{
+ "The default step length is one unit. You can change this behaviour by \
+giving ",
+ StyleBox["AnglePath",
+  FontWeight->"Bold"],
+ " a list of distance-direction pairs."
+}], "Text",
+ CellChangeTimes->{{3.666173287196011*^9, 3.666173317218409*^9}}],
+
+Cell[BoxData[
+ RowBox[{"AnglePath", "[", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"1", ",", 
+      RowBox[{"90", "Degree"}]}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"4", ",", 
+      RowBox[{"90", "Degree"}]}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"1", ",", 
+      RowBox[{"90", "Degree"}]}], "}"}]}], "}"}], "]"}]], "Input",
+ CellChangeTimes->{{3.666173453778507*^9, 3.666173478989019*^9}, 
+   3.6661735675709963`*^9}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"Arrowheads", "[", ".1", "]"}], ",", "Thick", ",", " ", "Red", 
+     ",", 
+     RowBox[{"Arrow", "[", 
+      RowBox[{"AnglePath", "[", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"1", ",", 
+           RowBox[{"90", "Degree"}]}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"4", ",", 
+           RowBox[{"90", "Degree"}]}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"1", ",", 
+           RowBox[{"90", "Degree"}]}], "}"}]}], "}"}], "]"}], "]"}]}], "}"}], 
+   ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.666172890425687*^9, 3.666172914704219*^9}, {
+   3.666173026957013*^9, 3.6661730334281883`*^9}, {3.666173084810899*^9, 
+   3.666173097759549*^9}, 3.666173203666744*^9, 3.6661732595684757`*^9, {
+   3.666173422575778*^9, 3.666173427399579*^9}, {3.666173502093116*^9, 
+   3.666173538431076*^9}, 3.666173570843038*^9}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Generating paths with ConstantArray", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.66617360026658*^9, 3.6661736061607437`*^9}}],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["ConstantArray",
+  FontWeight->"Bold"],
+ " command creates a list with copies of a particular element."
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.6661736088245087`*^9, 3.666173678158269*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ConstantArray", "[", 
+  RowBox[{
+   RowBox[{"90", "Degree"}], ",", "4"}], "]"}]], "Input",
+ CellChangeTimes->{{3.666173680320899*^9, 3.666173689054943*^9}}],
+
+Cell["\<\
+You can use this to make a turtle graphics image made from a number of copies \
+of the same instruction.\
+\>", "Text",
+ CellChangeTimes->{{3.666173706821076*^9, 3.666173745499814*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"Thick", ",", "Red", ",", 
+     RowBox[{"Line", "[", 
+      RowBox[{"AnglePath", "[", 
+       RowBox[{"ConstantArray", "[", 
+        RowBox[{
+         RowBox[{"90", "Degree"}], ",", "4"}], "]"}], "]"}], "]"}]}], "}"}], 
+   ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.666173748134766*^9, 3.6661737933706827`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"Thick", ",", "Red", ",", 
+     RowBox[{"Line", "[", 
+      RowBox[{"AnglePath", "[", 
+       RowBox[{"ConstantArray", "[", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{"360", "/", "5"}], ")"}], "Degree"}], ",", "5"}], "]"}], 
+       "]"}], "]"}]}], "}"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.666173748134766*^9, 3.666173811921826*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"Thick", ",", "Red", ",", 
+     RowBox[{"Line", "[", 
+      RowBox[{"AnglePath", "[", 
+       RowBox[{"ConstantArray", "[", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{"360", "/", "17"}], ")"}], "Degree"}], ",", "17"}], "]"}], 
+       "]"}], "]"}]}], "}"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.666173748134766*^9, 3.666173827041442*^9}}],
+
+Cell["\<\
+If you divide 360 by the total number of steps to calculate each turn angle, \
+you can approximate a circle.\
+\>", "Text",
+ CellChangeTimes->{{3.666173874911912*^9, 3.6661739164222803`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"Thick", ",", "Red", ",", 
+     RowBox[{"Line", "[", 
+      RowBox[{"AnglePath", "[", 
+       RowBox[{"ConstantArray", "[", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{"360", "/", "36"}], ")"}], "Degree"}], ",", "36"}], "]"}], 
+       "]"}], "]"}]}], "}"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.666173748134766*^9, 3.666173827041442*^9}, {
+  3.6661738663928003`*^9, 3.666173871199964*^9}}],
+
+Cell["\<\
+If your turn angle is not a divisor of 360, you can generate all kinds of \
+interesting images\
+\>", "Text",
+ CellChangeTimes->{{3.6661739265576687`*^9, 3.666173995347764*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Divisors", "[", "360", "]"}]], "Input",
+ CellChangeTimes->{{3.6661740104263363`*^9, 3.6661740185548964`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"Thick", ",", "Red", ",", 
+     RowBox[{"Line", "[", 
+      RowBox[{"AnglePath", "[", 
+       RowBox[{"ConstantArray", "[", 
+        RowBox[{
+         RowBox[{"91", "Degree"}], ",", "36"}], "]"}], "]"}], "]"}]}], "}"}], 
+   ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.666173748134766*^9, 3.666173827041442*^9}, {
+  3.6661738663928003`*^9, 3.666173871199964*^9}, {3.666173952109022*^9, 
+  3.666173958877857*^9}, {3.6661740604986258`*^9, 3.66617409524017*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"Thick", ",", "Red", ",", 
+     RowBox[{"Line", "[", 
+      RowBox[{"AnglePath", "[", 
+       RowBox[{"ConstantArray", "[", 
+        RowBox[{
+         RowBox[{"173", "Degree"}], ",", "50"}], "]"}], "]"}], "]"}]}], "}"}],
+    ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.666173748134766*^9, 3.666173827041442*^9}, {
+  3.6661738663928003`*^9, 3.666173871199964*^9}, {3.666173952109022*^9, 
+  3.666173958877857*^9}, {3.6661740604986258`*^9, 3.666174184307064*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"Thick", ",", "Red", ",", 
+     RowBox[{"Line", "[", 
+      RowBox[{"AnglePath", "[", 
+       RowBox[{"ConstantArray", "[", 
+        RowBox[{
+         RowBox[{"223", "Degree"}], ",", "50"}], "]"}], "]"}], "]"}]}], "}"}],
+    ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.666173748134766*^9, 3.666173827041442*^9}, {
+  3.6661738663928003`*^9, 3.666173871199964*^9}, {3.666173952109022*^9, 
+  3.666173958877857*^9}, {3.6661740604986258`*^9, 3.6661742148043947`*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Generating paths with Table", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.666174251035845*^9, 3.666174255258869*^9}}],
+
+Cell[TextData[{
+ "If we use ",
+ StyleBox["Table",
+  FontWeight->"Bold"],
+ " to generate paths, we can have a different turn angle at each step."
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.666174292274866*^9, 3.666174315856752*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"Thick", ",", "Red", ",", 
+     RowBox[{"Line", "[", 
+      RowBox[{"AnglePath", "[", 
+       RowBox[{"Table", "[", 
+        RowBox[{
+         RowBox[{"d", " ", "Degree"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"d", ",", "1", ",", "360", ",", "2"}], "}"}]}], "]"}], 
+       "]"}], "]"}]}], "}"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.666174354173976*^9, 3.666174434852775*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"Thick", ",", "Red", ",", 
+     RowBox[{"Line", "[", 
+      RowBox[{"AnglePath", "[", 
+       RowBox[{"Table", "[", 
+        RowBox[{
+         RowBox[{"d", " ", "Degree"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"d", ",", "180", ",", "540", ",", "2"}], "}"}]}], "]"}], 
+       "]"}], "]"}]}], "}"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.666174354173976*^9, 3.666174458588202*^9}}],
+
+Cell["Each step can also be a different distance ", "Text",
+ CellChangeTimes->{{3.666174318392351*^9, 3.666174349447714*^9}, 
+   3.666174536498012*^9}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"Thick", ",", "Red", ",", 
+     RowBox[{"Line", "[", 
+      RowBox[{"AnglePath", "[", 
+       RowBox[{"Table", "[", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"s", ",", 
+           RowBox[{"88", "Degree"}]}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"s", ",", "1", ",", "40"}], "}"}]}], "]"}], "]"}], "]"}]}], 
+    "}"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.666174354173976*^9, 3.666174458588202*^9}, {
+  3.666174507227227*^9, 3.666174585730301*^9}, {3.666174626223549*^9, 
+  3.666174650110684*^9}, {3.666174693605221*^9, 3.666174700821267*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"Thick", ",", "Red", ",", 
+     RowBox[{"Line", "[", 
+      RowBox[{"AnglePath", "[", 
+       RowBox[{"Table", "[", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"s", ",", 
+           RowBox[{"112", "Degree"}]}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"s", ",", "1", ",", "50"}], "}"}]}], "]"}], "]"}], "]"}]}], 
+    "}"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.666174354173976*^9, 3.666174458588202*^9}, {
+  3.666174507227227*^9, 3.666174585730301*^9}, {3.666174626223549*^9, 
+  3.6661747408913794`*^9}}],
+
+Cell["And, of course, you can change both at the same time.", "Text",
+ CellChangeTimes->{{3.666174764754065*^9, 3.6661747713934517`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"Thick", ",", "Red", ",", 
+     RowBox[{"Line", "[", 
+      RowBox[{"AnglePath", "[", 
+       RowBox[{"Table", "[", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"s", ",", 
+           RowBox[{"45", "*", "s", " ", "Degree"}]}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"s", ",", "1", ",", "50", ",", "2"}], "}"}]}], "]"}], "]"}],
+       "]"}]}], "}"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.666174354173976*^9, 3.666174458588202*^9}, {
+  3.666174507227227*^9, 3.666174585730301*^9}, {3.666174626223549*^9, 
+  3.6661747408913794`*^9}, {3.6661747837537107`*^9, 3.6661749407327003`*^9}}],
+
+Cell[TextData[{
+ "You can also bundle ",
+ StyleBox["AnglePath",
+  FontWeight->"Bold"],
+ " code into a symbol, of course"
+}], "Text",
+ CellChangeTimes->{{3.6661751115664883`*^9, 3.666175149956478*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"squiggle", "=", 
+   RowBox[{"Line", "[", 
+    RowBox[{"AnglePath", "[", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"3", ",", 
+         RowBox[{
+          RowBox[{"-", "2"}], "Degree"}]}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"4", ",", 
+         RowBox[{"45", "Degree"}]}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"2", ",", 
+         RowBox[{"89", "Degree"}]}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"3", ",", 
+         RowBox[{
+          RowBox[{"-", "87"}], "Degree"}]}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"4", ",", 
+         RowBox[{"45", "Degree"}]}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"12", ",", 
+         RowBox[{"140", "Degree"}]}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"1", ",", 
+         RowBox[{"2", "Degree"}]}], "}"}]}], "}"}], "]"}], "]"}]}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.666175188916711*^9, 3.6661751907312*^9}, {
+  3.666175241385174*^9, 3.6661753067113047`*^9}, {3.666175339991538*^9, 
+  3.666175357581649*^9}, {3.666175401277912*^9, 3.666175508240546*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"Thick", ",", "Red", ",", "squiggle"}], "}"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.666175211451728*^9, 3.666175237009704*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"Thick", ",", "Red", ",", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Rotate", "[", 
+        RowBox[{"squiggle", ",", 
+         RowBox[{"d", " ", "Degree"}]}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"d", ",", "1", ",", "360", ",", "12"}], "}"}]}], "]"}]}], 
+    "}"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.666175211451728*^9, 3.666175237009704*^9}, {
+  3.666175375814187*^9, 3.666175387148613*^9}, {3.666175540880278*^9, 
+  3.666175611385606*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"doubleSpiral", "=", 
+   RowBox[{"Line", "[", 
+    RowBox[{"AnglePath", "[", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"d", " ", "Degree"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"d", ",", "180", ",", "540", ",", "8"}], "}"}]}], "]"}], 
+     "]"}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.66617564692908*^9, 3.6661756797881823`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"Thick", ",", "Red", ",", "doubleSpiral"}], "}"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.666175211451728*^9, 3.666175237009704*^9}, {
+  3.666175673747416*^9, 3.666175674784852*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"Thick", ",", "Red", ",", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Translate", "[", 
+        RowBox[{
+         RowBox[{"Rotate", "[", 
+          RowBox[{"doubleSpiral", ",", 
+           RowBox[{"d", " ", "Degree"}]}], "]"}], ",", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{"d", "/", "2"}], ")"}], ",", "0"}], "}"}]}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"d", ",", "1", ",", "360", ",", "12"}], "}"}]}], "]"}]}], 
+    "}"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Large"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.666175211451728*^9, 3.666175237009704*^9}, {
+  3.666175375814187*^9, 3.666175387148613*^9}, {3.666175540880278*^9, 
+  3.666175611385606*^9}, {3.66617569124298*^9, 3.666175753024268*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Random walks", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.6661742705780907`*^9, 3.66617427237158*^9}}],
+
+Cell[TextData[{
+ "If we turn by a random angle at each step, the turtle takes a path known as \
+a ",
+ StyleBox["random walk",
+  FontSlant->"Italic"]
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.666176321525807*^9, 3.666176335843985*^9}, {3.6661772476544743`*^9, 
+  3.6661772490211678`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"Thick", ",", "Red", ",", 
+     RowBox[{"Line", "[", 
+      RowBox[{"AnglePath", "[", 
+       RowBox[{"Table", "[", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"s", ",", 
+           RowBox[{
+            RowBox[{"RandomInteger", "[", "360", "]"}], "Degree"}]}], "}"}], 
+         ",", 
+         RowBox[{"{", 
+          RowBox[{"s", ",", "1", ",", "100"}], "}"}]}], "]"}], "]"}], "]"}]}],
+     "}"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.666174354173976*^9, 3.666174458588202*^9}, {
+  3.666174507227227*^9, 3.666174585730301*^9}, {3.666174626223549*^9, 
+  3.666174650110684*^9}, {3.666174693605221*^9, 3.666174700821267*^9}, {
+  3.6661763605244417`*^9, 3.6661763713232183`*^9}}],
+
+Cell["\<\
+We can limit the degree of randomness. Here we choose an angle between -10 \
+and 10 degrees.\
+\>", "Text",
+ CellChangeTimes->{{3.66617638111514*^9, 3.666176386298458*^9}, {
+  3.666176422273746*^9, 3.666176430841055*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"Thick", ",", "Red", ",", 
+     RowBox[{"Line", "[", 
+      RowBox[{"AnglePath", "[", 
+       RowBox[{"Table", "[", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"s", ",", 
+           RowBox[{
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"RandomInteger", "[", "20", "]"}], "-", "10"}], ")"}], 
+            "Degree"}]}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"s", ",", "1", ",", "100"}], "}"}]}], "]"}], "]"}], "]"}]}],
+     "}"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.666174354173976*^9, 3.666174458588202*^9}, {
+  3.666174507227227*^9, 3.666174585730301*^9}, {3.666174626223549*^9, 
+  3.666174650110684*^9}, {3.666174693605221*^9, 3.666174700821267*^9}, {
+  3.6661763605244417`*^9, 3.666176403962236*^9}}],
+
+Cell["\<\
+If we generate a number of random walks (each starting from the origin), we \
+can get a better sense of what kind of variety to expect\
+\>", "Text",
+ CellChangeTimes->{{3.666176434793009*^9, 3.666176438128722*^9}, {
+  3.666176578419323*^9, 3.666176608682938*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"randomWalk", "[", "a_", "]"}], ":=", "\[IndentingNewLine]", 
+  RowBox[{"Line", "[", 
+   RowBox[{"AnglePath", "[", 
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"s", ",", 
+        RowBox[{
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{"RandomInteger", "[", 
+            RowBox[{"2", "*", "a"}], "]"}], "-", "a"}], ")"}], "Degree"}]}], 
+       "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"s", ",", "1", ",", "100"}], "}"}]}], "]"}], "]"}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.666176455537574*^9, 3.666176506550465*^9}}],
+
+Cell["Twenty paths with random angles between -10 and 10 degrees", "Text",
+ CellChangeTimes->{{3.666176612082378*^9, 3.666176623442396*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"Thick", ",", "Red", ",", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"randomWalk", "[", "10", "]"}], ",", 
+       RowBox[{"{", "20", "}"}]}], "]"}]}], "}"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.666176513399972*^9, 3.666176573565069*^9}}],
+
+Cell["Twenty paths with random angles between -180 and 180 degrees", "Text",
+ CellChangeTimes->{{3.666176612082378*^9, 3.666176635153739*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"Thick", ",", "Red", ",", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"randomWalk", "[", "180", "]"}], ",", 
+       RowBox[{"{", "20", "}"}]}], "]"}]}], "}"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.666176513399972*^9, 3.666176573565069*^9}, 
+   3.666176638177684*^9}],
+
+Cell["Twenty paths with random angles between -2 and 2 degrees", "Text",
+ CellChangeTimes->{{3.666176612082378*^9, 3.666176623442396*^9}, {
+  3.6661766631375227`*^9, 3.66617666650448*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"Thick", ",", "Red", ",", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"randomWalk", "[", "2", "]"}], ",", 
+       RowBox[{"{", "20", "}"}]}], "]"}]}], "}"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.666176513399972*^9, 3.666176573565069*^9}, 
+   3.666176669512705*^9}],
+
+Cell["\<\
+You an also do a random walk where you choose one of a few possible turn \
+angles at each step\
+\>", "Text",
+ CellChangeTimes->{{3.666178910604286*^9, 3.666178927831256*^9}, {
+  3.6661790666795387`*^9, 3.666179068055078*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"randomGridWalk", "[", "]"}], ":=", "\[IndentingNewLine]", 
+   RowBox[{"Line", "[", 
+    RowBox[{"AnglePath", "[", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"RandomChoice", "[", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"-", "90"}], ",", "0", ",", "90"}], "}"}], "]"}], 
+        "Degree"}], ",", 
+       RowBox[{"{", "100", "}"}]}], "]"}], "]"}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.666176455537574*^9, 3.666176506550465*^9}, {
+  3.666178948819583*^9, 3.666179017153059*^9}, {3.666179094527611*^9, 
+  3.666179101525642*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"Thick", ",", "Red", ",", 
+     RowBox[{"randomGridWalk", "[", "]"}]}], "}"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.666179042361443*^9, 3.6661790598474407`*^9}}],
+
+Cell["\<\
+Here are twenty such random walks, all starting in the same place\
+\>", "Text",
+ CellChangeTimes->{{3.666179108893879*^9, 3.666179117893429*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"Opacity", "[", ".25", "]"}], ",", "Thick", ",", "Red", ",", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"randomGridWalk", "[", "]"}], ",", 
+       RowBox[{"{", "20", "}"}]}], "]"}]}], "}"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Medium"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.666176513399972*^9, 3.666176573565069*^9}, 
+   3.666176669512705*^9, {3.666179127365548*^9, 3.666179158468442*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"randomTriangleWalk", "[", "]"}], ":=", "\[IndentingNewLine]", 
+   RowBox[{"Line", "[", 
+    RowBox[{"AnglePath", "[", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"RandomChoice", "[", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"-", "120"}], ",", 
+           RowBox[{"-", "60"}], ",", "0", ",", "60", ",", "120"}], "}"}], 
+         "]"}], "Degree"}], ",", 
+       RowBox[{"{", "100", "}"}]}], "]"}], "]"}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.6661791802505713`*^9, 3.66617920533891*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"Thick", ",", "Red", ",", 
+     RowBox[{"randomTriangleWalk", "[", "]"}]}], "}"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.666179042361443*^9, 3.6661790598474407`*^9}, {
+  3.6661792163865747`*^9, 3.666179217426319*^9}}],
+
+Cell["\<\
+Here are twenty such random walks, all starting in the same place\
+\>", "Text",
+ CellChangeTimes->{{3.666179108893879*^9, 3.666179117893429*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"Opacity", "[", ".25", "]"}], ",", "Thick", ",", "Red", ",", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"randomTriangleWalk", "[", "]"}], ",", 
+       RowBox[{"{", "20", "}"}]}], "]"}]}], "}"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Medium"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.666176513399972*^9, 3.666176573565069*^9}, 
+   3.666176669512705*^9, {3.666179127365548*^9, 3.666179158468442*^9}, {
+   3.666179229674245*^9, 3.66617923065798*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["AnglePath with other drawing primitives", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.666175790959549*^9, 3.666175795230589*^9}, {3.666178202597249*^9, 
+  3.666178208564372*^9}, {3.6661782596754293`*^9, 3.666178262554658*^9}}],
+
+Cell[TextData[{
+ "We can use other drawing primitives like ",
+ StyleBox["Polygon",
+  FontWeight->"Bold"],
+ " or ",
+ StyleBox["BezierCurve",
+  FontWeight->"Bold"],
+ " to draw turtle graphics"
+}], "Text",
+ CellChangeTimes->{{3.666178216716792*^9, 3.666178232931633*^9}, {
+  3.666178271465554*^9, 3.666178273841929*^9}, {3.6661786937648897`*^9, 
+  3.666178715890806*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"Opacity", "[", ".5", "]"}], ",", 
+     RowBox[{"FaceForm", "[", "Orange", "]"}], ",", 
+     RowBox[{"EdgeForm", "[", "Red", "]"}], ",", 
+     RowBox[{"Polygon", "[", 
+      RowBox[{"AnglePath", "[", 
+       RowBox[{"ConstantArray", "[", 
+        RowBox[{
+         RowBox[{"91", "Degree"}], ",", "36"}], "]"}], "]"}], "]"}]}], "}"}], 
+   ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.666173748134766*^9, 3.666173827041442*^9}, {
+  3.6661738663928003`*^9, 3.666173871199964*^9}, {3.666173952109022*^9, 
+  3.666173958877857*^9}, {3.6661740604986258`*^9, 3.66617409524017*^9}, {
+  3.6661781648142967`*^9, 3.666178190733369*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"Opacity", "[", ".5", "]"}], ",", 
+     RowBox[{"BezierCurve", "[", 
+      RowBox[{
+       RowBox[{"AnglePath", "[", 
+        RowBox[{"ConstantArray", "[", 
+         RowBox[{
+          RowBox[{"91", "Degree"}], ",", "12"}], "]"}], "]"}], ",", 
+       RowBox[{"SplineClosed", "\[Rule]", "True"}]}], "]"}]}], "}"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.666173748134766*^9, 3.666173827041442*^9}, {
+  3.6661738663928003`*^9, 3.666173871199964*^9}, {3.666173952109022*^9, 
+  3.666173958877857*^9}, {3.6661740604986258`*^9, 3.66617409524017*^9}, {
+  3.6661781648142967`*^9, 3.666178190733369*^9}, {3.6661782495077257`*^9, 
+  3.666178250747877*^9}, {3.666178322265751*^9, 3.666178368935212*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"Thick", ",", "Orange", ",", 
+     RowBox[{"Polygon", "[", 
+      RowBox[{"AnglePath", "[", 
+       RowBox[{"Table", "[", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"s", ",", 
+           RowBox[{"88", "Degree"}]}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"s", ",", "1", ",", "40"}], "}"}]}], "]"}], "]"}], "]"}]}], 
+    "}"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.666174354173976*^9, 3.666174458588202*^9}, {
+  3.666174507227227*^9, 3.666174585730301*^9}, {3.666174626223549*^9, 
+  3.666174650110684*^9}, {3.666174693605221*^9, 3.666174700821267*^9}, {
+  3.666178392455364*^9, 3.666178418301627*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"PointSize", "[", "Large", "]"}], ",", 
+     RowBox[{"Darker", "[", "Green", "]"}], ",", 
+     RowBox[{"Opacity", "[", ".5", "]"}], ",", 
+     RowBox[{"Point", "[", 
+      RowBox[{"AnglePath", "[", 
+       RowBox[{"Table", "[", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"s", ",", 
+           RowBox[{"93", "Degree"}]}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"s", ",", "1", ",", "80"}], "}"}]}], "]"}], "]"}], "]"}]}], 
+    "}"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.666174354173976*^9, 3.666174458588202*^9}, {
+  3.666174507227227*^9, 3.666174585730301*^9}, {3.666174626223549*^9, 
+  3.666174650110684*^9}, {3.666174693605221*^9, 3.666174700821267*^9}, {
+  3.666178392455364*^9, 3.666178418301627*^9}, {3.666178782145603*^9, 
+  3.66617884825486*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"Thick", ",", "Purple", ",", 
+     RowBox[{"BezierCurve", "[", 
+      RowBox[{
+       RowBox[{"AnglePath", "[", 
+        RowBox[{"Table", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"s", ",", 
+            RowBox[{"88", "Degree"}]}], "}"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"s", ",", "1", ",", "40"}], "}"}]}], "]"}], "]"}], ",", 
+       RowBox[{"SplineClosed", "\[Rule]", "True"}]}], "]"}]}], "}"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.666174354173976*^9, 3.666174458588202*^9}, {
+  3.666174507227227*^9, 3.666174585730301*^9}, {3.666174626223549*^9, 
+  3.666174650110684*^9}, {3.666174693605221*^9, 3.666174700821267*^9}, {
+  3.666178392455364*^9, 3.666178452292367*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"randomWalkBezier", "[", "a_", "]"}], ":=", "\[IndentingNewLine]", 
+  RowBox[{"BezierCurve", "[", 
+   RowBox[{
+    RowBox[{"AnglePath", "[", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"s", ",", 
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"RandomInteger", "[", 
+             RowBox[{"2", "*", "a"}], "]"}], "-", "a"}], ")"}], "Degree"}]}], 
+        "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"s", ",", "1", ",", "100"}], "}"}]}], "]"}], "]"}], ",", 
+    RowBox[{"SplineClosed", "\[Rule]", "True"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.666176455537574*^9, 3.666176506550465*^9}, {
+  3.6661784914994392`*^9, 3.666178506346561*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"Thickness", "[", ".05", "]"}], ",", "Purple", ",", 
+     RowBox[{"Opacity", "[", ".2", "]"}], ",", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"randomWalkBezier", "[", "40", "]"}], ",", 
+       RowBox[{"{", "20", "}"}]}], "]"}]}], "}"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.666176513399972*^9, 3.666176573565069*^9}, 
+   3.666176669512705*^9, {3.66617846937219*^9, 3.6661784732675962`*^9}, {
+   3.666178510466399*^9, 3.666178570289198*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"randomWalkPolygon", "[", "a_", "]"}], ":=", "\[IndentingNewLine]", 
+  
+  RowBox[{"Polygon", "[", 
+   RowBox[{"AnglePath", "[", 
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"s", ",", 
+        RowBox[{
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{"RandomInteger", "[", 
+            RowBox[{"2", "*", "a"}], "]"}], "-", "a"}], ")"}], "Degree"}]}], 
+       "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"s", ",", "1", ",", "100"}], "}"}]}], "]"}], "]"}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.666176455537574*^9, 3.666176506550465*^9}, {
+  3.6661784914994392`*^9, 3.666178506346561*^9}, {3.6661785896961327`*^9, 
+  3.6661786037513313`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"EdgeForm", "[", "Purple", "]"}], ",", 
+     RowBox[{"FaceForm", "[", "LightBlue", "]"}], ",", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"randomWalkPolygon", "[", "40", "]"}], ",", 
+       RowBox[{"{", "20", "}"}]}], "]"}]}], "}"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.666176513399972*^9, 3.666176573565069*^9}, 
+   3.666176669512705*^9, {3.66617846937219*^9, 3.6661784732675962`*^9}, {
+   3.666178510466399*^9, 3.666178570289198*^9}, {3.666178609343429*^9, 
+   3.666178639925955*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["In-Class Activity", "Section",
+ CellChangeTimes->{{3.647716402186221*^9, 3.647716405353856*^9}, {
+  3.6583374723271*^9, 3.658337478437811*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Create an image using turtle graphics", "Subsection",
+ CellChangeTimes->{{3.666173617952677*^9, 3.666173623927953*^9}}],
+
+Cell["NAME:", "Subsubsection",
+ CellChangeTimes->{{3.658337538475717*^9, 3.658337539778943*^9}}],
+
+Cell["STUDENT NUMBER:", "Subsubsection",
+ CellChangeTimes->{{3.658337543114833*^9, 3.658337546026588*^9}}],
+
+Cell["DATE:", "Subsubsection",
+ CellChangeTimes->{{3.6583375490023537`*^9, 3.658337550162354*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Upload your notebook", "Section",
+ CellChangeTimes->{{3.649950784924818*^9, 3.649950788859275*^9}}],
+
+Cell["\<\
+Don\[CloseCurlyQuote]t forget to upload a copy of your notebook for this day\
+\[CloseCurlyQuote]s class to the OWL Site for the course\
+\>", "Text",
+ CellChangeTimes->{{3.649950792779258*^9, 3.649950818634288*^9}, {
+  3.658337509093232*^9, 3.658337512508254*^9}}]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1422, 1107},
+WindowMargins->{{Automatic, 39}, {Automatic, 42}},
+TaggingRules->{"SlideShow" -> True},
+Magnification:>1.25 Inherited,
+FrontEndVersion->"10.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (December 10, \
+2015)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "SlideShowHeader"->{
+  Cell[580, 22, 4299, 96, 75, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[5771, 146, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[12359, 338, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[17661, 499, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[25521, 735, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[34236, 990, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[41945, 1203, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[42703, 1231, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"SlideShowHeader", 43586, 1261}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 4299, 96, 75, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[4882, 120, 487, 10, 183, "Title"],
+Cell[5372, 132, 362, 9, 99, "Subtitle"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5771, 146, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[5860, 151, 148, 2, 80, "Section"],
+Cell[6011, 155, 610, 14, 61, "Text"],
+Cell[6624, 171, 618, 14, 61, "Text"],
+Cell[7245, 187, 327, 8, 36, "Input"],
+Cell[7575, 197, 508, 20, 37, "Text"],
+Cell[8086, 219, 812, 18, 36, "Input"],
+Cell[8901, 239, 756, 17, 36, "Input"],
+Cell[9660, 258, 864, 20, 36, "Input"],
+Cell[10527, 280, 263, 7, 37, "Text"],
+Cell[10793, 289, 450, 14, 36, "Input"],
+Cell[11246, 305, 1064, 27, 57, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[12359, 338, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[12448, 343, 172, 2, 80, "Section"],
+Cell[12623, 347, 269, 7, 37, "Text"],
+Cell[12895, 356, 180, 4, 36, "Input"],
+Cell[13078, 362, 194, 4, 37, "Text"],
+Cell[13275, 368, 442, 12, 36, "Input"],
+Cell[13720, 382, 508, 14, 36, "Input"],
+Cell[14231, 398, 510, 14, 36, "Input"],
+Cell[14744, 414, 200, 4, 37, "Text"],
+Cell[14947, 420, 561, 15, 36, "Input"],
+Cell[15511, 437, 186, 4, 37, "Text"],
+Cell[15700, 443, 133, 2, 35, "Input"],
+Cell[15836, 447, 588, 14, 36, "Input"],
+Cell[16427, 463, 590, 14, 36, "Input"],
+Cell[17020, 479, 592, 14, 36, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[17661, 499, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[17750, 504, 163, 2, 80, "Section"],
+Cell[17916, 508, 273, 7, 37, "Text"],
+Cell[18192, 517, 523, 14, 36, "Input"],
+Cell[18718, 533, 525, 14, 36, "Input"],
+Cell[19246, 549, 151, 2, 37, "Text"],
+Cell[19400, 553, 712, 18, 36, "Input"],
+Cell[20115, 573, 669, 18, 36, "Input"],
+Cell[20787, 593, 137, 1, 37, "Text"],
+Cell[20927, 596, 745, 18, 36, "Input"],
+Cell[21675, 616, 200, 6, 37, "Text"],
+Cell[21878, 624, 1128, 33, 57, "Input"],
+Cell[23009, 659, 264, 6, 36, "Input"],
+Cell[23276, 667, 611, 16, 36, "Input"],
+Cell[23890, 685, 397, 11, 36, "Input"],
+Cell[24290, 698, 317, 7, 36, "Input"],
+Cell[24610, 707, 862, 22, 36, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[25521, 735, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[25610, 740, 149, 2, 80, "Section"],
+Cell[25762, 744, 330, 8, 37, "Text"],
+Cell[26095, 754, 827, 21, 36, "Input"],
+Cell[26925, 777, 230, 5, 37, "Text"],
+Cell[27158, 784, 897, 23, 36, "Input"],
+Cell[28058, 809, 273, 5, 37, "Text"],
+Cell[28334, 816, 611, 18, 57, "Input"],
+Cell[28948, 836, 140, 1, 37, "Text"],
+Cell[29091, 839, 391, 10, 36, "Input"],
+Cell[29485, 851, 142, 1, 37, "Text"],
+Cell[29630, 854, 418, 11, 36, "Input"],
+Cell[30051, 867, 188, 2, 37, "Text"],
+Cell[30242, 871, 416, 11, 36, "Input"],
+Cell[30661, 884, 235, 5, 37, "Text"],
+Cell[30899, 891, 636, 17, 57, "Input"],
+Cell[31538, 910, 298, 7, 36, "Input"],
+Cell[31839, 919, 155, 3, 37, "Text"],
+Cell[31997, 924, 511, 12, 36, "Input"],
+Cell[32511, 938, 595, 16, 57, "Input"],
+Cell[33109, 956, 353, 8, 36, "Input"],
+Cell[33465, 966, 155, 3, 37, "Text"],
+Cell[33623, 971, 564, 13, 36, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[34236, 990, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[34325, 995, 272, 3, 80, "Section"],
+Cell[34600, 1000, 368, 11, 37, "Text"],
+Cell[34971, 1013, 767, 18, 57, "Input"],
+Cell[35741, 1033, 840, 18, 36, "Input"],
+Cell[36584, 1053, 767, 19, 36, "Input"],
+Cell[37354, 1074, 935, 23, 57, "Input"],
+Cell[38292, 1099, 849, 20, 36, "Input"],
+Cell[39144, 1121, 753, 20, 57, "Input"],
+Cell[39900, 1143, 608, 14, 36, "Input"],
+Cell[40511, 1159, 728, 21, 57, "Input"],
+Cell[41242, 1182, 654, 15, 36, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[41945, 1203, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[42034, 1208, 149, 2, 80, "Section"],
+Cell[CellGroupData[{
+Cell[42208, 1214, 125, 1, 54, "Subsection"],
+Cell[42336, 1217, 96, 1, 43, "Subsubsection"],
+Cell[42435, 1220, 106, 1, 34, "Subsubsection"],
+Cell[42544, 1223, 98, 1, 34, "Subsubsection"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[42703, 1231, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[42792, 1236, 105, 1, 80, "Section"],
+Cell[42900, 1239, 273, 5, 37, "Text"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
