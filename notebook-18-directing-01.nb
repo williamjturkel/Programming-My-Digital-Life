@@ -1,0 +1,1574 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     54509,       1565]
+NotebookOptionsPosition[     48710,       1385]
+NotebookOutlinePosition[     49914,       1423]
+CellTagsIndexPosition[     49835,       1418]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ TogglerBox[2, {1->
+  OverlayBox[{
+   TagBox[GridBox[{
+      {
+       GraphicsBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBLECOU2VJahIzkCEFxAJADBL8//8/
+Qfzo0SP2GzduCF29elXs/Pnz0sgYn747d+5wA9VoArE/EB8B4uPoGJu+Fy9e
+MF+4cEENKB8AxBeB+AMQ/wXif+gYi1tBdvoB8QUg/ghV9x8XRtb7/PlzFqje
+t1D7cOrDpv/ixYvqUHuJ0ousHxpWAVA3E6UXWT80nC8S8i82/Q8ePOAgx26Y
+/uvXrwsD2UdJ8Tey/kuXLolD0wNJbofpB6YVSUr0n4ek5QHTT6n7KQ0/SuOP
+0vRDafqlRv6BxgPZ+Ret/HhHrBl4yi9QWHwiFB7Yyk+QO6B+CTxPYvmJjG/f
+vs17nozyG1f9cR6t7gBhAPeiQ4A=
+         "], {{0, 26}, {16, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{16, 26},
+        PlotRange->{{0, 16}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJzt2d9OVFcUB2DSNmkfQRFEiRQ1gCK1vW4fwT6BJu1tE9uk8fUUERE9aECC
+qLGYEmKkErWxtont2mGdcDLVOpNgZijfJB9hzp+99j6zb9b5Hb3ww7nvP+rr
+6/vxs/hz7vzPX1+8eP7St5/El28u/fTdhY/jn/6w8GlfXzlYVdWhDgyEwXT4
+HQYbBho6qQMAAOxt/Q0HWxxo0TzX3xij7juGwpFwNAyHY2EkfB6OhxPhZBgL
+42EinAqnw2SYSl+Es+HL9FWb6uvP5hj1eJNZ41TWHM85nMw5Hc85juSch3MN
+R3JNdf/UfGbtPqf6WdW6/XsDAADsV7vd/7b2vqPV2/veuuc9k6Za1Mfr3vVt
+feto9e+eVb9KL2tmz81M+n25dadZ9bU2zYXbYSmshNXwoOF+uJfn7obFcKfa
+/twMN8L1MNtBTQAAYO+ZSVfTdLqSLreoj0/n9eXe0jeUHmQ+3AoL1XZ/UfqR
+5Wq77yg9yMPwS3gcfg0b4Ul4Gn4LW+F5eBl+D6/CH+F1+DP99Q71+dd5z6sc
+42WOuZU1nmbNjZzD45zTw5zjSs55KdewkGuazzXONp5Xu8+pflb185rpgd8d
+AABgv/kQ/W/J4krGVvrIkruVDO5RWAvr1U7fuxmeVTt9b/Ei1d+38prNaqdv
+Xc+xHuXY97LWYtbWr9Jryj4sGXPJmkvmXD7l/UrZsyWTLu9dyj4u72Ca2fVq
+nivvY8renuug5ps2/b2L2q0JAADwX3azT/kQuv18AAAA2Pv0rOxn3djz3X6f
+BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAADsHW/a1I2aAAAAAAAAsJ91OyOEburGnr/W
+prlwOyyFlbAaHjTcD/fy3N2wGO5U25+b4Ua4HmY7qAkAAAAAAAC9aCZdTdPp
+Srrcoj4+ndeXe0tuVjK4+XCr2s7iSsa2XG3nbiWDexTWwnrYCE/CZngWtsLz
+9CLV37fyms28ZyPHWMsxH2SN5ax5O+cwn3Oabayv3XXVa6vXN9MDvxN7W9mH
+JWMuWXPJnMunZNBlz5ZMumTTZR+XrLqZXa/muZJtl70910HNQx0YCIPp8DsM
+Ngw0dFIHAAAAAAAAel1/w8EWB1o0z/U3xqhzt6FwNAyHY2EkjIYT4WQYC+Nh
+IpwOk+FMmmpRH5/Mayfy3rEc60SOPZK1hrP2ULWT9zXX2O666rXVuv378P/S
+zJ6bmfT7cuuOsup/AFmW9vs=
+         "], {{0, 26}, {2000, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{2000, 26},
+        PlotRange->{{0, 2000}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJy9lstOwkAUhhthQUJcuUBl5cr4GPoABvEJINGtCZoYng4Il4Z7gXAJYUHY
+QAi3GlYQPZ5/4pCm0pYC2uSDaXvmn5lzzpzpVfQl/HyiKMqrj3/CkffbWCwS
+f/TyzV387Snq4cYlc87gYbVaDbpB07SLRqMR6Pf7PiJSnOA+6h7kmBBz0+12
+Tx30v/bgk9GZOvPAa7oejUYeC306AIz1wWjM/WAw8B9ZX4L1TDHGcDj02ulX
+KpUNbt79jKHBV1b66Fcul3fCYgzEJNTr9fxmfaldKpWoUChQPp8X/8ViUWB8
+BhuLMRCPGvJqmz76QWOxWFCtVqNsNku5XE6AdqfToclkImxga7cGuT/M+uw/
+ms/ntF6vqdlsUjKZFKCNC/pynTZxyLbb7bNt/sHcMpkMzWYzoVev1wW4xuOx
+WAdsbGIAH6ncJ7BNH/6FRjqdJl3XSV7T6VSsA76CDWxt9oSKOmLOH/RBLKEP
+LVVVN/qJRGKjDxsnfSZoN3/4CPNfrVa/5n+IvtH/iDHu9/G/2T/G/JT5A41U
+KiXm3Wq1xBhcx5zy0zK+Mj+Xy6XIf5n7EuQ/9sYh+Wneqy73r+3+2rX2OPh+
+a31wqpHG5xbatvXtCDjW5wO1Z9UdzheXyPMRPrc6H49yvpvn/Y/fJ3/6ffUN
+AyH/6w==
+         "], {{0, 26}, {24, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{24, 26},
+        PlotRange->{{0, 24}, {0, 26}}]}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {Automatic, 
+         Scaled[0.6], Automatic}},
+     GridBoxSpacings->{"Columns" -> {{0}}, "Rows" -> {{0}}}],
+    "Grid"], 
+   PaneBox[
+    StyleBox[
+     RowBox[{
+     "Background", " ", "images", " ", "and", " ", "text", " ", "colors", " ",
+       "have", " ", "been", " ", "adjusted", " ", "for", " ", "editing", " ", 
+      
+      RowBox[{"purposes", "."}]}],
+     LineBreakWithin->False,
+     FontFamily->"Helvetica",
+     FontSize->12,
+     FontColor->GrayLevel[0.4]],
+    Alignment->Center,
+    ImageSize->Scaled[0.5],
+    ScrollPosition->{0., 0.}]},
+   Alignment->{Center, Center}], 2->""}, "1"]], "SlideShowNavigationBar", \
+"FirstSlide",
+ CellMargins->{{0, 0}, {0, 0}},
+ CellFrameLabelMargins->2,
+ CellSize->{Inherited, 30},
+ CellChangeTimes->{3.647361175465108*^9},
+ TextAlignment->Center,
+ CellTags->"SlideShowHeader"],
+
+Cell["\<\
+Notebook 18:
+Directing 01\
+\>", "Title",
+ CellChangeTimes->{
+  3.559948400406288*^9, {3.647331852839075*^9, 3.647331861295168*^9}, {
+   3.647331922221755*^9, 3.647331924532915*^9}, {3.647332658962614*^9, 
+   3.64733266480881*^9}, {3.6473611327373047`*^9, 3.647361139759391*^9}, {
+   3.647448943135475*^9, 3.6474489472294493`*^9}, {3.658337416821965*^9, 
+   3.65833742904038*^9}, {3.658337677781981*^9, 3.658337703010659*^9}, {
+   3.6667707193911057`*^9, 3.6667707245092154`*^9}}],
+
+Cell[TextData[{
+ "William J Turkel, ",
+ StyleBox["wturkel@uwo.ca",
+  FontSlant->"Italic",
+  FontColor->RGBColor[
+   0.396078431372549, 0.596078431372549, 0.796078431372549]],
+ "\nDigital Humanities 1011B"
+}], "Subtitle",
+ CellChangeTimes->{{3.647331955723979*^9, 3.6473319708190517`*^9}, 
+   3.647332103720562*^9, {3.6583374336085033`*^9, 3.658337439311952*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Some Drawing Functions", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.6667715352719584`*^9, 3.666771552918421*^9}, {3.666771587213065*^9, 
+  3.666771588692911*^9}, {3.666785791125318*^9, 3.6667857955248632`*^9}}],
+
+Cell["\<\
+In this lesson and the next, we learn a number of techniques for creating \
+longer animations from smaller pieces. The examples shown here are \
+representational (i.e., cartoon-like) but many of the same techniques could \
+be used for generative / algorithmic art, motion graphics, etc.\
+\>", "Text",
+ CellChangeTimes->{{3.666774581484973*^9, 3.666774594244481*^9}, {
+  3.6667746432509193`*^9, 3.666774734767315*^9}, {3.666774832395453*^9, 
+  3.666774840067616*^9}}],
+
+Cell["Here are some functions for drawing our examples.", "Text",
+ CellChangeTimes->{{3.66677354565161*^9, 3.6667735462914133`*^9}, {
+  3.666785815268539*^9, 3.666785822419832*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["The desert", "Subsubsection",
+ CellChangeTimes->{{3.666780981859832*^9, 3.6667809836764317`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"desertBackground", "=", 
+   RowBox[{"{", 
+    RowBox[{"LightBlue", ",", 
+     RowBox[{"Rectangle", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"0", ",", "0"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"16", ",", "9"}], "}"}]}], "]"}], ",", "LightBrown", ",", 
+     RowBox[{"Rectangle", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"0", ",", "0"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"16", ",", "2.5"}], "}"}]}], "]"}]}], "}"}]}], ";"}]], "Input",\
+
+ CellChangeTimes->{{3.6667793857123413`*^9, 3.666779398885092*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", "desertBackground", "}"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6667808598035097`*^9, 3.6667808745044737`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Sketchy buildings and streets", "Subsubsection",
+ CellChangeTimes->{{3.6667809897880373`*^9, 3.666780994963931*^9}, {
+  3.666785744151537*^9, 3.6667857485424633`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"drawBuildings", "=", 
+   RowBox[{"{", 
+    RowBox[{"Gray", ",", 
+     RowBox[{"Rectangle", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"0", ",", "0"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"3", ",", "2"}], "}"}]}], "]"}], ",", 
+     RowBox[{"Darker", "[", "Gray", "]"}], ",", 
+     RowBox[{"Rectangle", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"-", "1"}], ",", 
+         RowBox[{"-", ".5"}]}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"2", ",", "1"}], "}"}]}], "]"}]}], "}"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.6667794111817837`*^9, 3.666779448422905*^9}, {
+  3.6667794789144897`*^9, 3.666779521648987*^9}, {3.666780553038815*^9, 
+  3.6667805947411633`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"desertBackground", ",", 
+     RowBox[{"Translate", "[", 
+      RowBox[{"drawBuildings", ",", 
+       RowBox[{"{", 
+        RowBox[{"3", ",", "2"}], "}"}]}], "]"}]}], "}"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6667808598035097`*^9, 3.6667809027024527`*^9}, {
+  3.6667859584916*^9, 3.66678597851038*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"drawStreet", "=", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"Darker", "[", "Gray", "]"}], ",", 
+     RowBox[{"Line", "[", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"2", ",", "0"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"5", ",", "2.5"}], "}"}]}], "}"}], "]"}], ",", 
+     RowBox[{"Line", "[", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"9", ",", "2.5"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"12", ",", "0"}], "}"}]}], "}"}], "]"}]}], "}"}]}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.6667806531781397`*^9, 3.6667806673041277`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"drawBuildings2", "=", 
+   RowBox[{"{", 
+    RowBox[{"Gray", ",", 
+     RowBox[{"Rectangle", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"10", ",", "2"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"13", ",", "4"}], "}"}]}], "]"}], ",", 
+     RowBox[{"Rectangle", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"1", ",", "2"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"4", ",", "4"}], "}"}]}], "]"}], ",", 
+     RowBox[{"Darker", "[", "Gray", "]"}], ",", 
+     RowBox[{"Rectangle", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"12", ",", "1.5"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"15", ",", "3"}], "}"}]}], "]"}]}], "}"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.666780623612734*^9, 3.666780652159932*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"desertBackground", ",", "drawStreet", ",", "drawBuildings2"}], 
+    "}"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6667808598035097`*^9, 3.6667809027024527`*^9}, {
+   3.666780949613755*^9, 3.666780954908618*^9}, 3.666785988874024*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["A robot", "Subsubsection",
+ CellChangeTimes->{{3.666780999651587*^9, 3.666781007787437*^9}}],
+
+Cell["Closeup front", "Text",
+ CellChangeTimes->{{3.666783192443915*^9, 3.666783195356071*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"drawRobot", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"x_", ",", "y_"}], "}"}], ",", "fillcolour_", ",", 
+    "edgecolour_"}], "]"}], ":=", "\[IndentingNewLine]", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"EdgeForm", "[", "edgecolour", "]"}], ",", "fillcolour", ",", 
+    RowBox[{"Rectangle", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"x", ",", "y"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"x", "+", "7"}], ",", 
+        RowBox[{"y", "+", "4"}]}], "}"}], ",", 
+      RowBox[{"RoundingRadius", "\[Rule]", "1"}]}], "]"}], ",", 
+    RowBox[{"Rectangle", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"x", "+", "2"}], ",", 
+        RowBox[{"y", "+", "2"}]}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"x", "+", "5"}], ",", 
+        RowBox[{"y", "+", "7"}]}], "}"}], ",", 
+      RowBox[{"RoundingRadius", "\[Rule]", "1"}]}], "]"}], ",", 
+    RowBox[{"Darker", "[", "fillcolour", "]"}], ",", 
+    RowBox[{"Rectangle", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"x", "+", "2.5"}], ",", 
+        RowBox[{"y", "+", "5.5"}]}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"x", "+", "4.5"}], ",", 
+        RowBox[{"y", "+", "6.5"}]}], "}"}], ",", 
+      RowBox[{"RoundingRadius", "\[Rule]", ".5"}]}], "]"}]}], 
+   "}"}]}]], "Input",
+ CellChangeTimes->{{3.6667796317045383`*^9, 3.666779707770247*^9}, {
+  3.6667798325662813`*^9, 3.666779875261115*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"drawRobot", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"0", ",", "0"}], "}"}], ",", 
+      RowBox[{"Darker", "[", "Blue", "]"}], ",", "LightBlue"}], "]"}], "}"}], 
+   ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6667808598035097`*^9, 3.6667809027024527`*^9}, {
+  3.666780949613755*^9, 3.666780954908618*^9}, {3.666781020243657*^9, 
+  3.666781062169578*^9}, {3.666781094880883*^9, 3.666781128975285*^9}}],
+
+Cell["Closeup from the back", "Text",
+ CellChangeTimes->{{3.666783110718937*^9, 3.6667831121270523`*^9}, {
+  3.666783203268079*^9, 3.666783204323674*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"drawRobotBack", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"x_", ",", "y_"}], "}"}], ",", "fillcolour_", ",", 
+    "edgecolour_"}], "]"}], ":=", "\[IndentingNewLine]", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"EdgeForm", "[", "edgecolour", "]"}], ",", "fillcolour", ",", 
+    RowBox[{"Rectangle", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"x", "+", "2"}], ",", 
+        RowBox[{"y", "+", "2"}]}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"x", "+", "5"}], ",", 
+        RowBox[{"y", "+", "7"}]}], "}"}], ",", 
+      RowBox[{"RoundingRadius", "\[Rule]", "1"}]}], "]"}], ",", 
+    RowBox[{"Rectangle", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"x", ",", "y"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"x", "+", "7"}], ",", 
+        RowBox[{"y", "+", "4"}]}], "}"}], ",", 
+      RowBox[{"RoundingRadius", "\[Rule]", "1"}]}], "]"}]}], "}"}]}]], "Input",\
+
+ CellChangeTimes->{{3.6667796317045383`*^9, 3.666779707770247*^9}, {
+  3.6667798325662813`*^9, 3.666779875261115*^9}, {3.6667831057278023`*^9, 
+  3.6667831661762037`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"drawRobotBack", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"0", ",", "0"}], "}"}], ",", 
+      RowBox[{"Darker", "[", "Blue", "]"}], ",", "LightBlue"}], "]"}], "}"}], 
+   ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6667808598035097`*^9, 3.6667809027024527`*^9}, {
+  3.666780949613755*^9, 3.666780954908618*^9}, {3.666781020243657*^9, 
+  3.666781062169578*^9}, {3.666781094880883*^9, 3.666781128975285*^9}, {
+  3.666783135775231*^9, 3.6667831360943937`*^9}}],
+
+Cell["From a distance", "Text",
+ CellChangeTimes->{{3.6667832071154203`*^9, 3.666783208803722*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"drawRobotFull", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"x_", ",", "y_"}], "}"}], ",", "fillcolour_", ",", 
+    "edgecolour_"}], "]"}], ":=", "\[IndentingNewLine]", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"Scale", "[", 
+     RowBox[{
+      RowBox[{"drawRobot", "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"x", ",", "y"}], "}"}], ",", "fillcolour", ",", 
+        "edgecolour"}], "]"}], ",", ".25"}], "]"}], ",", 
+    RowBox[{"EdgeForm", "[", "edgecolour", "]"}], ",", "fillcolour", ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"Rectangle", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"x", "+", "3.2"}], ",", 
+        RowBox[{"y", "+", "3"}]}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"x", "+", "3.8"}], ",", 
+        RowBox[{"y", "+", "1.5"}]}], "}"}], ",", 
+      RowBox[{"RoundingRadius", "\[Rule]", ".1"}]}], "]"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"Rectangle", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"x", "+", "2.3"}], ",", 
+        RowBox[{"y", "+", "3.25"}]}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"x", "+", "2.7"}], ",", 
+        RowBox[{"y", "+", "1.25"}]}], "}"}], ",", 
+      RowBox[{"RoundingRadius", "\[Rule]", ".1"}]}], "]"}], ",", 
+    RowBox[{"Rectangle", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"x", "+", "4.3"}], ",", 
+        RowBox[{"y", "+", "3.25"}]}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"x", "+", "4.7"}], ",", 
+        RowBox[{"y", "+", "1.25"}]}], "}"}], ",", 
+      RowBox[{"RoundingRadius", "\[Rule]", ".1"}]}], "]"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"Rectangle", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"x", "+", "2.9"}], ",", 
+        RowBox[{"y", "-", "1.3"}]}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"x", "+", "3.3"}], ",", 
+        RowBox[{"y", "+", "1.5"}]}], "}"}], ",", 
+      RowBox[{"RoundingRadius", "\[Rule]", ".1"}]}], "]"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"Rectangle", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"x", "+", "3.7"}], ",", 
+        RowBox[{"y", "-", "1.3"}]}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"x", "+", "4.1"}], ",", 
+        RowBox[{"y", "+", "1.5"}]}], "}"}], ",", 
+      RowBox[{"RoundingRadius", "\[Rule]", ".1"}]}], "]"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"Disk", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"x", "+", "2.5"}], ",", 
+        RowBox[{"y", "+", "3.25"}]}], "}"}], ",", ".2"}], "]"}], ",", 
+    RowBox[{"Disk", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"x", "+", "4.5"}], ",", 
+        RowBox[{"y", "+", "3.25"}]}], "}"}], ",", ".2"}], "]"}], ",", 
+    RowBox[{"Disk", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"x", "+", "3.1"}], ",", 
+        RowBox[{"y", "+", "1.5"}]}], "}"}], ",", ".2"}], "]"}], ",", 
+    RowBox[{"Disk", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"x", "+", "3.9"}], ",", 
+        RowBox[{"y", "+", "1.5"}]}], "}"}], ",", ".2"}], "]"}]}], 
+   "}"}]}]], "Input",
+ CellChangeTimes->{{3.6667796317045383`*^9, 3.666779707770247*^9}, {
+  3.6667798325662813`*^9, 3.666779875261115*^9}, {3.666783222483261*^9, 
+  3.666783223155382*^9}, {3.666783267353676*^9, 3.666783620988227*^9}, {
+  3.666783655263384*^9, 3.6667838407199993`*^9}, {3.666783878911385*^9, 
+  3.666783931050029*^9}, {3.6667839742907867`*^9, 3.666784264885838*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"drawRobotFull", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"0", ",", "0"}], "}"}], ",", 
+      RowBox[{"Darker", "[", "Blue", "]"}], ",", "LightBlue"}], "]"}], "}"}], 
+   ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6667808598035097`*^9, 3.6667809027024527`*^9}, {
+  3.666780949613755*^9, 3.666780954908618*^9}, {3.666781020243657*^9, 
+  3.666781062169578*^9}, {3.666781094880883*^9, 3.666781128975285*^9}, {
+  3.666783246802486*^9, 3.666783247426509*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Storyboards", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.6667709029020348`*^9, 3.66677090699853*^9}, {3.6667709700764017`*^9, 
+  3.6667709935553102`*^9}, {3.6667710978868637`*^9, 3.666771105966381*^9}, {
+  3.666771194659154*^9, 3.666771200203516*^9}, {3.666771454842667*^9, 
+  3.6667714635857077`*^9}, {3.666771814581601*^9, 3.666771845227483*^9}, {
+  3.666774856738452*^9, 3.6667748657874117`*^9}}],
+
+Cell["\<\
+Storyboards are comic-book-style sequences of still images that help you \
+visualize what your animation is going to look like. Don\[CloseCurlyQuote]t \
+spend too much time working on the images in each frame. They are really just \
+\[OpenCurlyQuote]sketches\[CloseCurlyQuote] that help you imagine how to \
+stage the action.\
+\>", "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.666774758221806*^9, 3.666774827835943*^9}, {3.666774894257916*^9, 
+  3.666774990733982*^9}, {3.666775193413916*^9, 3.666775196765744*^9}, {
+  3.666779339551437*^9, 3.666779342711166*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["A single storyboard frame", "Subsection",
+ CellChangeTimes->{{3.6667807921952877`*^9, 3.666780801562913*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"drawStoryboardFrame", "[", 
+   RowBox[{"img_", ",", "txt_"}], "]"}], ":=", "\[IndentingNewLine]", 
+  RowBox[{"Graphics", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"img", ",", 
+      RowBox[{"Text", "[", 
+       RowBox[{
+        RowBox[{"Style", "[", 
+         RowBox[{"txt", ",", 
+          RowBox[{"FontSize", "\[Rule]", "12"}]}], "]"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"Center", ",", 
+          RowBox[{"-", "1.5"}]}], "}"}]}], "]"}]}], "}"}], ",", 
+    RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+    RowBox[{"FrameTicks", "\[Rule]", "None"}], ",", 
+    RowBox[{"ImagePadding", "\[Rule]", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"5", ",", "5"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"15", ",", "5"}], "}"}]}], "}"}]}], ",", 
+    RowBox[{"PlotRangePadding", "\[Rule]", 
+     RowBox[{"Scaled", "[", ".2", "]"}]}], ",", 
+    RowBox[{"ImageMargins", "\[Rule]", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"5", ",", "5"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"10", ",", "5"}], "}"}]}], "}"}]}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.666774998206004*^9, 3.666775082594051*^9}, {
+  3.666775120601451*^9, 3.666775124065509*^9}, {3.6667757493807487`*^9, 
+  3.666775822641055*^9}, {3.666775875671217*^9, 3.666776034680788*^9}, {
+  3.666776096495397*^9, 3.666776113150683*^9}, {3.666776269032887*^9, 
+  3.6667763205048923`*^9}, {3.666776442088846*^9, 3.666776451973983*^9}, {
+  3.666776542295021*^9, 3.666776762766971*^9}, {3.6667769979105387`*^9, 
+  3.66677708281668*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"desertEstablishingShot", "=", 
+   RowBox[{"{", 
+    RowBox[{"desertBackground", ",", 
+     RowBox[{"Translate", "[", 
+      RowBox[{"drawBuildings", ",", 
+       RowBox[{"{", 
+        RowBox[{"13", ",", "2"}], "}"}]}], "]"}]}], "}"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.666775220045883*^9, 3.666775257628187*^9}, {
+  3.666775296235016*^9, 3.666775314242229*^9}, {3.666775344825302*^9, 
+  3.6667753467049093`*^9}, {3.6667753801374083`*^9, 3.666775601327188*^9}, {
+  3.6667761669090853`*^9, 3.6667762263844547`*^9}, {3.666779405534553*^9, 
+  3.6667794067890997`*^9}, {3.6667794615871267`*^9, 3.6667794738584642`*^9}, {
+  3.666780527247212*^9, 3.666780532532228*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"desertDesc", "=", "\"\<Est. abandoned desert town\>\""}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.6667752594124813`*^9, 3.6667752765068693`*^9}, {
+  3.6667785101191*^9, 3.666778516683518*^9}, {3.6667792372610083`*^9, 
+  3.666779252179533*^9}}],
+
+Cell[BoxData[
+ RowBox[{"drawStoryboardFrame", "[", 
+  RowBox[{"desertEstablishingShot", ",", "desertDesc"}], "]"}]], "Input",
+ CellChangeTimes->{{3.666775139137538*^9, 3.666775163319149*^9}, {
+  3.666775272397978*^9, 3.66677528929104*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Laying out the storyboard", "Subsection",
+ CellChangeTimes->{{3.666780813186574*^9, 3.666780821522336*^9}}],
+
+Cell[TextData[{
+ "You can use ",
+ StyleBox["GraphicsGrid",
+  FontWeight->"Bold"],
+ " to layout a number of these storyboard frames to tell your story. Common \
+layouts are 2x2, 3x2, 3x3, etc."
+}], "Text",
+ CellChangeTimes->{{3.666776815698825*^9, 3.666776859385214*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"robotArrives", "=", 
+   RowBox[{"{", 
+    RowBox[{"desertEstablishingShot", ",", "Red", ",", 
+     RowBox[{"Rectangle", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"4", ",", "2"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"4.3", ",", "3"}], "}"}]}], "]"}], ",", "Blue", ",", 
+     RowBox[{"Arrow", "[", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"1", ",", "2.5"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"4", ",", "2.5"}], "}"}]}], "}"}], "]"}]}], "}"}]}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.666776902304927*^9, 3.66677690429571*^9}, {
+  3.666777152462543*^9, 3.666777236226783*^9}, {3.666777266364483*^9, 
+  3.66677742512459*^9}, {3.666779550314399*^9, 3.666779552249103*^9}, {
+  3.6667797314439087`*^9, 3.666779749025161*^9}, {3.666786104269017*^9, 
+  3.666786106908167*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"robotDesc", "=", "\"\<Robot gunfighter arrives\>\""}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.6667769076970654`*^9, 3.66677690898345*^9}, {
+  3.666777109552046*^9, 3.666777119551648*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"robotCloseup", "=", 
+   RowBox[{"{", 
+    RowBox[{"desertBackground", ",", 
+     RowBox[{"drawRobot", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"1", ",", "0"}], "}"}], ",", "Red", ",", "White"}], "]"}]}], 
+    "}"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.6667774956084023`*^9, 3.666777499801571*^9}, {
+   3.6667775428919487`*^9, 3.66677756290422*^9}, {3.6667775935363417`*^9, 
+   3.666777801172512*^9}, {3.666777840334463*^9, 3.666777901538355*^9}, 
+   3.6667779324037952`*^9, {3.666779565729824*^9, 3.66677956731225*^9}, {
+   3.666779812103218*^9, 3.666779825214346*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"robotCloseDesc", "=", "\"\<Close-up shot of robot's face\>\""}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.666777501752347*^9, 3.6667775183209257`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"streetView", "=", 
+   RowBox[{"{", 
+    RowBox[{"desertBackground", ",", "drawStreet", ",", "drawBuildings2"}], 
+    "}"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.666777975472789*^9, 3.6667780053666363`*^9}, {
+  3.666778051775508*^9, 3.6667781990982857`*^9}, {3.6667782299130363`*^9, 
+  3.6667783241148577`*^9}, {3.6667795744336443`*^9, 3.666779575984076*^9}, {
+  3.666780638265217*^9, 3.666780685214336*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"streetViewDesc", "=", "\"\<View down empty street\>\""}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.6667779801928997`*^9, 3.6667779895594587`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"badRobot", "=", 
+   RowBox[{"{", 
+    RowBox[{"desertBackground", ",", 
+     RowBox[{"drawRobotFull", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"6", ",", "2"}], "}"}], ",", "Gray", ",", "Black"}], "]"}], 
+     ",", 
+     RowBox[{"EdgeForm", "[", "None", "]"}], ",", "LightGray", ",", 
+     RowBox[{"Rectangle", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"11", ",", "0"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"16", ",", "9"}], "}"}]}], "]"}], ",", "Blue", ",", " ", 
+     RowBox[{"Arrow", "[", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"14", ",", "2.5"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"11", ",", "2.5"}], "}"}]}], "}"}], "]"}]}], "}"}]}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.666778660545128*^9, 3.6667786730072737`*^9}, 
+   3.666778761215246*^9, {3.6667788135674963`*^9, 3.666778832071817*^9}, {
+   3.666778882617414*^9, 3.666778929853726*^9}, {3.666778982137289*^9, 
+   3.666779009186946*^9}, {3.666779058083414*^9, 3.666779123679328*^9}, {
+   3.666779581665309*^9, 3.666779583304061*^9}, {3.666779931202979*^9, 
+   3.6667799605777187`*^9}, {3.666785934035893*^9, 3.66678593453605*^9}, {
+   3.666786155427164*^9, 3.666786162531011*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"badRobotDesc", "=", "\"\<Bad robot steps out from cover\>\""}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.666778665376546*^9, 3.6667786894945717`*^9}, {
+  3.666778777106947*^9, 3.666778778394782*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"standoff", "=", 
+   RowBox[{"{", 
+    RowBox[{
+    "desertBackground", ",", "drawStreet", ",", "drawBuildings2", ",", "Red", 
+     ",", 
+     RowBox[{"Rectangle", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"5", ",", ".5"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"5.3", ",", "1.5"}], "}"}]}], "]"}], ",", "Black", ",", 
+     RowBox[{"Rectangle", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"6", ",", "2.5"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"6.3", ",", "3.1"}], "}"}]}], "]"}]}], "}"}]}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.666778363250399*^9, 3.666778372486774*^9}, {
+  3.666778439289569*^9, 3.6667784767980003`*^9}, {3.666778573003793*^9, 
+  3.6667786040007277`*^9}, {3.666778637146331*^9, 3.666778645271764*^9}, {
+  3.666778939606625*^9, 3.666778977920602*^9}, {3.666779590305065*^9, 
+  3.6667795919520063`*^9}, {3.6667807063210297`*^9, 3.6667807357656*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"standoffDesc", "=", "\"\<A classic standoff\>\""}], ";"}]], "Input",\
+
+ CellChangeTimes->{{3.666778374538328*^9, 3.666778386401163*^9}, 
+   3.666780761903419*^9}],
+
+Cell[BoxData[
+ RowBox[{"GraphicsGrid", "[", 
+  RowBox[{
+   RowBox[{"{", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"drawStoryboardFrame", "[", 
+        RowBox[{"desertEstablishingShot", ",", "desertDesc"}], "]"}], ",", 
+       RowBox[{"drawStoryboardFrame", "[", 
+        RowBox[{"robotArrives", ",", "robotDesc"}], "]"}]}], "}"}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"drawStoryboardFrame", "[", 
+        RowBox[{"robotCloseup", ",", "robotCloseDesc"}], "]"}], ",", 
+       RowBox[{"drawStoryboardFrame", "[", 
+        RowBox[{"streetView", ",", "streetViewDesc"}], "]"}]}], "}"}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"drawStoryboardFrame", "[", 
+        RowBox[{"badRobot", ",", "badRobotDesc"}], "]"}], ",", 
+       RowBox[{"drawStoryboardFrame", "[", 
+        RowBox[{"standoff", ",", "standoffDesc"}], "]"}]}], "}"}]}], 
+    "\[IndentingNewLine]", "}"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Large"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6667768693983192`*^9, 3.666776949163271*^9}, {
+   3.666777132275426*^9, 3.6667771405587807`*^9}, 3.666777446100379*^9, {
+   3.66677752423696*^9, 3.666777528672686*^9}, {3.6667775688237658`*^9, 
+   3.666777569639221*^9}, {3.6667780177472143`*^9, 3.666778028203185*^9}, {
+   3.666778395228928*^9, 3.666778407511718*^9}, {3.6667787020176363`*^9, 
+   3.666778713373658*^9}, {3.666779178493678*^9, 3.6667792184274883`*^9}, {
+   3.6667860494243517`*^9, 3.666786066709683*^9}, {3.6667861257289543`*^9, 
+   3.666786139648636*^9}, {3.66678646927036*^9, 3.6667864725333138`*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Composition", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+   3.666771006834186*^9, 3.66677102248203*^9}, {3.66677105491236*^9, 
+   3.666771061057884*^9}, {3.666773462343775*^9, 3.6667734942133837`*^9}, {
+   3.6667811714137897`*^9, 3.666781174708764*^9}, {3.666781434284028*^9, 
+   3.666781439995935*^9}, {3.6667816074227533`*^9, 3.666781612133552*^9}, 
+   3.666781721216578*^9}],
+
+Cell[CellGroupData[{
+
+Cell["Rule of thirds", "Subsection",
+ CellChangeTimes->{{3.666781714929009*^9, 3.6667817176177683`*^9}}],
+
+Cell["\<\
+When composing a shot, a common practice is to divide the image into three \
+parts and place the subject on or near one of the two dividing lines. This is \
+more visually interesting than placing the subject in the centre of the frame.\
+\>", "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.666781180204651*^9, 3.6667812422028923`*^9}, {3.666781736632189*^9, 
+  3.666781769831748*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"thirds", "=", 
+   RowBox[{"{", 
+    RowBox[{"Blue", ",", "Dashed", ",", 
+     RowBox[{"Line", "[", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"16", "/", "3"}], ",", "0"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"16", "/", "3"}], ",", "9"}], "}"}]}], "}"}], "]"}], ",", 
+     RowBox[{"Line", "[", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"16", 
+           RowBox[{"(", 
+            RowBox[{"2", "/", "3"}], ")"}]}], ",", "0"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"16", 
+           RowBox[{"(", 
+            RowBox[{"2", "/", "3"}], ")"}]}], ",", "9"}], "}"}]}], "}"}], 
+      "]"}]}], "}"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.666781297532236*^9, 3.666781405612421*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"robotCloseup", ",", "thirds"}], "}"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.666781265734909*^9, 3.666781295609247*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["180 degree rule", "Subsection",
+ CellChangeTimes->{{3.666781725465372*^9, 3.666781729280983*^9}}],
+
+Cell["\<\
+When you have two characters interacting with one another, it is common to \
+imagine a line running between them. Typically you keep your camera on the \
+same side of this line for the whole scene. Here is an aerial view of two \
+characters (red and dark gray), the imaginary line connecting them (dotted \
+gray), and two camera positions (blue).\
+\>", "Text",
+ CellChangeTimes->{{3.666781482522066*^9, 3.666781485818128*^9}, {
+  3.6667816175334272`*^9, 3.666781708994046*^9}, {3.6667818067098293`*^9, 
+  3.666781825741786*^9}, {3.666781978128029*^9, 3.66678197926422*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"LightBrown", ",", 
+     RowBox[{"Rectangle", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"0", ",", "0"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"16", ",", "9"}], "}"}]}], "]"}], ",", "Red", ",", 
+     RowBox[{"Rectangle", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"4", ",", "5"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"5", ",", "8"}], "}"}], ",", 
+       RowBox[{"RoundingRadius", "\[Rule]", ".3"}]}], "]"}], ",", 
+     RowBox[{"Darker", "[", "Gray", "]"}], ",", 
+     RowBox[{"Rectangle", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"10", ",", "5"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"11", ",", "8"}], "}"}], ",", 
+       RowBox[{"RoundingRadius", "\[Rule]", ".3"}]}], "]"}], ",", "Dotted", 
+     ",", "Gray", ",", 
+     RowBox[{"Line", "[", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"4.5", ",", "6.5"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"10.5", ",", "6.5"}], "}"}]}], "}"}], "]"}], ",", "Blue", 
+     ",", 
+     RowBox[{"Dashing", "[", "None", "]"}], ",", 
+     RowBox[{"Rotate", "[", 
+      RowBox[{
+       RowBox[{"Rectangle", "[", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"9", ",", "2.2"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"10", ",", "2.7"}], "}"}]}], "]"}], ",", 
+       RowBox[{"320", "Degree"}]}], "]"}], ",", 
+     RowBox[{"Arrow", "[", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"9.5", ",", "2.5"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"5.5", ",", "5.5"}], "}"}]}], "}"}], "]"}], ",", 
+     RowBox[{"Text", "[", 
+      RowBox[{"\"\<Camera 1\>\"", ",", 
+       RowBox[{"{", 
+        RowBox[{"10", ",", "1"}], "}"}]}], "]"}], ",", 
+     RowBox[{"Rotate", "[", 
+      RowBox[{
+       RowBox[{"Rectangle", "[", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"5", ",", "2.2"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"6", ",", "2.7"}], "}"}]}], "]"}], ",", 
+       RowBox[{"40", "Degree"}]}], "]"}], ",", 
+     RowBox[{"Arrow", "[", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"5.5", ",", "2.5"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"9.5", ",", "5.5"}], "}"}]}], "}"}], "]"}], ",", 
+     RowBox[{"Text", "[", 
+      RowBox[{"\"\<Camera 2\>\"", ",", 
+       RowBox[{"{", 
+        RowBox[{"4", ",", "1"}], "}"}]}], "]"}]}], "}"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.666781788060166*^9, 3.6667818021506453`*^9}, {
+  3.666781853653874*^9, 3.666781925033435*^9}, {3.666781964280352*^9, 
+  3.6667825337401047`*^9}}],
+
+Cell["Here is what the scene looks like from camera 1.", "Text",
+ CellChangeTimes->{{3.666781831884694*^9, 3.666781840605315*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"{", 
+   RowBox[{"robotCloseup", ",", 
+    RowBox[{"EdgeForm", "[", "Black", "]"}], ",", "White", ",", 
+    RowBox[{"Disk", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"9.5", ",", "6"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"3", ",", "1"}], "}"}]}], "]"}], ",", "Black", ",", 
+    RowBox[{"Text", "[", 
+     RowBox[{"\"\<You are under arrest\>\"", ",", 
+      RowBox[{"{", 
+       RowBox[{"9.5", ",", "6"}], "}"}]}], "]"}]}], "}"}], "]"}]], "Input",
+ CellChangeTimes->{{3.666781265734909*^9, 3.666781295609247*^9}, {
+   3.666781946673738*^9, 3.6667819499605722`*^9}, {3.666782639471973*^9, 
+   3.666782817666216*^9}, {3.6667828776882*^9, 3.666782889030508*^9}, 
+   3.666786245325726*^9}],
+
+Cell["Here is what the scene looks like from camera 2.", "Text",
+ CellChangeTimes->{{3.666781831884694*^9, 3.666781848099759*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"{", 
+   RowBox[{"desertBackground", ",", 
+    RowBox[{"drawRobot", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"8", ",", "0"}], "}"}], ",", "Gray", ",", "Black"}], "]"}], 
+    ",", 
+    RowBox[{"EdgeForm", "[", "Black", "]"}], ",", "White", ",", 
+    RowBox[{"Disk", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"6.5", ",", "6"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"3", ",", "1"}], "}"}]}], "]"}], ",", "Black", ",", 
+    RowBox[{"Text", "[", 
+     RowBox[{
+      RowBox[{"Style", "[", 
+       RowBox[{"\"\<You'll never take me!\>\"", ",", "Italic"}], "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"6.5", ",", "6"}], "}"}]}], "]"}]}], "}"}], "]"}]], "Input",
+ CellChangeTimes->{{3.66678256346716*^9, 3.666782582491085*^9}, 
+   3.666782651128276*^9, {3.666782831804846*^9, 3.666782859511636*^9}, {
+   3.666782894160891*^9, 3.666782923462187*^9}, 3.666786249901476*^9}],
+
+Cell["\<\
+Alternately, you could show the bad robot\[CloseCurlyQuote]s whole body from \
+camera 2.\
+\>", "Text",
+ CellChangeTimes->{{3.66678620404618*^9, 3.6667862756597652`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"{", 
+   RowBox[{"desertBackground", ",", 
+    RowBox[{"drawRobotFull", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"8", ",", "3"}], "}"}], ",", "Gray", ",", "Black"}], "]"}], 
+    ",", 
+    RowBox[{"EdgeForm", "[", "Black", "]"}], ",", "White", ",", 
+    RowBox[{"Disk", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"6.5", ",", "6"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"3", ",", "1"}], "}"}]}], "]"}], ",", "Black", ",", 
+    RowBox[{"Text", "[", 
+     RowBox[{
+      RowBox[{"Style", "[", 
+       RowBox[{"\"\<You'll never take me!\>\"", ",", "Italic"}], "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"6.5", ",", "6"}], "}"}]}], "]"}]}], "}"}], "]"}]], "Input",
+ CellChangeTimes->{{3.66678430877007*^9, 3.666784431559375*^9}, {
+  3.66678631003524*^9, 3.666786347865453*^9}}],
+
+Cell["\<\
+Now you can cut back and forth between shots of the two characters, without \
+their spatial relationship becoming confusing.\
+\>", "Text",
+ CellChangeTimes->{{3.666782607193275*^9, 3.666782632808166*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Fading", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.6667715352719584`*^9, 3.666771552918421*^9}, {3.666771587213065*^9, 
+  3.666771588692911*^9}, {3.667232739422621*^9, 3.667232768643865*^9}, {
+  3.667233000660082*^9, 3.6672330029877243`*^9}, {3.6672330949360733`*^9, 
+  3.667233095344207*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Fade to / from white", "Subsection",
+ CellChangeTimes->{{3.66677354565161*^9, 3.6667735462914133`*^9}, {
+  3.667232744525074*^9, 3.667232746413239*^9}, {3.667232938045602*^9, 
+  3.667232938726115*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", 
+  RowBox[{
+   RowBox[{"Graphics", "[", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"Opacity", "[", "o", "]"}], ",", "robotCloseup"}], "}"}], "]"}],
+    ",", 
+   RowBox[{"{", 
+    RowBox[{"o", ",", "1", ",", "0", ",", 
+     RowBox[{"-", ".05"}]}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.665918815204522*^9, 3.66591886745193*^9}, {
+  3.667232781292398*^9, 3.6672327859110193`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Fade to / from black", "Subsection",
+ CellChangeTimes->{{3.66677354565161*^9, 3.6667735462914133`*^9}, {
+  3.667232744525074*^9, 3.6672327526930637`*^9}, {3.667232942021358*^9, 
+  3.667232942694001*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", 
+  RowBox[{
+   RowBox[{"Graphics", "[", 
+    RowBox[{"{", 
+     RowBox[{"robotCloseup", ",", 
+      RowBox[{"Opacity", "[", "o", "]"}], ",", "Black", ",", 
+      RowBox[{"Rectangle", "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"0", ",", "0"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"16", ",", "9"}], "}"}]}], "]"}]}], "}"}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"o", ",", "1", ",", "0", ",", 
+     RowBox[{"-", ".05"}]}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.665918815204522*^9, 3.66591886745193*^9}, {
+  3.667232781292398*^9, 3.6672327859110193`*^9}, {3.667232826498859*^9, 
+  3.667232840241894*^9}, {3.667232908852807*^9, 3.6672329258709927`*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Editing (using ListAnimate to assemble and play cuts)", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+   3.66677127278583*^9, 3.666771322358921*^9}, 3.6672331494865303`*^9}],
+
+Cell[TextData[{
+ "We can figure out our individual shots using ",
+ StyleBox["Manipulate",
+  FontWeight->"Bold"],
+ ", but when it comes time to edit them together, (1) we replace ",
+ StyleBox["Manipulate",
+  FontWeight->"Bold"],
+ " with ",
+ StyleBox["Table",
+  FontWeight->"Bold"],
+ " to create a sequence of frames, (2) we ",
+ StyleBox["Join",
+  FontWeight->"Bold"],
+ " all of our frames into a long list, and (3) we use ",
+ StyleBox["ListAnimate",
+  FontWeight->"Bold"],
+ " to play the whole thing back."
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.667233154261732*^9, 3.66723323310734*^9}, {3.667233774912807*^9, 
+  3.667233775246645*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"scene01Frames", "=", 
+   RowBox[{"Table", "[", 
+    RowBox[{
+     RowBox[{"Graphics", "[", 
+      RowBox[{"{", 
+       RowBox[{"robotCloseup", ",", 
+        RowBox[{"Opacity", "[", "o", "]"}], ",", "Black", ",", 
+        RowBox[{"Rectangle", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"0", ",", "0"}], "}"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"16", ",", "9"}], "}"}]}], "]"}]}], "}"}], "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"o", ",", "1", ",", "0", ",", 
+       RowBox[{"-", ".05"}]}], "}"}]}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.667233250661747*^9, 3.667233309833082*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"scene02Message", "=", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"EdgeForm", "[", "Black", "]"}], ",", "White", ",", 
+     RowBox[{"Disk", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"9.5", ",", "6"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"3", ",", "1"}], "}"}]}], "]"}], ",", "Black", ",", 
+     RowBox[{"Text", "[", 
+      RowBox[{"\"\<You are under arrest\>\"", ",", 
+       RowBox[{"{", 
+        RowBox[{"9.5", ",", "6"}], "}"}]}], "]"}]}], "}"}]}], ";"}]], "Input",\
+
+ CellChangeTimes->{{3.667233435329694*^9, 3.6672334563595953`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"scene02Frames", "=", 
+   RowBox[{"Table", "[", 
+    RowBox[{
+     RowBox[{"Graphics", "[", 
+      RowBox[{"{", 
+       RowBox[{"robotCloseup", ",", 
+        RowBox[{"If", "[", 
+         RowBox[{
+          RowBox[{"10", "<", "t", "<", "28"}], ",", "scene02Message", ",", 
+          "Null"}], "]"}]}], "}"}], "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"t", ",", "1", ",", "30"}], "}"}]}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.666781265734909*^9, 3.666781295609247*^9}, {
+   3.666781946673738*^9, 3.6667819499605722`*^9}, {3.666782639471973*^9, 
+   3.666782817666216*^9}, {3.6667828776882*^9, 3.666782889030508*^9}, 
+   3.666786245325726*^9, {3.667233321464583*^9, 3.667233323433454*^9}, {
+   3.6672334079971848`*^9, 3.667233519336343*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"scene03Message", "=", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"EdgeForm", "[", "Black", "]"}], ",", "White", ",", 
+     RowBox[{"Disk", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"6.5", ",", "6"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"3", ",", "1"}], "}"}]}], "]"}], ",", "Black", ",", 
+     RowBox[{"Text", "[", 
+      RowBox[{
+       RowBox[{"Style", "[", 
+        RowBox[{"\"\<You'll never take me!\>\"", ",", "Italic"}], "]"}], ",", 
+       
+       RowBox[{"{", 
+        RowBox[{"6.5", ",", "6"}], "}"}]}], "]"}]}], "}"}]}], ";"}]], "Input",\
+
+ CellChangeTimes->{{3.66723356384319*^9, 3.667233601629807*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"scene03Frames", "=", 
+   RowBox[{"Table", "[", 
+    RowBox[{
+     RowBox[{"Graphics", "[", 
+      RowBox[{"{", 
+       RowBox[{"desertBackground", ",", 
+        RowBox[{"drawRobotFull", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"8", ",", "3"}], "}"}], ",", "Gray", ",", "Black"}], "]"}],
+         ",", 
+        RowBox[{"If", "[", 
+         RowBox[{
+          RowBox[{"10", "<", "t", "<", "28"}], ",", "scene03Message", ",", 
+          "Null"}], "]"}]}], "}"}], "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"t", ",", "1", ",", "30"}], "}"}]}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.6672336063967323`*^9, 3.667233611965341*^9}, {
+  3.667233644333817*^9, 3.667233705016574*^9}, {3.667233735539978*^9, 
+  3.667233738336918*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ListAnimate", "[", 
+  RowBox[{
+   RowBox[{"Join", "[", 
+    RowBox[{"scene01Frames", ",", "scene02Frames", ",", "scene03Frames"}], 
+    "]"}], ",", "10"}], "]"}]], "Input",
+ CellChangeTimes->{{3.667233341021112*^9, 3.6672334012371693`*^9}, {
+  3.667233534080758*^9, 3.667233539800353*^9}, {3.667233680299446*^9, 
+  3.667233685050858*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["In-Class Activity", "Section",
+ CellChangeTimes->{{3.647716402186221*^9, 3.647716405353856*^9}, {
+  3.6583374723271*^9, 3.658337478437811*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Try using some of these techniques with graphics that you plan to include in \
+Assignment 2. You can submit work-in-progress for the in-class notebook.\
+\>", "Subsection",
+ CellChangeTimes->{{3.666771382645041*^9, 3.6667714257870197`*^9}}],
+
+Cell["NAME:", "Subsubsection",
+ CellChangeTimes->{{3.658337538475717*^9, 3.658337539778943*^9}}],
+
+Cell["STUDENT NUMBER:", "Subsubsection",
+ CellChangeTimes->{{3.658337543114833*^9, 3.658337546026588*^9}}],
+
+Cell["DATE:", "Subsubsection",
+ CellChangeTimes->{{3.6583375490023537`*^9, 3.658337550162354*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Upload your notebook", "Section",
+ CellChangeTimes->{{3.649950784924818*^9, 3.649950788859275*^9}}],
+
+Cell["\<\
+Don\[CloseCurlyQuote]t forget to upload a copy of your notebook for this day\
+\[CloseCurlyQuote]s class to the OWL Site for the course\
+\>", "Text",
+ CellChangeTimes->{{3.649950792779258*^9, 3.649950818634288*^9}, {
+  3.658337509093232*^9, 3.658337512508254*^9}}]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1422, 1107},
+WindowMargins->{{Automatic, 201}, {Automatic, 37}},
+TaggingRules->{"SlideShow" -> True},
+Magnification:>1.25 Inherited,
+FrontEndVersion->"10.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (December 10, \
+2015)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "SlideShowHeader"->{
+  Cell[580, 22, 4299, 96, 75, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[5773, 146, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[19642, 562, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[31228, 865, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[40235, 1122, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[42382, 1188, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[47330, 1337, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[48212, 1368, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"SlideShowHeader", 49096, 1398}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 4299, 96, 75, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[4882, 120, 489, 10, 183, "Title"],
+Cell[5374, 132, 362, 9, 99, "Subtitle"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5773, 146, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[5862, 151, 257, 3, 80, "Section"],
+Cell[6122, 156, 476, 8, 61, "Text"],
+Cell[6601, 166, 181, 2, 37, "Text"],
+Cell[CellGroupData[{
+Cell[6807, 172, 103, 1, 43, "Subsubsection"],
+Cell[6913, 175, 602, 18, 36, "Input"],
+Cell[7518, 195, 230, 5, 36, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7785, 205, 173, 2, 43, "Subsubsection"],
+Cell[7961, 209, 771, 22, 36, "Input"],
+Cell[8735, 233, 436, 11, 36, "Input"],
+Cell[9174, 246, 666, 21, 36, "Input"],
+Cell[9843, 269, 813, 24, 36, "Input"],
+Cell[10659, 295, 364, 8, 36, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[11060, 308, 98, 1, 43, "Subsubsection"],
+Cell[11161, 311, 95, 1, 37, "Text"],
+Cell[11259, 314, 1519, 44, 99, "Input"],
+Cell[12781, 360, 540, 13, 36, "Input"],
+Cell[13324, 375, 154, 2, 46, "Text"],
+Cell[13481, 379, 1155, 33, 97, "Input"],
+Cell[14639, 414, 595, 14, 45, "Input"],
+Cell[15237, 430, 99, 1, 46, "Text"],
+Cell[15339, 433, 3646, 106, 228, "Input"],
+Cell[18988, 541, 593, 14, 45, "Input"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[19642, 562, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[19731, 567, 446, 6, 100, "Section"],
+Cell[20180, 575, 610, 10, 76, "Text"],
+Cell[CellGroupData[{
+Cell[20815, 589, 115, 1, 67, "Subsection"],
+Cell[20933, 592, 1612, 40, 97, "Input"],
+Cell[22548, 634, 705, 14, 45, "Input"],
+Cell[23256, 650, 280, 6, 43, "Input"],
+Cell[23539, 658, 239, 4, 45, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[23815, 667, 113, 1, 67, "Subsection"],
+Cell[23931, 670, 270, 7, 46, "Text"],
+Cell[24204, 679, 888, 23, 45, "Input"],
+Cell[25095, 704, 225, 5, 45, "Input"],
+Cell[25323, 711, 626, 14, 45, "Input"],
+Cell[25952, 727, 187, 4, 45, "Input"],
+Cell[26142, 733, 446, 9, 45, "Input"],
+Cell[26591, 744, 182, 4, 45, "Input"],
+Cell[26776, 750, 1279, 31, 71, "Input"],
+Cell[28058, 783, 235, 5, 45, "Input"],
+Cell[28296, 790, 961, 24, 45, "Input"],
+Cell[29260, 816, 197, 5, 43, "Input"],
+Cell[29460, 823, 1707, 35, 150, "Input"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[31228, 865, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[31317, 870, 420, 6, 100, "Section"],
+Cell[CellGroupData[{
+Cell[31762, 880, 104, 1, 67, "Subsection"],
+Cell[31869, 883, 427, 7, 76, "Text"],
+Cell[32299, 892, 884, 28, 43, "Input"],
+Cell[33186, 922, 252, 6, 45, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[33475, 933, 103, 1, 67, "Subsection"],
+Cell[33581, 936, 583, 9, 106, "Text"],
+Cell[34167, 947, 2753, 79, 150, "Input"],
+Cell[36923, 1028, 130, 1, 46, "Text"],
+Cell[37056, 1031, 760, 18, 45, "Input"],
+Cell[37819, 1051, 130, 1, 46, "Text"],
+Cell[37952, 1054, 956, 24, 71, "Input"],
+Cell[38911, 1080, 179, 4, 46, "Text"],
+Cell[39093, 1086, 864, 23, 71, "Input"],
+Cell[39960, 1111, 214, 4, 46, "Text"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[40235, 1122, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[40324, 1127, 341, 5, 100, "Section"],
+Cell[CellGroupData[{
+Cell[40690, 1136, 207, 3, 67, "Subsection"],
+Cell[40900, 1141, 434, 12, 45, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[41371, 1158, 209, 3, 67, "Subsection"],
+Cell[41583, 1163, 738, 18, 45, "Input"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[42382, 1188, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[42471, 1193, 213, 2, 100, "Section"],
+Cell[42687, 1197, 682, 20, 76, "Text"],
+Cell[43372, 1219, 668, 18, 45, "Input"],
+Cell[44043, 1239, 603, 17, 45, "Input"],
+Cell[44649, 1258, 786, 18, 45, "Input"],
+Cell[45438, 1278, 680, 20, 45, "Input"],
+Cell[46121, 1300, 795, 21, 71, "Input"],
+Cell[46919, 1323, 362, 8, 43, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[47330, 1337, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[47419, 1342, 149, 2, 100, "Section"],
+Cell[CellGroupData[{
+Cell[47593, 1348, 249, 4, 106, "Subsection"],
+Cell[47845, 1354, 96, 1, 53, "Subsubsection"],
+Cell[47944, 1357, 106, 1, 42, "Subsubsection"],
+Cell[48053, 1360, 98, 1, 42, "Subsubsection"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[48212, 1368, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[48301, 1373, 105, 1, 100, "Section"],
+Cell[48409, 1376, 273, 5, 46, "Text"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
