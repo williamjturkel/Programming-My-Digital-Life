@@ -1,0 +1,342 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     11738,        334]
+NotebookOptionsPosition[      9982,        270]
+NotebookOutlinePosition[     10367,        287]
+CellTagsIndexPosition[     10324,        284]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Assignment 2", "Title",
+ CellChangeTimes->{{3.651163249584736*^9, 3.651163254056362*^9}, {
+   3.651163523375786*^9, 3.651163526158741*^9}, {3.655648992671927*^9, 
+   3.655648995174983*^9}, {3.6614490431217957`*^9, 3.6614490447356873`*^9}, 
+   3.665679300121973*^9}],
+
+Cell[CellGroupData[{
+
+Cell["Digital Humanities 1011B", "Chapter",
+ CellChangeTimes->{{3.6511632289941177`*^9, 3.651163245097763*^9}, {
+  3.6614490757656813`*^9, 3.6614490798749723`*^9}}],
+
+Cell["\<\
+Handed out: 10 Feb 2017
+Due date: 17 Mar 2017
+Zero date: 24 Mar 2017\
+\>", "Subchapter",
+ CellChangeTimes->{{3.651163258088455*^9, 3.6511633041027813`*^9}, {
+  3.655649007071311*^9, 3.655649022685974*^9}, {3.6556490583491*^9, 
+  3.655649058748383*^9}, {3.661449088258033*^9, 3.661449112326542*^9}, {
+  3.665679310136861*^9, 3.665679317367771*^9}, {3.665679363535253*^9, 
+  3.665679364494334*^9}, {3.692039506534505*^9, 3.692039532429744*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Worth 15% of your final grade", "Subchapter",
+ CellChangeTimes->{{3.651165418980345*^9, 3.651165425635522*^9}, 
+   3.655649062116246*^9, {3.6614491184616547`*^9, 3.661449118504067*^9}, 
+   3.692039498040711*^9}],
+
+Cell[CellGroupData[{
+
+Cell["Description", "Section",
+ CellChangeTimes->{{3.6511634475779753`*^9, 3.651163452881803*^9}, {
+  3.655649107395413*^9, 3.6556491088907003`*^9}}],
+
+Cell[TextData[{
+ "In this assignment, you are going to use either the ",
+ StyleBox["Manipulate",
+  FontWeight->"Bold"],
+ " command or the ",
+ StyleBox["ListAnimate",
+  FontWeight->"Bold"],
+ " command (or both) to make a work of visual art that involves moving \
+images. It can be representational (e.g., a cartoon, a game) or abstract \
+(e.g., generative art), and you will ",
+ StyleBox["not",
+  FontWeight->"Bold"],
+ " be judged on the aesthetic quality of the work."
+}], "Text",
+ CellChangeTimes->{{3.655649324242855*^9, 3.655649406206623*^9}, {
+  3.655649440942132*^9, 3.655649522907804*^9}, {3.655649562209938*^9, 
+  3.655649646343481*^9}, {3.6556511864066687`*^9, 3.655651187190755*^9}, {
+  3.661449150170026*^9, 3.661449218175664*^9}, {3.6656793780232973`*^9, 
+  3.665679485842854*^9}}],
+
+Cell[TextData[{
+ "Design your project so that you showcase your ability to apply methods that \
+you learned in class and by reading the online textbook. That is, the code \
+that creates your moving image should make use of techniques that you learned \
+by studying class notebooks 1-08. These techniques include functions, \
+coordinate systems, graphics transformations, colour expressions, conditional \
+expressions, raster images, image manipulation, the ",
+ StyleBox["Table",
+  FontWeight->"Bold"],
+ " and ",
+ StyleBox["Map",
+  FontWeight->"Bold"],
+ " commands, and so on. You should also incorporate both random and \
+non-random elements into your project."
+}], "Text",
+ CellChangeTimes->{{3.6556504561615143`*^9, 3.655650504943461*^9}, {
+  3.6556505674447603`*^9, 3.6556506373636713`*^9}, {3.655650675176702*^9, 
+  3.655650693728648*^9}, {3.655652449617144*^9, 3.655652450727857*^9}, {
+  3.661449236981262*^9, 3.661449277175778*^9}, {3.661449359157407*^9, 
+  3.66144936218292*^9}, {3.66144952580567*^9, 3.6614497491751003`*^9}, {
+  3.6656795123305807`*^9, 3.665679719484223*^9}, {3.692039627852314*^9, 
+  3.692039638618132*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Rubric", "Section",
+ CellChangeTimes->{{3.6511634475779753`*^9, 3.651163452881803*^9}, {
+  3.655649107395413*^9, 3.655649132057863*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Influences (30%)", "Subsubsection",
+ CellChangeTimes->{{3.6556491919438963`*^9, 3.65564919801554*^9}, {
+  3.655649775298683*^9, 3.65564978905767*^9}, {3.6556500458799257`*^9, 
+  3.6556500459764767`*^9}, {3.65565061431487*^9, 3.655650615378804*^9}, {
+  3.6614493737874537`*^9, 3.66144937493045*^9}, {3.661450285613516*^9, 
+  3.6614502971717567`*^9}}],
+
+Cell[TextData[{
+ "Better than average: ",
+ StyleBox["goes well beyond examples shown in class",
+  FontSlant->"Italic"],
+ " and in the help files to create something new."
+}], "Text",
+ CellChangeTimes->{{3.661449772260388*^9, 3.661449788177752*^9}}],
+
+Cell["\<\
+Average: incorporates code or ideas from one or more of the programs shown in \
+class or in the help files.\
+\>", "Text",
+ CellChangeTimes->{{3.661449790921297*^9, 3.6614498089189663`*^9}}],
+
+Cell["\<\
+Worse than average: code taken from class examples with little or no \
+modification.\
+\>", "Text",
+ CellChangeTimes->{{3.661449811646186*^9, 3.661449825340497*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Presentation of Code (35%)", "Subsubsection",
+ CellChangeTimes->{{3.65564922289507*^9, 3.655649224110792*^9}, {
+  3.655649780185624*^9, 3.655649793849786*^9}, {3.655650049271635*^9, 
+  3.655650049464356*^9}, {3.655650618218729*^9, 3.655650618571372*^9}, {
+  3.6614502519471207`*^9, 3.661450300051477*^9}}],
+
+Cell["\<\
+Better than average: code clearly laid out and commented, with appropriate \
+use of symbols and functions, and meaningful naming.\
+\>", "Text",
+ CellChangeTimes->{{3.6614498353791027`*^9, 3.661449896586666*^9}, {
+  3.6614499872704763`*^9, 3.661449991134593*^9}}],
+
+Cell["Average: some attempt to clarify and organize code.", "Text",
+ CellChangeTimes->{{3.6614498414661427`*^9, 3.6614498440497293`*^9}, {
+  3.661449901090106*^9, 3.6614499235910254`*^9}, {3.66144999862883*^9, 
+  3.6614500085714817`*^9}}],
+
+Cell["\<\
+Worse than average: few or no comments, meaningless names, little or no use \
+of symbols or functions.\
+\>", "Text",
+ CellChangeTimes->{{3.6614498457057*^9, 3.6614498486254*^9}, {
+  3.661449941364849*^9, 3.6614499538428698`*^9}, {3.661450012650879*^9, 
+  3.661450037543604*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Random and Nonrandom Elements (35%)", "Subsubsection",
+ CellChangeTimes->{{3.6556499470596027`*^9, 3.655649958283106*^9}, {
+  3.655650059247612*^9, 3.6556500735106583`*^9}, {3.6614494481282787`*^9, 
+  3.661449475308845*^9}, {3.6614502930762987`*^9, 3.661450302235321*^9}}],
+
+Cell["\<\
+Better than average: strategically limited randomness is used to create \
+variation in position, shape, orientation, motion etc. of graphic elements to \
+create visual interest; repeated elements are generated with code.\
+\>", "Text",
+ CellChangeTimes->{{3.6614498353791027`*^9, 3.661449839506549*^9}, {
+  3.6614500608618393`*^9, 3.661450146776511*^9}, {3.661450203568894*^9, 
+  3.661450205632682*^9}, {3.6656797719945*^9, 3.665679773098372*^9}}],
+
+Cell["\<\
+Average: some use of randomness and code-generated repetition.\
+\>", "Text",
+ CellChangeTimes->{{3.6614498414661427`*^9, 3.6614498440497293`*^9}, {
+  3.6614501499042*^9, 3.661450164101838*^9}, {3.6614502141511908`*^9, 
+  3.6614502159190893`*^9}}],
+
+Cell["\<\
+Worse than average: no randomness, or randomness used to adjust a single \
+variable (e.g., hue, position) without apparent motivation.\
+\>", "Text",
+ CellChangeTimes->{{3.6614498457057*^9, 3.6614498486254*^9}, {
+   3.6614501688214607`*^9, 3.661450194681925*^9}, 3.661450314986792*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Grading", "Subsection",
+ CellChangeTimes->{{3.665679787537622*^9, 3.665679794553658*^9}}],
+
+Cell["\<\
+Your work will be graded out of 15. In general, it is a good idea to think of \
+your grade in terms of gaining marks rather than losing them. Here is a \
+general guide to what the scores mean:\
+\>", "Text",
+ CellChangeTimes->{{3.6656797970896606`*^9, 3.665679867511661*^9}, 
+   3.692039324343213*^9}],
+
+Cell[TextData[{
+ StyleBox["9-10",
+  FontWeight->"Bold"],
+ "\tYou met all of the requirements for the assignment"
+}], "Text",
+ CellChangeTimes->{{3.6656798774186497`*^9, 3.665679885410326*^9}, {
+  3.665679972541939*^9, 3.66567997398038*^9}, {3.692039404979227*^9, 
+  3.692039405434411*^9}}],
+
+Cell[TextData[{
+ StyleBox["11-12",
+  FontWeight->"Bold"],
+ "\tYou exceeded the requirements in at least one category (e.g., influences, \
+code presentation, or use of randomness)"
+}], "Text",
+ CellChangeTimes->{{3.6656798774186497`*^9, 3.665679891811764*^9}, {
+  3.66567992325388*^9, 3.665679941253358*^9}, {3.665679977060363*^9, 
+  3.665679977628303*^9}, {3.692039390491104*^9, 3.6920393911709967`*^9}}],
+
+Cell[TextData[{
+ StyleBox["13-14",
+  FontWeight->"Bold"],
+ "\tYou exceeded requirements in most or all categories"
+}], "Text",
+ CellChangeTimes->{{3.6656798774186497`*^9, 3.665679897571596*^9}, {
+  3.665679981140114*^9, 3.665679981476101*^9}, {3.6920393611009607`*^9, 
+  3.692039387187209*^9}}],
+
+Cell[TextData[{
+ StyleBox["15",
+  FontWeight->"Bold"],
+ "\tI couldn't think of anything to change about your assignment that would \
+make it better (this doesn\[CloseCurlyQuote]t happen very often!)"
+}], "Text",
+ CellChangeTimes->{{3.6656798774186497`*^9, 3.665679900014718*^9}, {
+  3.6656799843160553`*^9, 3.665679985508061*^9}, {3.6920393304132977`*^9, 
+  3.692039331085187*^9}, {3.692039427186469*^9, 3.692039449440843*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Make sure to include your information in your notebook!", "Section",
+ CellChangeTimes->{{3.6511634475779753`*^9, 3.651163452881803*^9}, {
+  3.655649115522172*^9, 3.6556491258102016`*^9}}],
+
+Cell["Name:", "Subsection",
+ CellChangeTimes->{{3.651163456585217*^9, 3.651163457633196*^9}}],
+
+Cell["Email:", "Subsection",
+ CellChangeTimes->{{3.651163467720752*^9, 3.651163468968869*^9}}],
+
+Cell["Student number:", "Subsection",
+ CellChangeTimes->{{3.651163460537118*^9, 3.6511634629929047`*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{808, 911},
+WindowMargins->{{Automatic, 90}, {Automatic, 64}},
+Magnification:>1.25 Inherited,
+FrontEndVersion->"11.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (July 28, \
+2016)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 271, 4, 114, "Title"],
+Cell[CellGroupData[{
+Cell[876, 30, 164, 2, 81, "Chapter"],
+Cell[1043, 34, 452, 9, 164, "Subchapter"],
+Cell[CellGroupData[{
+Cell[1520, 47, 217, 3, 58, "Subchapter"],
+Cell[CellGroupData[{
+Cell[1762, 54, 149, 2, 80, "Section"],
+Cell[1914, 58, 792, 18, 109, "Text"],
+Cell[2709, 78, 1133, 21, 180, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3879, 104, 142, 2, 80, "Section"],
+Cell[CellGroupData[{
+Cell[4046, 110, 355, 5, 43, "Subsubsection"],
+Cell[4404, 117, 248, 6, 61, "Text"],
+Cell[4655, 125, 199, 4, 61, "Text"],
+Cell[4857, 131, 174, 4, 37, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5068, 140, 311, 4, 43, "Subsubsection"],
+Cell[5382, 146, 272, 5, 61, "Text"],
+Cell[5657, 153, 238, 3, 37, "Text"],
+Cell[5898, 158, 288, 6, 61, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6223, 169, 278, 3, 43, "Subsubsection"],
+Cell[6504, 174, 456, 7, 85, "Text"],
+Cell[6963, 183, 256, 5, 37, "Text"],
+Cell[7222, 190, 294, 5, 61, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7553, 200, 95, 1, 54, "Subsection"],
+Cell[7651, 203, 310, 6, 85, "Text"],
+Cell[7964, 211, 289, 7, 37, "Text"],
+Cell[8256, 220, 404, 8, 61, "Text"],
+Cell[8663, 230, 294, 7, 37, "Text"],
+Cell[8960, 239, 427, 8, 61, "Text"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9436, 253, 193, 2, 125, "Section"],
+Cell[9632, 257, 93, 1, 54, "Subsection"],
+Cell[9728, 260, 94, 1, 43, "Subsection"],
+Cell[9825, 263, 105, 1, 43, "Subsection"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
