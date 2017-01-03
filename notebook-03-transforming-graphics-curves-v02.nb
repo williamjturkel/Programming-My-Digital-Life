@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    120280,       3364]
-NotebookOptionsPosition[    109110,       3000]
-NotebookOutlinePosition[    110762,       3048]
-CellTagsIndexPosition[    110682,       3043]
+NotebookDataLength[     76296,       2270]
+NotebookOptionsPosition[     68025,       2020]
+NotebookOutlinePosition[     69672,       2068]
+CellTagsIndexPosition[     69593,       2063]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -163,8 +163,6 @@ get the basic shape, and put a little ball on top.\
  CellChangeTimes->{{3.660563864645525*^9, 3.660563961840918*^9}, {
    3.660564067917543*^9, 3.660564073524085*^9}, 3.692468896842205*^9}],
 
-Cell[CellGroupData[{
-
 Cell[BoxData[
  RowBox[{"Graphics", "[", 
   RowBox[{
@@ -195,16 +193,6 @@ Cell[BoxData[
    RowBox[{"GridLines", "\[Rule]", "Automatic"}]}], "]"}]], "Input",
  CellChangeTimes->{{3.660563947598452*^9, 3.660564123697859*^9}}],
 
-Cell[BoxData[
- GraphicsBox[
-  {GrayLevel[0.5], Thickness[Large], LineBox[{{0, 0}, {4, 24}, {8, 0}}], 
-   LineBox[{{4, 24}, {4, 28}}], DiskBox[{4, 28}, NCache[Rational[1, 2], 0.5]]},
-  Frame->True,
-  GridLines->Automatic]], "Output",
- CellChangeTimes->{{3.66056408698838*^9, 3.660564124149804*^9}, 
-   3.660579501257557*^9, 3.660662663470394*^9, 3.692468275439724*^9}]
-}, Open  ]],
-
 Cell[TextData[{
  "We can add some radio waves by drawing concentric circles of thin, \
 dot-dashed lines. (When we are done with the dashing we turn it off with ",
@@ -215,8 +203,6 @@ dot-dashed lines. (When we are done with the dashing we turn it off with ",
  CellChangeTimes->{{3.660564132666353*^9, 3.660564169911489*^9}, {
   3.660564261172913*^9, 3.6605642650673723`*^9}, {3.660564296788762*^9, 
   3.660564297641777*^9}, {3.660564363288064*^9, 3.6605643888534193`*^9}}],
-
-Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"Graphics", "[", 
@@ -259,21 +245,6 @@ Cell[BoxData[
  CellChangeTimes->{{3.660563947598452*^9, 3.660564123697859*^9}, {
   3.660564182209017*^9, 3.660564303705537*^9}, {3.66056435231358*^9, 
   3.660564357343441*^9}, {3.660564635547038*^9, 3.6605646361946774`*^9}}],
-
-Cell[BoxData[
- GraphicsBox[{
-   {RGBColor[0, 0, 1], Dashing[{0, Small, Small, Small}], CircleBox[{4, 28}], 
-    CircleBox[{4, 28}, 2], CircleBox[{4, 28}, 3], CircleBox[{4, 28}, 4], 
-    CircleBox[{4, 28}, 5], CircleBox[{4, 28}, 6], CircleBox[{4, 28}, 7]}, 
-   {GrayLevel[0.5], Thickness[Large], Dashing[None], 
-    LineBox[{{0, 0}, {4, 24}, {8, 0}}], LineBox[{{4, 24}, {4, 28}}], 
-    DiskBox[{4, 28}, NCache[Rational[1, 2], 0.5]]}},
-  Frame->True,
-  GridLines->Automatic]], "Output",
- CellChangeTimes->{{3.6605642247894287`*^9, 3.660564255462706*^9}, 
-   3.6605643042435427`*^9, 3.660564358117436*^9, 3.660564636976962*^9, 
-   3.6605795013381357`*^9, 3.660662663931925*^9, 3.6924682755471487`*^9}]
-}, Open  ]],
 
 Cell["\<\
 We can turn our commands into a drawing function with relative coordinates.\
@@ -332,28 +303,13 @@ Cell[BoxData[
  CellChangeTimes->{{3.660564463483501*^9, 3.660564594508457*^9}, {
   3.660564641866733*^9, 3.660564642354286*^9}}],
 
-Cell[CellGroupData[{
-
 Cell[BoxData[
  RowBox[{"Graphics", "[", 
   RowBox[{"drawRadioTower", "[", 
    RowBox[{"{", 
     RowBox[{"0", ",", "0"}], "}"}], "]"}], "]"}]], "Input",
  CellChangeTimes->{{3.660564479957344*^9, 3.660564488936808*^9}, {
-  3.660564599396501*^9, 3.660564600708005*^9}}],
-
-Cell[BoxData[
- GraphicsBox[{
-   {RGBColor[0, 0, 1], Dashing[{0, Small, Small, Small}], CircleBox[{4, 28}], 
-    CircleBox[{4, 28}, 2], CircleBox[{4, 28}, 3], CircleBox[{4, 28}, 4], 
-    CircleBox[{4, 28}, 5], CircleBox[{4, 28}, 6], CircleBox[{4, 28}, 7]}, 
-   {GrayLevel[0.5], Thickness[Large], Dashing[None], 
-    LineBox[{{0, 0}, {4, 24}, {8, 0}}], LineBox[{{4, 24}, {4, 28}}], 
-    DiskBox[{4, 28}, NCache[Rational[1, 2], 0.5]]}}]], "Output",
- CellChangeTimes->{3.660564490843596*^9, 3.6605646016232767`*^9, 
-  3.660564645490429*^9, 3.660579501384118*^9, 3.6606626639887657`*^9, 
-  3.692468275599496*^9}]
-}, Open  ]]
+  3.660564599396501*^9, 3.660564600708005*^9}}]
 }, Open  ]]
 }, Open  ]],
 
@@ -414,8 +370,6 @@ the size.\
   3.660565578598132*^9, 3.6605656215404987`*^9}, {3.660579568890045*^9, 
   3.660579577774733*^9}}],
 
-Cell[CellGroupData[{
-
 Cell[BoxData[
  RowBox[{"Graphics", "[", 
   RowBox[{
@@ -442,30 +396,6 @@ Cell[BoxData[
   3.6605655991354628`*^9, 3.66056564719547*^9}, {3.660565904175976*^9, 
   3.6605659235748568`*^9}}],
 
-Cell[BoxData[
- GraphicsBox[{{
-    {RGBColor[1, 0.5, 0], DiskBox[{0, 0}, {3., 1.}]}, 
-    {RGBColor[1, 0.9, 0.8], 
-     DiskBox[NCache[{0, Rational[1, 2]}, {0, 0.5}], 
-      NCache[{Rational[3, 2], 1}, {1.5, 1}]]}}, GeometricTransformationBox[{
-     {RGBColor[1, 0.5, 0], DiskBox[{7, 0}, {3., 1.}]}, 
-     {RGBColor[1, 0.9, 0.8], 
-      DiskBox[NCache[{7, Rational[1, 2]}, {7, 0.5}], 
-       NCache[{Rational[3, 2], 1}, {1.5, 1}]]}}, {{{0.5, 0}, {0, 0.5}}, 
-     Center}], GeometricTransformationBox[{
-     {RGBColor[1, 0.5, 0], DiskBox[{16, 0}, {3., 1.}]}, 
-     {RGBColor[1, 0.9, 0.8], 
-      DiskBox[NCache[{16, Rational[1, 2]}, {16, 0.5}], 
-       NCache[{Rational[3, 2], 1}, {1.5, 1}]]}}, {{{2, 0}, {0, 2}}, Center}]},
-  
-  Frame->True,
-  GridLines->Automatic]], "Output",
- CellChangeTimes->{
-  3.660565509923934*^9, 3.66056556696264*^9, {3.6605656013874607`*^9, 
-   3.660565647577154*^9}, {3.66056590529951*^9, 3.660565924411178*^9}, 
-   3.660579501546803*^9, 3.660662664222754*^9, 3.692468297832705*^9}]
-}, Open  ]],
-
 Cell[TextData[{
  "To make something narrower or wider while maintaining its height, we scale \
 along the ",
@@ -483,8 +413,6 @@ original)."
  CellChangeTimes->{{3.660565675012622*^9, 3.6605657103843718`*^9}, {
   3.660565792876487*^9, 3.6605657979002533`*^9}, {3.692468943152383*^9, 
   3.692468974637794*^9}}],
-
-Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"Graphics", "[", 
@@ -515,30 +443,6 @@ Cell[BoxData[
   3.660565881840959*^9, 3.660565889360643*^9}, {3.660565927551044*^9, 
   3.660565928110601*^9}}],
 
-Cell[BoxData[
- GraphicsBox[{{
-    {RGBColor[1, 0.5, 0], DiskBox[{0, 0}, {3., 1.}]}, 
-    {RGBColor[1, 0.9, 0.8], 
-     DiskBox[NCache[{0, Rational[1, 2]}, {0, 0.5}], 
-      NCache[{Rational[3, 2], 1}, {1.5, 1}]]}}, GeometricTransformationBox[{
-     {RGBColor[1, 0.5, 0], DiskBox[{7, 0}, {3., 1.}]}, 
-     {RGBColor[1, 0.9, 0.8], 
-      DiskBox[NCache[{7, Rational[1, 2]}, {7, 0.5}], 
-       NCache[{Rational[3, 2], 1}, {1.5, 1}]]}}, {{{0.5, 0}, {0, 1}}, 
-     Center}], GeometricTransformationBox[{
-     {RGBColor[1, 0.5, 0], DiskBox[{16, 0}, {3., 1.}]}, 
-     {RGBColor[1, 0.9, 0.8], 
-      DiskBox[NCache[{16, Rational[1, 2]}, {16, 0.5}], 
-       NCache[{Rational[3, 2], 1}, {1.5, 1}]]}}, {{{2, 0}, {0, 1}}, Center}]},
-  
-  Frame->True,
-  GridLines->Automatic]], "Output",
- CellChangeTimes->{
-  3.660565757977037*^9, {3.6605658829164047`*^9, 3.6605658905491543`*^9}, 
-   3.660565928554991*^9, 3.6605795015907097`*^9, 3.6606626642568693`*^9, 
-   3.692468297879346*^9}]
-}, Open  ]],
-
 Cell[TextData[{
  "To make something taller or shorter while maintaining its width, we scale \
 along the ",
@@ -550,8 +454,6 @@ along the ",
  " axis."
 }], "Text",
  CellChangeTimes->{{3.6605657754530907`*^9, 3.6605658198911858`*^9}}],
-
-Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"Graphics", "[", 
@@ -582,29 +484,6 @@ Cell[BoxData[
   3.660565842162539*^9, 3.660565863505577*^9}, {3.660565894000443*^9, 
   3.660565894663916*^9}, {3.660565931471056*^9, 3.6605659319904537`*^9}}],
 
-Cell[BoxData[
- GraphicsBox[{{
-    {RGBColor[1, 0.5, 0], DiskBox[{0, 0}, {3., 1.}]}, 
-    {RGBColor[1, 0.9, 0.8], 
-     DiskBox[NCache[{0, Rational[1, 2]}, {0, 0.5}], 
-      NCache[{Rational[3, 2], 1}, {1.5, 1}]]}}, GeometricTransformationBox[{
-     {RGBColor[1, 0.5, 0], DiskBox[{7, 0}, {3., 1.}]}, 
-     {RGBColor[1, 0.9, 0.8], 
-      DiskBox[NCache[{7, Rational[1, 2]}, {7, 0.5}], 
-       NCache[{Rational[3, 2], 1}, {1.5, 1}]]}}, {{{1, 0}, {0, 0.5}}, 
-     Center}], GeometricTransformationBox[{
-     {RGBColor[1, 0.5, 0], DiskBox[{16, 0}, {3., 1.}]}, 
-     {RGBColor[1, 0.9, 0.8], 
-      DiskBox[NCache[{16, Rational[1, 2]}, {16, 0.5}], 
-       NCache[{Rational[3, 2], 1}, {1.5, 1}]]}}, {{{1, 0}, {0, 2}}, Center}]},
-  
-  Frame->True,
-  GridLines->Automatic]], "Output",
- CellChangeTimes->{{3.6605658531722107`*^9, 3.6605658952464457`*^9}, 
-   3.660565932401359*^9, 3.660579501640443*^9, 3.660662664290619*^9, 
-   3.692468297930328*^9}]
-}, Open  ]],
-
 Cell[CellGroupData[{
 
 Cell["Scaling a complex graphic element", "Subsection",
@@ -619,8 +498,6 @@ Cell[TextData[{
  CellChangeTimes->{{3.692468308542775*^9, 3.692468339981146*^9}, {
    3.692468400419593*^9, 3.692468402978798*^9}, 3.6924690036221867`*^9, 
    3.692469034563634*^9}],
-
-Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"Graphics", "[", 
@@ -660,47 +537,6 @@ Cell[BoxData[
    3.6606629376815853`*^9}, 3.660662996135448*^9, {3.692468255857442*^9, 
    3.692468293439245*^9}, {3.692468344550681*^9, 3.692468378741193*^9}, {
    3.692468422930957*^9, 3.692468427892671*^9}}],
-
-Cell[BoxData[
- GraphicsBox[
-  {GrayLevel[0.85], RectangleBox[{-2, -2}, {50, 15}], {
-    {RGBColor[0, 0, 1], Dashing[{0, Small, Small, Small}], CircleBox[{4, 28}],
-      CircleBox[{4, 28}, 2], CircleBox[{4, 28}, 3], CircleBox[{4, 28}, 4], 
-     CircleBox[{4, 28}, 5], CircleBox[{4, 28}, 6], CircleBox[{4, 28}, 7]}, 
-    {GrayLevel[0.5], Thickness[Large], Dashing[None], 
-     LineBox[{{0, 0}, {4, 24}, {8, 0}}], LineBox[{{4, 24}, {4, 28}}], 
-     DiskBox[{4, 28}, NCache[Rational[1, 2], 0.5]]}}, 
-   GeometricTransformationBox[{
-     {RGBColor[0, 0, 1], Dashing[{0, Small, Small, Small}], 
-      CircleBox[{24, 28}], CircleBox[{24, 28}, 2], CircleBox[{24, 28}, 3], 
-      CircleBox[{24, 28}, 4], CircleBox[{24, 28}, 5], CircleBox[{24, 28}, 6], 
-      CircleBox[{24, 28}, 7]}, 
-     {GrayLevel[0.5], Thickness[Large], Dashing[None], 
-      LineBox[{{20, 0}, {24, 24}, {28, 0}}], LineBox[{{24, 24}, {24, 28}}], 
-      DiskBox[{24, 28}, NCache[Rational[1, 2], 0.5]]}}, {{{0.5, 0}, {0, 0.5}},
-      Center}], GeometricTransformationBox[{
-     {RGBColor[0, 0, 1], Dashing[{0, Small, Small, Small}], 
-      CircleBox[{37, 28}], CircleBox[{37, 28}, 2], CircleBox[{37, 28}, 3], 
-      CircleBox[{37, 28}, 4], CircleBox[{37, 28}, 5], CircleBox[{37, 28}, 6], 
-      CircleBox[{37, 28}, 7]}, 
-     {GrayLevel[0.5], Thickness[Large], Dashing[None], 
-      LineBox[{{33, 0}, {37, 24}, {41, 0}}], LineBox[{{37, 24}, {37, 28}}], 
-      DiskBox[{37, 28}, NCache[Rational[1, 2], 0.5]]}}, {{{0.25, 0}, {
-      0, 0.25}}, Center}], GeometricTransformationBox[{
-     {RGBColor[0, 0, 1], Dashing[{0, Small, Small, Small}], 
-      CircleBox[{43, 28}], CircleBox[{43, 28}, 2], CircleBox[{43, 28}, 3], 
-      CircleBox[{43, 28}, 4], CircleBox[{43, 28}, 5], CircleBox[{43, 28}, 6], 
-      CircleBox[{43, 28}, 7]}, 
-     {GrayLevel[0.5], Thickness[Large], Dashing[None], 
-      LineBox[{{39, 0}, {43, 24}, {47, 0}}], LineBox[{{43, 24}, {43, 28}}], 
-      DiskBox[{43, 28}, NCache[Rational[1, 2], 0.5]]}}, {{{0.125, 0}, {
-      0, 0.125}}, Center}]}]], "Output",
- CellChangeTimes->{{3.6605667282866907`*^9, 3.6605668042065887`*^9}, 
-   3.660579501763665*^9, 3.660662664436414*^9, {3.660662751074772*^9, 
-   3.6606627656209517`*^9}, {3.660662830665379*^9, 3.660662938023595*^9}, 
-   3.660662996674485*^9, 3.692468297979628*^9, {3.69246834543001*^9, 
-   3.6924683795416307`*^9}, 3.692468428291144*^9}]
-}, Open  ]],
 
 Cell["\<\
 In this example we also see how to get a perspective effect (things that are \
@@ -755,8 +591,6 @@ given to all three disks are {0, 0}. Their relative movement is caused by the \
   3.660580057080035*^9, 3.660580070503903*^9}, {3.660580103824313*^9, 
   3.6605801078946247`*^9}}],
 
-Cell[CellGroupData[{
-
 Cell[BoxData[
  RowBox[{"Graphics", "[", 
   RowBox[{
@@ -789,19 +623,6 @@ Cell[BoxData[
  CellChangeTimes->{{3.6605799739249907`*^9, 3.66058004671342*^9}, {
   3.66058008011178*^9, 3.660580116446148*^9}}],
 
-Cell[BoxData[
- GraphicsBox[{
-   {RGBColor[0, 0, 1], DiskBox[{0, 0}]}, 
-   {RGBColor[0, 1, 0], GeometricTransformationBox[DiskBox[{0, 0}], {2, 0}]}, 
-   {RGBColor[1, 0, 0], GeometricTransformationBox[DiskBox[{0, 0}], {-3, 0}]}},
-  
-  Frame->True,
-  GridLines->Automatic]], "Output",
- CellChangeTimes->{{3.660580028297616*^9, 3.660580047598486*^9}, {
-   3.6605800948025007`*^9, 3.660580117227984*^9}, 3.660662664788555*^9, 
-   3.692469288935351*^9}]
-}, Open  ]],
-
 Cell[TextData[{
  "The pair of coordinates given to the ",
  StyleBox["Translate",
@@ -813,8 +634,6 @@ the figure below, the translation vector is {3, 4}."
  CellChangeTimes->{{3.6605801399484253`*^9, 3.6605801628435593`*^9}, {
   3.660580232664246*^9, 3.660580250447419*^9}, {3.660581033941668*^9, 
   3.660581042874405*^9}}],
-
-Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"Graphics", "[", 
@@ -848,19 +667,6 @@ Cell[BoxData[
   3.66058089515546*^9, 3.6605809840695763`*^9}, {3.6605810461392117`*^9, 
   3.660581050138483*^9}}],
 
-Cell[BoxData[
- GraphicsBox[{
-   {RGBColor[0.87, 0.94, 1], DiskBox[{0, 0}]}, 
-   {RGBColor[0, 0, 1], GeometricTransformationBox[DiskBox[{0, 0}], {3, 4}]}, 
-   {GrayLevel[0.5], Thickness[Large], ArrowBox[{{0, 0}, {3, 4}}]}},
-  Frame->True,
-  GridLines->Automatic]], "Output",
- CellChangeTimes->{
-  3.6605802251404448`*^9, {3.660580896480144*^9, 3.6605809091147003`*^9}, {
-   3.66058094023512*^9, 3.6605809845205936`*^9}, 3.6605810512897987`*^9, 
-   3.660662664824793*^9, 3.692469288996478*^9}]
-}, Open  ]],
-
 Cell["\<\
 We don\[CloseCurlyQuote]t have to translate elements from the origin. Compare \
 this figure with the previous one: note the difference in centre coordinates \
@@ -869,8 +675,6 @@ for the two disks, and note how we adjusted the position of the arrow.\
  CellChangeTimes->{{3.6605810678968697`*^9, 3.660581120958708*^9}, {
   3.660581163396508*^9, 3.660581211858368*^9}, {3.660581299182105*^9, 
   3.660581338004594*^9}}],
-
-Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"Graphics", "[", 
@@ -914,19 +718,7 @@ Cell[BoxData[
  CellChangeTimes->{{3.660580180916462*^9, 3.660580224041048*^9}, {
   3.66058089515546*^9, 3.6605809840695763`*^9}, {3.6605810461392117`*^9, 
   3.660581050138483*^9}, {3.660581130104128*^9, 3.6605811464056*^9}, {
-  3.6605812161564207`*^9, 3.660581292943035*^9}}],
-
-Cell[BoxData[
- GraphicsBox[{
-   {RGBColor[0.87, 0.94, 1], DiskBox[{-4, -6}]}, 
-   {RGBColor[0, 0, 1], GeometricTransformationBox[DiskBox[{-4, -6}], {3, 4}]}, 
-   {GrayLevel[0.5], Thickness[Large], ArrowBox[{{-4, -6}, {-1, -2}}]}},
-  Frame->True,
-  GridLines->Automatic]], "Output",
- CellChangeTimes->{
-  3.6605811544936028`*^9, 3.66058123661882*^9, {3.660581270833721*^9, 
-   3.6605812940959272`*^9}, 3.66066266487356*^9, 3.6924692890349073`*^9}]
-}, Open  ]]
+  3.6605812161564207`*^9, 3.660581292943035*^9}}]
 }, Open  ]]
 }, Open  ]],
 
@@ -957,8 +749,6 @@ degrees respectively.\
 \>", "Text",
  CellChangeTimes->{{3.66058338646803*^9, 3.660583402251388*^9}, {
   3.6605834476586533`*^9, 3.660583526925531*^9}}],
-
-Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"Graphics", "[", 
@@ -992,46 +782,12 @@ Cell[BoxData[
   3.66058331834581*^9, 3.6605834158511133`*^9}, {3.660583455776904*^9, 
   3.66058351363063*^9}}],
 
-Cell[BoxData[
- GraphicsBox[{{
-    {RGBColor[1, 0.5, 0], DiskBox[{0, 0}, {3., 1.}]}, 
-    {RGBColor[1, 0.9, 0.8], 
-     DiskBox[NCache[{0, Rational[1, 2]}, {0, 0.5}], 
-      NCache[{Rational[3, 2], 1}, {1.5, 1}]]}}, GeometricTransformationBox[{
-     {RGBColor[1, 0.5, 0], DiskBox[{10, 0}, {3., 1.}]}, 
-     {RGBColor[1, 0.9, 0.8], 
-      DiskBox[NCache[{10, Rational[1, 2]}, {10, 0.5}], 
-       NCache[{Rational[3, 2], 1}, {1.5, 1}]]}}, {{{
-     0.7071067811865475, -0.7071067811865475}, {0.7071067811865475, 
-     0.7071067811865475}}, Center}], GeometricTransformationBox[{
-     {RGBColor[1, 0.5, 0], DiskBox[{20, 0}, {3., 1.}]}, 
-     {RGBColor[1, 0.9, 0.8], 
-      DiskBox[NCache[{20, Rational[1, 2]}, {20, 0.5}], 
-       NCache[{Rational[3, 2], 1}, {1.5, 1}]]}}, {{{0, -1}, {1, 0}}, Center}],
-    GeometricTransformationBox[{
-     {RGBColor[1, 0.5, 0], DiskBox[{30, 0}, {3., 1.}]}, 
-     {RGBColor[1, 0.9, 0.8], 
-      DiskBox[NCache[{30, Rational[1, 2]}, {30, 0.5}], 
-       NCache[{Rational[3, 2], 1}, {
-        1.5, 1}]]}}, {{{-0.7071067811865475, -0.7071067811865475}, {
-     0.7071067811865475, -0.7071067811865475}}, Center}]},
-  Frame->True,
-  GridLines->Automatic,
-  ImageSize->Large]], "Output",
- CellChangeTimes->{{3.6605830662593107`*^9, 3.660583131898919*^9}, {
-   3.660583366414763*^9, 3.660583380883806*^9}, 3.660583416329171*^9, 
-   3.6605834625725803`*^9, {3.660583502157852*^9, 3.660583514373871*^9}, 
-   3.660583628990356*^9, 3.6606626649258413`*^9, 3.692469293330185*^9}]
-}, Open  ]],
-
 Cell["\<\
 Note that angles are measured from a horizontal line and increase in a \
 counterclockwise manner. If we want to rotate in the clockwise direction, we \
 specify negative angles.\
 \>", "Text",
  CellChangeTimes->{{3.660583530029324*^9, 3.6605835940743637`*^9}}],
-
-Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"Graphics", "[", 
@@ -1066,36 +822,7 @@ Cell[BoxData[
    RowBox[{"GridLines", "\[Rule]", "Automatic"}]}], "]"}]], "Input",
  CellChangeTimes->{{3.660582992372937*^9, 3.660583131504607*^9}, {
   3.66058331834581*^9, 3.6605834158511133`*^9}, {3.660583455776904*^9, 
-  3.66058351363063*^9}, {3.660583606403798*^9, 3.660583613009653*^9}}],
-
-Cell[BoxData[
- GraphicsBox[{{
-    {RGBColor[1, 0.5, 0], DiskBox[{0, 0}, {3., 1.}]}, 
-    {RGBColor[1, 0.9, 0.8], 
-     DiskBox[NCache[{0, Rational[1, 2]}, {0, 0.5}], 
-      NCache[{Rational[3, 2], 1}, {1.5, 1}]]}}, GeometricTransformationBox[{
-     {RGBColor[1, 0.5, 0], DiskBox[{10, 0}, {3., 1.}]}, 
-     {RGBColor[1, 0.9, 0.8], 
-      DiskBox[NCache[{10, Rational[1, 2]}, {10, 0.5}], 
-       NCache[{Rational[3, 2], 1}, {1.5, 1}]]}}, {{{0.7071067811865475, 
-     0.7071067811865475}, {-0.7071067811865475, 0.7071067811865475}}, 
-     Center}], GeometricTransformationBox[{
-     {RGBColor[1, 0.5, 0], DiskBox[{20, 0}, {3., 1.}]}, 
-     {RGBColor[1, 0.9, 0.8], 
-      DiskBox[NCache[{20, Rational[1, 2]}, {20, 0.5}], 
-       NCache[{Rational[3, 2], 1}, {1.5, 1}]]}}, {{{0, 1}, {-1, 0}}, Center}],
-    GeometricTransformationBox[{
-     {RGBColor[1, 0.5, 0], DiskBox[{30, 0}, {3., 1.}]}, 
-     {RGBColor[1, 0.9, 0.8], 
-      DiskBox[NCache[{30, Rational[1, 2]}, {30, 0.5}], 
-       NCache[{Rational[3, 2], 1}, {1.5, 1}]]}}, {{{-0.7071067811865475, 
-     0.7071067811865475}, {-0.7071067811865475, -0.7071067811865475}}, 
-     Center}]},
-  Frame->True,
-  GridLines->Automatic]], "Output",
- CellChangeTimes->{{3.660583613392664*^9, 3.660583631425701*^9}, 
-   3.660662664975758*^9, 3.6924692933995047`*^9}]
-}, Open  ]]
+  3.66058351363063*^9}, {3.660583606403798*^9, 3.660583613009653*^9}}]
 }, Open  ]]
 }, Open  ]],
 
@@ -1123,8 +850,6 @@ Cell[TextData[{
 Cell["Rotate an ellipse", "Text",
  CellChangeTimes->{{3.692469186310432*^9, 3.692469188589727*^9}}],
 
-Cell[CellGroupData[{
-
 Cell[BoxData[
  RowBox[{"Graphics", "[", 
   RowBox[{"{", 
@@ -1146,49 +871,8 @@ Cell[BoxData[
  CellChangeTimes->{{3.660585068398637*^9, 3.660585201841152*^9}, {
   3.660585454828031*^9, 3.660585462403528*^9}}],
 
-Cell[BoxData[
- GraphicsBox[
-  {RGBColor[0, 0, 1], 
-   GeometricTransformationBox[
-    CircleBox[{0, 0}, {3., 1.}], {{{1, 0}, {0, 1}}, Center}], 
-   GeometricTransformationBox[
-    CircleBox[{0, 0}, {3., 1.}], {{{0.8660254037844386, -0.5}, {0.5, 
-     0.8660254037844386}}, Center}], 
-   GeometricTransformationBox[
-    CircleBox[{0, 0}, {3., 1.}], {{{0.5, -0.8660254037844386}, {
-     0.8660254037844386, 0.5}}, Center}], 
-   GeometricTransformationBox[
-    CircleBox[{0, 0}, {3., 1.}], {{{0, -1}, {1, 0}}, Center}], 
-   GeometricTransformationBox[
-    CircleBox[{0, 0}, {3., 1.}], {{{-0.5, -0.8660254037844386}, {
-     0.8660254037844386, -0.5}}, Center}], 
-   GeometricTransformationBox[
-    CircleBox[{0, 0}, {3., 1.}], {{{-0.8660254037844386, -0.5}, {
-     0.5, -0.8660254037844386}}, Center}], 
-   GeometricTransformationBox[
-    CircleBox[{0, 0}, {3., 1.}], {{{-1, 0}, {0, -1}}, Center}], 
-   GeometricTransformationBox[
-    CircleBox[{0, 0}, {3., 1.}], {{{-0.8660254037844386, 
-     0.5}, {-0.5, -0.8660254037844386}}, Center}], 
-   GeometricTransformationBox[
-    CircleBox[{0, 0}, {3., 1.}], {{{-0.5, 
-     0.8660254037844386}, {-0.8660254037844386, -0.5}}, Center}], 
-   GeometricTransformationBox[
-    CircleBox[{0, 0}, {3., 1.}], {{{0, 1}, {-1, 0}}, Center}], 
-   GeometricTransformationBox[
-    CircleBox[{0, 0}, {3., 1.}], {{{0.5, 
-     0.8660254037844386}, {-0.8660254037844386, 0.5}}, Center}], 
-   GeometricTransformationBox[
-    CircleBox[{0, 0}, {3., 1.}], {{{0.8660254037844386, 0.5}, {-0.5, 
-     0.8660254037844386}}, Center}]}]], "Output",
- CellChangeTimes->{{3.6605851669274607`*^9, 3.660585202448556*^9}, 
-   3.660585463785533*^9, 3.6606626650239973`*^9, 3.692469297027618*^9}]
-}, Open  ]],
-
 Cell["Translate an elliptical disk", "Text",
  CellChangeTimes->{{3.692469199285385*^9, 3.692469209748932*^9}}],
-
-Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"Graphics", "[", 
@@ -1213,29 +897,8 @@ Cell[BoxData[
  CellChangeTimes->{{3.660585068398637*^9, 3.660585201841152*^9}, {
   3.6605852440547733`*^9, 3.660585336514989*^9}}],
 
-Cell[BoxData[
- GraphicsBox[
-  {RGBColor[0, 0, 1], Opacity[0.2], 
-   GeometricTransformationBox[DiskBox[{0, 0}, {2., 3.}], {0, 0}], 
-   GeometricTransformationBox[DiskBox[{0, 0}, {2., 3.}], {1, 0}], 
-   GeometricTransformationBox[DiskBox[{0, 0}, {2., 3.}], {2, 0}], 
-   GeometricTransformationBox[DiskBox[{0, 0}, {2., 3.}], {3, 0}], 
-   GeometricTransformationBox[DiskBox[{0, 0}, {2., 3.}], {4, 0}], 
-   GeometricTransformationBox[DiskBox[{0, 0}, {2., 3.}], {5, 0}], 
-   GeometricTransformationBox[DiskBox[{0, 0}, {2., 3.}], {6, 0}], 
-   GeometricTransformationBox[DiskBox[{0, 0}, {2., 3.}], {7, 0}], 
-   GeometricTransformationBox[DiskBox[{0, 0}, {2., 3.}], {8, 0}], 
-   GeometricTransformationBox[DiskBox[{0, 0}, {2., 3.}], {9, 0}], 
-   GeometricTransformationBox[DiskBox[{0, 0}, {2., 3.}], {10, 0}]}]], "Output",\
-
- CellChangeTimes->{{3.66058532120653*^9, 3.660585337508237*^9}, 
-   3.6606626650580482`*^9, 3.692469297062468*^9}]
-}, Open  ]],
-
 Cell["Scale a rectangle", "Text",
  CellChangeTimes->{{3.692469228844185*^9, 3.692469242859754*^9}}],
-
-Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"Graphics", "[", 
@@ -1259,31 +922,6 @@ Cell[BoxData[
   3.6605852440547733`*^9, 3.660585336514989*^9}, {3.6605854093273067`*^9, 
   3.6605854334202833`*^9}}],
 
-Cell[BoxData[
- GraphicsBox[
-  {RGBColor[0, 0, 1], Opacity[0.2], 
-   GeometricTransformationBox[
-    RectangleBox[{0, 0}, {2, 3}], {{{1, 0}, {0, 1}}, Center}], 
-   GeometricTransformationBox[
-    RectangleBox[{0, 0}, {2, 3}], {{{2, 0}, {0, 2}}, Center}], 
-   GeometricTransformationBox[
-    RectangleBox[{0, 0}, {2, 3}], {{{3, 0}, {0, 3}}, Center}], 
-   GeometricTransformationBox[
-    RectangleBox[{0, 0}, {2, 3}], {{{4, 0}, {0, 4}}, Center}], 
-   GeometricTransformationBox[
-    RectangleBox[{0, 0}, {2, 3}], {{{5, 0}, {0, 5}}, Center}], 
-   GeometricTransformationBox[
-    RectangleBox[{0, 0}, {2, 3}], {{{6, 0}, {0, 6}}, Center}], 
-   GeometricTransformationBox[
-    RectangleBox[{0, 0}, {2, 3}], {{{7, 0}, {0, 7}}, Center}], 
-   GeometricTransformationBox[
-    RectangleBox[{0, 0}, {2, 3}], {{{8, 0}, {0, 8}}, Center}], 
-   GeometricTransformationBox[
-    RectangleBox[{0, 0}, {2, 3}], {{{9, 0}, {0, 9}}, Center}]}]], "Output",
- CellChangeTimes->{3.660585435039234*^9, 3.660662665092495*^9, 
-  3.6924692971092663`*^9}]
-}, Open  ]],
-
 Cell[TextData[{
  "Combining ",
  StyleBox["Scale",
@@ -1293,8 +931,6 @@ Cell[TextData[{
   FontWeight->"Bold"]
 }], "Text",
  CellChangeTimes->{{3.660585529544694*^9, 3.660585538655129*^9}}],
-
-Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"Graphics", "[", 
@@ -1323,57 +959,6 @@ Cell[BoxData[
   3.6605854334202833`*^9}, {3.660585498042858*^9, 3.6605855207283916`*^9}}],
 
 Cell[BoxData[
- GraphicsBox[
-  {RGBColor[0, 0, 1], Opacity[0.2], 
-   GeometricTransformationBox[
-    GeometricTransformationBox[
-     RectangleBox[{0, 0}, {2, 3}], {{{1, 0}, {0, 1}}, Center}], {{{
-     0.9659258262890682, -0.2588190451025207}, {0.2588190451025207, 
-     0.9659258262890682}}, Center}], 
-   GeometricTransformationBox[
-    GeometricTransformationBox[
-     RectangleBox[{0, 0}, {2, 3}], {{{2, 0}, {0, 2}}, Center}], {{{
-     0.8660254037844386, -0.5}, {0.5, 0.8660254037844386}}, Center}], 
-   GeometricTransformationBox[
-    GeometricTransformationBox[
-     RectangleBox[{0, 0}, {2, 3}], {{{3, 0}, {0, 3}}, Center}], {{{
-     0.7071067811865475, -0.7071067811865475}, {0.7071067811865475, 
-     0.7071067811865475}}, Center}], 
-   GeometricTransformationBox[
-    GeometricTransformationBox[
-     RectangleBox[{0, 0}, {2, 3}], {{{4, 0}, {0, 4}}, Center}], {{{
-     0.5, -0.8660254037844386}, {0.8660254037844386, 0.5}}, Center}], 
-   GeometricTransformationBox[
-    GeometricTransformationBox[
-     RectangleBox[{0, 0}, {2, 3}], {{{5, 0}, {0, 5}}, Center}], {{{
-     0.2588190451025207, -0.9659258262890682}, {0.9659258262890682, 
-     0.2588190451025207}}, Center}], 
-   GeometricTransformationBox[
-    GeometricTransformationBox[
-     RectangleBox[{0, 0}, {2, 3}], {{{6, 0}, {0, 6}}, Center}], {{{0, -1}, {1,
-      0}}, Center}], 
-   GeometricTransformationBox[
-    GeometricTransformationBox[
-     RectangleBox[{0, 0}, {2, 3}], {{{7, 0}, {0, 7}}, 
-      Center}], {{{-0.2588190451025207, -0.9659258262890682}, {
-     0.9659258262890682, -0.2588190451025207}}, Center}], 
-   GeometricTransformationBox[
-    GeometricTransformationBox[
-     RectangleBox[{0, 0}, {2, 3}], {{{8, 0}, {0, 8}}, 
-      Center}], {{{-0.5, -0.8660254037844386}, {0.8660254037844386, -0.5}}, 
-     Center}], 
-   GeometricTransformationBox[
-    GeometricTransformationBox[
-     RectangleBox[{0, 0}, {2, 3}], {{{9, 0}, {0, 9}}, 
-      Center}], {{{-0.7071067811865475, -0.7071067811865475}, {
-     0.7071067811865475, -0.7071067811865475}}, Center}]}]], "Output",
- CellChangeTimes->{{3.6605855161633167`*^9, 3.660585521507777*^9}, 
-   3.660662665125288*^9, 3.692469297135042*^9}]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
  RowBox[{"Graphics", "[", 
   RowBox[{"{", 
    RowBox[{"Blue", ",", 
@@ -1397,56 +982,7 @@ Cell[BoxData[
  CellChangeTimes->{{3.660585068398637*^9, 3.660585201841152*^9}, {
   3.6605852440547733`*^9, 3.660585336514989*^9}, {3.6605854093273067`*^9, 
   3.6605854334202833`*^9}, {3.660585498042858*^9, 3.6605855207283916`*^9}, {
-  3.660585612525736*^9, 3.660585618205367*^9}}],
-
-Cell[BoxData[
- GraphicsBox[
-  {RGBColor[0, 0, 1], 
-   GeometricTransformationBox[
-    GeometricTransformationBox[
-     CircleBox[{0, 0}, {2., 3.}], {{{1, 0}, {0, 1}}, Center}], {{{
-     0.9659258262890682, -0.2588190451025207}, {0.2588190451025207, 
-     0.9659258262890682}}, Center}], 
-   GeometricTransformationBox[
-    GeometricTransformationBox[
-     CircleBox[{0, 0}, {2., 3.}], {{{2, 0}, {0, 2}}, Center}], {{{
-     0.8660254037844386, -0.5}, {0.5, 0.8660254037844386}}, Center}], 
-   GeometricTransformationBox[
-    GeometricTransformationBox[
-     CircleBox[{0, 0}, {2., 3.}], {{{3, 0}, {0, 3}}, Center}], {{{
-     0.7071067811865475, -0.7071067811865475}, {0.7071067811865475, 
-     0.7071067811865475}}, Center}], 
-   GeometricTransformationBox[
-    GeometricTransformationBox[
-     CircleBox[{0, 0}, {2., 3.}], {{{4, 0}, {0, 4}}, Center}], {{{
-     0.5, -0.8660254037844386}, {0.8660254037844386, 0.5}}, Center}], 
-   GeometricTransformationBox[
-    GeometricTransformationBox[
-     CircleBox[{0, 0}, {2., 3.}], {{{5, 0}, {0, 5}}, Center}], {{{
-     0.2588190451025207, -0.9659258262890682}, {0.9659258262890682, 
-     0.2588190451025207}}, Center}], 
-   GeometricTransformationBox[
-    GeometricTransformationBox[
-     CircleBox[{0, 0}, {2., 3.}], {{{6, 0}, {0, 6}}, Center}], {{{0, -1}, {1, 
-     0}}, Center}], 
-   GeometricTransformationBox[
-    GeometricTransformationBox[
-     CircleBox[{0, 0}, {2., 3.}], {{{7, 0}, {0, 7}}, 
-      Center}], {{{-0.2588190451025207, -0.9659258262890682}, {
-     0.9659258262890682, -0.2588190451025207}}, Center}], 
-   GeometricTransformationBox[
-    GeometricTransformationBox[
-     CircleBox[{0, 0}, {2., 3.}], {{{8, 0}, {0, 8}}, 
-      Center}], {{{-0.5, -0.8660254037844386}, {0.8660254037844386, -0.5}}, 
-     Center}], 
-   GeometricTransformationBox[
-    GeometricTransformationBox[
-     CircleBox[{0, 0}, {2., 3.}], {{{9, 0}, {0, 9}}, 
-      Center}], {{{-0.7071067811865475, -0.7071067811865475}, {
-     0.7071067811865475, -0.7071067811865475}}, Center}]}]], "Output",
- CellChangeTimes->{3.660585619711584*^9, 3.660662665144339*^9, 
-  3.692469297149665*^9}]
-}, Open  ]]
+  3.660585612525736*^9, 3.660585618205367*^9}}]
 }, Open  ]]
 }, Open  ]],
 
@@ -1506,8 +1042,6 @@ Cell[BoxData[
    3.6606633533235483`*^9, 3.660663404758707*^9, {3.660663595361691*^9, 
    3.660663597871578*^9}}],
 
-Cell[CellGroupData[{
-
 Cell[BoxData[
  RowBox[{"Graphics", "[", 
   RowBox[{
@@ -1537,17 +1071,6 @@ Cell[BoxData[
   3.6606635019163523`*^9, 3.660663562746068*^9}, {3.6606636006080313`*^9, 
   3.660663601639668*^9}, {3.692469317746744*^9, 3.692469318921376*^9}}],
 
-Cell[BoxData[
- GraphicsBox[{BezierCurveBox[{{0, 0}, {1, -1}, {2, -1}, {3, 0}}], 
-   {RGBColor[1, 0, 0], PointSize[Large], PointBox[{{0, 0}, {3, 0}}], 
-    {RGBColor[0, 0, 1], PointBox[{{1, -1}, {2, -1}}]}}},
-  Frame->True,
-  GridLines->Automatic]], "Output",
- CellChangeTimes->{
-  3.6606634561647577`*^9, 3.660663563358574*^9, 3.6606636047230186`*^9, {
-   3.692469312893474*^9, 3.692469319314274*^9}}]
-}, Open  ]],
-
 Cell["\<\
 If we move both control points down, the curve becomes deeper.\
 \>", "Text",
@@ -1571,8 +1094,6 @@ Cell[BoxData[
  CellChangeTimes->{{3.660663316351507*^9, 3.660663321850708*^9}, 
    3.6606633533235483`*^9, 3.660663404758707*^9, {3.660663595361691*^9, 
    3.660663597871578*^9}, {3.6606636385593643`*^9, 3.660663650733712*^9}}],
-
-Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"Graphics", "[", 
@@ -1604,16 +1125,6 @@ Cell[BoxData[
   3.660663601639668*^9}, {3.660663658590272*^9, 3.66066366426124*^9}, {
   3.692469323098534*^9, 3.692469323689186*^9}}],
 
-Cell[BoxData[
- GraphicsBox[{BezierCurveBox[{{0, 0}, {1, -3}, {2, -3}, {3, 0}}], 
-   {RGBColor[1, 0, 0], PointSize[Large], PointBox[{{0, 0}, {3, 0}}], 
-    {RGBColor[0, 0, 1], PointBox[{{1, -3}, {2, -3}}]}}},
-  Frame->True,
-  GridLines->Automatic]], "Output",
- CellChangeTimes->{
-  3.6606636664522247`*^9, {3.692469312947839*^9, 3.692469324030099*^9}}]
-}, Open  ]],
-
 Cell["\<\
 If we move the control points closer to the endpoints, the curve becomes \
 broader.\
@@ -1640,8 +1151,6 @@ Cell[BoxData[
    3.6606633533235483`*^9, 3.660663404758707*^9, {3.660663595361691*^9, 
    3.660663597871578*^9}, {3.6606636385593643`*^9, 3.660663650733712*^9}, {
    3.660665340824679*^9, 3.660665384813569*^9}}],
-
-Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"Graphics", "[", 
@@ -1674,16 +1183,6 @@ Cell[BoxData[
   3.660665347487032*^9, 3.660665389701621*^9}, {3.6924693416737537`*^9, 
   3.6924693422403507`*^9}}],
 
-Cell[BoxData[
- GraphicsBox[{BezierCurveBox[{{0, 0}, {0.25, -3}, {2.75, -3}, {3, 0}}], 
-   {RGBColor[1, 0, 0], PointSize[Large], PointBox[{{0, 0}, {3, 0}}], 
-    {RGBColor[0, 0, 1], PointBox[{{0.25, -3}, {2.75, -3}}]}}},
-  Frame->True,
-  GridLines->Automatic]], "Output",
- CellChangeTimes->{{3.660665377611261*^9, 3.660665392915318*^9}, {
-  3.692469313003704*^9, 3.6924693426268272`*^9}}]
-}, Open  ]],
-
 Cell["\<\
 If the control points are above the line, we end up with a curve that opens \
 downward.\
@@ -1706,8 +1205,6 @@ Cell[BoxData[
  CellChangeTimes->{{3.660663316351507*^9, 3.660663321850708*^9}, 
    3.6606633533235483`*^9, 3.660663404758707*^9, {3.660663595361691*^9, 
    3.660663597871578*^9}, {3.660663961011159*^9, 3.6606639652582693`*^9}}],
-
-Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"Graphics", "[", 
@@ -1737,24 +1234,12 @@ Cell[BoxData[
   3.660663601639668*^9}, {3.660663973362707*^9, 3.660663980801437*^9}, {
   3.692469346753624*^9, 3.692469347424377*^9}}],
 
-Cell[BoxData[
- GraphicsBox[{BezierCurveBox[{{0, 0}, {1, 1}, {2, 1}, {3, 0}}], 
-   {RGBColor[1, 0, 0], PointSize[Large], PointBox[{{0, 0}, {3, 0}}], 
-    {RGBColor[0, 0, 1], PointBox[{{1, 1}, {2, 1}}]}}},
-  Frame->True,
-  GridLines->Automatic]], "Output",
- CellChangeTimes->{3.6606639836930313`*^9, 3.692469313036755*^9, 
-  3.692469347741662*^9}]
-}, Open  ]],
-
 Cell["\<\
 It helps to visualize what the control points are doing to the curve if we \
 plot a line through them. Here the line through the control points is drawn \
 in purple.\
 \>", "Text",
  CellChangeTimes->{{3.660664003457345*^9, 3.6606640656712227`*^9}}],
-
-Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"Graphics", "[", 
@@ -1769,15 +1254,6 @@ Cell[BoxData[
   3.6606635019163523`*^9, 3.660663562746068*^9}, {3.6606636006080313`*^9, 
   3.660663601639668*^9}, {3.660663973362707*^9, 3.660663980801437*^9}, {
   3.660664069638998*^9, 3.660664100518009*^9}}],
-
-Cell[BoxData[
- GraphicsBox[{
-   {RGBColor[0, 0, 1], BezierCurveBox[{{0, 0}, {1, 1}, {2, 1}, {3, 0}}]}, 
-   {RGBColor[0.5, 0, 0.5], LineBox[{{0, 0}, {1, 1}, {2, 1}, {3, 0}}]}},
-  Frame->True,
-  GridLines->Automatic]], "Output",
- CellChangeTimes->{3.6606641008468733`*^9, 3.6924693130706787`*^9}]
-}, Open  ]],
 
 Cell["\<\
 If we place one control point above the line and one below it, we can get an \
@@ -1802,8 +1278,6 @@ Cell[BoxData[
       RowBox[{"3", ",", "0"}], "}"}]}], "}"}]}], ";"}]], "Input",
  CellChangeTimes->{{3.660664145416616*^9, 3.660664163730772*^9}}],
 
-Cell[CellGroupData[{
-
 Cell[BoxData[
  RowBox[{"Graphics", "[", 
   RowBox[{
@@ -1821,19 +1295,6 @@ Cell[BoxData[
   3.660664069638998*^9, 3.660664100518009*^9}, {3.660664173891176*^9, 
   3.660664177795404*^9}, {3.660664211021017*^9, 3.660664232448146*^9}, {
   3.692469358273193*^9, 3.692469359055921*^9}}],
-
-Cell[BoxData[
- GraphicsBox[{
-   {RGBColor[0, 0, 1], BezierCurveBox[{{0, 0}, {1, -1}, {2, 1}, {3, 0}}]}, 
-   {RGBColor[0.5, 0, 0.5], LineBox[{{0, 0}, {1, -1}, {2, 1}, {3, 0}}]}, 
-   {RGBColor[1, 0, 0], PointSize[Large], 
-    PointBox[{{0, 0}, {1, -1}, {2, 1}, {3, 0}}]}},
-  Frame->True,
-  GridLines->Automatic]], "Output",
- CellChangeTimes->{
-  3.6606641812304907`*^9, {3.660664212752675*^9, 3.6606642330218678`*^9}, 
-   3.692469313120419*^9, 3.692469359442082*^9}]
-}, Open  ]],
 
 Cell["\<\
 If you have ever used the ink pen tool in a vector graphics program like \
@@ -1893,8 +1354,6 @@ Cell[BoxData[
       RowBox[{"7", ",", "3"}], "}"}]}], "}"}]}], ";"}]], "Input",
  CellChangeTimes->{{3.6606638466841793`*^9, 3.660663860609118*^9}}],
 
-Cell[CellGroupData[{
-
 Cell[BoxData[
  RowBox[{"Graphics", "[", 
   RowBox[{
@@ -1911,21 +1370,6 @@ Cell[BoxData[
    3.660663906925329*^9, 3.660663907597135*^9}, {3.660663943131434*^9, 
    3.6606639437157393`*^9}, 3.660664243323647*^9, {3.692469390920142*^9, 
    3.6924693914706507`*^9}}],
-
-Cell[BoxData[
- GraphicsBox[{
-   {RGBColor[0, 0, 1], 
-    BezierCurveBox[{{0, 0}, {1, 1}, {2, -1}, {3, 0}, {5, 2}, {6, -1}, {7, 
-     3}}]}, 
-   {RGBColor[0.5, 0, 0.5], 
-    LineBox[{{0, 0}, {1, 1}, {2, -1}, {3, 0}, {5, 2}, {6, -1}, {7, 3}}]}, 
-   {RGBColor[1, 0, 0], PointSize[Large], 
-    PointBox[{{0, 0}, {1, 1}, {2, -1}, {3, 0}, {5, 2}, {6, -1}, {7, 3}}]}},
-  Frame->True,
-  GridLines->Automatic]], "Output",
- CellChangeTimes->{3.660663873864792*^9, 3.660663907916637*^9, 
-  3.6606639445732937`*^9, 3.660664244303989*^9, 3.6924694032371387`*^9}]
-}, Open  ]],
 
 Cell["\<\
 If the control points to the left and right of a point that lies on a \
@@ -1956,8 +1400,6 @@ Cell[BoxData[
       RowBox[{"6", ",", "1"}], "}"}]}], "}"}]}], ";"}]], "Input",
  CellChangeTimes->{{3.660664438408839*^9, 3.660664467512142*^9}}],
 
-Cell[CellGroupData[{
-
 Cell[BoxData[
  RowBox[{"Graphics", "[", 
   RowBox[{
@@ -1973,22 +1415,7 @@ Cell[BoxData[
  CellChangeTimes->{{3.660663842815344*^9, 3.6606638725849953`*^9}, {
    3.660663906925329*^9, 3.660663907597135*^9}, {3.660663943131434*^9, 
    3.6606639437157393`*^9}, 3.660664243323647*^9, {3.660664475089037*^9, 
-   3.660664486344873*^9}, {3.6924693940793753`*^9, 3.6924694213336153`*^9}}],
-
-Cell[BoxData[
- GraphicsBox[{
-   {RGBColor[0, 0, 1], 
-    BezierCurveBox[{{0, 0}, {1, 1}, {2, 1}, {3, 0}, {4, 1}, {5, 0}, {6, 1}}]}, 
-   {RGBColor[0.5, 0, 0.5], 
-    LineBox[{{0, 0}, {1, 1}, {2, 1}, {3, 0}, {4, 1}, {5, 0}, {6, 1}}]}, 
-   {RGBColor[1, 0, 0], PointSize[Large], 
-    PointBox[{{0, 0}, {1, 1}, {2, 1}, {3, 0}, {4, 1}, {5, 0}, {6, 1}}]}},
-  Frame->True,
-  GridLines->Automatic,
-  ImageSize->Large]], "Output",
- CellChangeTimes->{
-  3.660664491046054*^9, {3.6924694032928143`*^9, 3.6924694217201233`*^9}}]
-}, Open  ]]
+   3.660664486344873*^9}, {3.6924693940793753`*^9, 3.6924694213336153`*^9}}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -2005,8 +1432,6 @@ the first one. You can change this behaviour by setting the ",
 shown below."
 }], "Text",
  CellChangeTimes->{{3.660664692528228*^9, 3.6606647531658897`*^9}}],
-
-Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"Graphics", "[", 
@@ -2038,19 +1463,7 @@ Cell[BoxData[
          RowBox[{"0", ",", "0"}], "}"}]}], "}"}], "]"}]}], "}"}], ",", 
    RowBox[{"Frame", "\[Rule]", "True"}], ",", 
    RowBox[{"GridLines", "\[Rule]", "Automatic"}]}], "]"}]], "Input",
- CellChangeTimes->{{3.660664799020308*^9, 3.660664912639019*^9}}],
-
-Cell[BoxData[
- GraphicsBox[{
-   {RGBColor[0, 0, 1], BezierCurveBox[{{0, 0}, {1, 2}, {2, 1}},
-     SplineClosed->True]}, 
-   {RGBColor[0.5, 0, 0.5], LineBox[{{0, 0}, {1, 2}, {2, 1}, {0, 0}}]}},
-  Frame->True,
-  GridLines->Automatic]], "Output",
- CellChangeTimes->{
-  3.660664790209837*^9, {3.660664865761835*^9, 3.660664883491666*^9}, 
-   3.660664913966929*^9, 3.6924694033281603`*^9}]
-}, Open  ]]
+ CellChangeTimes->{{3.660664799020308*^9, 3.660664912639019*^9}}]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -2082,8 +1495,6 @@ Cell[TextData[{
  CellChangeTimes->{{3.6606694069750843`*^9, 3.6606694342151937`*^9}, {
   3.6606699219184847`*^9, 3.660669933653479*^9}}],
 
-Cell[CellGroupData[{
-
 Cell[BoxData[
  RowBox[{"Table", "[", 
   RowBox[{
@@ -2109,27 +1520,6 @@ Cell[BoxData[
     "}"}]}], "]"}]], "Input",
  CellID->82458967],
 
-Cell[BoxData[
- RowBox[{"{", 
-  RowBox[{
-   GraphicsBox[
-    {Thickness[Tiny], BezierCurveBox[{{0, 0}, {1, 1}, {2, 1}, {3, 0}}]}], ",", 
-   GraphicsBox[
-    {Thickness[Small], BezierCurveBox[{{0, 0}, {1, 1}, {2, 1}, {3, 0}}]}], 
-   ",", 
-   GraphicsBox[
-    {Thickness[Medium], BezierCurveBox[{{0, 0}, {1, 1}, {2, 1}, {3, 0}}]}], 
-   ",", 
-   GraphicsBox[
-    {Thickness[Large], BezierCurveBox[{{0, 0}, {1, 1}, {2, 1}, {3, 0}}]}]}], 
-  "}"}]], "Output",
- CellChangeTimes->{3.660669480818573*^9},
- ImageSize->{451, 38},
- ImageMargins->{{0, 0}, {0, 0}},
- ImageRegion->{{0, 1}, {0, 1}},
- GraphicsBoxOptions->{ImageSize->{100, Automatic}}]
-}, Open  ]],
-
 Cell[TextData[{
  "A different version of ",
  StyleBox["Thickness",
@@ -2139,8 +1529,6 @@ the line should take up."
 }], "Text",
  CellChangeTimes->{{3.6606694893248262`*^9, 3.6606695131564093`*^9}, {
   3.660669741531432*^9, 3.660669743332258*^9}}],
-
-Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"Table", "[", 
@@ -2168,23 +1556,6 @@ Cell[BoxData[
  CellChangeTimes->{{3.660669526412094*^9, 3.660669539764206*^9}},
  CellID->1140188584],
 
-Cell[BoxData[
- RowBox[{"{", 
-  RowBox[{
-   GraphicsBox[
-    {Thickness[0.001], BezierCurveBox[{{0, 0}, {1, 1}, {2, 1}, {3, 0}}]}], 
-   ",", 
-   GraphicsBox[
-    {Thickness[0.005], BezierCurveBox[{{0, 0}, {1, 1}, {2, 1}, {3, 0}}]}], 
-   ",", 
-   GraphicsBox[
-    {Thickness[0.05], BezierCurveBox[{{0, 0}, {1, 1}, {2, 1}, {3, 0}}]}], ",", 
-   GraphicsBox[
-    {Thickness[0.1], BezierCurveBox[{{0, 0}, {1, 1}, {2, 1}, {3, 0}}]}]}], 
-  "}"}]], "Output",
- CellChangeTimes->{3.660669541033906*^9}]
-}, Open  ]],
-
 Cell[TextData[{
  "We have seen that we can specify different kinds of lines with commands \
 like ",
@@ -2197,8 +1568,6 @@ like ",
 }], "Text",
  CellChangeTimes->{{3.660669604936801*^9, 3.660669621128543*^9}, {
   3.660669711644554*^9, 3.660669722613165*^9}}],
-
-Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"Table", "[", 
@@ -2227,24 +1596,6 @@ Cell[BoxData[
   3.660669693926469*^9, 3.660669700180895*^9}},
  CellID->1448006407],
 
-Cell[BoxData[
- RowBox[{"{", 
-  RowBox[{
-   GraphicsBox[
-    {Dashing[{0, Small}], BezierCurveBox[{{0, 0}, {1, 1}, {2, 1}, {3, 0}}]}], 
-   ",", 
-   GraphicsBox[
-    {Dashing[{Small, Small}], 
-     BezierCurveBox[{{0, 0}, {1, 1}, {2, 1}, {3, 0}}]}], ",", 
-   GraphicsBox[
-    {Dashing[{0, Small, Small, Small}], 
-     BezierCurveBox[{{0, 0}, {1, 1}, {2, 1}, {3, 0}}]}], ",", 
-   GraphicsBox[
-    {Dashing[None], BezierCurveBox[{{0, 0}, {1, 1}, {2, 1}, {3, 0}}]}]}], 
-  "}"}]], "Output",
- CellChangeTimes->{3.660669664292976*^9, 3.660669700971714*^9}]
-}, Open  ]],
-
 Cell[TextData[{
  "The ",
  StyleBox["Dashing",
@@ -2254,8 +1605,6 @@ spaces between them."
 }], "Text",
  CellChangeTimes->{{3.660669752402814*^9, 3.660669786130645*^9}, {
   3.66066982526513*^9, 3.6606698281213713`*^9}}],
-
-Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"Table", "[", 
@@ -2287,24 +1636,6 @@ Cell[BoxData[
   3.660669808161944*^9, 3.660669889767103*^9}},
  CellID->1820084166],
 
-Cell[BoxData[
- RowBox[{"{", 
-  RowBox[{
-   GraphicsBox[
-    {Dashing[{0.01, 0.09000000000000001}], 
-     BezierCurveBox[{{0, 0}, {1, 1}, {2, 1}, {3, 0}}]}], ",", 
-   GraphicsBox[
-    {Dashing[{0.03, 0.07}], 
-     BezierCurveBox[{{0, 0}, {1, 1}, {2, 1}, {3, 0}}]}], ",", 
-   GraphicsBox[
-    {Dashing[{0.05, 0.05}], 
-     BezierCurveBox[{{0, 0}, {1, 1}, {2, 1}, {3, 0}}]}], ",", 
-   GraphicsBox[
-    {Dashing[{0.08, 0.020000000000000004`}], 
-     BezierCurveBox[{{0, 0}, {1, 1}, {2, 1}, {3, 0}}]}]}], "}"}]], "Output",
- CellChangeTimes->{{3.660669831006002*^9, 3.660669890665626*^9}}]
-}, Open  ]],
-
 Cell[TextData[{
  "The ",
  StyleBox["CapForm",
@@ -2312,8 +1643,6 @@ Cell[TextData[{
  " command determines the shape of the ends of lines."
 }], "Text",
  CellChangeTimes->{{3.660671064789452*^9, 3.660671078045414*^9}}],
-
-Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"Table", "[", 
@@ -2343,24 +1672,6 @@ Cell[BoxData[
  CellChangeTimes->{{3.660671109740407*^9, 3.660671124732028*^9}},
  CellID->71995590],
 
-Cell[BoxData[
- RowBox[{"{", 
-  RowBox[{
-   GraphicsBox[
-    {Thickness[0.2], CapForm["Butt"], LineBox[{{-1, -1}, {1, 1}}]},
-    ImagePadding->20,
-    PlotLabel->FormBox["\"Butt\"", TraditionalForm]], ",", 
-   GraphicsBox[
-    {Thickness[0.2], CapForm["Round"], LineBox[{{-1, -1}, {1, 1}}]},
-    ImagePadding->20,
-    PlotLabel->FormBox["\"Round\"", TraditionalForm]], ",", 
-   GraphicsBox[
-    {Thickness[0.2], CapForm["Square"], LineBox[{{-1, -1}, {1, 1}}]},
-    ImagePadding->20,
-    PlotLabel->FormBox["\"Square\"", TraditionalForm]]}], "}"}]], "Output",
- CellChangeTimes->{{3.660671110648385*^9, 3.660671125224091*^9}}]
-}, Open  ]],
-
 Cell[TextData[{
  "The ",
  StyleBox["JoinForm",
@@ -2368,8 +1679,6 @@ Cell[TextData[{
  " command determines the shape when lines meet."
 }], "Text",
  CellChangeTimes->{{3.660671152218379*^9, 3.6606711655384903`*^9}}],
-
-Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"Table", "[", 
@@ -2400,28 +1709,7 @@ Cell[BoxData[
       RowBox[{"\"\<Bevel\>\"", ",", "\"\<Round\>\"", ",", "\"\<Miter\>\""}], 
       "}"}]}], "}"}]}], "]"}]], "Input",
  CellChangeTimes->{{3.660671544477803*^9, 3.660671555326356*^9}},
- CellID->163602567],
-
-Cell[BoxData[
- RowBox[{"{", 
-  RowBox[{
-   GraphicsBox[
-    {Thickness[0.2], JoinForm["Bevel"], 
-     LineBox[{{-1, -0.5}, {0, 0.5}, {1, -0.5}}]},
-    ImagePadding->20,
-    PlotLabel->FormBox["\"Bevel\"", TraditionalForm]], ",", 
-   GraphicsBox[
-    {Thickness[0.2], JoinForm["Round"], 
-     LineBox[{{-1, -0.5}, {0, 0.5}, {1, -0.5}}]},
-    ImagePadding->20,
-    PlotLabel->FormBox["\"Round\"", TraditionalForm]], ",", 
-   GraphicsBox[
-    {Thickness[0.2], JoinForm["Miter"], 
-     LineBox[{{-1, -0.5}, {0, 0.5}, {1, -0.5}}]},
-    ImagePadding->20,
-    PlotLabel->FormBox["\"Miter\"", TraditionalForm]]}], "}"}]], "Output",
- CellChangeTimes->{{3.660671547400028*^9, 3.660671555768485*^9}}]
-}, Open  ]]
+ CellID->163602567]
 }, Open  ]]
 }, Open  ]],
 
@@ -2455,8 +1743,6 @@ a curve by using ",
   3.660669374696216*^9, 3.6606693761291437`*^9}, {3.660671848587244*^9, 
   3.660671889337839*^9}, {3.660671919432783*^9, 3.660671960095433*^9}}],
 
-Cell[CellGroupData[{
-
 Cell[BoxData[
  RowBox[{"Graphics", "[", 
   RowBox[{
@@ -2483,30 +1769,11 @@ Cell[BoxData[
  CellChangeTimes->{{3.660671616898284*^9, 3.660671860475115*^9}, 
    3.6606721280808973`*^9}],
 
-Cell[BoxData[
- GraphicsBox[{BezierCurveBox[{{0, 0}, {1, 0.}, {2, 0.}, {3, 0}}], 
-   BezierCurveBox[{{0, 0}, {1, 0.5}, {2, -0.5}, {3, 0}}], 
-   BezierCurveBox[{{0, 0}, {1, 1.}, {2, -1.}, {3, 0}}], 
-   BezierCurveBox[{{0, 0}, {1, 1.5}, {2, -1.5}, {3, 0}}], 
-   BezierCurveBox[{{0, 0}, {1, 2.}, {2, -2.}, {3, 0}}], 
-   BezierCurveBox[{{0, 0}, {1, 2.5}, {2, -2.5}, {3, 0}}], 
-   BezierCurveBox[{{0, 0}, {1, 3.}, {2, -3.}, {3, 0}}], 
-   BezierCurveBox[{{0, 0}, {1, 3.5}, {2, -3.5}, {3, 0}}], 
-   BezierCurveBox[{{0, 0}, {1, 4.}, {2, -4.}, {3, 0}}], 
-   BezierCurveBox[{{0, 0}, {1, 4.5}, {2, -4.5}, {3, 0}}], 
-   BezierCurveBox[{{0, 0}, {1, 5.}, {2, -5.}, {3, 0}}]},
-  PlotRange->{-2, 2}]], "Output",
- CellChangeTimes->{{3.660671694794895*^9, 3.660671860996869*^9}, 
-   3.660672128460177*^9}]
-}, Open  ]],
-
 Cell["\<\
 Here is what the above figure looks like if we plot all the control points, \
 too.\
 \>", "Text",
  CellChangeTimes->{{3.660671994277892*^9, 3.660672013221438*^9}}],
-
-Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"Graphics", "[", 
@@ -2543,33 +1810,7 @@ Cell[BoxData[
       RowBox[{"u", ",", "0", ",", "5", ",", ".5"}], "}"}]}], "]"}], "}"}], 
   "]"}]], "Input",
  CellChangeTimes->{{3.660671616898284*^9, 3.660671860475115*^9}, {
-  3.660672022045217*^9, 3.660672122058202*^9}}],
-
-Cell[BoxData[
- GraphicsBox[{{BezierCurveBox[{{0, 0}, {1, 0.}, {2, 0.}, {3, 0}}], 
-    PointBox[{{0, 0}, {1, 0.}, {2, 0.}, {3, 0}}]}, {
-    BezierCurveBox[{{0, 0}, {1, 0.5}, {2, -0.5}, {3, 0}}], 
-    PointBox[{{0, 0}, {1, 0.5}, {2, -0.5}, {3, 0}}]}, {
-    BezierCurveBox[{{0, 0}, {1, 1.}, {2, -1.}, {3, 0}}], 
-    PointBox[{{0, 0}, {1, 1.}, {2, -1.}, {3, 0}}]}, {
-    BezierCurveBox[{{0, 0}, {1, 1.5}, {2, -1.5}, {3, 0}}], 
-    PointBox[{{0, 0}, {1, 1.5}, {2, -1.5}, {3, 0}}]}, {
-    BezierCurveBox[{{0, 0}, {1, 2.}, {2, -2.}, {3, 0}}], 
-    PointBox[{{0, 0}, {1, 2.}, {2, -2.}, {3, 0}}]}, {
-    BezierCurveBox[{{0, 0}, {1, 2.5}, {2, -2.5}, {3, 0}}], 
-    PointBox[{{0, 0}, {1, 2.5}, {2, -2.5}, {3, 0}}]}, {
-    BezierCurveBox[{{0, 0}, {1, 3.}, {2, -3.}, {3, 0}}], 
-    PointBox[{{0, 0}, {1, 3.}, {2, -3.}, {3, 0}}]}, {
-    BezierCurveBox[{{0, 0}, {1, 3.5}, {2, -3.5}, {3, 0}}], 
-    PointBox[{{0, 0}, {1, 3.5}, {2, -3.5}, {3, 0}}]}, {
-    BezierCurveBox[{{0, 0}, {1, 4.}, {2, -4.}, {3, 0}}], 
-    PointBox[{{0, 0}, {1, 4.}, {2, -4.}, {3, 0}}]}, {
-    BezierCurveBox[{{0, 0}, {1, 4.5}, {2, -4.5}, {3, 0}}], 
-    PointBox[{{0, 0}, {1, 4.5}, {2, -4.5}, {3, 0}}]}, {
-    BezierCurveBox[{{0, 0}, {1, 5.}, {2, -5.}, {3, 0}}], 
-    PointBox[{{0, 0}, {1, 5.}, {2, -5.}, {3, 0}}]}}]], "Output",
- CellChangeTimes->{{3.660672088859535*^9, 3.660672122709898*^9}}]
-}, Open  ]]
+  3.660672022045217*^9, 3.660672122058202*^9}}]
 }, Open  ]]
 }, Open  ]],
 
@@ -2591,8 +1832,6 @@ B\[EAcute]zier curves.\
  CellChangeTimes->{{3.660670184564117*^9, 3.660670187540347*^9}, {
   3.660670296776587*^9, 3.660670314023972*^9}, {3.660670476826195*^9, 
   3.660670485153859*^9}}],
-
-Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"Graphics", "[", 
@@ -2619,37 +1858,6 @@ Cell[BoxData[
    3.660670212827587*^9, 3.660670287033265*^9}, 3.660670362262931*^9, {
    3.6606706967310047`*^9, 3.660670698010586*^9}},
  CellID->457488834],
-
-Cell[BoxData[
- GraphicsBox[{
-   GeometricTransformationBox[BezierCurveBox[{{0, 0}, {1, 2}, {2, 0}},
-     SplineClosed->True], {{{1, 0}, {0, 1}}, Center}], 
-   GeometricTransformationBox[BezierCurveBox[{{0, 0}, {1, 2}, {2, 0}},
-     SplineClosed->True], {{{0.7071067811865475, -0.7071067811865475}, {
-     0.7071067811865475, 0.7071067811865475}}, Center}], 
-   GeometricTransformationBox[BezierCurveBox[{{0, 0}, {1, 2}, {2, 0}},
-     SplineClosed->True], {{{0, -1}, {1, 0}}, Center}], 
-   GeometricTransformationBox[BezierCurveBox[{{0, 0}, {1, 2}, {2, 0}},
-     SplineClosed->True], {{{-0.7071067811865475, -0.7071067811865475}, {
-     0.7071067811865475, -0.7071067811865475}}, Center}], 
-   GeometricTransformationBox[BezierCurveBox[{{0, 0}, {1, 2}, {2, 0}},
-     SplineClosed->True], {{{-1, 0}, {0, -1}}, Center}], 
-   GeometricTransformationBox[BezierCurveBox[{{0, 0}, {1, 2}, {2, 0}},
-     SplineClosed->True], {{{-0.7071067811865475, 
-     0.7071067811865475}, {-0.7071067811865475, -0.7071067811865475}}, 
-     Center}], 
-   GeometricTransformationBox[BezierCurveBox[{{0, 0}, {1, 2}, {2, 0}},
-     SplineClosed->True], {{{0, 1}, {-1, 0}}, Center}], 
-   GeometricTransformationBox[BezierCurveBox[{{0, 0}, {1, 2}, {2, 0}},
-     SplineClosed->True], {{{0.7071067811865475, 
-     0.7071067811865475}, {-0.7071067811865475, 0.7071067811865475}}, 
-     Center}]}]], "Output",
- CellChangeTimes->{
-  3.660670075541525*^9, {3.660670273303975*^9, 3.6606702875390167`*^9}, 
-   3.6606703630592318`*^9, 3.660670698459312*^9}]
-}, Open  ]],
-
-Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"Graphics", "[", 
@@ -2679,79 +1887,6 @@ Cell[BoxData[
   3.66067046213927*^9}},
  CellID->727117753],
 
-Cell[BoxData[
- GraphicsBox[{
-   GeometricTransformationBox[
-    BezierCurveBox[{{0, 0}, {1, 2}, {1, 3}, {1.5, 1}},
-     SplineClosed->True], {{{1, 0}, {0, 1}}, Center}], 
-   GeometricTransformationBox[
-    BezierCurveBox[{{0, 0}, {1, 2}, {1, 3}, {1.5, 1}},
-     SplineClosed->True], {{{0.9135454576426009, -0.4067366430758002}, {
-     0.4067366430758002, 0.9135454576426009}}, Center}], 
-   GeometricTransformationBox[
-    BezierCurveBox[{{0, 0}, {1, 2}, {1, 3}, {1.5, 1}},
-     SplineClosed->True], {{{0.6691306063588582, -0.7431448254773942}, {
-     0.7431448254773942, 0.6691306063588582}}, Center}], 
-   GeometricTransformationBox[
-    BezierCurveBox[{{0, 0}, {1, 2}, {1, 3}, {1.5, 1}},
-     SplineClosed->True], {{{0.30901699437494745`, -0.9510565162951535}, {
-     0.9510565162951535, 0.30901699437494745`}}, Center}], 
-   GeometricTransformationBox[
-    BezierCurveBox[{{0, 0}, {1, 2}, {1, 3}, {1.5, 1}},
-     SplineClosed->True], {{{-0.10452846326765347`, -0.9945218953682733}, {
-     0.9945218953682733, -0.10452846326765347`}}, Center}], 
-   GeometricTransformationBox[
-    BezierCurveBox[{{0, 0}, {1, 2}, {1, 3}, {1.5, 1}},
-     SplineClosed->True], {{{-0.5, -0.8660254037844386}, {
-     0.8660254037844386, -0.5}}, Center}], 
-   GeometricTransformationBox[
-    BezierCurveBox[{{0, 0}, {1, 2}, {1, 3}, {1.5, 1}},
-     SplineClosed->True], {{{-0.8090169943749475, -0.5877852522924731}, {
-     0.5877852522924731, -0.8090169943749475}}, Center}], 
-   GeometricTransformationBox[
-    BezierCurveBox[{{0, 0}, {1, 2}, {1, 3}, {1.5, 1}},
-     SplineClosed->True], {{{-0.9781476007338057, -0.20791169081775934`}, {
-     0.20791169081775934`, -0.9781476007338057}}, Center}], 
-   GeometricTransformationBox[
-    BezierCurveBox[{{0, 0}, {1, 2}, {1, 3}, {1.5, 1}},
-     SplineClosed->True], {{{-0.9781476007338057, 
-     0.20791169081775934`}, {-0.20791169081775934`, -0.9781476007338057}}, 
-     Center}], 
-   GeometricTransformationBox[
-    BezierCurveBox[{{0, 0}, {1, 2}, {1, 3}, {1.5, 1}},
-     SplineClosed->True], {{{-0.8090169943749475, 
-     0.5877852522924731}, {-0.5877852522924731, -0.8090169943749475}}, 
-     Center}], 
-   GeometricTransformationBox[
-    BezierCurveBox[{{0, 0}, {1, 2}, {1, 3}, {1.5, 1}},
-     SplineClosed->True], {{{-0.5, 
-     0.8660254037844386}, {-0.8660254037844386, -0.5}}, Center}], 
-   GeometricTransformationBox[
-    BezierCurveBox[{{0, 0}, {1, 2}, {1, 3}, {1.5, 1}},
-     SplineClosed->True], {{{-0.10452846326765347`, 
-     0.9945218953682733}, {-0.9945218953682733, -0.10452846326765347`}}, 
-     Center}], 
-   GeometricTransformationBox[
-    BezierCurveBox[{{0, 0}, {1, 2}, {1, 3}, {1.5, 1}},
-     SplineClosed->True], {{{0.30901699437494745`, 
-     0.9510565162951535}, {-0.9510565162951535, 0.30901699437494745`}}, 
-     Center}], 
-   GeometricTransformationBox[
-    BezierCurveBox[{{0, 0}, {1, 2}, {1, 3}, {1.5, 1}},
-     SplineClosed->True], {{{0.6691306063588582, 
-     0.7431448254773942}, {-0.7431448254773942, 0.6691306063588582}}, 
-     Center}], 
-   GeometricTransformationBox[
-    BezierCurveBox[{{0, 0}, {1, 2}, {1, 3}, {1.5, 1}},
-     SplineClosed->True], {{{0.9135454576426009, 
-     0.4067366430758002}, {-0.4067366430758002, 0.9135454576426009}}, 
-     Center}], 
-   GeometricTransformationBox[
-    BezierCurveBox[{{0, 0}, {1, 2}, {1, 3}, {1.5, 1}},
-     SplineClosed->True], {{{1, 0}, {0, 1}}, Center}]}]], "Output",
- CellChangeTimes->{{3.660670340065708*^9, 3.6606704627650023`*^9}}]
-}, Open  ]],
-
 Cell[TextData[{
  "Altering line thickness and opacity can produce interesting results. Note \
 the use of the ",
@@ -2760,8 +1895,6 @@ the use of the ",
  " attribute here."
 }], "Text",
  CellChangeTimes->{{3.660670704113901*^9, 3.6606707452011023`*^9}}],
-
-Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"Graphics", "[", 
@@ -2797,38 +1930,6 @@ Cell[BoxData[
  CellID->2064551645],
 
 Cell[BoxData[
- GraphicsBox[
-  {RGBColor[1, 0.5, 0.5], Thickness[0.1], Opacity[0.2], 
-   GeometricTransformationBox[BezierCurveBox[{{0, 0}, {0, 2}, {2, 0}},
-     SplineClosed->True], {{{1, 0}, {0, 1}}, Center}], 
-   GeometricTransformationBox[BezierCurveBox[{{0, 0}, {0, 2}, {2, 0}},
-     SplineClosed->True], {{{0.7071067811865475, -0.7071067811865475}, {
-     0.7071067811865475, 0.7071067811865475}}, Center}], 
-   GeometricTransformationBox[BezierCurveBox[{{0, 0}, {0, 2}, {2, 0}},
-     SplineClosed->True], {{{0, -1}, {1, 0}}, Center}], 
-   GeometricTransformationBox[BezierCurveBox[{{0, 0}, {0, 2}, {2, 0}},
-     SplineClosed->True], {{{-0.7071067811865475, -0.7071067811865475}, {
-     0.7071067811865475, -0.7071067811865475}}, Center}], 
-   GeometricTransformationBox[BezierCurveBox[{{0, 0}, {0, 2}, {2, 0}},
-     SplineClosed->True], {{{-1, 0}, {0, -1}}, Center}], 
-   GeometricTransformationBox[BezierCurveBox[{{0, 0}, {0, 2}, {2, 0}},
-     SplineClosed->True], {{{-0.7071067811865475, 
-     0.7071067811865475}, {-0.7071067811865475, -0.7071067811865475}}, 
-     Center}], 
-   GeometricTransformationBox[BezierCurveBox[{{0, 0}, {0, 2}, {2, 0}},
-     SplineClosed->True], {{{0, 1}, {-1, 0}}, Center}], 
-   GeometricTransformationBox[BezierCurveBox[{{0, 0}, {0, 2}, {2, 0}},
-     SplineClosed->True], {{{0.7071067811865475, 
-     0.7071067811865475}, {-0.7071067811865475, 0.7071067811865475}}, 
-     Center}]},
-  ImagePadding->22]], "Output",
- CellChangeTimes->{{3.660670611992268*^9, 3.660670658184623*^9}, 
-   3.6606706897376957`*^9, {3.66067073059627*^9, 3.660670772651223*^9}}]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
  RowBox[{"Graphics", "[", 
   RowBox[{"{", 
    RowBox[{"Blue", ",", 
@@ -2861,88 +1962,7 @@ Cell[BoxData[
    3.660670689315166*^9}, {3.660670730152981*^9, 3.660670772247181*^9}, {
    3.660671190201675*^9, 3.660671475305201*^9}, {3.692469609247987*^9, 
    3.692469610910653*^9}, 3.692469658679345*^9},
- CellID->387714919],
-
-Cell[BoxData[
- GraphicsBox[
-  {RGBColor[0, 0, 1], Thickness[0.02], Opacity[0.15], JoinForm["Round"], 
-   GeometricTransformationBox[BezierCurveBox[{{0, 0}, {0, 2}, {-1, 0}},
-     SplineClosed->True], {{{1, 0}, {0, 1}}, Center}], 
-   GeometricTransformationBox[BezierCurveBox[{{0, 0}, {0, 2}, {-1, 0}},
-     SplineClosed->True], {{{0.9659258262890682, -0.2588190451025207}, {
-     0.2588190451025207, 0.9659258262890682}}, Center}], 
-   GeometricTransformationBox[BezierCurveBox[{{0, 0}, {0, 2}, {-1, 0}},
-     SplineClosed->True], {{{0.8660254037844386, -0.5}, {0.5, 
-     0.8660254037844386}}, Center}], 
-   GeometricTransformationBox[BezierCurveBox[{{0, 0}, {0, 2}, {-1, 0}},
-     SplineClosed->True], {{{0.7071067811865475, -0.7071067811865475}, {
-     0.7071067811865475, 0.7071067811865475}}, Center}], 
-   GeometricTransformationBox[BezierCurveBox[{{0, 0}, {0, 2}, {-1, 0}},
-     SplineClosed->True], {{{0.5, -0.8660254037844386}, {0.8660254037844386, 
-     0.5}}, Center}], 
-   GeometricTransformationBox[BezierCurveBox[{{0, 0}, {0, 2}, {-1, 0}},
-     SplineClosed->True], {{{0.2588190451025207, -0.9659258262890682}, {
-     0.9659258262890682, 0.2588190451025207}}, Center}], 
-   GeometricTransformationBox[BezierCurveBox[{{0, 0}, {0, 2}, {-1, 0}},
-     SplineClosed->True], {{{0, -1}, {1, 0}}, Center}], 
-   GeometricTransformationBox[BezierCurveBox[{{0, 0}, {0, 2}, {-1, 0}},
-     SplineClosed->True], {{{-0.2588190451025207, -0.9659258262890682}, {
-     0.9659258262890682, -0.2588190451025207}}, Center}], 
-   GeometricTransformationBox[BezierCurveBox[{{0, 0}, {0, 2}, {-1, 0}},
-     SplineClosed->True], {{{-0.5, -0.8660254037844386}, {
-     0.8660254037844386, -0.5}}, Center}], 
-   GeometricTransformationBox[BezierCurveBox[{{0, 0}, {0, 2}, {-1, 0}},
-     SplineClosed->True], {{{-0.7071067811865475, -0.7071067811865475}, {
-     0.7071067811865475, -0.7071067811865475}}, Center}], 
-   GeometricTransformationBox[BezierCurveBox[{{0, 0}, {0, 2}, {-1, 0}},
-     SplineClosed->True], {{{-0.8660254037844386, -0.5}, {
-     0.5, -0.8660254037844386}}, Center}], 
-   GeometricTransformationBox[BezierCurveBox[{{0, 0}, {0, 2}, {-1, 0}},
-     SplineClosed->True], {{{-0.9659258262890682, -0.2588190451025207}, {
-     0.2588190451025207, -0.9659258262890682}}, Center}], 
-   GeometricTransformationBox[BezierCurveBox[{{0, 0}, {0, 2}, {-1, 0}},
-     SplineClosed->True], {{{-1, 0}, {0, -1}}, Center}], 
-   GeometricTransformationBox[BezierCurveBox[{{0, 0}, {0, 2}, {-1, 0}},
-     SplineClosed->True], {{{-0.9659258262890682, 
-     0.2588190451025207}, {-0.2588190451025207, -0.9659258262890682}}, 
-     Center}], 
-   GeometricTransformationBox[BezierCurveBox[{{0, 0}, {0, 2}, {-1, 0}},
-     SplineClosed->True], {{{-0.8660254037844386, 
-     0.5}, {-0.5, -0.8660254037844386}}, Center}], 
-   GeometricTransformationBox[BezierCurveBox[{{0, 0}, {0, 2}, {-1, 0}},
-     SplineClosed->True], {{{-0.7071067811865475, 
-     0.7071067811865475}, {-0.7071067811865475, -0.7071067811865475}}, 
-     Center}], 
-   GeometricTransformationBox[BezierCurveBox[{{0, 0}, {0, 2}, {-1, 0}},
-     SplineClosed->True], {{{-0.5, 
-     0.8660254037844386}, {-0.8660254037844386, -0.5}}, Center}], 
-   GeometricTransformationBox[BezierCurveBox[{{0, 0}, {0, 2}, {-1, 0}},
-     SplineClosed->True], {{{-0.2588190451025207, 
-     0.9659258262890682}, {-0.9659258262890682, -0.2588190451025207}}, 
-     Center}], 
-   GeometricTransformationBox[BezierCurveBox[{{0, 0}, {0, 2}, {-1, 0}},
-     SplineClosed->True], {{{0, 1}, {-1, 0}}, Center}], 
-   GeometricTransformationBox[BezierCurveBox[{{0, 0}, {0, 2}, {-1, 0}},
-     SplineClosed->True], {{{0.2588190451025207, 
-     0.9659258262890682}, {-0.9659258262890682, 0.2588190451025207}}, 
-     Center}], 
-   GeometricTransformationBox[BezierCurveBox[{{0, 0}, {0, 2}, {-1, 0}},
-     SplineClosed->True], {{{0.5, 0.8660254037844386}, {-0.8660254037844386, 
-     0.5}}, Center}], 
-   GeometricTransformationBox[BezierCurveBox[{{0, 0}, {0, 2}, {-1, 0}},
-     SplineClosed->True], {{{0.7071067811865475, 
-     0.7071067811865475}, {-0.7071067811865475, 0.7071067811865475}}, 
-     Center}], 
-   GeometricTransformationBox[BezierCurveBox[{{0, 0}, {0, 2}, {-1, 0}},
-     SplineClosed->True], {{{0.8660254037844386, 0.5}, {-0.5, 
-     0.8660254037844386}}, Center}], 
-   GeometricTransformationBox[BezierCurveBox[{{0, 0}, {0, 2}, {-1, 0}},
-     SplineClosed->True], {{{0.9659258262890682, 
-     0.2588190451025207}, {-0.2588190451025207, 0.9659258262890682}}, 
-     Center}]}]], "Output",
- CellChangeTimes->{{3.6606712204932737`*^9, 3.6606714760396748`*^9}, 
-   3.692469612321474*^9, {3.6924696546530237`*^9, 3.692469659125869*^9}}]
-}, Open  ]]
+ CellID->387714919]
 }, Open  ]]
 }, Open  ]],
 
@@ -3016,33 +2036,33 @@ CellTagsIndex->{
    CellTags->"SlideShowHeader"],
   Cell[5933, 149, 64, 1, 74, "SlideShowNavigationBar",
    CellTags->"SlideShowHeader"],
-  Cell[13348, 361, 64, 1, 74, "SlideShowNavigationBar",
+  Cell[11565, 317, 64, 1, 74, "SlideShowNavigationBar",
    CellTags->"SlideShowHeader"],
-  Cell[26390, 715, 64, 1, 74, "SlideShowNavigationBar",
+  Cell[19170, 551, 64, 1, 92, "SlideShowNavigationBar",
    CellTags->"SlideShowHeader"],
-  Cell[33658, 934, 64, 1, 74, "SlideShowNavigationBar",
+  Cell[24943, 726, 64, 1, 92, "SlideShowNavigationBar",
    CellTags->"SlideShowHeader"],
-  Cell[39938, 1103, 64, 1, 74, "SlideShowNavigationBar",
+  Cell[28354, 830, 64, 1, 92, "SlideShowNavigationBar",
    CellTags->"SlideShowHeader"],
-  Cell[53176, 1454, 64, 1, 74, "SlideShowNavigationBar",
+  Cell[33468, 990, 64, 1, 92, "SlideShowNavigationBar",
    CellTags->"SlideShowHeader"],
-  Cell[66964, 1847, 64, 1, 74, "SlideShowNavigationBar",
+  Cell[44792, 1308, 64, 1, 92, "SlideShowNavigationBar",
    CellTags->"SlideShowHeader"],
-  Cell[74278, 2059, 64, 1, 74, "SlideShowNavigationBar",
+  Cell[50547, 1472, 64, 1, 92, "SlideShowNavigationBar",
    CellTags->"SlideShowHeader"],
-  Cell[85592, 2429, 64, 1, 74, "SlideShowNavigationBar",
+  Cell[58071, 1717, 64, 1, 92, "SlideShowNavigationBar",
    CellTags->"SlideShowHeader"],
-  Cell[91025, 2577, 64, 1, 74, "SlideShowNavigationBar",
+  Cell[61293, 1818, 64, 1, 92, "SlideShowNavigationBar",
    CellTags->"SlideShowHeader"],
-  Cell[107633, 2950, 64, 1, 74, "SlideShowNavigationBar",
+  Cell[66548, 1970, 64, 1, 92, "SlideShowNavigationBar",
    CellTags->"SlideShowHeader"],
-  Cell[108612, 2983, 64, 1, 74, "SlideShowNavigationBar",
+  Cell[67527, 2003, 64, 1, 92, "SlideShowNavigationBar",
    CellTags->"SlideShowHeader"]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"SlideShowHeader", 109492, 3013}
+ {"SlideShowHeader", 68407, 2033}
  }
 *)
 (*NotebookFileOutline
@@ -3059,311 +2079,197 @@ Cell[5933, 149, 64, 1, 74, "SlideShowNavigationBar",
 Cell[CellGroupData[{
 Cell[6022, 154, 158, 2, 80, "Section"],
 Cell[6183, 158, 292, 5, 37, "Text"],
-Cell[CellGroupData[{
-Cell[6500, 167, 962, 28, 66, "Input"],
-Cell[7465, 197, 367, 7, 558, "Output"]
-}, Open  ]],
-Cell[7847, 207, 515, 9, 61, "Text"],
-Cell[CellGroupData[{
-Cell[8387, 220, 1462, 40, 66, "Input"],
-Cell[9852, 262, 698, 12, 558, "Output"]
-}, Open  ]],
-Cell[10565, 277, 167, 3, 37, "Text"],
-Cell[10735, 282, 1651, 50, 92, "Input"],
-Cell[CellGroupData[{
-Cell[12411, 336, 266, 6, 39, "Input"],
-Cell[12680, 344, 607, 10, 558, "Output"]
-}, Open  ]]
+Cell[6478, 165, 962, 28, 66, "Input"],
+Cell[7443, 195, 515, 9, 61, "Text"],
+Cell[7961, 206, 1462, 40, 66, "Input"],
+Cell[9426, 248, 167, 3, 37, "Text"],
+Cell[9596, 253, 1651, 50, 92, "Input"],
+Cell[11250, 305, 266, 6, 39, "Input"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[13348, 361, 64, 1, 74, "SlideShowNavigationBar",
+Cell[11565, 317, 64, 1, 74, "SlideShowNavigationBar",
  CellTags->"SlideShowHeader"],
 Cell[CellGroupData[{
-Cell[13437, 366, 153, 2, 80, "Section"],
-Cell[13593, 370, 318, 8, 37, "Text"],
-Cell[13914, 380, 880, 25, 66, "Input"],
-Cell[14797, 407, 359, 7, 37, "Text"],
+Cell[11654, 322, 153, 2, 80, "Section"],
+Cell[11810, 326, 318, 8, 37, "Text"],
+Cell[12131, 336, 880, 25, 66, "Input"],
+Cell[13014, 363, 359, 7, 37, "Text"],
+Cell[13376, 372, 850, 24, 66, "Input"],
+Cell[14229, 398, 550, 16, 61, "Text"],
+Cell[14782, 416, 959, 27, 82, "Input"],
+Cell[15744, 445, 299, 10, 46, "Text"],
+Cell[16046, 457, 1007, 27, 82, "Input"],
 Cell[CellGroupData[{
-Cell[15181, 418, 850, 24, 66, "Input"],
-Cell[16034, 444, 1009, 21, 140, "Output"]
-}, Open  ]],
-Cell[17058, 468, 550, 16, 61, "Text"],
-Cell[CellGroupData[{
-Cell[17633, 488, 959, 27, 66, "Input"],
-Cell[18595, 517, 969, 21, 102, "Output"]
-}, Open  ]],
-Cell[19579, 541, 299, 10, 37, "Text"],
-Cell[CellGroupData[{
-Cell[19903, 555, 1007, 27, 66, "Input"],
-Cell[20913, 584, 940, 20, 152, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[21890, 609, 121, 1, 54, "Subsection"],
-Cell[22014, 612, 321, 8, 37, "Text"],
-Cell[CellGroupData[{
-Cell[22360, 624, 1382, 37, 66, "Input"],
-Cell[23745, 663, 2371, 38, 337, "Output"]
-}, Open  ]],
-Cell[26131, 704, 198, 4, 37, "Text"]
+Cell[17078, 488, 121, 1, 67, "Subsection"],
+Cell[17202, 491, 321, 8, 46, "Text"],
+Cell[17526, 501, 1382, 37, 82, "Input"],
+Cell[18911, 540, 198, 4, 46, "Text"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[26390, 715, 64, 1, 74, "SlideShowNavigationBar",
+Cell[19170, 551, 64, 1, 92, "SlideShowNavigationBar",
  CellTags->"SlideShowHeader"],
 Cell[CellGroupData[{
-Cell[26479, 720, 157, 2, 80, "Section"],
-Cell[26639, 724, 413, 14, 37, "Text"],
-Cell[27055, 740, 623, 15, 85, "Text"],
-Cell[CellGroupData[{
-Cell[27703, 759, 1052, 30, 66, "Input"],
-Cell[28758, 791, 447, 10, 170, "Output"]
-}, Open  ]],
-Cell[29220, 804, 453, 10, 61, "Text"],
-Cell[CellGroupData[{
-Cell[29698, 818, 1063, 30, 66, "Input"],
-Cell[30764, 850, 491, 10, 550, "Output"]
-}, Open  ]],
-Cell[31270, 863, 419, 7, 61, "Text"],
-Cell[CellGroupData[{
-Cell[31714, 874, 1434, 42, 66, "Input"],
-Cell[33151, 918, 446, 9, 550, "Output"]
-}, Open  ]]
+Cell[19259, 556, 157, 2, 100, "Section"],
+Cell[19419, 560, 413, 14, 46, "Text"],
+Cell[19835, 576, 623, 15, 106, "Text"],
+Cell[20461, 593, 1052, 30, 82, "Input"],
+Cell[21516, 625, 453, 10, 76, "Text"],
+Cell[21972, 637, 1063, 30, 82, "Input"],
+Cell[23038, 669, 419, 7, 76, "Text"],
+Cell[23460, 678, 1434, 42, 82, "Input"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[33658, 934, 64, 1, 74, "SlideShowNavigationBar",
+Cell[24943, 726, 64, 1, 92, "SlideShowNavigationBar",
  CellTags->"SlideShowHeader"],
 Cell[CellGroupData[{
-Cell[33747, 939, 154, 2, 80, "Section"],
-Cell[33904, 943, 320, 8, 37, "Text"],
-Cell[34227, 953, 236, 5, 37, "Text"],
-Cell[CellGroupData[{
-Cell[34488, 962, 1081, 30, 66, "Input"],
-Cell[35572, 994, 1494, 29, 179, "Output"]
-}, Open  ]],
-Cell[37081, 1026, 268, 5, 61, "Text"],
-Cell[CellGroupData[{
-Cell[37374, 1035, 1199, 33, 66, "Input"],
-Cell[38576, 1070, 1301, 26, 125, "Output"]
-}, Open  ]]
+Cell[25032, 731, 154, 2, 100, "Section"],
+Cell[25189, 735, 320, 8, 46, "Text"],
+Cell[25512, 745, 236, 5, 46, "Text"],
+Cell[25751, 752, 1081, 30, 82, "Input"],
+Cell[26835, 784, 268, 5, 76, "Text"],
+Cell[27106, 791, 1199, 33, 82, "Input"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[39938, 1103, 64, 1, 74, "SlideShowNavigationBar",
+Cell[28354, 830, 64, 1, 92, "SlideShowNavigationBar",
  CellTags->"SlideShowHeader"],
 Cell[CellGroupData[{
-Cell[40027, 1108, 308, 4, 80, "Section"],
-Cell[40338, 1114, 233, 6, 37, "Text"],
-Cell[40574, 1122, 99, 1, 37, "Text"],
-Cell[CellGroupData[{
-Cell[40698, 1127, 662, 19, 39, "Input"],
-Cell[41363, 1148, 1702, 36, 467, "Output"]
-}, Open  ]],
-Cell[43080, 1187, 110, 1, 37, "Text"],
-Cell[CellGroupData[{
-Cell[43215, 1192, 724, 21, 39, "Input"],
-Cell[43942, 1215, 931, 16, 221, "Output"]
-}, Open  ]],
-Cell[44888, 1234, 99, 1, 37, "Text"],
-Cell[CellGroupData[{
-Cell[45012, 1239, 718, 20, 39, "Input"],
-Cell[45733, 1261, 1022, 22, 558, "Output"]
-}, Open  ]],
-Cell[46770, 1286, 202, 8, 37, "Text"],
-Cell[CellGroupData[{
-Cell[46997, 1298, 896, 24, 39, "Input"],
-Cell[47896, 1324, 2167, 46, 467, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[50100, 1375, 895, 24, 39, "Input"],
-Cell[50998, 1401, 2117, 46, 467, "Output"]
-}, Open  ]]
+Cell[28443, 835, 308, 4, 100, "Section"],
+Cell[28754, 841, 233, 6, 46, "Text"],
+Cell[28990, 849, 99, 1, 46, "Text"],
+Cell[29092, 852, 662, 19, 48, "Input"],
+Cell[29757, 873, 110, 1, 46, "Text"],
+Cell[29870, 876, 724, 21, 48, "Input"],
+Cell[30597, 899, 99, 1, 46, "Text"],
+Cell[30699, 902, 718, 20, 48, "Input"],
+Cell[31420, 924, 202, 8, 46, "Text"],
+Cell[31625, 934, 896, 24, 48, "Input"],
+Cell[32524, 960, 895, 24, 48, "Input"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[53176, 1454, 64, 1, 74, "SlideShowNavigationBar",
+Cell[33468, 990, 64, 1, 92, "SlideShowNavigationBar",
  CellTags->"SlideShowHeader"],
 Cell[CellGroupData[{
-Cell[53265, 1459, 161, 2, 80, "Section"],
-Cell[53429, 1463, 357, 10, 37, "Text"],
-Cell[53789, 1475, 582, 12, 85, "Text"],
-Cell[54374, 1489, 568, 17, 39, "Input"],
-Cell[CellGroupData[{
-Cell[54967, 1510, 1046, 27, 66, "Input"],
-Cell[56016, 1539, 401, 8, 189, "Output"]
-}, Open  ]],
-Cell[56432, 1550, 152, 3, 37, "Text"],
-Cell[56587, 1555, 622, 17, 39, "Input"],
-Cell[CellGroupData[{
-Cell[57234, 1576, 1100, 28, 66, "Input"],
-Cell[58337, 1606, 351, 7, 457, "Output"]
-}, Open  ]],
-Cell[58703, 1616, 228, 5, 37, "Text"],
-Cell[58934, 1623, 678, 18, 39, "Input"],
-Cell[CellGroupData[{
-Cell[59637, 1645, 1159, 29, 66, "Input"],
-Cell[60799, 1676, 387, 7, 457, "Output"]
-}, Open  ]],
-Cell[61201, 1686, 179, 4, 37, "Text"],
-Cell[61383, 1692, 572, 15, 39, "Input"],
-Cell[CellGroupData[{
-Cell[61980, 1711, 1045, 26, 66, "Input"],
-Cell[63028, 1739, 345, 7, 192, "Output"]
-}, Open  ]],
-Cell[63388, 1749, 257, 5, 37, "Text"],
-Cell[CellGroupData[{
-Cell[63670, 1758, 613, 12, 39, "Input"],
-Cell[64286, 1772, 294, 6, 192, "Output"]
-}, Open  ]],
-Cell[64595, 1781, 278, 5, 37, "Text"],
-Cell[64876, 1788, 442, 14, 39, "Input"],
-Cell[CellGroupData[{
-Cell[65343, 1806, 862, 16, 66, "Input"],
-Cell[66208, 1824, 464, 10, 323, "Output"]
-}, Open  ]],
-Cell[66687, 1837, 228, 4, 37, "Text"]
+Cell[33557, 995, 161, 2, 100, "Section"],
+Cell[33721, 999, 357, 10, 46, "Text"],
+Cell[34081, 1011, 582, 12, 106, "Text"],
+Cell[34666, 1025, 568, 17, 48, "Input"],
+Cell[35237, 1044, 1046, 27, 82, "Input"],
+Cell[36286, 1073, 152, 3, 46, "Text"],
+Cell[36441, 1078, 622, 17, 48, "Input"],
+Cell[37066, 1097, 1100, 28, 82, "Input"],
+Cell[38169, 1127, 228, 5, 46, "Text"],
+Cell[38400, 1134, 678, 18, 48, "Input"],
+Cell[39081, 1154, 1159, 29, 82, "Input"],
+Cell[40243, 1185, 179, 4, 46, "Text"],
+Cell[40425, 1191, 572, 15, 48, "Input"],
+Cell[41000, 1208, 1045, 26, 82, "Input"],
+Cell[42048, 1236, 257, 5, 46, "Text"],
+Cell[42308, 1243, 613, 12, 48, "Input"],
+Cell[42924, 1257, 278, 5, 46, "Text"],
+Cell[43205, 1264, 442, 14, 48, "Input"],
+Cell[43650, 1280, 862, 16, 82, "Input"],
+Cell[44515, 1298, 228, 4, 46, "Text"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[66964, 1847, 64, 1, 74, "SlideShowNavigationBar",
+Cell[44792, 1308, 64, 1, 92, "SlideShowNavigationBar",
  CellTags->"SlideShowHeader"],
 Cell[CellGroupData[{
-Cell[67053, 1852, 201, 2, 80, "Section"],
+Cell[44881, 1313, 201, 2, 100, "Section"],
 Cell[CellGroupData[{
-Cell[67279, 1858, 104, 1, 54, "Subsection"],
-Cell[67386, 1861, 545, 9, 85, "Text"],
-Cell[67934, 1872, 664, 21, 39, "Input"],
-Cell[CellGroupData[{
-Cell[68623, 1897, 728, 15, 66, "Input"],
-Cell[69354, 1914, 549, 12, 291, "Output"]
-}, Open  ]],
-Cell[69918, 1929, 342, 6, 61, "Text"],
-Cell[70263, 1937, 612, 19, 39, "Input"],
-Cell[CellGroupData[{
-Cell[70900, 1960, 810, 15, 66, "Input"],
-Cell[71713, 1977, 515, 12, 177, "Output"]
-}, Open  ]]
+Cell[45107, 1319, 104, 1, 67, "Subsection"],
+Cell[45214, 1322, 545, 9, 106, "Text"],
+Cell[45762, 1333, 664, 21, 48, "Input"],
+Cell[46429, 1356, 728, 15, 82, "Input"],
+Cell[47160, 1373, 342, 6, 76, "Text"],
+Cell[47505, 1381, 612, 19, 48, "Input"],
+Cell[48120, 1402, 810, 15, 82, "Input"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[72277, 1995, 101, 1, 54, "Subsection"],
-Cell[72381, 1998, 375, 8, 61, "Text"],
-Cell[CellGroupData[{
-Cell[72781, 2010, 1037, 30, 66, "Input"],
-Cell[73821, 2042, 384, 9, 465, "Output"]
-}, Open  ]]
+Cell[48967, 1422, 101, 1, 67, "Subsection"],
+Cell[49071, 1425, 375, 8, 76, "Text"],
+Cell[49449, 1435, 1037, 30, 82, "Input"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[74278, 2059, 64, 1, 74, "SlideShowNavigationBar",
+Cell[50547, 1472, 64, 1, 92, "SlideShowNavigationBar",
  CellTags->"SlideShowHeader"],
 Cell[CellGroupData[{
-Cell[74367, 2064, 441, 6, 80, "Section"],
-Cell[74811, 2072, 350, 10, 37, "Text"],
-Cell[CellGroupData[{
-Cell[75186, 2086, 733, 23, 39, "Input",
+Cell[50636, 1477, 441, 6, 100, "Section"],
+Cell[51080, 1485, 350, 10, 46, "Text"],
+Cell[51433, 1497, 733, 23, 48, "Input",
  CellID->82458967],
-Cell[75922, 2111, 634, 18, 65, "Output"]
-}, Open  ]],
-Cell[76571, 2132, 326, 8, 37, "Text"],
-Cell[CellGroupData[{
-Cell[76922, 2144, 792, 24, 39, "Input",
+Cell[52169, 1522, 326, 8, 46, "Text"],
+Cell[52498, 1532, 792, 24, 48, "Input",
  CellID->1140188584],
-Cell[77717, 2170, 491, 14, 110, "Output"]
-}, Open  ]],
-Cell[78223, 2187, 327, 11, 37, "Text"],
-Cell[CellGroupData[{
-Cell[78575, 2202, 852, 25, 39, "Input",
+Cell[53293, 1558, 327, 11, 46, "Text"],
+Cell[53623, 1571, 852, 25, 48, "Input",
  CellID->1448006407],
-Cell[79430, 2229, 548, 15, 101, "Output"]
-}, Open  ]],
-Cell[79993, 2247, 293, 8, 37, "Text"],
-Cell[CellGroupData[{
-Cell[80311, 2259, 927, 28, 39, "Input",
+Cell[54478, 1598, 293, 8, 46, "Text"],
+Cell[54774, 1608, 927, 28, 48, "Input",
  CellID->1820084166],
-Cell[81241, 2289, 583, 15, 101, "Output"]
-}, Open  ]],
-Cell[81839, 2307, 201, 6, 37, "Text"],
-Cell[CellGroupData[{
-Cell[82065, 2317, 903, 26, 66, "Input",
+Cell[55704, 1638, 201, 6, 46, "Text"],
+Cell[55908, 1646, 903, 26, 82, "Input",
  CellID->71995590],
-Cell[82971, 2345, 623, 15, 262, "Output"]
-}, Open  ]],
-Cell[83609, 2363, 199, 6, 37, "Text"],
-Cell[CellGroupData[{
-Cell[83833, 2373, 1006, 29, 66, "Input",
- CellID->163602567],
-Cell[84842, 2404, 689, 18, 178, "Output"]
-}, Open  ]]
+Cell[56814, 1674, 199, 6, 46, "Text"],
+Cell[57016, 1682, 1006, 29, 82, "Input",
+ CellID->163602567]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[85592, 2429, 64, 1, 74, "SlideShowNavigationBar",
+Cell[58071, 1717, 64, 1, 92, "SlideShowNavigationBar",
  CellTags->"SlideShowHeader"],
 Cell[CellGroupData[{
-Cell[85681, 2434, 226, 3, 80, "Section"],
-Cell[85910, 2439, 690, 16, 61, "Text"],
-Cell[CellGroupData[{
-Cell[86625, 2459, 799, 24, 39, "Input"],
-Cell[87427, 2485, 786, 14, 558, "Output"]
-}, Open  ]],
-Cell[88228, 2502, 172, 4, 37, "Text"],
-Cell[CellGroupData[{
-Cell[88425, 2510, 1185, 35, 39, "Input"],
-Cell[89613, 2547, 1351, 23, 558, "Output"]
-}, Open  ]]
+Cell[58160, 1722, 226, 3, 100, "Section"],
+Cell[58389, 1727, 690, 16, 76, "Text"],
+Cell[59082, 1745, 799, 24, 48, "Input"],
+Cell[59884, 1771, 172, 4, 46, "Text"],
+Cell[60059, 1777, 1185, 35, 48, "Input"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[91025, 2577, 64, 1, 74, "SlideShowNavigationBar",
+Cell[61293, 1818, 64, 1, 92, "SlideShowNavigationBar",
  CellTags->"SlideShowHeader"],
 Cell[CellGroupData[{
-Cell[91114, 2582, 162, 2, 80, "Section"],
-Cell[91279, 2586, 276, 6, 37, "Text"],
-Cell[CellGroupData[{
-Cell[91580, 2596, 874, 24, 39, "Input",
+Cell[61382, 1823, 162, 2, 100, "Section"],
+Cell[61547, 1827, 276, 6, 46, "Text"],
+Cell[61826, 1835, 874, 24, 48, "Input",
  CellID->457488834],
-Cell[92457, 2622, 1519, 26, 467, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[94013, 2653, 922, 26, 39, "Input",
+Cell[62703, 1861, 922, 26, 48, "Input",
  CellID->727117753],
-Cell[94938, 2681, 3446, 70, 467, "Output"]
-}, Open  ]],
-Cell[98399, 2754, 261, 7, 37, "Text"],
-Cell[CellGroupData[{
-Cell[98685, 2765, 1240, 31, 92, "Input",
+Cell[63628, 1889, 261, 7, 46, "Text"],
+Cell[63892, 1898, 1240, 31, 115, "Input",
  CellID->2064551645],
-Cell[99928, 2798, 1591, 27, 467, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[101556, 2830, 1364, 33, 66, "Input",
- CellID->387714919],
-Cell[102923, 2865, 4649, 78, 467, "Output"]
-}, Open  ]]
+Cell[65135, 1931, 1364, 33, 82, "Input",
+ CellID->387714919]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[107633, 2950, 64, 1, 74, "SlideShowNavigationBar",
+Cell[66548, 1970, 64, 1, 92, "SlideShowNavigationBar",
  CellTags->"SlideShowHeader"],
 Cell[CellGroupData[{
-Cell[107722, 2955, 149, 2, 80, "Section"],
+Cell[66637, 1975, 149, 2, 100, "Section"],
 Cell[CellGroupData[{
-Cell[107896, 2961, 346, 6, 85, "Subsection"],
-Cell[108245, 2969, 96, 1, 43, "Subsubsection"],
-Cell[108344, 2972, 106, 1, 34, "Subsubsection"],
-Cell[108453, 2975, 98, 1, 34, "Subsubsection"]
+Cell[66811, 1981, 346, 6, 106, "Subsection"],
+Cell[67160, 1989, 96, 1, 53, "Subsubsection"],
+Cell[67259, 1992, 106, 1, 42, "Subsubsection"],
+Cell[67368, 1995, 98, 1, 42, "Subsubsection"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[108612, 2983, 64, 1, 74, "SlideShowNavigationBar",
+Cell[67527, 2003, 64, 1, 92, "SlideShowNavigationBar",
  CellTags->"SlideShowHeader"],
 Cell[CellGroupData[{
-Cell[108701, 2988, 105, 1, 80, "Section"],
-Cell[108809, 2991, 273, 5, 37, "Text"]
+Cell[67616, 2008, 105, 1, 100, "Section"],
+Cell[67724, 2011, 273, 5, 46, "Text"]
 }, Open  ]]
 }, Open  ]]
 }
