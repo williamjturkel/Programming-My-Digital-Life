@@ -1,0 +1,1824 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     61303,       1816]
+NotebookOptionsPosition[     53125,       1564]
+NotebookOutlinePosition[     54591,       1608]
+CellTagsIndexPosition[     54512,       1603]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ TogglerBox[2, {1->
+  OverlayBox[{
+   TagBox[GridBox[{
+      {
+       GraphicsBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBAkBOaF5xZnpeaopnXklqemqRRRIz
+UFAKiEGSLED8//9/gvjRo0fsN27cELp69arY+fPnpZExPn137tzhBqrRBGJ/
+ID4CxMfRMTZ9L168YL5w4YIaUD4AiC8C8Qcg/gvE/9AxFreC7PQD4gtA/BGq
+7j8ujKz3+fPnLFC9b6H24dSHTf/FixfVofYSpRdZPzSsAqBuJkovsn5oOF8k
+5F9s+h88eMBBjt0w/devXxcGso+S4m9k/ZcuXRKHpgeS3A7TD0wrkpToPw9J
+ywOmn1L3Uxp+lMYfpemH0vRLjfwDjQey8y9a+fGOWDPwlF+gsPhEKDywlZ8g
+d0D9EniexPITGd++fZv3PBnlN6764zxa3QHCAIDESDs=
+         "], {{0, 26}, {16, 
+         0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{16, 26},
+        PlotRange->{{0, 16}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJzt2V1vVFUUBuBGTfTSSygthYYKNHyVinrrpbcYfwBEJN5gUkyMfw9KKaVw
+KCkQKCW1RNIQKg1gEE3QtdN10pMRZCaBzNQ+kzxt5nzstfeZfbPOu/vkD8e/
+e6+vr+/sR/Hn+ImfvpyYOPHz1x/Hl2/OnP3+9JlT33515sdTp09NfHHy/TjY
+H6592Nf3QfyvqmpHBwbCYNr5GoMNAw2d1AEAADa3/obtLba1aJ7rb4xR9x1D
+YVfYHYbDnjASPgn7wv4wGg6Eg+FQOByOhLEwnj4Nx8Jn6fM21dcfyzHq8cay
+xuGseTDnMJpz2pdzHMk5D+caduWa6v6p+czafU71s6p1+/cGAADYqt52/9va
+++6tXt331j3v0TTeoj5e966v6lv3Vv/uWfWr9LJm9tzMpN+UW3eaVV9s00yY
+CzfC7bAQFhvuhjt57maYD9er9c+VcDlcCtMd1AQAADafqXQhTabz6VyL+vhk
+Xl/uLX1D6UFmw9VwrVrvL0o/cqta7ztKD3Iv/BLuh1/DSngYHoXfwlp4Ep6F
+38Pz8Ed4Ef5Mf71Gff5F3vM8x3iWY65ljUdZcyXncD/ndC/neDvnfCPXcC3X
+NJtrnG48r3afU/2s6uc11QO/OwAAwFbzLvrfksWVjK30kSV3KxncUlgOD6qN
+vnc1PK42+t7iaaq/r+U1q9VG3/ogx1rKse9krfmsrV+l15R9WDLmkjWXzLl8
+yvuVsmdLJl3eu5R9XN7BNLPrhTxX3seUvT3TQc2Xbfr7LWq3JgAAwH95m33K
+u9Dt5wMAAMDmp2dlK+vGnu/2+yQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYPN42aZu
+1AQAAAAAAICtrNsZIXRTN/b8xTbNhLlwI9wOC2Gx4W64k+duhvlwvVr/XAmX
+w6Uw3UFNAAAAAAAA6EVT6UKaTOfTuRb18cm8vtxbcrOSwc2Gq9V6FlcytlvV
+eu5WMrilsBwehJXwMKyGx2EtPElPU/19La9ZzXtWcozlHHMxa9zKmnM5h9mc
+03Rjfe2uq15bvb6pHvid2NzKPiwZc8maS+ZcPiWDLnu2ZNIlmy77uGTVzex6
+Ic+VbLvs7ZkOau7owEAYTDtfY7BhoKGTOgAAAAAAANDr+hu2t9jWonmuvzFG
+nbsNhd1hOOwJI2Fv2B9Gw4FwMBwKR8JYOJrGW9THx/LaQ3nvgRxrf449krWG
+s/ZQtZH3NdfY7rrqtdW6/fvw/9LMnpuZ9Jty646y6n8AhCP7tg==
+         "], {{0, 26}, {
+         2000, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{2000, 26},
+        PlotRange->{{0, 2000}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJy9lktLQkEUxyVdCBIELaxctYq+QduWbcKMPoCSRRsDC6JPp+Lj4vuq+EBc
+iBtFfIYrpU7nPzQiN++9vmrgp/dx5j8z55w5c099z56HPYvF8mLnH4/37TIY
+9L7fHvDNXeDl6THgv78KvPof/cELn5UfnjBHjI3J5/OudVBV9bhUKjmbzaad
+iCxmcB9lAxKMmzmv1+v7JvpfG/DJjJkic8NrOut0OlYdfdoCjPXBqMx1q9Vy
+7FhfgvX0MUa73bYZ6edyuTnrvPsZQ4Wv9PTRL5vNroTOGIiJu9FoOLT6UjuT
+yVAqlaJkMin+0+m0YPEZbHTGQDwKyKtl+ugHjdFoRIVCgeLxOCUSCQGua7Ua
+9Xo9YQNbozXI/aHVZ//RcDik2WxG5XKZwuGwANdo0JfrNIhDvFqtHi7zD+YW
+i8VoMBgIvWKxKEDrdrtiHbAxiAF8pHAf5zJ9+Bca0WiUxuMxydbv98U64CvY
+wNZgTyioI9r8QR/EEvrQUhRlrh8Kheb6sDHTZ1xG84ePMP/pdPpr/tvoL/of
+Mcb9Jv7X+mcxP2X+QCMSiYh5VyoVMQbXMbP81I2vzM/JZCLyX+a+BPmPvbFN
+fmr36pr713B/rVp7THy/tD6Y1cjF5zrahvVtB5jW5y21B/kVzpc1kecjfK53
+Pu7kfNfO+x+/T/70++ob7NUEtQ==
+         "], {{0, 26}, {24, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{24, 26},
+        PlotRange->{{0, 24}, {0, 26}}]}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {Automatic, 
+         Scaled[0.6], Automatic}},
+     GridBoxSpacings->{"Columns" -> {{0}}, "Rows" -> {{0}}}],
+    "Grid"], 
+   PaneBox[
+    StyleBox[
+     RowBox[{
+     "Background", " ", "images", " ", "and", " ", "text", " ", "colors", " ",
+       "have", " ", "been", " ", "adjusted", " ", "for", " ", "editing", " ", 
+      
+      RowBox[{"purposes", "."}]}],
+     LineBreakWithin->False,
+     FontFamily->"Helvetica",
+     FontSize->12,
+     FontColor->GrayLevel[0.4]],
+    Alignment->Center,
+    ImageSize->Scaled[0.5],
+    ScrollPosition->{0., 0.}]},
+   Alignment->{Center, Center}], 2->""}, "1"]], "SlideShowNavigationBar", \
+"FirstSlide",
+ CellMargins->{{0, 0}, {0, 0}},
+ CellFrameLabelMargins->2,
+ CellSize->{Inherited, 30},
+ CellChangeTimes->{3.647361175465108*^9},
+ TextAlignment->Center,
+ CellTags->"SlideShowHeader"],
+
+Cell["\<\
+Notebook 04:
+Colour\
+\>", "Title",
+ CellChangeTimes->{
+  3.559948400406288*^9, {3.647331852839075*^9, 3.647331861295168*^9}, {
+   3.647331922221755*^9, 3.647331924532915*^9}, {3.647332658962614*^9, 
+   3.64733266480881*^9}, {3.6473611327373047`*^9, 3.647361139759391*^9}, {
+   3.647448943135475*^9, 3.6474489472294493`*^9}, {3.658337416821965*^9, 
+   3.65833742904038*^9}, {3.658337677781981*^9, 3.658337703010659*^9}, {
+   3.660665144288293*^9, 3.660665148319092*^9}, {3.692467747252426*^9, 
+   3.692467748506851*^9}, 3.692468875722808*^9, 3.6924701408682137`*^9}],
+
+Cell[TextData[{
+ "William J Turkel, ",
+ StyleBox["wturkel@uwo.ca",
+  FontSlant->"Italic",
+  FontColor->RGBColor[
+   0.396078431372549, 0.596078431372549, 0.796078431372549]],
+ "\nDigital Humanities 1011B"
+}], "Subtitle",
+ CellChangeTimes->{{3.647331955723979*^9, 3.6473319708190517`*^9}, 
+   3.647332103720562*^9, {3.6583374336085033`*^9, 3.658337439311952*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Named colours", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.661451971867436*^9, 3.661451974457233*^9}}],
+
+Cell[TextData[{
+ "We have seen that ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " understands the names of some colours, like LightBlue and Brown"
+}], "Text",
+ CellChangeTimes->{{3.661451976664804*^9, 3.661451995757883*^9}, {
+  3.661452099191176*^9, 3.661452110932569*^9}, {3.661452562097096*^9, 
+  3.661452570375023*^9}}],
+
+Cell["\<\
+Here are colour chips for all of the named colours and their lighter variants\
+\
+\>", "Text",
+ CellChangeTimes->{{3.661452599419191*^9, 3.66145261376046*^9}, {
+  3.661452747500956*^9, 3.6614527548110647`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"namedColours", "=", 
+  RowBox[{"{", 
+   RowBox[{
+   "Red", ",", "Blue", ",", "Green", ",", "Black", ",", "White", ",", "Gray", 
+    ",", "Cyan", ",", "Magenta", ",", "Yellow", ",", "Brown", ",", "Orange", 
+    ",", "Pink", ",", "Purple"}], "}"}]}]], "Input",
+ CellChangeTimes->{{3.6614527405587473`*^9, 3.661452810518725*^9}, {
+  3.661455044989313*^9, 3.661455048003766*^9}}],
+
+Cell[BoxData[
+ RowBox[{"namedLightColours", "=", 
+  RowBox[{"{", 
+   RowBox[{
+   "LightRed", ",", "LightBlue", ",", "LightGreen", ",", "LightGray", ",", 
+    "LightCyan", ",", "LightMagenta", ",", "LightYellow", ",", "LightBrown", 
+    ",", "LightOrange", ",", "LightPink", ",", "LightPurple"}], 
+   "}"}]}]], "Input",
+ CellChangeTimes->{{3.6614527405587473`*^9, 3.661452851727726*^9}, {
+  3.661455051171528*^9, 3.661455054362907*^9}}],
+
+Cell[TextData[{
+ "When you have a list of named colours like this, you can use ",
+ StyleBox["RandomChoice",
+  FontWeight->"Bold"],
+ " to choose one with equal probability"
+}], "Text",
+ CellChangeTimes->{{3.6614550189525623`*^9, 3.6614550276149693`*^9}, {
+  3.661455069313246*^9, 3.661455078175284*^9}}],
+
+Cell[BoxData[
+ RowBox[{"RandomChoice", "[", "namedColours", "]"}]], "Input",
+ CellChangeTimes->{{3.661455040633275*^9, 3.661455066345861*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Edges and faces", "Subsection",
+ CellChangeTimes->{{3.6935885114607*^9, 3.6935885133406143`*^9}}],
+
+Cell[TextData[{
+ "We can specify the style of the edges and filling of polygons and other \
+graphic objects with ",
+ StyleBox["EdgeForm",
+  FontWeight->"Bold"],
+ " and ",
+ StyleBox["FaceForm",
+  FontWeight->"Bold"],
+ ". The ",
+ StyleBox["Darker",
+  FontWeight->"Bold"],
+ " command makes a colour darker."
+}], "Text",
+ CellChangeTimes->{{3.660669998466094*^9, 3.6606700243543*^9}, {
+  3.660670096439946*^9, 3.660670108023224*^9}, {3.660671027030841*^9, 
+  3.660671037542715*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"EdgeForm", "[", 
+      RowBox[{"{", 
+       RowBox[{"Thick", ",", 
+        RowBox[{"Darker", "[", "Green", "]"}]}], "}"}], "]"}], ",", 
+     RowBox[{"FaceForm", "[", "LightYellow", "]"}], ",", 
+     RowBox[{"Disk", "[", "]"}]}], "}"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6606705260418997`*^9, 3.660670535856949*^9}, {
+  3.6606710162486773`*^9, 3.660671021174377*^9}, {3.6935885279730673`*^9, 
+  3.693588531844105*^9}},
+ CellID->41]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["A random disk", "Subsection",
+ CellChangeTimes->{{3.693588541676177*^9, 3.6935885434514303`*^9}}],
+
+Cell["\<\
+Let\[CloseCurlyQuote]s write a function that returns a disk (of radius 0.5) \
+with a randomly coloured edge and randomly coloured face\
+\>", "Text",
+ CellChangeTimes->{{3.693588546659258*^9, 3.693588586001812*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"randomColouredDisk", "[", 
+   RowBox[{"{", 
+    RowBox[{"x_", ",", "y_"}], "}"}], "]"}], ":=", "\[IndentingNewLine]", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"EdgeForm", "[", 
+     RowBox[{"{", 
+      RowBox[{"Thick", ",", 
+       RowBox[{"RandomChoice", "[", "namedColours", "]"}]}], "}"}], "]"}], 
+    ",", 
+    RowBox[{"FaceForm", "[", 
+     RowBox[{"RandomChoice", "[", "namedLightColours", "]"}], "]"}], ",", 
+    RowBox[{"Disk", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"x", ",", "y"}], "}"}], ",", "0.5"}], "]"}]}], 
+   "}"}]}]], "Input",
+ CellChangeTimes->{{3.6935885898862057`*^9, 3.6935886976860867`*^9}, {
+  3.693588741197451*^9, 3.693588744548379*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"randomColouredDisk", "[", 
+    RowBox[{"{", 
+     RowBox[{"0", ",", "0"}], "}"}], "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"GridLines", "\[Rule]", "Automatic"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.693588700259137*^9, 3.6935887355565977`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["A row of randomly coloured disks", "Subsection",
+ CellChangeTimes->{{3.6935887541561127`*^9, 3.693588767322908*^9}, {
+  3.693592121175247*^9, 3.693592121574411*^9}}],
+
+Cell[TextData[{
+ "We can use the ",
+ StyleBox["Table",
+  FontWeight->"Bold"],
+ " command to draw a row of randomly coloured disks. First we create a list \
+of coordinate pairs. If we increase the x-value while keeping the y-value \
+constant, our disks will be placed on a horizontal line."
+}], "Text",
+ CellChangeTimes->{{3.693588769610722*^9, 3.693588893390337*^9}, {
+  3.6935889348847733`*^9, 3.6935889394925737`*^9}, {3.693592124285461*^9, 
+  3.693592124501566*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Table", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"x", ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", "1", ",", "10"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.693588896858107*^9, 3.6935889162057257`*^9}}],
+
+Cell["\<\
+Next, we need to draw a randomly-coloured disk at each of those positions.\
+\>", "Text",
+ CellChangeTimes->{{3.693588945844206*^9, 3.6935889684161787`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Table", "[", 
+  RowBox[{
+   RowBox[{"randomColouredDisk", "[", 
+    RowBox[{"{", 
+     RowBox[{"x", ",", "1"}], "}"}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", "1", ",", "10"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.693588896858107*^9, 3.6935889162057257`*^9}, {
+  3.6935889761042356`*^9, 3.693588979891301*^9}}],
+
+Cell[TextData[{
+ "Now we wrap a ",
+ StyleBox["Graphics",
+  FontWeight->"Bold"],
+ " command around the whole list, to display it"
+}], "Text",
+ CellChangeTimes->{{3.693588988971218*^9, 3.6935890035859013`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"Table", "[", 
+   RowBox[{
+    RowBox[{"randomColouredDisk", "[", 
+     RowBox[{"{", 
+      RowBox[{"x", ",", "1"}], "}"}], "]"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"x", ",", "1", ",", "10"}], "}"}]}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.69358900716855*^9, 3.693589015218768*^9}}],
+
+Cell["\<\
+How would we move the disks closer together or farther apart? How do we make \
+a vertical column of disks?\
+\>", "Text",
+ CellChangeTimes->{{3.693589029129684*^9, 3.693589059112009*^9}, {
+   3.693589094280064*^9, 3.6935891018784*^9}, 3.693589235121229*^9, {
+   3.693592356566691*^9, 3.693592356957106*^9}}],
+
+Cell["Here is how we add a background...", "Text",
+ CellChangeTimes->{{3.693589199579093*^9, 3.693589230857395*^9}, {
+  3.693589952799507*^9, 3.693589952958087*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"{", 
+   RowBox[{"Gray", ",", 
+    RowBox[{"Rectangle", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"0", ",", "0"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"11", ",", "2"}], "}"}]}], "]"}], ",", 
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{"randomColouredDisk", "[", 
+       RowBox[{"{", 
+        RowBox[{"x", ",", "1"}], "}"}], "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"x", ",", "1", ",", "10"}], "}"}]}], "]"}]}], "}"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.69358900716855*^9, 3.693589015218768*^9}, {
+  3.693589112335127*^9, 3.693589192379386*^9}}],
+
+Cell["\<\
+If we use the same value for both coordinates we get a diagonal line. How \
+would we get the diagonal line to go in the other direction?\
+\>", "Text",
+ CellChangeTimes->{{3.693592360437316*^9, 3.6935924191707172`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Table", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"RandomColor", "[", "]"}], ",", 
+       RowBox[{"Disk", "[", 
+        RowBox[{"{", 
+         RowBox[{"i", ",", "i"}], "}"}], "]"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"i", ",", "10"}], "}"}]}], "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", " ", 
+   RowBox[{"GridLines", "\[Rule]", "Automatic"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.662046894024761*^9, 3.662046923138248*^9}, {
+  3.662047058008829*^9, 3.6620471013076267`*^9}, {3.662047259249914*^9, 
+  3.662047273198514*^9}, {3.662047359622649*^9, 3.662047360041441*^9}, {
+  3.693592408064465*^9, 3.693592410740404*^9}}],
+
+Cell["What if we want our diagonal to be more or less steep?", "Text",
+ CellChangeTimes->{{3.693592431722684*^9, 3.6935924585534554`*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["RGBColor", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.661452872010309*^9, 3.6614528739449387`*^9}}],
+
+Cell["\<\
+We can actually specify an arbitrary colour in a number of different ways. \
+One of the most common methods is to describe the colour as a mixture of Red, \
+Green and Blue, using a number between 0 and 1 for each of the three \
+parameters.\
+\>", "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.6614528788960657`*^9, 3.6614529249128857`*^9}}],
+
+Cell["\<\
+The named colour Red corresponds to RGB values of {1, 0, 0}. RGB values for \
+the named colours Green and Blue can be obtained in a similar way.\
+\>", "Text",
+ CellChangeTimes->{{3.661452927312422*^9, 3.661453032472336*^9}}],
+
+Cell[BoxData[
+ RowBox[{"RGBColor", "[", 
+  RowBox[{"1", ",", "0", ",", "0"}], "]"}]], "Input",
+ CellChangeTimes->{{3.661452939049519*^9, 3.6614529474613028`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"RGBColor", "[", 
+  RowBox[{"0", ",", "1", ",", "0"}], "]"}]], "Input",
+ CellChangeTimes->{{3.6614529964750767`*^9, 3.661453001701208*^9}}],
+
+Cell[BoxData[
+ RowBox[{"RGBColor", "[", 
+  RowBox[{"0", ",", "0", ",", "1"}], "]"}]], "Input",
+ CellChangeTimes->{{3.661453004930574*^9, 3.661453009547793*^9}}],
+
+Cell[TextData[{
+ "We can generate gradients by using ",
+ StyleBox["Table",
+  FontWeight->"Bold"],
+ " to vary one or more of the three parameters, as shown in the text"
+}], "Text",
+ CellChangeTimes->{{3.661455882054533*^9, 3.6614558822375917`*^9}, {
+  3.661455921391677*^9, 3.661455951067203*^9}, {3.66145602109662*^9, 
+  3.661456024064135*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Table", "[", 
+  RowBox[{
+   RowBox[{"RGBColor", "[", 
+    RowBox[{"1", ",", "g", ",", "0"}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"g", ",", "0", ",", "1", ",", ".05"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.66145589608809*^9, 3.661455917416501*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Colour grids", "Subsection",
+ CellChangeTimes->{{3.661626282356595*^9, 3.6616262836196938`*^9}}],
+
+Cell["\<\
+If we vary two of the parameters at once, we get a grid of possibilities.\
+\>", "Text",
+ CellChangeTimes->{{3.661456012058445*^9, 3.661456033318775*^9}}],
+
+Cell[BoxData[
+ RowBox[{"TableForm", "[", 
+  RowBox[{"Table", "[", 
+   RowBox[{
+    RowBox[{"RGBColor", "[", 
+     RowBox[{"1", ",", "g", ",", "b"}], "]"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"g", ",", "0", ",", "1", ",", ".1"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"b", ",", "0", ",", "1", ",", ".1"}], "}"}]}], "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.66145589608809*^9, 3.661455917416501*^9}, {
+  3.6614559616588173`*^9, 3.661455999388241*^9}}],
+
+Cell[TextData[{
+ "We can use the same ",
+ StyleBox["Table",
+  FontWeight->"Bold"],
+ " command to generate a grid of disks or rectangles. Note that we have to do \
+a bit of calculation to figure out the lower left and upper right coordinates \
+for each rectangle."
+}], "Text",
+ CellChangeTimes->{{3.661625997036208*^9, 3.6616260124171867`*^9}, {
+  3.66162617684654*^9, 3.661626178589477*^9}, {3.693589300071615*^9, 
+  3.6935893471970263`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"Table", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"RGBColor", "[", 
+       RowBox[{"1", ",", "g", ",", "b"}], "]"}], ",", 
+      RowBox[{"Disk", "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"g", "*", "10"}], ",", 
+          RowBox[{"b", "*", "10"}]}], "}"}], ",", 
+        RowBox[{"1", "/", "2"}]}], "]"}]}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"g", ",", "0", ",", "1", ",", ".1"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"b", ",", "0", ",", "1", ",", ".1"}], "}"}]}], "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.6616260194964113`*^9, 3.66162614616327*^9}, {
+  3.661626186005131*^9, 3.661626207248661*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"Table", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"RGBColor", "[", 
+       RowBox[{"1", ",", "g", ",", "b"}], "]"}], ",", 
+      RowBox[{"Rectangle", "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"g", "*", "10"}], ",", 
+          RowBox[{"b", "*", "10"}]}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{"g", "-", ".1"}], ")"}], "*", "10"}], ",", 
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{"b", "-", ".1"}], ")"}], "*", "10"}]}], "}"}]}], "]"}]}], 
+     "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"g", ",", "0", ",", "1", ",", ".1"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"b", ",", "0", ",", "1", ",", ".1"}], "}"}]}], "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.6616260194964113`*^9, 3.66162614616327*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["ColorSetter and ColorSlider", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.6614572564923153`*^9, 3.661457261498452*^9}}],
+
+Cell[TextData[{
+ "If you aren\[CloseCurlyQuote]t sure how a colour like Brown is created from \
+a mixture of Red, Green and Blue, it can sometimes be hard to find the \
+parameter values. ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " provides access to your operating system\[CloseCurlyQuote]s colour chooser \
+via the ",
+ StyleBox["ColorSetter",
+  FontWeight->"Bold"],
+ " and ",
+ StyleBox["ColorSlider",
+  FontWeight->"Bold"],
+ " commands. In order to get them to output RGB values, I have included some \
+code that we haven\[CloseCurlyQuote]t learned yet (the ",
+ StyleBox["Dynamic",
+  FontWeight->"Bold"],
+ " command). For now, you can just copy one of these expressions when you \
+need to discover RGB values."
+}], "Text",
+ CellChangeTimes->{{3.6614560380618258`*^9, 3.661456042013389*^9}, {
+  3.6614570824505157`*^9, 3.661457130001483*^9}, {3.661457279463997*^9, 
+  3.66145735648186*^9}, {3.6614575408973627`*^9, 3.661457543664996*^9}, {
+  3.66162624982617*^9, 3.661626257880251*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ColorSetter", "[", 
+  RowBox[{"Dynamic", "[", "t", "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.6614571936395206`*^9, 3.66145719370252*^9}, {
+  3.661457234520259*^9, 3.6614572438137293`*^9}, {3.661457360729678*^9, 
+  3.661457361409095*^9}, {3.661457401330274*^9, 3.661457402961619*^9}, {
+  3.6614575034488792`*^9, 3.661457508359138*^9}},
+ CellID->420133799],
+
+Cell[BoxData[
+ RowBox[{"ColorSlider", "[", 
+  RowBox[{"Dynamic", "[", "t", "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.6614571936395206`*^9, 3.66145719370252*^9}, {
+  3.661457234520259*^9, 3.6614572438137293`*^9}, {3.661457395962975*^9, 
+  3.66145741707092*^9}, {3.6614574628400183`*^9, 3.661457466175412*^9}},
+ CellID->19067990],
+
+Cell["\<\
+Once you find a colour you like, you use InputForm command to get the RGB \
+values\
+\>", "Text",
+ CellChangeTimes->{{3.6614574796848097`*^9, 3.6614575253641663`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"InputForm", "[", "t", "]"}]], "Input",
+ CellChangeTimes->{{3.661457454725774*^9, 3.66145745904838*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Rotating and translating randomly coloured objects", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+   3.6604568451935883`*^9, 3.660456864360705*^9}, {3.66045700061236*^9, 
+   3.660457003491721*^9}, {3.660669364433964*^9, 3.6606693650094624`*^9}, 
+   3.6606699039594812`*^9, {3.6606699905161448`*^9, 3.660669993123453*^9}, {
+   3.693587945106654*^9, 3.6935879692040787`*^9}, {3.6935894169470654`*^9, 
+   3.6935894203541307`*^9}}],
+
+Cell["\<\
+Examples of graphics created by randomly choosing colours of rotated and \
+translated objects\
+\>", "Text",
+ CellChangeTimes->{{3.661455603008573*^9, 3.6614556170777693`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Table", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"RandomChoice", "[", "namedColours", "]"}], ",", 
+       RowBox[{"Translate", "[", 
+        RowBox[{
+         RowBox[{"Rotate", "[", 
+          RowBox[{
+           RowBox[{"Rectangle", "[", 
+            RowBox[{
+             RowBox[{"{", 
+              RowBox[{"0", ",", "0"}], "}"}], ",", 
+             RowBox[{"{", 
+              RowBox[{".3", ",", "5"}], "}"}]}], "]"}], ",", 
+           RowBox[{"r", "*", "5", "Degree"}]}], "]"}], ",", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"r", "/", "2"}], ",", "0"}], "}"}]}], "]"}]}], "}"}], ",", 
+     
+     RowBox[{"{", 
+      RowBox[{"r", ",", "0", ",", "120"}], "}"}]}], "]"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Full"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.661455081756081*^9, 3.661455262075614*^9}, {
+  3.6614553531577997`*^9, 3.661455362499942*^9}, {3.6614554501523323`*^9, 
+  3.661455528123455*^9}, {3.661625937639044*^9, 3.6616259422063293`*^9}, {
+  3.6616264641101437`*^9, 3.66162646458068*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Table", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"RandomChoice", "[", "namedLightColours", "]"}], ",", 
+       RowBox[{"EdgeForm", "[", "Purple", "]"}], ",", 
+       RowBox[{"Rotate", "[", 
+        RowBox[{
+         RowBox[{"Translate", "[", 
+          RowBox[{
+           RowBox[{"Disk", "[", 
+            RowBox[{
+             RowBox[{"{", 
+              RowBox[{"0", ",", "0"}], "}"}], ",", 
+             RowBox[{"{", 
+              RowBox[{"1", ",", "2"}], "}"}]}], "]"}], ",", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"r", "/", "2"}], ",", 
+             RowBox[{"r", "/", "5"}]}], "}"}]}], "]"}], ",", 
+         RowBox[{"r", "*", "15", "Degree"}]}], "]"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"r", ",", "0", ",", "60"}], "}"}]}], "]"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Full"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.661455081756081*^9, 3.6614553404968767`*^9}, {
+   3.6614553776912937`*^9, 3.6614554244522467`*^9}, {3.661455543578207*^9, 
+   3.6614555868664637`*^9}, 3.661455625277227*^9, {3.661625947013533*^9, 
+   3.661625967993822*^9}, {3.661626459918724*^9, 3.6616264603495283`*^9}, {
+   3.6935895064804277`*^9, 3.693589507303562*^9}}],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["RandomColor",
+  FontWeight->"Bold"],
+ " command chooses from a much wider set of possibilities"
+}], "Text",
+ CellChangeTimes->{{3.661456053604293*^9, 3.661456071905088*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"Table", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"RandomColor", "[", "]"}], ",", 
+      RowBox[{"Translate", "[", 
+       RowBox[{
+        RowBox[{"Rotate", "[", 
+         RowBox[{
+          RowBox[{"Rectangle", "[", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"0", ",", "0"}], "}"}], ",", 
+            RowBox[{"{", 
+             RowBox[{".3", ",", "10"}], "}"}]}], "]"}], ",", 
+          RowBox[{"r", "*", "5", "Degree"}]}], "]"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"0", ",", 
+          RowBox[{"r", "/", "4"}]}], "}"}]}], "]"}]}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"r", ",", "0", ",", "80"}], "}"}]}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.661455081756081*^9, 3.661455262075614*^9}, {
+  3.6614553531577997`*^9, 3.661455362499942*^9}, {3.6614554501523323`*^9, 
+  3.661455528123455*^9}, {3.6614560801687717`*^9, 3.661456166131023*^9}, {
+  3.661456199631577*^9, 3.6614562034371567`*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["The Blend command", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.6616251760861883`*^9, 3.6616251783565693`*^9}}],
+
+Cell[TextData[{
+ "Another way to generate a gradient is with the ",
+ StyleBox["Blend",
+  FontWeight->"Bold"],
+ " command. The colour that is 3/8 of the way from Blue to Green is"
+}], "Text",
+ CellChangeTimes->{{3.661456959008542*^9, 3.661456968630406*^9}, {
+  3.6614570079278517`*^9, 3.6614570367701483`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"Blend", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"Blue", ",", "Green"}], "}"}], ",", 
+       RowBox[{"3", "/", "8"}]}], "]"}], ",", 
+     RowBox[{"Disk", "[", "]"}]}], "}"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.661457045313528*^9, 3.661457070356089*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"Table", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"Blend", "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"Blue", ",", "Green"}], "}"}], ",", 
+        RowBox[{"x", "/", "8"}]}], "]"}], ",", 
+      RowBox[{"Disk", "[", 
+       RowBox[{"{", 
+        RowBox[{"x", ",", "0"}], "}"}], "]"}]}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"x", ",", "1", ",", "8"}], "}"}]}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.661624369773768*^9, 3.661624383280843*^9}, {
+  3.66162464336654*^9, 3.6616247152032957`*^9}, {3.661624804444769*^9, 
+  3.661624806803266*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Hue", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+   3.661457570805735*^9, 3.66145757104397*^9}, {3.6616252092412663`*^9, 
+   3.661625210175488*^9}, 3.6616265334177237`*^9}],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["Hue",
+  FontWeight->"Bold"],
+ " command gives you a different way to specify colour, by providing \
+parameters for its hue, saturation and brightness / value."
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.661457579723247*^9, 3.661457651581869*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Changing hue", "Subsection",
+ CellChangeTimes->{{3.661626322078931*^9, 3.66162632847608*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Table", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"Hue", "[", 
+        RowBox[{"h", ",", "1", ",", "1"}], "]"}], ",", 
+       RowBox[{"Disk", "[", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"h", "*", "10"}], ",", "0"}], "}"}], ",", 
+         RowBox[{"1", "/", "3"}]}], "]"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"h", ",", "0", ",", "1", ",", ".05"}], "}"}]}], "]"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Full"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6616263486874733`*^9, 3.661626449751655*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Changing saturation", "Subsection",
+ CellChangeTimes->{{3.6616263311156054`*^9, 3.66162633370689*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Table", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"Hue", "[", 
+        RowBox[{".5", ",", "s", ",", "1"}], "]"}], ",", 
+       RowBox[{"Disk", "[", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"s", "*", "10"}], ",", "0"}], "}"}], ",", 
+         RowBox[{"1", "/", "3"}]}], "]"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"s", ",", "0", ",", "1", ",", ".05"}], "}"}]}], "]"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Full"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6616263486874733`*^9, 3.661626449751655*^9}, {
+  3.661626481602606*^9, 3.661626495039526*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Changing brightness / value", "Subsection",
+ CellChangeTimes->{{3.6616263367785187`*^9, 3.661626343681141*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Table", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"Hue", "[", 
+        RowBox[{".5", ",", "1", ",", "b"}], "]"}], ",", 
+       RowBox[{"Disk", "[", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"b", "*", "10"}], ",", "0"}], "}"}], ",", 
+         RowBox[{"1", "/", "3"}]}], "]"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"b", ",", "0", ",", "1", ",", ".05"}], "}"}]}], "]"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Full"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6616263486874733`*^9, 3.661626449751655*^9}, {
+  3.661626481602606*^9, 3.661626522610653*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["A grid of disks with random brightness", "Subsection",
+ CellChangeTimes->{{3.661626670713648*^9, 3.661626687550179*^9}}],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["RandomReal",
+  FontWeight->"Bold"],
+ " command returns a random value between 0 and 1. Here we fix the hue (0.9) \
+and the saturation (1) and choose the brightness/value randomly."
+}], "Text",
+ CellChangeTimes->{{3.661626689349983*^9, 3.6616267129301653`*^9}, {
+  3.693590030140567*^9, 3.693590079193713*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"Table", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"Hue", "[", 
+       RowBox[{".9", ",", "1", ",", 
+        RowBox[{"RandomReal", "[", "]"}]}], "]"}], ",", 
+      RowBox[{"Disk", "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"g", "*", "10"}], ",", 
+          RowBox[{"b", "*", "10"}]}], "}"}], ",", 
+        RowBox[{"1", "/", "2"}]}], "]"}]}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"g", ",", "0", ",", "1", ",", ".1"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"b", ",", "0", ",", "1", ",", ".1"}], "}"}]}], "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.6616260194964113`*^9, 3.66162614616327*^9}, {
+  3.661626186005131*^9, 3.661626207248661*^9}, {3.661626585584977*^9, 
+  3.6616266621797333`*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["CirclePoints", "Section",
+ CellChangeTimes->{{3.649950784924818*^9, 3.649950788859275*^9}, {
+  3.693589616363655*^9, 3.6935896179226923`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["CirclePoints and Part", "Subsection",
+ CellChangeTimes->{{3.661624957106421*^9, 3.661624963552741*^9}, {
+  3.693590206573543*^9, 3.693590211700474*^9}}],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["CirclePoints",
+  FontWeight->"Bold"],
+ " command uses trigonometry to generate evenly spaced positions around a \
+circle. The output is a list of pairs, such as"
+}], "Text",
+ CellChangeTimes->{{3.661624966847972*^9, 3.661624997627549*^9}, {
+  3.661625031710189*^9, 3.661625048042756*^9}, {3.693589637546976*^9, 
+  3.6935896429539013`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"CirclePoints", "[", "3", "]"}]], "Input",
+ CellChangeTimes->{{3.661625049839841*^9, 3.661625055730056*^9}}],
+
+Cell["\<\
+If we plot those points on a circle, we can see they are evenly spaced around \
+the circumference.\
+\>", "Text",
+ CellChangeTimes->{{3.693589676944998*^9, 3.69358969863962*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"Thick", ",", "LightBlue", ",", 
+     RowBox[{"Circle", "[", "]"}], ",", 
+     RowBox[{"PointSize", "[", "Large", "]"}], ",", "Red", ",", 
+     RowBox[{"Point", "[", 
+      RowBox[{"CirclePoints", "[", "3", "]"}], "]"}]}], "}"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.693589700992618*^9, 3.693589780653961*^9}}],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["Part",
+  FontWeight->"Bold"],
+ " command allows us to choose an element from a list. It is usually \
+abbreviated with double square brackets. To make those, use \[EscapeKey][[\
+\[EscapeKey] and \[EscapeKey]]]\[EscapeKey]"
+}], "Text",
+ CellChangeTimes->{{3.661625062592279*^9, 3.661625119430884*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Part", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"a", ",", "b", ",", "c"}], "}"}], ",", "1"}], "]"}]], "Input",
+ CellChangeTimes->{{3.6616251241084967`*^9, 3.6616251320287437`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"{", 
+   RowBox[{"a", ",", "b", ",", "c"}], "}"}], "\[LeftDoubleBracket]", "1", 
+  "\[RightDoubleBracket]"}]], "Input",
+ CellChangeTimes->{{3.661625136152534*^9, 3.66162514216291*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Part", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"a", ",", "b", ",", "c"}], "}"}], ",", "2"}], "]"}]], "Input",
+ CellChangeTimes->{{3.661625224045691*^9, 3.661625229940276*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"{", 
+   RowBox[{"a", ",", "b", ",", "c"}], "}"}], "\[LeftDoubleBracket]", "2", 
+  "\[RightDoubleBracket]"}]], "Input",
+ CellChangeTimes->{{3.661625232470495*^9, 3.661625236963238*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["A more complicated example with Blend", "Subsection",
+ CellChangeTimes->{{3.661624957106421*^9, 3.661624963552741*^9}}],
+
+Cell[TextData[{
+ "Study the following example carefully, until you understand how ",
+ StyleBox["Part",
+  FontWeight->"Bold"],
+ " and ",
+ StyleBox["CirclePoints",
+  FontWeight->"Bold"],
+ " are working together."
+}], "Text",
+ CellChangeTimes->{{3.661625245177547*^9, 3.6616252706373863`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"Table", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"Blend", "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"Red", ",", "Yellow"}], "}"}], ",", 
+        RowBox[{"x", "/", "24"}]}], "]"}], ",", 
+      RowBox[{"Disk", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"CirclePoints", "[", "24", "]"}], "\[LeftDoubleBracket]", 
+         "x", "\[RightDoubleBracket]"}], ",", 
+        RowBox[{"1", "/", "2"}]}], "]"}]}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"x", ",", "1", ",", "24"}], "}"}]}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.661624369773768*^9, 3.661624383280843*^9}, {
+  3.66162464336654*^9, 3.66162482432024*^9}, {3.661625002443575*^9, 
+  3.6616250245028353`*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Iterating by choosing elements from a list", "Section",
+ CellChangeTimes->{{3.649950784924818*^9, 3.649950788859275*^9}, {
+  3.662050933831362*^9, 3.662050938645425*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["A sun", "Subsection",
+ CellChangeTimes->{{3.6935903679432583`*^9, 3.693590385581993*^9}}],
+
+Cell["\<\
+One way to draw a sun is to draw lines from the centre of a circle to evenly \
+spaced points around its circumference. \
+\>", "Text",
+ CellChangeTimes->{{3.6935904122560177`*^9, 3.6935904757946672`*^9}, {
+   3.693590635525536*^9, 3.693590681043054*^9}, 3.693591479479335*^9}],
+
+Cell[TextData[{
+ "First we need a version of the ",
+ StyleBox["Table",
+  FontWeight->"Bold"],
+ " command that uses a list of elements as the ",
+ StyleBox["iterator",
+  FontSlant->"Italic"],
+ ". In the following command, ",
+ StyleBox["p",
+  FontSlant->"Italic"],
+ " takes on the values 2, 3 and 5."
+}], "Text",
+ CellChangeTimes->{{3.6620510660169992`*^9, 3.6620510783345833`*^9}, 
+   3.6935914858699713`*^9}],
+
+Cell[BoxData[
+ RowBox[{"Table", "[", 
+  RowBox[{"p", ",", 
+   RowBox[{"{", 
+    RowBox[{"p", ",", 
+     RowBox[{"{", 
+      RowBox[{"2", ",", "3", ",", "5"}], "}"}]}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.660581566582528*^9, 3.6605815880088053`*^9}}],
+
+Cell[TextData[{
+ "Here we use ",
+ StyleBox["Line",
+  FontWeight->"Bold"],
+ " inside the ",
+ StyleBox["Table",
+  FontWeight->"Bold"],
+ " command to draw a series of lines. Our iterator ",
+ StyleBox["e",
+  FontSlant->"Italic"],
+ " takes on a series of coordinate pairs, each lying on the circumference of \
+a circle. "
+}], "Text",
+ CellChangeTimes->{{3.6935904122560177`*^9, 3.6935904757946672`*^9}, {
+  3.693590635525536*^9, 3.693590681043054*^9}, {3.6935914938697033`*^9, 
+  3.693591606928878*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"LightBlue", ",", 
+     RowBox[{"Rectangle", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"-", "2"}], ",", 
+         RowBox[{"-", "2"}]}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"2", ",", "2"}], "}"}]}], "]"}], ",", "Yellow", ",", "Thick", 
+     ",", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Line", "[", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"0", ",", "0"}], "}"}], ",", "e"}], "}"}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"e", ",", 
+         RowBox[{"CirclePoints", "[", "36", "]"}]}], "}"}]}], "]"}]}], "}"}], 
+   ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6935902632756577`*^9, 3.6935903432322187`*^9}, {
+  3.693590510163167*^9, 3.6935906253337173`*^9}}],
+
+Cell[TextData[{
+ "Suppose we want to draw only the top half of the sun (say for a sunrise or \
+sunset). We can use a version of the ",
+ StyleBox["Part",
+  FontWeight->"Bold"],
+ " command to extract a range of values from the list."
+}], "Text",
+ CellChangeTimes->{{3.693590703482799*^9, 3.693590734336982*^9}, {
+  3.693590773111521*^9, 3.693590784607169*^9}, {3.6935908333980827`*^9, 
+  3.693590837805359*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"{", 
+   RowBox[{"a", ",", "b", ",", "c", ",", "d", ",", "e"}], "}"}], 
+  "\[LeftDoubleBracket]", 
+  RowBox[{"2", ";;", "3"}], "\[RightDoubleBracket]"}]], "Input",
+ CellChangeTimes->{{3.661625232470495*^9, 3.661625236963238*^9}, {
+  3.6935907641282454`*^9, 3.6935907695524197`*^9}}],
+
+Cell[TextData[{
+ StyleBox["CirclePoints",
+  FontWeight->"Bold"],
+ " generates values in counterclockwise order, starting at the bottom. So if \
+we take the first 18 values, we end up with the right side of the sun, which \
+isn\[CloseCurlyQuote]t exactly what we want..."
+}], "Text",
+ CellChangeTimes->{{3.693590843108886*^9, 3.693590904986785*^9}, {
+  3.693591065085658*^9, 3.6935910823784733`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"LightBlue", ",", 
+     RowBox[{"Rectangle", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"-", "2"}], ",", 
+         RowBox[{"-", "2"}]}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"2", ",", "2"}], "}"}]}], "]"}], ",", "Yellow", ",", "Thick", 
+     ",", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Line", "[", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"0", ",", "0"}], "}"}], ",", "e"}], "}"}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"e", ",", 
+         RowBox[{
+          RowBox[{"CirclePoints", "[", "36", "]"}], "\[LeftDoubleBracket]", 
+          RowBox[{"1", ";;", "18"}], "\[RightDoubleBracket]"}]}], "}"}]}], 
+      "]"}]}], "}"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6935902632756577`*^9, 3.6935903432322187`*^9}, {
+  3.693590510163167*^9, 3.6935906253337173`*^9}, {3.693590808400115*^9, 
+  3.693590821982497*^9}, {3.693591048951535*^9, 3.6935910900445023`*^9}}],
+
+Cell["This is more like it.", "Text",
+ CellChangeTimes->{{3.693591106859705*^9, 3.69359114374588*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"LightBlue", ",", 
+     RowBox[{"Rectangle", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"-", "2"}], ",", "0"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"2", ",", "2"}], "}"}]}], "]"}], ",", "Yellow", ",", "Thick", 
+     ",", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Line", "[", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"0", ",", "0"}], "}"}], ",", "e"}], "}"}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"e", ",", 
+         RowBox[{
+          RowBox[{"CirclePoints", "[", "36", "]"}], "\[LeftDoubleBracket]", 
+          RowBox[{"10", ";;", "27"}], "\[RightDoubleBracket]"}]}], "}"}]}], 
+      "]"}]}], "}"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6935902632756577`*^9, 3.6935903432322187`*^9}, {
+  3.693590510163167*^9, 3.6935906253337173`*^9}, {3.693590808400115*^9, 
+  3.693590821982497*^9}, {3.693590934355193*^9, 3.6935910275428867`*^9}, {
+  3.693591184307137*^9, 3.693591262062167*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["A flower", "Subsection",
+ CellChangeTimes->{{3.693590392334359*^9, 3.69359039372573*^9}}],
+
+Cell[TextData[{
+ "Suppose you want to put copies of a graphic element evenly distributed at \
+points around a circle. Let\[CloseCurlyQuote]s try to draw a flower as an \
+example. As we have seen, you can use the ",
+ StyleBox["CirclePoints",
+  FontWeight->"Bold"],
+ " command to find the coordinates of centre points for the petals."
+}], "Text",
+ CellChangeTimes->{{3.6605813649163847`*^9, 3.660581372434767*^9}, {
+  3.660581617223215*^9, 3.660581741817688*^9}, {3.662050996025256*^9, 
+  3.6620509983838797`*^9}, {3.662051145559073*^9, 3.662051147405789*^9}, {
+  3.693590406899295*^9, 3.69359042168088*^9}}],
+
+Cell[BoxData[
+ RowBox[{"CirclePoints", "[", "6", "]"}]], "Input",
+ CellChangeTimes->{{3.662050988709257*^9, 3.662050991850155*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"Darker", "[", "Green", "]"}], ",", 
+     RowBox[{"Disk", "[", "]"}], ",", 
+     RowBox[{"PointSize", "[", "Large", "]"}], ",", "Yellow", ",", 
+     RowBox[{"Point", "[", 
+      RowBox[{"CirclePoints", "[", "6", "]"}], "]"}]}], "}"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"GridLines", "\[Rule]", "Automatic"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.660581407375164*^9, 3.6605814901483917`*^9}, {
+  3.662051010070175*^9, 3.6620510324161453`*^9}}],
+
+Cell[TextData[{
+ "Now we can place each of the petals. First we need a version of the ",
+ StyleBox["Table",
+  FontWeight->"Bold"],
+ " command that uses a list of elements as the ",
+ StyleBox["iterator",
+  FontSlant->"Italic"],
+ ". In the following command, ",
+ StyleBox["p",
+  FontSlant->"Italic"],
+ " takes on the values 2, 3 and 5."
+}], "Text",
+ CellChangeTimes->{{3.6620510660169992`*^9, 3.6620510783345833`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Table", "[", 
+  RowBox[{"p", ",", 
+   RowBox[{"{", 
+    RowBox[{"p", ",", 
+     RowBox[{"{", 
+      RowBox[{"2", ",", "3", ",", "5"}], "}"}]}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.660581566582528*^9, 3.6605815880088053`*^9}}],
+
+Cell[TextData[{
+ "If we sample the ",
+ StyleBox["CirclePoints",
+  FontWeight->"Bold"],
+ " list with our iterator we can place each petal as follows."
+}], "Text",
+ CellChangeTimes->{{3.6620510943305817`*^9, 3.662051124371122*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"Darker", "[", "Green", "]"}], ",", 
+     RowBox[{"Disk", "[", "]"}], ",", "Thick", ",", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"Yellow", ",", 
+         RowBox[{"Disk", "[", 
+          RowBox[{"p", ",", 
+           RowBox[{"1", "/", "2"}]}], "]"}], ",", 
+         RowBox[{"Darker", "[", "Green", "]"}], ",", 
+         RowBox[{"Circle", "[", 
+          RowBox[{"p", ",", 
+           RowBox[{"1", "/", "2"}]}], "]"}]}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"p", ",", 
+         RowBox[{"CirclePoints", "[", "6", "]"}]}], "}"}]}], "]"}]}], "}"}], 
+   ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"GridLines", "\[Rule]", "Automatic"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.660581407375164*^9, 3.6605814901483917`*^9}, {
+  3.662051010070175*^9, 3.6620510324161453`*^9}, {3.662051161451689*^9, 
+  3.6620512538381557`*^9}, {3.662051581516478*^9, 3.662051625857646*^9}}],
+
+Cell["\<\
+We can change the opacity and size of different elements to get interesting \
+variations\
+\>", "Text",
+ CellChangeTimes->{{3.662051804352895*^9, 3.6620518331779537`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"Darker", "[", "Green", "]"}], ",", 
+    RowBox[{"Disk", "[", "]"}], ",", "Thick", ",", 
+    RowBox[{"Opacity", "[", 
+     RowBox[{"1", "/", "2"}], "]"}], ",", 
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"Yellow", ",", 
+        RowBox[{"Disk", "[", 
+         RowBox[{"p", ",", "1"}], "]"}], ",", 
+        RowBox[{"Darker", "[", "Green", "]"}], ",", 
+        RowBox[{"Circle", "[", 
+         RowBox[{"p", ",", 
+          RowBox[{"1", "/", "2"}]}], "]"}]}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"p", ",", 
+        RowBox[{"CirclePoints", "[", "6", "]"}]}], "}"}]}], "]"}]}], "}"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.660581407375164*^9, 3.6605814901483917`*^9}, {
+   3.662051010070175*^9, 3.6620510324161453`*^9}, {3.662051161451689*^9, 
+   3.6620512538381557`*^9}, {3.662051581516478*^9, 3.662051625857646*^9}, 
+   3.662051746094112*^9, {3.662051776800296*^9, 3.662051780446422*^9}, 
+   3.662051838062031*^9, {3.662051908827701*^9, 3.6620519470038347`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"Darker", "[", "Green", "]"}], ",", 
+    RowBox[{"Disk", "[", "]"}], ",", "Yellow", ",", 
+    RowBox[{"Opacity", "[", 
+     RowBox[{"3", "/", "4"}], "]"}], ",", 
+    RowBox[{"Disk", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"0", ",", "0"}], "}"}], ",", 
+      RowBox[{"3", "/", "4"}]}], "]"}], ",", "Thick", ",", 
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"Opacity", "[", 
+         RowBox[{"1", "/", "2"}], "]"}], ",", "Yellow", ",", 
+        RowBox[{"Disk", "[", 
+         RowBox[{"p", ",", 
+          RowBox[{"2", "/", "3"}]}], "]"}], ",", 
+        RowBox[{"Darker", "[", "Green", "]"}], ",", 
+        RowBox[{"Circle", "[", 
+         RowBox[{"p", ",", 
+          RowBox[{"1", "/", "3"}]}], "]"}], ",", 
+        RowBox[{"Circle", "[", 
+         RowBox[{"p", ",", 
+          RowBox[{"2", "/", "3"}]}], "]"}]}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"p", ",", 
+        RowBox[{"CirclePoints", "[", "6", "]"}]}], "}"}]}], "]"}]}], "}"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.660581407375164*^9, 3.6605814901483917`*^9}, {
+   3.662051010070175*^9, 3.6620510324161453`*^9}, {3.662051161451689*^9, 
+   3.6620512538381557`*^9}, {3.662051581516478*^9, 3.662051625857646*^9}, 
+   3.662051746094112*^9, {3.662051776800296*^9, 3.662051780446422*^9}, {
+   3.662051838062031*^9, 3.66205188123232*^9}, {3.662051973019569*^9, 
+   3.66205197328238*^9}, {3.6620520084753637`*^9, 3.6620521123949003`*^9}, {
+   3.6620521538032637`*^9, 3.662052218458591*^9}}],
+
+Cell["\<\
+We change the number of petals simply by changing the number of circle points \
+we generate.\
+\>", "Text",
+ CellChangeTimes->{{3.662052354867701*^9, 3.66205237719841*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"Darker", "[", "Green", "]"}], ",", 
+    RowBox[{"Disk", "[", "]"}], ",", "Yellow", ",", 
+    RowBox[{"Opacity", "[", 
+     RowBox[{"3", "/", "4"}], "]"}], ",", 
+    RowBox[{"Disk", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"0", ",", "0"}], "}"}], ",", 
+      RowBox[{"3", "/", "4"}]}], "]"}], ",", "Thick", ",", 
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"Opacity", "[", 
+         RowBox[{"1", "/", "2"}], "]"}], ",", "Yellow", ",", 
+        RowBox[{"Disk", "[", 
+         RowBox[{"p", ",", 
+          RowBox[{"2", "/", "3"}]}], "]"}], ",", 
+        RowBox[{"Darker", "[", "Green", "]"}], ",", 
+        RowBox[{"Circle", "[", 
+         RowBox[{"p", ",", 
+          RowBox[{"1", "/", "3"}]}], "]"}], ",", 
+        RowBox[{"Circle", "[", 
+         RowBox[{"p", ",", 
+          RowBox[{"2", "/", "3"}]}], "]"}]}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"p", ",", 
+        RowBox[{"CirclePoints", "[", "9", "]"}]}], "}"}]}], "]"}]}], "}"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.660581407375164*^9, 3.6605814901483917`*^9}, {
+   3.662051010070175*^9, 3.6620510324161453`*^9}, {3.662051161451689*^9, 
+   3.6620512538381557`*^9}, {3.662051581516478*^9, 3.662051625857646*^9}, 
+   3.662051746094112*^9, {3.662051776800296*^9, 3.662051780446422*^9}, {
+   3.662051838062031*^9, 3.66205188123232*^9}, {3.662051973019569*^9, 
+   3.66205197328238*^9}, {3.6620520084753637`*^9, 3.6620521123949003`*^9}, {
+   3.6620521538032637`*^9, 3.662052218458591*^9}, {3.6620523845733967`*^9, 
+   3.6620523916202717`*^9}, {3.6935913335812063`*^9, 3.6935913491246243`*^9}}],
+
+Cell["\<\
+N.B. Things get tricky if we try to use ellipses for our petals instead of \
+disks or circles. Why?\
+\>", "Text",
+ CellChangeTimes->{{3.662051649836281*^9, 3.662051670271154*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["In-Class Activity", "Section",
+ CellChangeTimes->{{3.647716402186221*^9, 3.647716405353856*^9}, {
+  3.6583374723271*^9, 3.658337478437811*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Draw a picture using the Graphics command. Use Table with RGBColor, Hue \
+and/or Blend to generate a range of colours in your image.\
+\>", "Subsection",
+ CellChangeTimes->{{3.66045777809417*^9, 3.660457780906083*^9}, {
+   3.660665069786047*^9, 3.660665104240719*^9}, 3.660665206629046*^9, {
+   3.6614577828875427`*^9, 3.6614578368935013`*^9}}],
+
+Cell["NAME:", "Subsubsection",
+ CellChangeTimes->{{3.658337538475717*^9, 3.658337539778943*^9}}],
+
+Cell["STUDENT NUMBER:", "Subsubsection",
+ CellChangeTimes->{{3.658337543114833*^9, 3.658337546026588*^9}}],
+
+Cell["DATE:", "Subsubsection",
+ CellChangeTimes->{{3.6583375490023537`*^9, 3.658337550162354*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Upload your notebook", "Section",
+ CellChangeTimes->{{3.649950784924818*^9, 3.649950788859275*^9}}],
+
+Cell["\<\
+Don\[CloseCurlyQuote]t forget to upload a copy of your notebook for this day\
+\[CloseCurlyQuote]s class to the OWL Site for the course\
+\>", "Text",
+ CellChangeTimes->{{3.649950792779258*^9, 3.649950818634288*^9}, {
+  3.658337509093232*^9, 3.658337512508254*^9}}]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1422, 1107},
+WindowMargins->{{168, Automatic}, {Automatic, 67}},
+TaggingRules->{"SlideShow" -> True},
+Magnification:>1.25 Inherited,
+FrontEndVersion->"11.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (July 28, \
+2016)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "SlideShowHeader"->{
+  Cell[580, 22, 4383, 98, 75, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[5943, 149, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[15045, 423, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[19961, 575, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[22292, 640, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[26729, 763, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[28411, 819, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[32893, 964, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[36961, 1095, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[51641, 1514, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[52627, 1547, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"SlideShowHeader", 53507, 1577}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 4383, 98, 75, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[4966, 122, 575, 11, 183, "Title"],
+Cell[5544, 135, 362, 9, 99, "Subtitle"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5943, 149, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[6032, 154, 149, 2, 80, "Section"],
+Cell[6184, 158, 331, 8, 37, "Text"],
+Cell[6518, 168, 219, 5, 37, "Text"],
+Cell[6740, 175, 399, 8, 39, "Input"],
+Cell[7142, 185, 435, 9, 66, "Input"],
+Cell[7580, 196, 302, 7, 37, "Text"],
+Cell[7885, 205, 142, 2, 39, "Input"],
+Cell[CellGroupData[{
+Cell[8052, 211, 103, 1, 54, "Subsection"],
+Cell[8158, 214, 478, 15, 37, "Text"],
+Cell[8639, 231, 585, 15, 39, "Input",
+ CellID->41]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9261, 251, 103, 1, 54, "Subsection"],
+Cell[9367, 254, 224, 4, 37, "Text"],
+Cell[9594, 260, 714, 20, 66, "Input"],
+Cell[10311, 282, 394, 9, 39, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10742, 296, 171, 2, 54, "Subsection"],
+Cell[10916, 300, 469, 10, 61, "Text"],
+Cell[11388, 312, 258, 7, 39, "Input"],
+Cell[11649, 321, 166, 3, 37, "Text"],
+Cell[11818, 326, 357, 9, 39, "Input"],
+Cell[12178, 337, 208, 6, 37, "Text"],
+Cell[12389, 345, 344, 9, 39, "Input"],
+Cell[12736, 356, 316, 6, 37, "Text"],
+Cell[13055, 364, 165, 2, 37, "Text"],
+Cell[13223, 368, 645, 19, 39, "Input"],
+Cell[13871, 389, 228, 4, 37, "Text"],
+Cell[14102, 395, 741, 18, 39, "Input"],
+Cell[14846, 415, 138, 1, 37, "Text"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[15045, 423, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[15134, 428, 146, 2, 80, "Section"],
+Cell[15283, 432, 384, 7, 61, "Text"],
+Cell[15670, 441, 234, 4, 37, "Text"],
+Cell[15907, 447, 162, 3, 39, "Input"],
+Cell[16072, 452, 162, 3, 39, "Input"],
+Cell[16237, 457, 160, 3, 39, "Input"],
+Cell[16400, 462, 344, 8, 37, "Text"],
+Cell[16747, 472, 288, 7, 39, "Input"],
+Cell[CellGroupData[{
+Cell[17060, 483, 102, 1, 54, "Subsection"],
+Cell[17165, 486, 163, 3, 37, "Text"],
+Cell[17331, 491, 464, 12, 39, "Input"],
+Cell[17798, 505, 442, 10, 61, "Text"],
+Cell[18243, 517, 733, 21, 39, "Input"],
+Cell[18979, 540, 921, 28, 39, "Input"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[19961, 575, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[20050, 580, 165, 2, 80, "Section"],
+Cell[20218, 584, 997, 23, 109, "Text"],
+Cell[21218, 609, 382, 7, 39, "Input",
+ CellID->420133799],
+Cell[21603, 618, 331, 6, 39, "Input",
+ CellID->19067990],
+Cell[21937, 626, 176, 4, 37, "Text"],
+Cell[22116, 632, 127, 2, 39, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[22292, 640, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[22381, 645, 468, 6, 80, "Section"],
+Cell[22852, 653, 185, 4, 37, "Text"],
+Cell[23040, 659, 1121, 29, 66, "Input"],
+Cell[24164, 690, 1287, 31, 92, "Input"],
+Cell[25454, 723, 209, 6, 37, "Text"],
+Cell[25666, 731, 1014, 26, 39, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[26729, 763, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[26818, 768, 157, 2, 80, "Section"],
+Cell[26978, 772, 309, 7, 37, "Text"],
+Cell[27290, 781, 424, 12, 39, "Input"],
+Cell[27717, 795, 645, 18, 39, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[28411, 819, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[28500, 824, 215, 3, 80, "Section"],
+Cell[28718, 829, 324, 8, 37, "Text"],
+Cell[CellGroupData[{
+Cell[29067, 841, 99, 1, 54, "Subsection"],
+Cell[29169, 844, 642, 18, 39, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[29848, 867, 108, 1, 54, "Subsection"],
+Cell[29959, 870, 692, 19, 39, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[30688, 894, 117, 1, 54, "Subsection"],
+Cell[30808, 897, 692, 19, 39, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[31537, 921, 126, 1, 54, "Subsection"],
+Cell[31666, 924, 345, 8, 37, "Text"],
+Cell[32014, 934, 818, 23, 39, "Input"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[32893, 964, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[32982, 969, 148, 2, 80, "Section"],
+Cell[CellGroupData[{
+Cell[33155, 975, 158, 2, 54, "Subsection"],
+Cell[33316, 979, 375, 9, 37, "Text"],
+Cell[33694, 990, 131, 2, 39, "Input"],
+Cell[33828, 994, 187, 4, 37, "Text"],
+Cell[34018, 1000, 447, 10, 39, "Input"],
+Cell[34468, 1012, 335, 8, 37, "Text"],
+Cell[34806, 1022, 209, 5, 39, "Input"],
+Cell[35018, 1029, 218, 5, 39, "Input"],
+Cell[35239, 1036, 205, 5, 39, "Input"],
+Cell[35447, 1043, 219, 5, 39, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[35703, 1053, 125, 1, 54, "Subsection"],
+Cell[35831, 1056, 290, 9, 37, "Text"],
+Cell[36124, 1067, 776, 21, 39, "Input"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[36961, 1095, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[37050, 1100, 176, 2, 80, "Section"],
+Cell[CellGroupData[{
+Cell[37251, 1106, 95, 1, 54, "Subsection"],
+Cell[37349, 1109, 285, 5, 37, "Text"],
+Cell[37637, 1116, 407, 13, 37, "Text"],
+Cell[38047, 1131, 261, 7, 39, "Input"],
+Cell[38311, 1140, 498, 15, 61, "Text"],
+Cell[38812, 1157, 907, 27, 66, "Input"],
+Cell[39722, 1186, 409, 9, 61, "Text"],
+Cell[40134, 1197, 316, 7, 39, "Input"],
+Cell[40453, 1206, 399, 8, 61, "Text"],
+Cell[40855, 1216, 1115, 30, 66, "Input"],
+Cell[41973, 1248, 102, 1, 37, "Text"],
+Cell[42078, 1251, 1140, 30, 66, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[43255, 1286, 95, 1, 54, "Subsection"],
+Cell[43353, 1289, 606, 11, 61, "Text"],
+Cell[43962, 1302, 131, 2, 39, "Input"],
+Cell[44096, 1306, 570, 13, 39, "Input"],
+Cell[44669, 1321, 416, 12, 61, "Text"],
+Cell[45088, 1335, 261, 7, 39, "Input"],
+Cell[45352, 1344, 229, 6, 37, "Text"],
+Cell[45584, 1352, 1034, 26, 66, "Input"],
+Cell[46621, 1380, 180, 4, 37, "Text"],
+Cell[46804, 1386, 1088, 26, 66, "Input"],
+Cell[47895, 1414, 1601, 39, 66, "Input"],
+Cell[49499, 1455, 181, 4, 37, "Text"],
+Cell[49683, 1461, 1705, 40, 66, "Input"],
+Cell[51391, 1503, 189, 4, 37, "Text"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[51641, 1514, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[51730, 1519, 149, 2, 80, "Section"],
+Cell[CellGroupData[{
+Cell[51904, 1525, 353, 6, 85, "Subsection"],
+Cell[52260, 1533, 96, 1, 43, "Subsubsection"],
+Cell[52359, 1536, 106, 1, 34, "Subsubsection"],
+Cell[52468, 1539, 98, 1, 34, "Subsubsection"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[52627, 1547, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[52716, 1552, 105, 1, 80, "Section"],
+Cell[52824, 1555, 273, 5, 37, "Text"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
