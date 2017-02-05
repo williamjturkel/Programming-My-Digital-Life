@@ -1,0 +1,2414 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     83298,       2406]
+NotebookOptionsPosition[     71288,       2056]
+NotebookOutlinePosition[     72937,       2104]
+CellTagsIndexPosition[     72858,       2099]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ TogglerBox[2, {1->
+  OverlayBox[{
+   TagBox[GridBox[{
+      {
+       GraphicsBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBAkBOaF5xZnpeaopnXklqemqRRRIz
+UFAKiEGSLED8//9/gvjRo0fsN27cELp69arY+fPnpZExPn137tzhBqrRBGJ/
+ID4CxMfRMTZ9L168YL5w4YIaUD4AiC8C8Qcg/gvE/9AxFreC7PQD4gtA/BGq
+7j8ujKz3+fPnLFC9b6H24dSHTf/FixfVofYSpRdZPzSsAqBuJkovsn5oOF8k
+5F9s+h88eMBBjt0w/devXxcGso+S4m9k/ZcuXRKHpgeS3A7TD0wrkpToPw9J
+ywOmn1L3Uxp+lMYfpemH0vRLjfwDjQey8y9a+fGOWDPwlF+gsPhEKDywlZ8g
+d0D9EniexPITGd++fZv3PBnlN6764zxa3QHCAIDESDs=
+         "], {{0, 26}, {16, 
+         0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{16, 26},
+        PlotRange->{{0, 16}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJzt2V1vVFUUBuBGTfTSSygthYYKNHyVinrrpbcYfwBEJN5gUkyMfw9KKaVw
+KCkQKCW1RNIQKg1gEE3QtdN10pMRZCaBzNQ+kzxt5nzstfeZfbPOu/vkD8e/
+e6+vr+/sR/Hn+ImfvpyYOPHz1x/Hl2/OnP3+9JlT33515sdTp09NfHHy/TjY
+H6592Nf3QfyvqmpHBwbCYNr5GoMNAw2d1AEAADa3/obtLba1aJ7rb4xR9x1D
+YVfYHYbDnjASPgn7wv4wGg6Eg+FQOByOhLEwnj4Nx8Jn6fM21dcfyzHq8cay
+xuGseTDnMJpz2pdzHMk5D+caduWa6v6p+czafU71s6p1+/cGAADYqt52/9va
+++6tXt331j3v0TTeoj5e966v6lv3Vv/uWfWr9LJm9tzMpN+UW3eaVV9s00yY
+CzfC7bAQFhvuhjt57maYD9er9c+VcDlcCtMd1AQAADafqXQhTabz6VyL+vhk
+Xl/uLX1D6UFmw9VwrVrvL0o/cqta7ztKD3Iv/BLuh1/DSngYHoXfwlp4Ep6F
+38Pz8Ed4Ef5Mf71Gff5F3vM8x3iWY65ljUdZcyXncD/ndC/neDvnfCPXcC3X
+NJtrnG48r3afU/2s6uc11QO/OwAAwFbzLvrfksWVjK30kSV3KxncUlgOD6qN
+vnc1PK42+t7iaaq/r+U1q9VG3/ogx1rKse9krfmsrV+l15R9WDLmkjWXzLl8
+yvuVsmdLJl3eu5R9XN7BNLPrhTxX3seUvT3TQc2Xbfr7LWq3JgAAwH95m33K
+u9Dt5wMAAMDmp2dlK+vGnu/2+yQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYPN42aZu
+1AQAAAAAAICtrNsZIXRTN/b8xTbNhLlwI9wOC2Gx4W64k+duhvlwvVr/XAmX
+w6Uw3UFNAAAAAAAA6EVT6UKaTOfTuRb18cm8vtxbcrOSwc2Gq9V6FlcytlvV
+eu5WMrilsBwehJXwMKyGx2EtPElPU/19La9ZzXtWcozlHHMxa9zKmnM5h9mc
+03Rjfe2uq15bvb6pHvid2NzKPiwZc8maS+ZcPiWDLnu2ZNIlmy77uGTVzex6
+Ic+VbLvs7ZkOau7owEAYTDtfY7BhoKGTOgAAAAAAANDr+hu2t9jWonmuvzFG
+nbsNhd1hOOwJI2Fv2B9Gw4FwMBwKR8JYOJrGW9THx/LaQ3nvgRxrf449krWG
+s/ZQtZH3NdfY7rrqtdW6/fvw/9LMnpuZ9Jty646y6n8AhCP7tg==
+         "], {{0, 26}, {
+         2000, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{2000, 26},
+        PlotRange->{{0, 2000}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJy9lktLQkEUxyVdCBIELaxctYq+QduWbcKMPoCSRRsDC6JPp+Lj4vuq+EBc
+iBtFfIYrpU7nPzQiN++9vmrgp/dx5j8z55w5c099z56HPYvF8mLnH4/37TIY
+9L7fHvDNXeDl6THgv78KvPof/cELn5UfnjBHjI3J5/OudVBV9bhUKjmbzaad
+iCxmcB9lAxKMmzmv1+v7JvpfG/DJjJkic8NrOut0OlYdfdoCjPXBqMx1q9Vy
+7FhfgvX0MUa73bYZ6edyuTnrvPsZQ4Wv9PTRL5vNroTOGIiJu9FoOLT6UjuT
+yVAqlaJkMin+0+m0YPEZbHTGQDwKyKtl+ugHjdFoRIVCgeLxOCUSCQGua7Ua
+9Xo9YQNbozXI/aHVZ//RcDik2WxG5XKZwuGwANdo0JfrNIhDvFqtHi7zD+YW
+i8VoMBgIvWKxKEDrdrtiHbAxiAF8pHAf5zJ9+Bca0WiUxuMxydbv98U64CvY
+wNZgTyioI9r8QR/EEvrQUhRlrh8Kheb6sDHTZ1xG84ePMP/pdPpr/tvoL/of
+Mcb9Jv7X+mcxP2X+QCMSiYh5VyoVMQbXMbP81I2vzM/JZCLyX+a+BPmPvbFN
+fmr36pr713B/rVp7THy/tD6Y1cjF5zrahvVtB5jW5y21B/kVzpc1kecjfK53
+Pu7kfNfO+x+/T/70++ob7NUEtQ==
+         "], {{0, 26}, {24, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{24, 26},
+        PlotRange->{{0, 24}, {0, 26}}]}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {Automatic, 
+         Scaled[0.6], Automatic}},
+     GridBoxSpacings->{"Columns" -> {{0}}, "Rows" -> {{0}}}],
+    "Grid"], 
+   PaneBox[
+    StyleBox[
+     RowBox[{
+     "Background", " ", "images", " ", "and", " ", "text", " ", "colors", " ",
+       "have", " ", "been", " ", "adjusted", " ", "for", " ", "editing", " ", 
+      
+      RowBox[{"purposes", "."}]}],
+     LineBreakWithin->False,
+     FontFamily->"Helvetica",
+     FontSize->12,
+     FontColor->GrayLevel[0.4]],
+    Alignment->Center,
+    ImageSize->Scaled[0.5],
+    ScrollPosition->{0., 0.}]},
+   Alignment->{Center, Center}], 2->""}, "1"]], "SlideShowNavigationBar", \
+"FirstSlide",
+ CellMargins->{{0, 0}, {0, 0}},
+ CellFrameLabelMargins->2,
+ CellSize->{Inherited, 30},
+ CellChangeTimes->{3.647361175465108*^9},
+ TextAlignment->Center,
+ CellTags->"SlideShowHeader"],
+
+Cell["\<\
+Notebook 06:
+Raster Graphics and Images\
+\>", "Title",
+ CellChangeTimes->{
+  3.559948400406288*^9, {3.647331852839075*^9, 3.647331861295168*^9}, {
+   3.647331922221755*^9, 3.647331924532915*^9}, {3.647332658962614*^9, 
+   3.64733266480881*^9}, {3.6473611327373047`*^9, 3.647361139759391*^9}, {
+   3.647448943135475*^9, 3.6474489472294493`*^9}, {3.658337416821965*^9, 
+   3.65833742904038*^9}, {3.658337677781981*^9, 3.658337703010659*^9}, {
+   3.663179930044013*^9, 3.6631799337142572`*^9}, {3.695313436199494*^9, 
+   3.695313439989629*^9}}],
+
+Cell[TextData[{
+ "William J Turkel, ",
+ StyleBox["wturkel@uwo.ca",
+  FontSlant->"Italic",
+  FontColor->RGBColor[
+   0.396078431372549, 0.596078431372549, 0.796078431372549]],
+ "\nDigital Humanities 1011B"
+}], "Subtitle",
+ CellChangeTimes->{{3.647331955723979*^9, 3.6473319708190517`*^9}, 
+   3.647332103720562*^9, {3.6583374336085033`*^9, 3.658337439311952*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["The Raster command", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.663179984053647*^9, 3.6631800099220953`*^9}}],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["Raster",
+  FontWeight->"Bold"],
+ " command allows us to describe a graphic element in terms of rows and \
+columns of white, black, grayscale or coloured ",
+ StyleBox["pixels",
+  FontSlant->"Italic"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.6631800234403257`*^9, 3.663180104359087*^9}, {
+  3.663180215538905*^9, 3.6631802276329927`*^9}, {3.6631802827656193`*^9, 
+  3.663180287731102*^9}}],
+
+Cell["\<\
+Here is how we draw a single black pixel. Note the coordinates.\
+\>", "Text",
+ CellChangeTimes->{{3.6631801198764687`*^9, 3.6631801525213537`*^9}, {
+  3.663180183125469*^9, 3.663180250294345*^9}, {3.695313643359243*^9, 
+  3.695313655446755*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", 
+    RowBox[{"{", 
+     RowBox[{"{", "0", "}"}], "}"}], "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663048283771574*^9, 3.663048298914262*^9}, {
+   3.663048357084038*^9, 3.663048385847886*^9}, 3.663048450896418*^9, {
+   3.6630484826205883`*^9, 3.663048483148017*^9}}],
+
+Cell["Here is a single white pixel.", "Text",
+ CellChangeTimes->{{3.663180258645499*^9, 3.663180264780772*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", 
+    RowBox[{"{", 
+     RowBox[{"{", "1", "}"}], "}"}], "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663048283771574*^9, 3.663048298914262*^9}, {
+  3.663048357084038*^9, 3.663048385847886*^9}, {3.663048462942998*^9, 
+  3.663048486979525*^9}}],
+
+Cell[TextData[{
+ "We give the ",
+ StyleBox["Raster",
+  FontWeight->"Bold"],
+ " command a nested list. We can think of this list as containing a list of \
+rows, each of which is comprised of a list of columns. The raster image is \
+built one row at a time from the lower left hand corner."
+}], "Text",
+ CellChangeTimes->{{3.663180285375164*^9, 3.663180339916552*^9}}],
+
+Cell["\<\
+Here is a raster image containing one row. The row consists of two columns, a \
+black pixel followed by a white one.\
+\>", "Text",
+ CellChangeTimes->{{3.663180346395471*^9, 3.663180392262775*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", 
+    RowBox[{"{", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", "1"}], "}"}], "}"}], "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663048283771574*^9, 3.663048298914262*^9}, {
+   3.663048357084038*^9, 3.663048385847886*^9}, 3.663048450896418*^9, {
+   3.6630484826205883`*^9, 3.663048483148017*^9}, {3.663048616803988*^9, 
+   3.663048616939703*^9}}],
+
+Cell["\<\
+This raster image is also one row high by two columns wide. The first pixel \
+is white this time.\
+\>", "Text",
+ CellChangeTimes->{{3.6631804000129833`*^9, 3.6631804169716682`*^9}, {
+  3.663180567052024*^9, 3.6631805710356607`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", 
+    RowBox[{"{", 
+     RowBox[{"{", 
+      RowBox[{"1", ",", "0"}], "}"}], "}"}], "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663048283771574*^9, 3.663048298914262*^9}, {
+   3.663048357084038*^9, 3.663048385847886*^9}, 3.663048450896418*^9, {
+   3.6630484826205883`*^9, 3.663048483148017*^9}, {3.663048616803988*^9, 
+   3.663048626825893*^9}}],
+
+Cell["Here are rasters that are two rows high by one column wide.", "Text",
+ CellChangeTimes->{{3.6631804249227753`*^9, 3.663180453399824*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", "0", "}"}], ",", 
+      RowBox[{"{", "1", "}"}]}], "}"}], "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663048283771574*^9, 3.663048298914262*^9}, {
+   3.663048357084038*^9, 3.663048385847886*^9}, 3.663048450896418*^9, {
+   3.6630484826205883`*^9, 3.6630485063054028`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", "1", "}"}], ",", 
+      RowBox[{"{", "0", "}"}]}], "}"}], "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663048283771574*^9, 3.663048298914262*^9}, {
+   3.663048357084038*^9, 3.663048385847886*^9}, 3.663048450896418*^9, {
+   3.6630484826205883`*^9, 3.663048519511221*^9}}],
+
+Cell["\<\
+Here are some 2x2 raster images. Note the coordinates: the units measure the \
+number of pixels along each dimension.\
+\>", "Text",
+ CellChangeTimes->{{3.663180492074772*^9, 3.663180553445437*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"0", ",", "1"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"1", ",", "1"}], "}"}]}], "}"}], "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663048283771574*^9, 3.663048298914262*^9}, {
+   3.663048357084038*^9, 3.663048385847886*^9}, 3.663048450896418*^9, {
+   3.6630484826205883`*^9, 3.6630485063054028`*^9}, {3.663048672325472*^9, 
+   3.66304867948419*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"0", ",", "1"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"1", ",", "0"}], "}"}]}], "}"}], "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663048283771574*^9, 3.663048298914262*^9}, {
+   3.663048357084038*^9, 3.663048385847886*^9}, 3.663048450896418*^9, {
+   3.6630484826205883`*^9, 3.6630485063054028`*^9}, {3.663048672325472*^9, 
+   3.663048698458453*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Constructing raster images with the Table command", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.663180472381814*^9, 3.663180484292035*^9}}],
+
+Cell[TextData[{
+ "Since a reasonable-sized raster image contains many pixels, organized into \
+rows and columns, it makes sense to generate the pixel information using a ",
+ StyleBox["Table",
+  FontWeight->"Bold"],
+ " command with two iterators."
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.663182900317213*^9, 3.663182989009387*^9}}],
+
+Cell["Here is a table of 1s with ten rows and five columns.", "Text",
+ CellChangeTimes->{{3.663182997696232*^9, 3.663183020829608*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Table", "[", 
+  RowBox[{"1", ",", 
+   RowBox[{"{", 
+    RowBox[{"r", ",", "10"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"c", ",", "5"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663049001740191*^9, 3.663049063309928*^9}, {
+  3.663049107240448*^9, 3.6630491088478327`*^9}, {3.663049156226384*^9, 
+  3.663049164721274*^9}, {3.663049253630471*^9, 3.6630492641090603`*^9}}],
+
+Cell[TextData[{
+ "As we have seen before, when we have a nested list like this that \
+represents a grid, we can use the ",
+ StyleBox["TableForm",
+  FontWeight->"Bold"],
+ " command to display it neatly"
+}], "Text",
+ CellChangeTimes->{{3.6953136814609613`*^9, 3.6953137375302887`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"TableForm", "[", 
+  RowBox[{"Table", "[", 
+   RowBox[{"1", ",", 
+    RowBox[{"{", 
+     RowBox[{"r", ",", "10"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"c", ",", "5"}], "}"}]}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.695313741868022*^9, 3.6953137516508083`*^9}}],
+
+Cell["\<\
+When we visualize the raster image, we find it is a tall, white rectangle. \
+Note the coordinates.\
+\>", "Text",
+ CellChangeTimes->{{3.663183028108459*^9, 3.663183058136797*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", 
+    RowBox[{"Table", "[", 
+     RowBox[{"1", ",", 
+      RowBox[{"{", 
+       RowBox[{"r", ",", "10"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"c", ",", "5"}], "}"}]}], "]"}], "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663048283771574*^9, 3.663048298914262*^9}, {
+   3.663048357084038*^9, 3.663048385847886*^9}, 3.663048450896418*^9, {
+   3.6630484826205883`*^9, 3.6630485063054028`*^9}, {3.663048672325472*^9, 
+   3.663048698458453*^9}, {3.6630492828755503`*^9, 3.6630493411410437`*^9}}],
+
+Cell["\<\
+Here is a ten by ten black raster image. Note there are 100 pixels, all the \
+same colour.\
+\>", "Text",
+ CellChangeTimes->{{3.663183065601324*^9, 3.663183096028339*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", 
+    RowBox[{"Table", "[", 
+     RowBox[{"0", ",", 
+      RowBox[{"{", 
+       RowBox[{"r", ",", "10"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"c", ",", "10"}], "}"}]}], "]"}], "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663048283771574*^9, 3.663048298914262*^9}, {
+   3.663048357084038*^9, 3.663048385847886*^9}, 3.663048450896418*^9, {
+   3.6630484826205883`*^9, 3.6630485063054028`*^9}, {3.663048672325472*^9, 
+   3.663048698458453*^9}, {3.6630492828755503`*^9, 3.6630493530982447`*^9}}],
+
+Cell["\<\
+If we use a conditional statement to choose the pixel colour, we can make a \
+wide variety of patterns.\
+\>", "Text",
+ CellChangeTimes->{{3.6631831035234613`*^9, 3.663183126376622*^9}}],
+
+Cell["Here we test the row value:", "Text",
+ CellChangeTimes->{{3.6631831430219584`*^9, 3.663183162635994*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", 
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{"If", "[", 
+       RowBox[{
+        RowBox[{"r", "<", "6"}], ",", "1", ",", "0"}], "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"r", ",", "10"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"c", ",", "10"}], "}"}]}], "]"}], "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663048283771574*^9, 3.663048298914262*^9}, {
+   3.663048357084038*^9, 3.663048385847886*^9}, 3.663048450896418*^9, {
+   3.6630484826205883`*^9, 3.6630485063054028`*^9}, {3.663048672325472*^9, 
+   3.663048698458453*^9}, {3.6630492828755503`*^9, 3.663049391566764*^9}}],
+
+Cell["Here we test the column value:", "Text",
+ CellChangeTimes->{{3.6631831543010683`*^9, 3.663183165843975*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", 
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{"If", "[", 
+       RowBox[{
+        RowBox[{"c", "<", "2"}], ",", "0", ",", "1"}], "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"r", ",", "10"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"c", ",", "10"}], "}"}]}], "]"}], "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663048283771574*^9, 3.663048298914262*^9}, {
+   3.663048357084038*^9, 3.663048385847886*^9}, 3.663048450896418*^9, {
+   3.6630484826205883`*^9, 3.6630485063054028`*^9}, {3.663048672325472*^9, 
+   3.663048698458453*^9}, {3.6630492828755503`*^9, 3.663049415482378*^9}}],
+
+Cell["\<\
+Here is a condition that is based on both the row and column:\
+\>", "Text",
+ CellChangeTimes->{{3.663183173355009*^9, 3.6631831857452908`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", 
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{"If", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"r", "+", "c"}], "<=", "10"}], ",", "0", ",", "1"}], "]"}], 
+      ",", 
+      RowBox[{"{", 
+       RowBox[{"r", ",", "10"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"c", ",", "10"}], "}"}]}], "]"}], "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663048283771574*^9, 3.663048298914262*^9}, {
+   3.663048357084038*^9, 3.663048385847886*^9}, 3.663048450896418*^9, {
+   3.6630484826205883`*^9, 3.6630485063054028`*^9}, {3.663048672325472*^9, 
+   3.663048698458453*^9}, {3.6630492828755503`*^9, 3.663049445679207*^9}, 
+   3.6630494798274803`*^9}],
+
+Cell["\<\
+Here we test to see whether the sum of the row and column value are even:\
+\>", "Text",
+ CellChangeTimes->{{3.663183201511425*^9, 3.663183233418666*^9}}],
+
+Cell[BoxData[
+ RowBox[{"EvenQ", "[", "2", "]"}]], "Input",
+ CellChangeTimes->{{3.6630472548574867`*^9, 3.663047257236126*^9}}],
+
+Cell[BoxData[
+ RowBox[{"EvenQ", "[", "3", "]"}]], "Input",
+ CellChangeTimes->{{3.663047258313842*^9, 3.663047262795126*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", 
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{"If", "[", 
+       RowBox[{
+        RowBox[{"EvenQ", "[", 
+         RowBox[{"r", "+", "c"}], "]"}], ",", "0", ",", "1"}], "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"r", ",", "10"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"c", ",", "10"}], "}"}]}], "]"}], "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663048283771574*^9, 3.663048298914262*^9}, {
+   3.663048357084038*^9, 3.663048385847886*^9}, 3.663048450896418*^9, {
+   3.6630484826205883`*^9, 3.6630485063054028`*^9}, {3.663048672325472*^9, 
+   3.663048698458453*^9}, {3.6630492828755503`*^9, 3.663049445679207*^9}, 
+   3.6630494798274803`*^9, {3.663049514783101*^9, 3.6630495212212353`*^9}}],
+
+Cell["We can also choose a pixel value randomly:", "Text",
+ CellChangeTimes->{{3.663183246545847*^9, 3.663183285612514*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", 
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{"RandomInteger", "[", "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"r", ",", "10"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"c", ",", "10"}], "}"}]}], "]"}], "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663048283771574*^9, 3.663048298914262*^9}, {
+   3.663048357084038*^9, 3.663048385847886*^9}, 3.663048450896418*^9, {
+   3.6630484826205883`*^9, 3.6630485063054028`*^9}, {3.663048672325472*^9, 
+   3.663048698458453*^9}, {3.6630492828755503`*^9, 3.663049445679207*^9}, 
+   3.6630494798274803`*^9, {3.663049514783101*^9, 3.663049540380131*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", 
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{"RandomChoice", "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{".1", ",", ".9"}], "}"}], "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"1", ",", "0"}], "}"}]}], "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"r", ",", "10"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"c", ",", "10"}], "}"}]}], "]"}], "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663048283771574*^9, 3.663048298914262*^9}, {
+   3.663048357084038*^9, 3.663048385847886*^9}, 3.663048450896418*^9, {
+   3.6630484826205883`*^9, 3.6630485063054028`*^9}, {3.663048672325472*^9, 
+   3.663048698458453*^9}, {3.6630492828755503`*^9, 3.663049445679207*^9}, 
+   3.6630494798274803`*^9, {3.663049514783101*^9, 3.663049540380131*^9}, {
+   3.663183308418659*^9, 3.663183329527935*^9}}],
+
+Cell["\<\
+Gradually increasing the probability of a black pixel from 0 to 1:\
+\>", "Text",
+ CellChangeTimes->{{3.663183463239216*^9, 3.663183478789323*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", 
+  RowBox[{
+   RowBox[{"Graphics", "[", 
+    RowBox[{"Raster", "[", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"RandomChoice", "[", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"p", ",", 
+           RowBox[{"1", "-", "p"}]}], "}"}], "\[Rule]", 
+         RowBox[{"{", 
+          RowBox[{"0", ",", "1"}], "}"}]}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"r", ",", "10"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"c", ",", "10"}], "}"}]}], "]"}], "]"}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"p", ",", "0", ",", "1", ",", ".05"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663048283771574*^9, 3.663048298914262*^9}, {
+   3.663048357084038*^9, 3.663048385847886*^9}, 3.663048450896418*^9, {
+   3.6630484826205883`*^9, 3.6630485063054028`*^9}, {3.663048672325472*^9, 
+   3.663048698458453*^9}, {3.6630492828755503`*^9, 3.663049445679207*^9}, 
+   3.6630494798274803`*^9, {3.663049514783101*^9, 3.663049540380131*^9}, {
+   3.663183308418659*^9, 3.663183359324032*^9}, {3.663183405358769*^9, 
+   3.6631834378506536`*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Turning individual pixels on or off", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.663180606703786*^9, 3.663180612662674*^9}}],
+
+Cell["\<\
+If we wish to set individual pixels in a black and white image, we start with \
+a base colour (whichever is more common in the desired image), then set \
+pixels to the opposite colour one-by-one.\
+\>", "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.663183495156168*^9, 3.663183558746772*^9}, {3.6631835890877523`*^9, 
+  3.66318361482795*^9}}],
+
+Cell["Here is a white 10 x 10 background.", "Text",
+ CellChangeTimes->{{3.663183619651992*^9, 3.663183639569615*^9}}],
+
+Cell[BoxData[
+ RowBox[{"TableForm", "[", 
+  RowBox[{"Table", "[", 
+   RowBox[{"1", ",", 
+    RowBox[{"{", 
+     RowBox[{"r", ",", "10"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"c", ",", "10"}], "}"}]}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.695313819752817*^9, 3.695313825272133*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", 
+    RowBox[{"Table", "[", 
+     RowBox[{"1", ",", 
+      RowBox[{"{", 
+       RowBox[{"r", ",", "10"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"c", ",", "10"}], "}"}]}], "]"}], "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663048283771574*^9, 3.663048298914262*^9}, {
+   3.663048357084038*^9, 3.663048385847886*^9}, 3.663048450896418*^9, {
+   3.6630484826205883`*^9, 3.6630485063054028`*^9}, {3.663048672325472*^9, 
+   3.663048698458453*^9}, {3.6630492828755503`*^9, 3.6630493530982447`*^9}, 
+   3.6630496469193*^9}],
+
+Cell[TextData[{
+ "We use the ",
+ StyleBox["ReplacePart",
+  FontWeight->"Bold"],
+ " command to change one element of our table, resulting in a single black \
+pixel."
+}], "Text",
+ CellChangeTimes->{{3.6631836435523567`*^9, 3.663183674821217*^9}}],
+
+Cell[BoxData[
+ RowBox[{"TableForm", "[", 
+  RowBox[{"ReplacePart", "[", 
+   RowBox[{
+    RowBox[{"Table", "[", 
+     RowBox[{"1", ",", 
+      RowBox[{"{", 
+       RowBox[{"r", ",", "10"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"c", ",", "10"}], "}"}]}], "]"}], ",", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"2", ",", "3"}], "}"}], "\[Rule]", "0"}]}], "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.663049669748341*^9, 3.6630496879862013`*^9}, {
+  3.663049731628271*^9, 3.663049742563072*^9}, {3.6953138364559307`*^9, 
+  3.695313841439571*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", 
+    RowBox[{"ReplacePart", "[", 
+     RowBox[{
+      RowBox[{"Table", "[", 
+       RowBox[{"1", ",", 
+        RowBox[{"{", 
+         RowBox[{"r", ",", "10"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"c", ",", "10"}], "}"}]}], "]"}], ",", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"2", ",", "3"}], "}"}], "\[Rule]", "0"}]}], "]"}], "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663048283771574*^9, 3.663048298914262*^9}, {
+   3.663048357084038*^9, 3.663048385847886*^9}, 3.663048450896418*^9, {
+   3.6630484826205883`*^9, 3.6630485063054028`*^9}, {3.663048672325472*^9, 
+   3.663048698458453*^9}, {3.6630492828755503`*^9, 3.6630493530982447`*^9}, 
+   3.6630496469193*^9, 3.663049768285823*^9}],
+
+Cell[TextData[{
+ "Remember, ",
+ StyleBox["Raster",
+  FontWeight->"Bold"],
+ " draws from the lower left hand corner upwards!"
+}], "Text",
+ CellChangeTimes->{{3.695313850534779*^9, 3.6953138780372953`*^9}}],
+
+Cell[TextData[{
+ "We can give ",
+ StyleBox["ReplacePart",
+  FontWeight->"Bold"],
+ " a list of changes to make."
+}], "Text",
+ CellChangeTimes->{{3.6631836846120253`*^9, 3.663183696146537*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", 
+    RowBox[{"ReplacePart", "[", 
+     RowBox[{
+      RowBox[{"Table", "[", 
+       RowBox[{"1", ",", 
+        RowBox[{"{", 
+         RowBox[{"r", ",", "10"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"c", ",", "10"}], "}"}]}], "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"2", ",", "3"}], "}"}], "\[Rule]", "0"}], ",", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"5", ",", "3"}], "}"}], "\[Rule]", "0"}], ",", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"9", ",", "9"}], "}"}], "\[Rule]", "0"}]}], "}"}]}], "]"}], 
+    "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663048283771574*^9, 3.663048298914262*^9}, {
+   3.663048357084038*^9, 3.663048385847886*^9}, 3.663048450896418*^9, {
+   3.6630484826205883`*^9, 3.6630485063054028`*^9}, {3.663048672325472*^9, 
+   3.663048698458453*^9}, {3.6630492828755503`*^9, 3.6630493530982447`*^9}, 
+   3.6630496469193*^9, 3.663049768285823*^9, {3.663049836128385*^9, 
+   3.6630498573252563`*^9}}],
+
+Cell["\<\
+You can even draw a picture this way (it is a bit painstaking).\
+\>", "Text",
+ CellChangeTimes->{{3.6631837097769737`*^9, 3.663183720079595*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"rasterFace", "=", 
+   RowBox[{"ReplacePart", "[", 
+    RowBox[{
+     RowBox[{"Table", "[", 
+      RowBox[{"1", ",", 
+       RowBox[{"{", 
+        RowBox[{"r", ",", "10"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"c", ",", "10"}], "}"}]}], "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"2", ",", "5"}], "}"}], "\[Rule]", "0"}], ",", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"2", ",", "6"}], "}"}], "\[Rule]", "0"}], ",", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"2", ",", "7"}], "}"}], "\[Rule]", "0"}], ",", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"2", ",", "8"}], "}"}], "\[Rule]", "0"}], ",", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"3", ",", "4"}], "}"}], "\[Rule]", "0"}], ",", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"3", ",", "5"}], "}"}], "\[Rule]", "0"}], ",", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"3", ",", "6"}], "}"}], "\[Rule]", "0"}], ",", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"3", ",", "7"}], "}"}], "\[Rule]", "0"}], ",", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"3", ",", "8"}], "}"}], "\[Rule]", "0"}], ",", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"3", ",", "9"}], "}"}], "\[Rule]", "0"}], ",", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"4", ",", "3"}], "}"}], "\[Rule]", "0"}], ",", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"5", ",", "6"}], "}"}], "\[Rule]", "0"}], ",", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"5", ",", "7"}], "}"}], "\[Rule]", "0"}], ",", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"7", ",", "4"}], "}"}], "\[Rule]", "0"}], ",", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"7", ",", "5"}], "}"}], "\[Rule]", "0"}], ",", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"8", ",", "3"}], "}"}], "\[Rule]", "0"}], ",", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"8", ",", "5"}], "}"}], "\[Rule]", "0"}], ",", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"7", ",", "8"}], "}"}], "\[Rule]", "0"}], ",", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"8", ",", "7"}], "}"}], "\[Rule]", "0"}], ",", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"7", ",", "9"}], "}"}], "\[Rule]", "0"}], ",", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"8", ",", "9"}], "}"}], "\[Rule]", "0"}], ",", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"9", ",", "3"}], "}"}], "\[Rule]", "0"}], ",", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"9", ",", "4"}], "}"}], "\[Rule]", "0"}], ",", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"9", ",", "7"}], "}"}], "\[Rule]", "0"}], ",", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"9", ",", "8"}], "}"}], "\[Rule]", "0"}]}], "}"}]}], "]"}]}],
+   ";"}]], "Input",
+ CellChangeTimes->{{3.663050530969697*^9, 3.663050703815118*^9}, {
+  3.6630507349966793`*^9, 3.6630507826469707`*^9}, {3.663050818358068*^9, 
+  3.663050857198119*^9}, {3.663050899362954*^9, 3.663050912061418*^9}, {
+  3.663050944395316*^9, 3.663051010073625*^9}, {3.663051061069387*^9, 
+  3.663051104463966*^9}, {3.663180773996291*^9, 3.663180784131463*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", "rasterFace", "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6630505970369596`*^9, 3.6630506108265667`*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Grayscale raster images", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.663180653818323*^9, 3.663180658440093*^9}}],
+
+Cell["\<\
+If we give each pixel a real value between 0 and 1, we end up with a \
+grayscale raster image.\
+\>", "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.6631837637871437`*^9, 3.663183786719059*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", 
+    RowBox[{"{", 
+     RowBox[{"{", "0.25", "}"}], "}"}], "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663048283771574*^9, 3.663048298914262*^9}, {
+   3.663048357084038*^9, 3.663048385847886*^9}, 3.663048450896418*^9, {
+   3.6630484826205883`*^9, 3.663048483148017*^9}, {3.66305024935036*^9, 
+   3.663050250453755*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", 
+    RowBox[{"{", 
+     RowBox[{"{", "0.75", "}"}], "}"}], "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663048283771574*^9, 3.663048298914262*^9}, {
+   3.663048357084038*^9, 3.663048385847886*^9}, 3.663048450896418*^9, {
+   3.6630484826205883`*^9, 3.663048483148017*^9}, {3.66305024935036*^9, 
+   3.663050260252952*^9}}],
+
+Cell["A two by two raster:", "Text",
+ CellChangeTimes->{{3.6953139128125677`*^9, 3.695313919163622*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"0", ",", ".25"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"0.5", ",", "1"}], "}"}]}], "}"}], "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663048283771574*^9, 3.663048298914262*^9}, {
+   3.663048357084038*^9, 3.663048385847886*^9}, 3.663048450896418*^9, {
+   3.6630484826205883`*^9, 3.6630485063054028`*^9}, {3.663048672325472*^9, 
+   3.663048698458453*^9}, {3.663049922733827*^9, 3.6630499230934477`*^9}, {
+   3.663050271411951*^9, 3.6630502772745533`*^9}}],
+
+Cell["Each pixel of a ten by ten raster set to a random value:", "Text",
+ CellChangeTimes->{{3.663183801013459*^9, 3.6631838236268587`*^9}, {
+  3.695313923707438*^9, 3.695313927907278*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", 
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{"RandomReal", "[", "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"r", ",", "10"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"c", ",", "10"}], "}"}]}], "]"}], "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663048283771574*^9, 3.663048298914262*^9}, {
+   3.663048357084038*^9, 3.663048385847886*^9}, 3.663048450896418*^9, {
+   3.6630484826205883`*^9, 3.6630485063054028`*^9}, {3.663048672325472*^9, 
+   3.663048698458453*^9}, {3.6630492828755503`*^9, 3.663049445679207*^9}, 
+   3.6630494798274803`*^9, {3.663049514783101*^9, 3.663049540380131*^9}, {
+   3.663049946906971*^9, 3.663049947290786*^9}}],
+
+Cell[TextData[{
+ "Using ",
+ StyleBox["Table",
+  FontWeight->"Bold"],
+ " to systematically vary the darkness results in a two-dimensional \
+gradient:"
+}], "Text",
+ CellChangeTimes->{{3.66318383432959*^9, 3.663183862070312*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", 
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"r", ",", "c"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"r", ",", ".1", ",", "1", ",", ".1"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"c", ",", ".1", ",", "1", ",", ".1"}], "}"}]}], "]"}], "]"}], 
+   ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663049963152609*^9, 3.66305004792638*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", 
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"1", "-", "r"}], ",", "c"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"r", ",", ".1", ",", "1", ",", ".1"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"c", ",", ".1", ",", "1", ",", ".1"}], "}"}]}], "]"}], "]"}], 
+   ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.663049963152609*^9, 3.66305004792638*^9}, {
+  3.663050083002338*^9, 3.663050083146215*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Combining vector and raster graphics", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.663180677159203*^9, 3.6631806900046873`*^9}}],
+
+Cell["\<\
+Raster graphics can be mixed in with the vector graphic elements that we have \
+been using all along. Here we use a raster image for the chessboard, and \
+vector elements for a chess piece.\
+\>", "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.663180695724998*^9, 3.663180708937852*^9}, {3.663181328717959*^9, 
+  3.6631813709366913`*^9}, {3.6631839269830008`*^9, 3.6631839448119297`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"board", "=", 
+   RowBox[{"{", 
+    RowBox[{"Raster", "[", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"If", "[", 
+        RowBox[{
+         RowBox[{"EvenQ", "[", 
+          RowBox[{"r", "+", "c"}], "]"}], ",", "0", ",", "1"}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"r", ",", "8"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"c", ",", "8"}], "}"}]}], "]"}], "]"}], "}"}]}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.663181256053602*^9, 3.663181273495261*^9}, {
+  3.66318142006839*^9, 3.663181421945799*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"rook", "=", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"Rectangle", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"0.25", ",", "0"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"4.25", ",", "6.5"}], "}"}]}], "]"}], ",", 
+     RowBox[{"Rectangle", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"0", ",", "0"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"4.5", ",", "1"}], "}"}]}], "]"}], ",", 
+     RowBox[{"Rectangle", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"0", ",", "1"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"4.5", ",", "1.5"}], "}"}]}], "]"}], ",", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"Rectangle", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"c", "-", ".5"}], ",", "6"}], "}"}], ",", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"c", "-", "1"}], ",", "7"}], "}"}]}], "]"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"c", ",", "5"}], "}"}]}], "]"}]}], "}"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.663181243232275*^9, 3.663181248319337*^9}, 
+   3.66318131164235*^9, {3.663181472517647*^9, 3.663181808868993*^9}, {
+   3.6631818467199783`*^9, 3.663181938972568*^9}, {3.663182178911392*^9, 
+   3.6631821892269*^9}, {3.663182228793335*^9, 3.663182231757901*^9}, {
+   3.663182262500924*^9, 3.663182268297633*^9}, {3.663182311190672*^9, 
+   3.6631824945524397`*^9}, {3.663182591836553*^9, 3.663182648719623*^9}, {
+   3.66318271887637*^9, 3.663182750742569*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"Darker", "[", "Gray", "]"}], ",", 
+    RowBox[{"Rectangle", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"-", ".25"}], ",", 
+        RowBox[{"-", ".25"}]}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"8.25", ",", "8.25"}], "}"}]}], "]"}], ",", "board", ",", 
+    RowBox[{"EdgeForm", "[", 
+     RowBox[{"{", 
+      RowBox[{"Thick", ",", "Red"}], "}"}], "]"}], ",", 
+    RowBox[{"Darker", "[", "Red", "]"}], ",", 
+    RowBox[{"Translate", "[", 
+     RowBox[{"rook", ",", 
+      RowBox[{"{", 
+       RowBox[{"1.75", ",", ".5"}], "}"}]}], "]"}]}], "}"}], "]"}]], "Input",
+ CellChangeTimes->{{3.663048283771574*^9, 3.663048298914262*^9}, {
+   3.663048357084038*^9, 3.663048385847886*^9}, 3.663048450896418*^9, {
+   3.6630484826205883`*^9, 3.6630485063054028`*^9}, {3.663048672325472*^9, 
+   3.663048698458453*^9}, {3.6630492828755503`*^9, 3.663049445679207*^9}, 
+   3.6630494798274803`*^9, {3.663049514783101*^9, 3.6630495212212353`*^9}, {
+   3.663180882229925*^9, 3.6631812365454073`*^9}, {3.663181268823936*^9, 
+   3.663181270597067*^9}, {3.6631813072673283`*^9, 3.6631813087203627`*^9}, {
+   3.663181460341997*^9, 3.6631814613889112`*^9}, {3.6631819888051233`*^9, 
+   3.6631820550680237`*^9}, {3.663182085081567*^9, 3.663182124916039*^9}, {
+   3.663182161159655*^9, 3.663182162103141*^9}, {3.663182502669907*^9, 
+   3.663182579868187*^9}, {3.663182658322825*^9, 3.663182680760331*^9}, {
+   3.663182770156103*^9, 3.663182786130424*^9}, {3.663182816151927*^9, 
+   3.663182824462676*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Images", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.664344655891939*^9, 3.664344656514333*^9}}],
+
+Cell["\<\
+The most common kind of raster graphics are images created by digital \
+photography (including digital scanning of analog images)\
+\>", "Text",
+ CellChangeTimes->{{3.6643446625460377`*^9, 3.664344772336932*^9}}],
+
+Cell[TextData[{
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " has a number of built-in images that can be retrieved with the ",
+ StyleBox["ExampleData",
+  FontWeight->"Bold"],
+ " command, listed below. We will use two of them as our examples."
+}], "Text",
+ CellChangeTimes->{{3.664344775920937*^9, 3.664344835824225*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ExampleData", "[", "\"\<TestImage\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.664344786320223*^9, 3.6643447929249907`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Sample grayscale image", "Subsubsection",
+ CellChangeTimes->{{3.664344844472834*^9, 3.6643448536640244`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"grayscaleImage", "=", 
+  RowBox[{"ExampleData", "[", 
+   RowBox[{"{", 
+    RowBox[{"\"\<TestImage\>\"", ",", "\"\<Couple2\>\""}], "}"}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.664297303283515*^9, 3.664297353501444*^9}, {
+  3.664297389229726*^9, 3.664297392700553*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Sample colour image", "Subsubsection",
+ CellChangeTimes->{{3.6643448691045732`*^9, 3.664344872591827*^9}}],
+
+Cell[BoxData[
+ RowBox[{"colourImage", "=", 
+  RowBox[{"ExampleData", "[", 
+   RowBox[{"{", 
+    RowBox[{"\"\<TestImage\>\"", ",", "\"\<Apples\>\""}], "}"}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.664297277893169*^9, 3.664297296933196*^9}, {
+  3.664297397445754*^9, 3.664297398972417*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Image properties", "Subsubsection",
+ CellChangeTimes->{{3.6643448995281477`*^9, 3.664344902151537*^9}}],
+
+Cell[TextData[{
+ "We can retrieve many different properties of a digital image with the ",
+ StyleBox["ImageMeasurements",
+  FontWeight->"Bold"],
+ " command"
+}], "Text",
+ CellChangeTimes->{{3.6643449226159363`*^9, 3.664344926911379*^9}, {
+  3.6643449598399553`*^9, 3.66434497088693*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ImageMeasurements", "[", 
+  RowBox[{"grayscaleImage", ",", 
+   RowBox[{"{", 
+    RowBox[{
+    "\"\<ColorSpace\>\"", ",", "\"\<Dimensions\>\"", ",", 
+     "\"\<Channels\>\""}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.664297437633724*^9, 3.66429753116462*^9}, {
+  3.664297619737749*^9, 3.6642976267689037`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ImageMeasurements", "[", 
+  RowBox[{"colourImage", ",", 
+   RowBox[{"{", 
+    RowBox[{
+    "\"\<ColorSpace\>\"", ",", "\"\<Dimensions\>\"", ",", 
+     "\"\<Channels\>\""}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.664297437633724*^9, 3.664297534683538*^9}}],
+
+Cell["There are individual commands corresponding to each property", "Text",
+ CellChangeTimes->{{3.664345119717915*^9, 3.664345128541059*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ImageColorSpace", "[", "grayscaleImage", "]"}]], "Input",
+ CellChangeTimes->{{3.664345130060995*^9, 3.664345137377996*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ImageDimensions", "[", "grayscaleImage", "]"}]], "Input",
+ CellChangeTimes->{{3.664345141088641*^9, 3.66434514576201*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ImageChannels", "[", "grayscaleImage", "]"}]], "Input",
+ CellChangeTimes->{{3.66434514780088*^9, 3.664345151885873*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Image Data", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.6643450000227213`*^9, 3.664345001438581*^9}}],
+
+Cell[TextData[{
+ "Images consist of rows and columns of pixels,",
+ StyleBox[" numbered from the upper left hand corner",
+  FontSlant->"Italic"],
+ ". The ",
+ StyleBox["ImageTake",
+  FontWeight->"Bold"],
+ " command allows us to extract a portion of an image. In this case, we are \
+asking for rows 153 to 204, columns 278 to 321."
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.664345005078384*^9, 3.6643450081185017`*^9}, {3.6643456728969097`*^9, 
+  3.664345687751306*^9}, {3.664345732543393*^9, 3.664345733766901*^9}, {
+  3.664345830278595*^9, 3.6643458894372587`*^9}, {3.664345998539805*^9, 
+  3.664346061323163*^9}}],
+
+Cell[BoxData[
+ RowBox[{"woman", "=", 
+  RowBox[{"ImageTake", "[", 
+   RowBox[{"grayscaleImage", ",", 
+    RowBox[{"{", 
+     RowBox[{"153", ",", "204"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"278", ",", "321"}], "}"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.664345896846697*^9, 3.66434598696448*^9}, 
+   3.695314101672084*^9}],
+
+Cell["\<\
+The resulting selection is 44 pixels wide and 52 pixels high.\
+\>", "Text",
+ CellChangeTimes->{{3.664346236138027*^9, 3.664346252617282*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ImageDimensions", "[", "woman", "]"}]], "Input",
+ CellChangeTimes->{{3.664346202400105*^9, 3.664346206681896*^9}, 
+   3.695314102819417*^9}],
+
+Cell["\<\
+Let\[CloseCurlyQuote]s take an even smaller portion of this image to look at \
+the underlying data.\
+\>", "Text",
+ CellChangeTimes->{{3.664346257633226*^9, 3.664346279665031*^9}, {
+  3.6643463168894587`*^9, 3.664346317216736*^9}}],
+
+Cell[BoxData[
+ RowBox[{"womanSmile", "=", 
+  RowBox[{"ImageTake", "[", 
+   RowBox[{"woman", ",", 
+    RowBox[{"{", 
+     RowBox[{"32", ",", "42"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"10", ",", "20"}], "}"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.664345896846697*^9, 3.66434598696448*^9}, {
+  3.664346310329728*^9, 3.664346362240315*^9}, {3.695314103460865*^9, 
+  3.695314103978121*^9}}],
+
+Cell["\<\
+The MatrixForm command displays a nested list as rows and columns of data. \
+These are the grayscale values for each pixel in the smile.\
+\>", "Text",
+ CellChangeTimes->{{3.6643463804478273`*^9, 3.664346406615694*^9}, {
+  3.664346444136056*^9, 3.66434645433531*^9}}],
+
+Cell[BoxData[
+ RowBox[{"MatrixForm", "[", 
+  RowBox[{"ImageData", "[", "womanSmile", "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.66434641015228*^9, 3.6643464233445263`*^9}, 
+   3.6953141048219967`*^9}],
+
+Cell[TextData[{
+ "This is the pixel value in the upper left hand corner of the ",
+ StyleBox["womanSmile",
+  FontSlant->"Italic"],
+ " image"
+}], "Text",
+ CellChangeTimes->{{3.6643467668605843`*^9, 3.6643467842759247`*^9}, 
+   3.6953141062503357`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"ImageData", "[", "womanSmile", "]"}], "\[LeftDoubleBracket]", 
+  RowBox[{"1", ",", "1"}], "\[RightDoubleBracket]"}]], "Input",
+ CellChangeTimes->{{3.6643467937172813`*^9, 3.6643468044436626`*^9}, 
+   3.69531410756708*^9}],
+
+Cell[TextData[{
+ "If we use the same value for all three components of ",
+ StyleBox["RGBColor",
+  FontWeight->"Bold"],
+ ", we can see a paint chip"
+}], "Text",
+ CellChangeTimes->{{3.6643468094194117`*^9, 3.664346838339443*^9}}],
+
+Cell[BoxData[
+ RowBox[{"RGBColor", "[", 
+  RowBox[{"0.67451", ",", "0.67451", ",", "0.67451"}], "]"}]], "Input",
+ CellChangeTimes->{{3.664346840053042*^9, 3.6643468550359907`*^9}}],
+
+Cell[TextData[{
+ "We can also see the first row as a ",
+ StyleBox["Raster",
+  FontWeight->"Bold"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.664346871179451*^9, 3.664346876994917*^9}, {
+  3.6643469366911297`*^9, 3.664346980217897*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"ImageData", "[", "womanSmile", "]"}], "\[LeftDoubleBracket]", "1", 
+  "\[RightDoubleBracket]"}]], "Input",
+ CellChangeTimes->{3.695314108455711*^9}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"ImageData", "[", "womanSmile", "]"}], "\[LeftDoubleBracket]", 
+      "1", "\[RightDoubleBracket]"}], "}"}], "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.664346884428217*^9, 3.664346931122512*^9}, 
+   3.664346974435255*^9, 3.695314108973489*^9}],
+
+Cell[CellGroupData[{
+
+Cell["Part of a colour image", "Subsubsection",
+ CellChangeTimes->{{3.664347048577701*^9, 3.6643470522651873`*^9}}],
+
+Cell["\<\
+Here is a small portion of the apple image. It is a piece of one of the stems.\
+\>", "Text",
+ CellChangeTimes->{{3.6643471003852367`*^9, 3.66434710413649*^9}, {
+  3.664347230192054*^9, 3.664347287510769*^9}}],
+
+Cell[BoxData[
+ RowBox[{"appleStem", "=", 
+  RowBox[{"ImageTake", "[", 
+   RowBox[{"colourImage", ",", 
+    RowBox[{"{", 
+     RowBox[{"1055", ",", "1060"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"855", ",", "860"}], "}"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.664347113803926*^9, 3.664347244927401*^9}, {
+  3.695314311199461*^9, 3.695314315829224*^9}}],
+
+Cell["\<\
+Since this is a colour image, each pixel is represented by three numbers: \
+red, green and blue components. Another way of saying this is that the image \
+has three channels. (A colour image may also have a channel for opacity / \
+transparency, but this one does not).\
+\>", "Text",
+ CellChangeTimes->{{3.664347304734331*^9, 3.664347353310081*^9}, {
+  3.6643474122861032`*^9, 3.664347431629377*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ImageColorSpace", "[", "appleStem", "]"}]], "Input",
+ CellChangeTimes->{{3.6643473562887783`*^9, 3.664347381732215*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ImageChannels", "[", "appleStem", "]"}]], "Input",
+ CellChangeTimes->{{3.6643473841502*^9, 3.664347391278582*^9}}],
+
+Cell[TextData[{
+ "We can represent the image matrix in two ways. By default, the three colour \
+channels are ",
+ StyleBox["interleaved",
+  FontSlant->"Italic"],
+ ". That is to say, that each pixels is shown as a list of R, G and B \
+values."
+}], "Text",
+ CellChangeTimes->{{3.6643474492855587`*^9, 3.664347511684432*^9}}],
+
+Cell[BoxData[
+ RowBox[{"MatrixForm", "[", 
+  RowBox[{"ImageData", "[", "appleStem", "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.66434751892747*^9, 3.664347530372385*^9}}],
+
+Cell[TextData[{
+ "This is the pixel value in the upper left hand corner of the ",
+ StyleBox["appleStem",
+  FontSlant->"Italic"],
+ " image"
+}], "Text",
+ CellChangeTimes->{{3.6643475675564404`*^9, 3.6643475859316797`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"ImageData", "[", "appleStem", "]"}], "\[LeftDoubleBracket]", 
+  RowBox[{"1", ",", "1"}], "\[RightDoubleBracket]"}]], "Input",
+ CellChangeTimes->{{3.664347598340337*^9, 3.6643476038996897`*^9}}],
+
+Cell[TextData[{
+ "We can use ",
+ StyleBox["RGBColor",
+  FontWeight->"Bold"],
+ " to see a paint chip"
+}], "Text",
+ CellChangeTimes->{{3.664347613940013*^9, 3.6643476282032423`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"RGBColor", "[", 
+  RowBox[{"{", 
+   RowBox[{"0.584314", ",", "0.392157", ",", "0.223529"}], "}"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.664347633314619*^9, 3.664347663131706*^9}}],
+
+Cell[TextData[{
+ "We can also visualize the first row of ",
+ StyleBox["appleStem",
+  FontSlant->"Italic"],
+ " using ",
+ StyleBox["Raster",
+  FontWeight->"Bold"]
+}], "Text",
+ CellChangeTimes->{{3.664347673730657*^9, 3.6643477061864634`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"Raster", "[", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"ImageData", "[", "appleStem", "]"}], "\[LeftDoubleBracket]", 
+      "1", "\[RightDoubleBracket]"}], "}"}], "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.664346884428217*^9, 3.664346931122512*^9}, 
+   3.664346974435255*^9, {3.664347727867293*^9, 3.664347729194408*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Colour separation", "Subsubsection",
+ CellChangeTimes->{{3.664347803753957*^9, 3.6643478071614647`*^9}}],
+
+Cell[TextData[{
+ "We have the option of visualizing a colour image as matrixes of Red, Green \
+and Blue components if we wish. (The ",
+ StyleBox["Map",
+  FontWeight->"Bold"],
+ " command will be introduced later, but we need it here to get the matrixes \
+to display the way we want them.)"
+}], "Text",
+ CellChangeTimes->{{3.664347986312189*^9, 3.664348027799184*^9}, {
+  3.6643480926873283`*^9, 3.664348131854208*^9}, {3.6643482782934837`*^9, 
+  3.664348337308275*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Map", "[", 
+  RowBox[{"MatrixForm", ",", 
+   RowBox[{"ImageData", "[", 
+    RowBox[{"appleStem", ",", 
+     RowBox[{"Interleaving", "\[Rule]", "False"}]}], "]"}]}], "]"}]], "Input",\
+
+ CellChangeTimes->{{3.66434751892747*^9, 3.664347530372385*^9}, {
+  3.664348056431623*^9, 3.664348058984159*^9}, {3.664348239334333*^9, 
+  3.664348254133019*^9}}],
+
+Cell["\<\
+Here is the matrix for the Red components. It is the first row of the matrix \
+above.\
+\>", "Text",
+ CellChangeTimes->{{3.664348135229868*^9, 3.664348157174049*^9}}],
+
+Cell[BoxData[
+ RowBox[{"MatrixForm", "[", 
+  RowBox[{
+   RowBox[{"ImageData", "[", 
+    RowBox[{"appleStem", ",", 
+     RowBox[{"Interleaving", "\[Rule]", "False"}]}], "]"}], 
+   "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.66434751892747*^9, 3.664347530372385*^9}, {
+  3.664348056431623*^9, 3.664348058984159*^9}, {3.664348168502707*^9, 
+  3.66434817105367*^9}}],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["ColorSeparate",
+  FontWeight->"Bold"],
+ " command shows us the Red, Green and Blue channels (i.e., component \
+matrixes) separately. Since each channel consists of pixels with single real \
+values, they appear as grayscale."
+}], "Text",
+ CellChangeTimes->{{3.6643483475162287`*^9, 3.664348443963216*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ColorSeparate", "[", "appleStem", "]"}]], "Input",
+ CellChangeTimes->{{3.664348360493061*^9, 3.6643483652903223`*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Image Colours", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.66434663517348*^9, 3.664346637405395*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Histograms", "Subsubsection",
+ CellChangeTimes->{{3.66434879531931*^9, 3.664348796359501*^9}}],
+
+Cell["\<\
+One common way of representing the values or colours in an image is with a \
+histogram. If we generate a histogram of a grayscale image, it shows us how \
+many pixels of each value appear in the image. Most of the pixels in the \
+picture of the couple have an intermediate level of gray (between .4 and .6).\
+\
+\>", "Text",
+ CellChangeTimes->{{3.664348537074667*^9, 3.664348624393188*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ImageHistogram", "[", "grayscaleImage", "]"}]], "Input",
+ CellChangeTimes->{{3.6642980219995832`*^9, 3.664298027308857*^9}}],
+
+Cell["\<\
+When we look at the histogram for a colour image, we can see the intensities \
+for the Red, Green and Blue channels separately.\
+\>", "Text",
+ CellChangeTimes->{{3.664348643376874*^9, 3.664348674504574*^9}}],
+
+Cell["Here is our picture of the apple stem", "Text",
+ CellChangeTimes->{{3.66434867882442*^9, 3.6643486872327213`*^9}}],
+
+Cell[BoxData["appleStem"], "Input",
+ CellChangeTimes->{{3.664348688784531*^9, 3.66434869056034*^9}}],
+
+Cell["Here are the three separate channels, Red, Green and Blue", "Text",
+ CellChangeTimes->{{3.664348693217005*^9, 3.664348706592367*^9}, {
+  3.664348890207342*^9, 3.6643488934465227`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ColorSeparate", "[", "appleStem", "]"}]], "Input",
+ CellChangeTimes->{{3.664348360493061*^9, 3.6643483652903223`*^9}}],
+
+Cell["\<\
+Here is the corresponding histogram. Note that there are more pixels with \
+high red and green values than with high blue ones.\
+\>", "Text",
+ CellChangeTimes->{{3.664348718696774*^9, 3.6643487686959543`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ImageHistogram", "[", 
+  RowBox[{"appleStem", ",", 
+   RowBox[{"Appearance", "\[Rule]", "\"\<Separated\>\""}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.664298032200595*^9, 3.66429803810388*^9}, {
+  3.664298112791587*^9, 3.664298123158482*^9}, {3.664298380365212*^9, 
+  3.664298381861038*^9}, {3.664348743304948*^9, 3.664348743984708*^9}}],
+
+Cell["\<\
+Here is the histogram for our full-colour image of the apples.\
+\>", "Text",
+ CellChangeTimes->{{3.664349229747604*^9, 3.664349286010532*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ImageHistogram", "[", 
+  RowBox[{"colourImage", ",", 
+   RowBox[{"Appearance", "\[Rule]", "\"\<Separated\>\""}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.664298032200595*^9, 3.66429803810388*^9}, {
+  3.664298112791587*^9, 3.664298123158482*^9}, {3.664298380365212*^9, 
+  3.664298381861038*^9}, {3.664348743304948*^9, 3.664348743984708*^9}, {
+  3.664349252883884*^9, 3.664349253489544*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Removing colour and value", "Subsubsection",
+ CellChangeTimes->{{3.6643489203668118`*^9, 3.664348922414214*^9}, {
+  3.664348979525434*^9, 3.664348981845862*^9}}],
+
+Cell[TextData[{
+ "We can reduce the number of colours in an coloured image with ",
+ StyleBox["ColorQuantize",
+  FontWeight->"Bold"],
+ ". Here we are saying we only want four colours"
+}], "Text",
+ CellChangeTimes->{{3.664349104597013*^9, 3.664349123276435*^9}, {
+  3.664349164659534*^9, 3.6643491794836807`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"fourColour", "=", 
+  RowBox[{"ColorQuantize", "[", 
+   RowBox[{"colourImage", ",", "4"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.664349126012096*^9, 3.664349155235989*^9}, {
+  3.66434920057301*^9, 3.664349204707551*^9}}],
+
+Cell["This has a drastic effect on the histogram", "Text",
+ CellChangeTimes->{{3.664349312322885*^9, 3.6643493517620783`*^9}, {
+  3.664349430316244*^9, 3.664349439313843*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ImageHistogram", "[", 
+  RowBox[{"fourColour", ",", 
+   RowBox[{"Appearance", "\[Rule]", "\"\<Separated\>\""}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.664298032200595*^9, 3.66429803810388*^9}, {
+  3.664298112791587*^9, 3.664298123158482*^9}, {3.664298380365212*^9, 
+  3.664298381861038*^9}, {3.664348743304948*^9, 3.664348743984708*^9}, {
+  3.6643492191083107`*^9, 3.66434921979878*^9}}],
+
+Cell["\<\
+Remember that each of the four colours in the image above has Red, Green and \
+Blue components\
+\>", "Text",
+ CellChangeTimes->{3.6643494325404787`*^9}],
+
+Cell[BoxData[
+ RowBox[{"ColorSeparate", "[", "fourColour", "]"}]], "Input",
+ CellChangeTimes->{{3.664349417922696*^9, 3.664349422726817*^9}}],
+
+Cell[TextData[{
+ "We can convert a colour image into grayscale with ",
+ StyleBox["ColorConvert",
+  FontWeight->"Bold"]
+}], "Text",
+ CellChangeTimes->{{3.664348926501799*^9, 3.664348940118169*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ColorConvert", "[", 
+  RowBox[{"colourImage", ",", "\"\<Grayscale\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.6643489445596523`*^9, 3.664348964190748*^9}}],
+
+Cell[TextData[{
+ "We can convert a colour or grayscale image into black and white pixels with \
+",
+ StyleBox["Binarize",
+  FontWeight->"Bold"]
+}], "Text",
+ CellChangeTimes->{{3.664349001613996*^9, 3.6643490537891293`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Binarize", "[", "colourImage", "]"}]], "Input",
+ CellChangeTimes->{{3.6643490346662197`*^9, 3.664349045530652*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Binarize", "[", "grayscaleImage", "]"}]], "Input",
+ CellChangeTimes->{{3.664349062474888*^9, 3.6643490669898987`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Adding colour", "Subsubsection",
+ CellChangeTimes->{{3.6643490776213083`*^9, 3.664349079420506*^9}}],
+
+Cell[TextData[{
+ "We can tint a grayscale image with ",
+ StyleBox["Blend",
+  FontWeight->"Bold"]
+}], "Text",
+ CellChangeTimes->{{3.664348628753694*^9, 3.664348629465255*^9}, {
+  3.664349486353393*^9, 3.66434950384829*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Blend", "[", 
+  RowBox[{"{", 
+   RowBox[{"grayscaleImage", ",", "Pink"}], "}"}], "]"}]], "Input",
+ CellChangeTimes->{{3.6643495061268682`*^9, 3.664349521449328*^9}, {
+  3.6643495610248613`*^9, 3.664349564464036*^9}}],
+
+Cell[TextData[{
+ "We can also replace pixel values with ",
+ StyleBox["pseudocolours",
+  FontSlant->"Italic"],
+ " using the ",
+ StyleBox["Colorize",
+  FontWeight->"Bold"],
+ " command"
+}], "Text",
+ CellChangeTimes->{{3.664349572232339*^9, 3.6643495765677443`*^9}, {
+  3.664349607496064*^9, 3.664349621855221*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Colorize", "[", "grayscaleImage", "]"}]], "Input",
+ CellChangeTimes->{{3.6643496293515043`*^9, 3.664349633312647*^9}}],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["Colorize",
+  FontWeight->"Bold"],
+ " command takes a ",
+ StyleBox["ColorFunction",
+  FontSlant->"Italic"],
+ " argument that allows you to specify the spectrum of colours you want to \
+map to grayscale values."
+}], "Text",
+ CellChangeTimes->{{3.664349724630883*^9, 3.664349759997925*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Colorize", "[", 
+  RowBox[{"grayscaleImage", ",", 
+   RowBox[{"ColorFunction", "\[Rule]", "\"\<RoseColors\>\""}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.6643496293515043`*^9, 3.664349633312647*^9}, {
+  3.6643497680866737`*^9, 3.664349776733873*^9}, {3.664349966797846*^9, 
+  3.664349967499823*^9}}],
+
+Cell[TextData[{
+ "Here are some of the possible values for ",
+ StyleBox["ColorFunction",
+  FontSlant->"Italic"]
+}], "Text",
+ CellChangeTimes->{{3.664349782213587*^9, 3.664349788501482*^9}, {
+  3.664349890293496*^9, 3.6643499083565807`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ColorData", "[", "\"\<Gradients\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.6643498694609413`*^9, 3.664349881457471*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Image Manipulation", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.6643466409650908`*^9, 3.664346642805366*^9}, {3.664346714756765*^9, 
+  3.66434671653226*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Thumbnails", "Subsubsection",
+ CellChangeTimes->{{3.664350288184729*^9, 3.664350290520857*^9}}],
+
+Cell["Automatically generate thumbnail images", "Text",
+ CellChangeTimes->{{3.6643506264615173`*^9, 3.66435063204554*^9}}],
+
+Cell[BoxData[
+ RowBox[{"grayThumb", "=", 
+  RowBox[{"Thumbnail", "[", "grayscaleImage", "]"}]}]], "Input",
+ CellChangeTimes->{{3.664350251553421*^9, 3.664350274849195*^9}}],
+
+Cell[BoxData[
+ RowBox[{"colourThumb", "=", 
+  RowBox[{"Thumbnail", "[", "colourImage", "]"}]}]], "Input",
+ CellChangeTimes->{{3.6643502586105957`*^9, 3.6643502825139713`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Cropping", "Subsubsection",
+ CellChangeTimes->{{3.664350293809495*^9, 3.6643502949127817`*^9}}],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["ImageTrim",
+  FontWeight->"Bold"],
+ " command returns the smallest subimage containing specified points (N.B. \
+this has a similar result to ",
+ StyleBox["ImageTake",
+  FontWeight->"Bold"],
+ " but the coordinates are specified differently)"
+}], "Text",
+ CellChangeTimes->{{3.664350523287052*^9, 3.6643505322144623`*^9}, {
+  3.6643505858547907`*^9, 3.664350622413485*^9}}],
+
+Cell[BoxData[
+ RowBox[{"fellow", "=", 
+  RowBox[{"ImageTrim", "[", 
+   RowBox[{"grayscaleImage", ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"153", ",", "330"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"195", ",", "379"}], "}"}]}], "}"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.6642986794685497`*^9, 3.664298693747302*^9}, {
+  3.664298773780077*^9, 3.664298829466639*^9}}],
+
+Cell[BoxData[
+ RowBox[{"gSmith", "=", 
+  RowBox[{"ImageTrim", "[", 
+   RowBox[{"colourImage", ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"810", ",", "1088"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"1180", ",", "1488"}], "}"}]}], "}"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.664299260522091*^9, 3.664299273480048*^9}, {
+  3.664299329384354*^9, 3.664299399655313*^9}, {3.664299466464198*^9, 
+  3.664299467303184*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ImageDimensions", "[", "gSmith", "]"}]], "Input",
+ CellChangeTimes->{{3.6642996473258753`*^9, 3.664299652211851*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Resizing", "Subsubsection",
+ CellChangeTimes->{{3.66435034345677*^9, 3.664350344424317*^9}}],
+
+Cell["\<\
+This example sets the width of the resized image, but you have a number of \
+options\
+\>", "Text",
+ CellChangeTimes->{{3.664299692902156*^9, 3.6642996941496983`*^9}, {
+  3.6643503819047337`*^9, 3.664350391999967*^9}, {3.6643506624629498`*^9, 
+  3.66435067301318*^9}}],
+
+Cell[BoxData[
+ RowBox[{"gSmithSmall", "=", 
+  RowBox[{"ImageResize", "[", 
+   RowBox[{"gSmith", ",", "120"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.664299655727277*^9, 3.664299673973915*^9}, 
+   3.66435039545671*^9}],
+
+Cell[BoxData[
+ RowBox[{"ImageDimensions", "[", "gSmithSmall", "]"}]], "Input",
+ CellChangeTimes->{{3.664299680134954*^9, 3.6642996856465693`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Reflecting", "Subsubsection",
+ CellChangeTimes->{{3.664350417671638*^9, 3.6643504193113327`*^9}}],
+
+Cell["Top-bottom", "Text",
+ CellChangeTimes->{{3.664350694503549*^9, 3.664350696444895*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ImageReflect", "[", "gSmithSmall", "]"}]], "Input",
+ CellChangeTimes->{{3.664301388354108*^9, 3.664301393726904*^9}, 
+   3.66435070476587*^9},
+ NumberMarks->False],
+
+Cell["Left-right", "Text",
+ CellChangeTimes->{{3.664350709492547*^9, 3.664350712428816*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ImageReflect", "[", 
+  RowBox[{"gSmithSmall", ",", "Left"}], "]"}]], "Input",
+ CellChangeTimes->{{3.664301388354108*^9, 3.664301393726904*^9}},
+ NumberMarks->False]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Rotating", "Subsubsection",
+ CellChangeTimes->{{3.664350421199521*^9, 3.664350422207468*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ImageRotate", "[", 
+  RowBox[{"gSmithSmall", ",", 
+   RowBox[{"45", "Degree"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.664301351154842*^9, 3.664301360513562*^9}, {
+  3.664301404145863*^9, 3.664301404297245*^9}, {3.664350447400216*^9, 
+  3.664350447575296*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ImageRotate", "[", 
+  RowBox[{"gSmithSmall", ",", 
+   RowBox[{"90", "Degree"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.664301351154842*^9, 3.664301360513562*^9}, {
+  3.664301404145863*^9, 3.664301404297245*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Filtering and Effects", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.6643467199964733`*^9, 3.664346723924502*^9}}],
+
+Cell["\<\
+You can also apply a very wide variety of filters and Photoshop-style effects \
+to your images\
+\>", "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.6643450590378942`*^9, 3.664345071710688*^9}, {3.664350746133985*^9, 
+  3.664350760828314*^9}}],
+
+Cell[TextData[{
+ "The second parameter of ",
+ StyleBox["Blur",
+  FontWeight->"Bold"],
+ " is the pixel radius"
+}], "Text",
+ CellChangeTimes->{{3.664301481432917*^9, 3.664301486336492*^9}, {
+  3.66435076644591*^9, 3.664350776748177*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Blur", "[", 
+  RowBox[{"gSmithSmall", ",", "10"}], "]"}]], "Input",
+ CellChangeTimes->{{3.6643014539211407`*^9, 3.664301490352566*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ImageEffect", "[", 
+  RowBox[{"gSmithSmall", ",", "\"\<OilPainting\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.664301523242877*^9, 3.664301626591501*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ImageEffect", "[", 
+  RowBox[{"gSmithSmall", ",", "\"\<Posterization\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.664301523242877*^9, 3.664301637135449*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ImageEffect", "[", 
+  RowBox[{"gSmithSmall", ",", "\"\<Comics\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.664301523242877*^9, 3.664301647615377*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ImageEffect", "[", 
+  RowBox[{"gSmithSmall", ",", "\"\<Solarization\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.664301523242877*^9, 3.664301637135449*^9}, {
+  3.664301667367915*^9, 3.664301668919395*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ImageEffect", "[", 
+  RowBox[{"gSmithSmall", ",", "\"\<MotionBlur\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.664301523242877*^9, 3.664301637135449*^9}, {
+  3.664301667367915*^9, 3.66430168248702*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["In-Class Activity", "Section",
+ CellChangeTimes->{{3.647716402186221*^9, 3.647716405353856*^9}, {
+  3.6583374723271*^9, 3.658337478437811*^9}}],
+
+Cell["\<\
+Part 1) Draw a picture using the Graphics and Raster commands. You can \
+include vector elements if you\[CloseCurlyQuote]d like.\
+\>", "Subsection",
+ CellChangeTimes->{{3.663179944521693*^9, 3.6631799763976603`*^9}, {
+  3.695313487396707*^9, 3.69531349057973*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Part II) Starting with any one of the built-in images from ExampleData, apply \
+a number of transformations to it until it looks like abstract art.\
+\>", "Subsection",
+ CellChangeTimes->{{3.664344556148098*^9, 3.6643446297146473`*^9}, {
+  3.695313497252318*^9, 3.6953134998194017`*^9}}],
+
+Cell["NAME:", "Subsubsection",
+ CellChangeTimes->{{3.658337538475717*^9, 3.658337539778943*^9}}],
+
+Cell["STUDENT NUMBER:", "Subsubsection",
+ CellChangeTimes->{{3.658337543114833*^9, 3.658337546026588*^9}}],
+
+Cell["DATE:", "Subsubsection",
+ CellChangeTimes->{{3.6583375490023537`*^9, 3.658337550162354*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Upload your notebook", "Section",
+ CellChangeTimes->{{3.649950784924818*^9, 3.649950788859275*^9}}],
+
+Cell["\<\
+Don\[CloseCurlyQuote]t forget to upload a copy of your notebook for this day\
+\[CloseCurlyQuote]s class to the OWL Site for the course\
+\>", "Text",
+ CellChangeTimes->{{3.649950792779258*^9, 3.649950818634288*^9}, {
+  3.658337509093232*^9, 3.658337512508254*^9}}]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1422, 1107},
+WindowMargins->{{160, Automatic}, {Automatic, 24}},
+TaggingRules->{"SlideShow" -> True},
+Magnification:>1.25 Inherited,
+FrontEndVersion->"11.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (July 28, \
+2016)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "SlideShowHeader"->{
+  Cell[580, 22, 4383, 98, 75, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[5919, 149, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[12358, 332, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[23452, 629, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[32354, 889, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[37178, 1025, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[41691, 1145, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[45236, 1257, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[55291, 1561, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[62893, 1785, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[67584, 1938, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[69584, 2000, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[70790, 2039, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"SlideShowHeader", 71670, 2069}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 4383, 98, 75, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[4966, 122, 551, 11, 183, "Title"],
+Cell[5520, 135, 362, 9, 99, "Subtitle"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5919, 149, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[6008, 154, 156, 2, 80, "Section"],
+Cell[6167, 158, 422, 12, 37, "Text"],
+Cell[6592, 172, 255, 5, 37, "Text"],
+Cell[6850, 179, 448, 10, 39, "Input"],
+Cell[7301, 191, 111, 1, 37, "Text"],
+Cell[7415, 194, 422, 10, 39, "Input"],
+Cell[7840, 206, 366, 8, 61, "Text"],
+Cell[8209, 216, 206, 4, 37, "Text"],
+Cell[8418, 222, 525, 12, 39, "Input"],
+Cell[8946, 236, 242, 5, 37, "Text"],
+Cell[9191, 243, 525, 12, 39, "Input"],
+Cell[9719, 257, 143, 1, 37, "Text"],
+Cell[9865, 260, 504, 12, 39, "Input"],
+Cell[10372, 274, 502, 12, 39, "Input"],
+Cell[10877, 288, 207, 4, 37, "Text"],
+Cell[11087, 294, 609, 15, 39, "Input"],
+Cell[11699, 311, 610, 15, 39, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[12358, 332, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[12447, 337, 185, 2, 100, "Section"],
+Cell[12635, 341, 375, 8, 76, "Text"],
+Cell[13013, 351, 135, 1, 46, "Text"],
+Cell[13151, 354, 404, 9, 48, "Input"],
+Cell[13558, 365, 283, 7, 46, "Text"],
+Cell[13844, 374, 299, 8, 48, "Input"],
+Cell[14146, 384, 188, 4, 46, "Text"],
+Cell[14337, 390, 680, 15, 48, "Input"],
+Cell[15020, 407, 180, 4, 46, "Text"],
+Cell[15203, 413, 681, 15, 48, "Input"],
+Cell[15887, 430, 195, 4, 46, "Text"],
+Cell[16085, 436, 111, 1, 46, "Text"],
+Cell[16199, 439, 779, 18, 48, "Input"],
+Cell[16981, 459, 114, 1, 46, "Text"],
+Cell[17098, 462, 779, 18, 48, "Input"],
+Cell[17880, 482, 153, 3, 46, "Text"],
+Cell[18036, 487, 846, 21, 48, "Input"],
+Cell[18885, 510, 163, 3, 46, "Text"],
+Cell[19051, 515, 126, 2, 48, "Input"],
+Cell[19180, 519, 124, 2, 48, "Input"],
+Cell[19307, 523, 894, 20, 48, "Input"],
+Cell[20204, 545, 124, 1, 46, "Text"],
+Cell[20331, 548, 792, 17, 48, "Input"],
+Cell[21126, 567, 1000, 23, 48, "Input"],
+Cell[22129, 592, 156, 3, 46, "Text"],
+Cell[22288, 597, 1115, 26, 48, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[23452, 629, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[23541, 634, 171, 2, 100, "Section"],
+Cell[23715, 638, 386, 7, 76, "Text"],
+Cell[24104, 647, 117, 1, 46, "Text"],
+Cell[24224, 650, 298, 8, 48, "Input"],
+Cell[24525, 660, 705, 16, 48, "Input"],
+Cell[25233, 678, 244, 7, 46, "Text"],
+Cell[25480, 687, 561, 16, 48, "Input"],
+Cell[26044, 705, 895, 21, 48, "Input"],
+Cell[26942, 728, 204, 6, 46, "Text"],
+Cell[27149, 736, 191, 6, 46, "Text"],
+Cell[27343, 744, 1215, 31, 82, "Input"],
+Cell[28561, 777, 155, 3, 46, "Text"],
+Cell[28719, 782, 3297, 93, 147, "Input"],
+Cell[32019, 877, 286, 6, 48, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[32354, 889, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[32443, 894, 159, 2, 100, "Section"],
+Cell[32605, 898, 237, 5, 46, "Text"],
+Cell[32845, 905, 500, 11, 48, "Input"],
+Cell[33348, 918, 500, 11, 48, "Input"],
+Cell[33851, 931, 104, 1, 46, "Text"],
+Cell[33958, 934, 714, 16, 48, "Input"],
+Cell[34675, 952, 189, 2, 46, "Text"],
+Cell[34867, 956, 839, 18, 48, "Input"],
+Cell[35709, 976, 226, 7, 46, "Text"],
+Cell[35938, 985, 555, 15, 48, "Input"],
+Cell[36496, 1002, 633, 17, 48, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[37178, 1025, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[37267, 1030, 174, 2, 100, "Section"],
+Cell[37444, 1034, 431, 7, 76, "Text"],
+Cell[37878, 1043, 576, 17, 48, "Input"],
+Cell[38457, 1062, 1585, 42, 82, "Input"],
+Cell[40045, 1106, 1597, 33, 82, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[41691, 1145, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[41780, 1150, 142, 2, 100, "Section"],
+Cell[41925, 1154, 221, 4, 46, "Text"],
+Cell[42149, 1160, 327, 8, 46, "Text"],
+Cell[42479, 1170, 148, 2, 48, "Input"],
+Cell[CellGroupData[{
+Cell[42652, 1176, 115, 1, 53, "Subsubsection"],
+Cell[42770, 1179, 298, 7, 48, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[43105, 1191, 112, 1, 53, "Subsubsection"],
+Cell[43220, 1194, 294, 7, 48, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[43551, 1206, 109, 1, 53, "Subsubsection"],
+Cell[43663, 1209, 286, 7, 46, "Text"],
+Cell[43952, 1218, 341, 8, 48, "Input"],
+Cell[44296, 1228, 288, 7, 48, "Input"],
+Cell[44587, 1237, 142, 1, 46, "Text"],
+Cell[44732, 1240, 147, 2, 48, "Input"],
+Cell[44882, 1244, 146, 2, 48, "Input"],
+Cell[45031, 1248, 144, 2, 48, "Input"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[45236, 1257, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[45325, 1262, 148, 2, 100, "Section"],
+Cell[45476, 1266, 656, 14, 76, "Text"],
+Cell[46135, 1282, 337, 9, 48, "Input"],
+Cell[46475, 1293, 151, 3, 46, "Text"],
+Cell[46629, 1298, 164, 3, 48, "Input"],
+Cell[46796, 1303, 240, 5, 46, "Text"],
+Cell[47039, 1310, 401, 10, 48, "Input"],
+Cell[47443, 1322, 276, 5, 46, "Text"],
+Cell[47722, 1329, 203, 4, 48, "Input"],
+Cell[47928, 1335, 249, 7, 46, "Text"],
+Cell[48180, 1344, 256, 5, 48, "Input"],
+Cell[48439, 1351, 227, 6, 46, "Text"],
+Cell[48669, 1359, 180, 3, 48, "Input"],
+Cell[48852, 1364, 232, 7, 46, "Text"],
+Cell[49087, 1373, 183, 4, 48, "Input"],
+Cell[49273, 1379, 420, 10, 48, "Input"],
+Cell[CellGroupData[{
+Cell[49718, 1393, 115, 1, 53, "Subsubsection"],
+Cell[49836, 1396, 218, 4, 46, "Text"],
+Cell[50057, 1402, 364, 9, 48, "Input"],
+Cell[50424, 1413, 409, 7, 76, "Text"],
+Cell[50836, 1422, 144, 2, 48, "Input"],
+Cell[50983, 1426, 138, 2, 48, "Input"],
+Cell[51124, 1430, 321, 8, 76, "Text"],
+Cell[51448, 1440, 172, 3, 48, "Input"],
+Cell[51623, 1445, 220, 6, 46, "Text"],
+Cell[51846, 1453, 228, 4, 48, "Input"],
+Cell[52077, 1459, 180, 6, 46, "Text"],
+Cell[52260, 1467, 208, 5, 48, "Input"],
+Cell[52471, 1474, 240, 8, 46, "Text"],
+Cell[52714, 1484, 443, 10, 48, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[53194, 1499, 110, 1, 53, "Subsubsection"],
+Cell[53307, 1502, 468, 10, 76, "Text"],
+Cell[53778, 1514, 370, 9, 48, "Input"],
+Cell[54151, 1525, 175, 4, 46, "Text"],
+Cell[54329, 1531, 413, 9, 48, "Input"],
+Cell[54745, 1542, 340, 8, 76, "Text"],
+Cell[55088, 1552, 142, 2, 48, "Input"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[55291, 1561, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[55380, 1566, 148, 2, 100, "Section"],
+Cell[CellGroupData[{
+Cell[55553, 1572, 100, 1, 53, "Subsubsection"],
+Cell[55656, 1575, 399, 7, 76, "Text"],
+Cell[56058, 1584, 148, 2, 48, "Input"],
+Cell[56209, 1588, 217, 4, 46, "Text"],
+Cell[56429, 1594, 120, 1, 46, "Text"],
+Cell[56552, 1597, 100, 1, 48, "Input"],
+Cell[56655, 1600, 190, 2, 46, "Text"],
+Cell[56848, 1604, 142, 2, 48, "Input"],
+Cell[56993, 1608, 219, 4, 46, "Text"],
+Cell[57215, 1614, 362, 6, 48, "Input"],
+Cell[57580, 1622, 152, 3, 46, "Text"],
+Cell[57735, 1627, 413, 7, 48, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[58185, 1639, 167, 2, 53, "Subsubsection"],
+Cell[58355, 1643, 311, 7, 46, "Text"],
+Cell[58669, 1652, 246, 5, 48, "Input"],
+Cell[58918, 1659, 175, 2, 46, "Text"],
+Cell[59096, 1663, 413, 7, 48, "Input"],
+Cell[59512, 1672, 162, 4, 46, "Text"],
+Cell[59677, 1678, 141, 2, 48, "Input"],
+Cell[59821, 1682, 196, 5, 46, "Text"],
+Cell[60020, 1689, 182, 3, 48, "Input"],
+Cell[60205, 1694, 222, 6, 46, "Text"],
+Cell[60430, 1702, 139, 2, 48, "Input"],
+Cell[60572, 1706, 142, 2, 48, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[60751, 1713, 106, 1, 53, "Subsubsection"],
+Cell[60860, 1716, 222, 6, 46, "Text"],
+Cell[61085, 1724, 240, 5, 48, "Input"],
+Cell[61328, 1731, 311, 10, 46, "Text"],
+Cell[61642, 1743, 142, 2, 48, "Input"],
+Cell[61787, 1747, 323, 10, 46, "Text"],
+Cell[62113, 1759, 327, 7, 48, "Input"],
+Cell[62443, 1768, 240, 6, 46, "Text"],
+Cell[62686, 1776, 146, 2, 48, "Input"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[62893, 1785, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[62982, 1790, 204, 3, 100, "Section"],
+Cell[CellGroupData[{
+Cell[63211, 1797, 101, 1, 53, "Subsubsection"],
+Cell[63315, 1800, 122, 1, 46, "Text"],
+Cell[63440, 1803, 172, 3, 48, "Input"],
+Cell[63615, 1808, 175, 3, 48, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[63827, 1816, 101, 1, 53, "Subsubsection"],
+Cell[63931, 1819, 407, 11, 76, "Text"],
+Cell[64341, 1832, 413, 11, 48, "Input"],
+Cell[64757, 1845, 460, 12, 48, "Input"],
+Cell[65220, 1859, 141, 2, 48, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[65398, 1866, 98, 1, 53, "Subsubsection"],
+Cell[65499, 1869, 277, 6, 46, "Text"],
+Cell[65779, 1877, 219, 5, 48, "Input"],
+Cell[66001, 1884, 146, 2, 48, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[66184, 1891, 103, 1, 53, "Subsubsection"],
+Cell[66290, 1894, 92, 1, 46, "Text"],
+Cell[66385, 1897, 187, 4, 48, "Input"],
+Cell[66575, 1903, 92, 1, 46, "Text"],
+Cell[66670, 1906, 188, 4, 48, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[66895, 1915, 99, 1, 53, "Subsubsection"],
+Cell[66997, 1918, 286, 6, 48, "Input"],
+Cell[67286, 1926, 237, 5, 48, "Input"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[67584, 1938, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[67673, 1943, 159, 2, 100, "Section"],
+Cell[67835, 1947, 286, 6, 46, "Text"],
+Cell[68124, 1955, 235, 7, 46, "Text"],
+Cell[68362, 1964, 159, 3, 48, "Input"],
+Cell[68524, 1969, 181, 3, 48, "Input"],
+Cell[68708, 1974, 183, 3, 48, "Input"],
+Cell[68894, 1979, 176, 3, 48, "Input"],
+Cell[69073, 1984, 231, 4, 48, "Input"],
+Cell[69307, 1990, 228, 4, 48, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[69584, 2000, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[69673, 2005, 149, 2, 100, "Section"],
+Cell[69825, 2009, 274, 5, 67, "Subsection"],
+Cell[CellGroupData[{
+Cell[70124, 2018, 296, 5, 92, "Subsection"],
+Cell[70423, 2025, 96, 1, 53, "Subsubsection"],
+Cell[70522, 2028, 106, 1, 42, "Subsubsection"],
+Cell[70631, 2031, 98, 1, 42, "Subsubsection"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[70790, 2039, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[70879, 2044, 105, 1, 100, "Section"],
+Cell[70987, 2047, 273, 5, 46, "Text"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
