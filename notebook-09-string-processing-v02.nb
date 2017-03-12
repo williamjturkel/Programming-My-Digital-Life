@@ -1,0 +1,1577 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     58830,       1569]
+NotebookOptionsPosition[     51020,       1308]
+NotebookOutlinePosition[     52217,       1346]
+CellTagsIndexPosition[     52138,       1341]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ TogglerBox[2, {1->
+  OverlayBox[{
+   TagBox[GridBox[{
+      {
+       GraphicsBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBAkBOaF5xZnpeaopnXklqemqRRRIz
+UFAKiEGSLED8//9/gvjRo0fsN27cELp69arY+fPnpZExPn137tzhBqrRBGJ/
+ID4CxMfRMTZ9L168YL5w4YIaUD4AiC8C8Qcg/gvE/9AxFreC7PQD4gtA/BGq
+7j8ujKz3+fPnLFC9b6H24dSHTf/FixfVofYSpRdZPzSsAqBuJkovsn5oOF8k
+5F9s+h88eMBBjt0w/devXxcGso+S4m9k/ZcuXRKHpgeS3A7TD0wrkpToPw9J
+ywOmn1L3Uxp+lMYfpemH0vRLjfwDjQey8y9a+fGOWDPwlF+gsPhEKDywlZ8g
+d0D9EniexPITGd++fZv3PBnlN6764zxa3QHCAIDESDs=
+         "], {{0, 26}, {16, 
+         0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{16, 26},
+        PlotRange->{{0, 16}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJzt2V1vVFUUBuBGTfTSSygthYYKNHyVinrrpbcYfwBEJN5gUkyMfw9KKaVw
+KCkQKCW1RNIQKg1gEE3QtdN10pMRZCaBzNQ+kzxt5nzstfeZfbPOu/vkD8e/
+e6+vr+/sR/Hn+ImfvpyYOPHz1x/Hl2/OnP3+9JlT33515sdTp09NfHHy/TjY
+H6592Nf3QfyvqmpHBwbCYNr5GoMNAw2d1AEAADa3/obtLba1aJ7rb4xR9x1D
+YVfYHYbDnjASPgn7wv4wGg6Eg+FQOByOhLEwnj4Nx8Jn6fM21dcfyzHq8cay
+xuGseTDnMJpz2pdzHMk5D+caduWa6v6p+czafU71s6p1+/cGAADYqt52/9va
+++6tXt331j3v0TTeoj5e966v6lv3Vv/uWfWr9LJm9tzMpN+UW3eaVV9s00yY
+CzfC7bAQFhvuhjt57maYD9er9c+VcDlcCtMd1AQAADafqXQhTabz6VyL+vhk
+Xl/uLX1D6UFmw9VwrVrvL0o/cqta7ztKD3Iv/BLuh1/DSngYHoXfwlp4Ep6F
+38Pz8Ed4Ef5Mf71Gff5F3vM8x3iWY65ljUdZcyXncD/ndC/neDvnfCPXcC3X
+NJtrnG48r3afU/2s6uc11QO/OwAAwFbzLvrfksWVjK30kSV3KxncUlgOD6qN
+vnc1PK42+t7iaaq/r+U1q9VG3/ogx1rKse9krfmsrV+l15R9WDLmkjWXzLl8
+yvuVsmdLJl3eu5R9XN7BNLPrhTxX3seUvT3TQc2Xbfr7LWq3JgAAwH95m33K
+u9Dt5wMAAMDmp2dlK+vGnu/2+yQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYPN42aZu
+1AQAAAAAAICtrNsZIXRTN/b8xTbNhLlwI9wOC2Gx4W64k+duhvlwvVr/XAmX
+w6Uw3UFNAAAAAAAA6EVT6UKaTOfTuRb18cm8vtxbcrOSwc2Gq9V6FlcytlvV
+eu5WMrilsBwehJXwMKyGx2EtPElPU/19La9ZzXtWcozlHHMxa9zKmnM5h9mc
+03Rjfe2uq15bvb6pHvid2NzKPiwZc8maS+ZcPiWDLnu2ZNIlmy77uGTVzex6
+Ic+VbLvs7ZkOau7owEAYTDtfY7BhoKGTOgAAAAAAANDr+hu2t9jWonmuvzFG
+nbsNhd1hOOwJI2Fv2B9Gw4FwMBwKR8JYOJrGW9THx/LaQ3nvgRxrf449krWG
+s/ZQtZH3NdfY7rrqtdW6/fvw/9LMnpuZ9Jty646y6n8AhCP7tg==
+         "], {{0, 26}, {
+         2000, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{2000, 26},
+        PlotRange->{{0, 2000}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJy9lktLQkEUxyVdCBIELaxctYq+QduWbcKMPoCSRRsDC6JPp+Lj4vuq+EBc
+iBtFfIYrpU7nPzQiN++9vmrgp/dx5j8z55w5c099z56HPYvF8mLnH4/37TIY
+9L7fHvDNXeDl6THgv78KvPof/cELn5UfnjBHjI3J5/OudVBV9bhUKjmbzaad
+iCxmcB9lAxKMmzmv1+v7JvpfG/DJjJkic8NrOut0OlYdfdoCjPXBqMx1q9Vy
+7FhfgvX0MUa73bYZ6edyuTnrvPsZQ4Wv9PTRL5vNroTOGIiJu9FoOLT6UjuT
+yVAqlaJkMin+0+m0YPEZbHTGQDwKyKtl+ugHjdFoRIVCgeLxOCUSCQGua7Ua
+9Xo9YQNbozXI/aHVZ//RcDik2WxG5XKZwuGwANdo0JfrNIhDvFqtHi7zD+YW
+i8VoMBgIvWKxKEDrdrtiHbAxiAF8pHAf5zJ9+Bca0WiUxuMxydbv98U64CvY
+wNZgTyioI9r8QR/EEvrQUhRlrh8Kheb6sDHTZ1xG84ePMP/pdPpr/tvoL/of
+Mcb9Jv7X+mcxP2X+QCMSiYh5VyoVMQbXMbP81I2vzM/JZCLyX+a+BPmPvbFN
+fmr36pr713B/rVp7THy/tD6Y1cjF5zrahvVtB5jW5y21B/kVzpc1kecjfK53
+Pu7kfNfO+x+/T/70++ob7NUEtQ==
+         "], {{0, 26}, {24, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{24, 26},
+        PlotRange->{{0, 24}, {0, 26}}]}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {Automatic, 
+         Scaled[0.6], Automatic}},
+     GridBoxSpacings->{"Columns" -> {{0}}, "Rows" -> {{0}}}],
+    "Grid"], 
+   PaneBox[
+    StyleBox[
+     RowBox[{
+     "Background", " ", "images", " ", "and", " ", "text", " ", "colors", " ",
+       "have", " ", "been", " ", "adjusted", " ", "for", " ", "editing", " ", 
+      
+      RowBox[{"purposes", "."}]}],
+     LineBreakWithin->False,
+     FontFamily->"Helvetica",
+     FontSize->12,
+     FontColor->GrayLevel[0.4]],
+    Alignment->Center,
+    ImageSize->Scaled[0.5],
+    ScrollPosition->{0., 0.}]},
+   Alignment->{Center, Center}], 2->""}, "1"]], "SlideShowNavigationBar", \
+"FirstSlide",
+ CellMargins->{{0, 0}, {0, 0}},
+ CellFrameLabelMargins->2,
+ CellSize->{Inherited, 30},
+ CellChangeTimes->{3.647361175465108*^9},
+ TextAlignment->Center,
+ CellTags->"SlideShowHeader"],
+
+Cell["\<\
+Notebook 09:
+Text and String Processing\
+\>", "Title",
+ CellChangeTimes->{
+  3.559948400406288*^9, {3.647331852839075*^9, 3.647331861295168*^9}, {
+   3.647331922221755*^9, 3.647331924532915*^9}, {3.647332658962614*^9, 
+   3.64733266480881*^9}, {3.6473611327373047`*^9, 3.647361139759391*^9}, {
+   3.647448943135475*^9, 3.6474489472294493`*^9}, {3.658337416821965*^9, 
+   3.65833742904038*^9}, {3.658337677781981*^9, 3.658337703010659*^9}, {
+   3.666111643657205*^9, 3.666111646639249*^9}, {3.698330824991639*^9, 
+   3.6983308306343412`*^9}, {3.69833092666439*^9, 3.698330927814807*^9}}],
+
+Cell[TextData[{
+ "William J Turkel, ",
+ StyleBox["wturkel@uwo.ca",
+  FontSlant->"Italic",
+  FontColor->RGBColor[
+   0.396078431372549, 0.596078431372549, 0.796078431372549]],
+ "\nDigital Humanities 1011B"
+}], "Subtitle",
+ CellChangeTimes->{{3.647331955723979*^9, 3.6473319708190517`*^9}, 
+   3.647332103720562*^9, {3.6583374336085033`*^9, 3.658337439311952*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Strings", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+   3.6661116530000896`*^9, 3.666111653552286*^9}, {3.698331455788843*^9, 
+   3.698331457003417*^9}, 3.69833149581946*^9}],
+
+Cell[TextData[{
+ "A string is a sequence of characters (possibly including ",
+ StyleBox["whitespace",
+  FontSlant->"Italic"],
+ " like spaces, tabs, etc.) enclosed in a pair of quotation marks. You can \
+find out what something is in ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " with the Head command."
+}], "Text",
+ CellChangeTimes->{{3.666111655870875*^9, 3.666111704277033*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Head", "[", "\"\<What kind of thing is this?\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.6661117072367887`*^9, 3.6661117150848503`*^9}}],
+
+Cell[BoxData["String"], "Output",
+ CellChangeTimes->{3.6661117155043087`*^9}]
+}, Open  ]],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["StringLength",
+  FontWeight->"Bold"],
+ " command counts the number of characters in a string."
+}], "Text",
+ CellChangeTimes->{{3.666111720396327*^9, 3.66611172966022*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"StringLength", "[", "\"\<What kind of thing is this?\>\"", 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.666111731436277*^9, 3.666111738815668*^9}}],
+
+Cell[BoxData["27"], "Output",
+ CellChangeTimes->{3.666111739771626*^9}]
+}, Open  ]],
+
+Cell["There are String equivalents for common list commands", "Text",
+ CellChangeTimes->{{3.666111748012121*^9, 3.666111763157688*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"StringReverse", "[", "\"\<What kind of thing is this?\>\"", 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.666111765275763*^9, 3.6661117724464397`*^9}}],
+
+Cell[BoxData["\<\"?siht si gniht fo dnik tahW\"\>"], "Output",
+ CellChangeTimes->{3.66611177354521*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"StringTake", "[", 
+  RowBox[{"\"\<What kind of thing is this?\>\"", ",", "9"}], "]"}]], "Input",
+ CellChangeTimes->{{3.6661117757271633`*^9, 3.666111785298073*^9}}],
+
+Cell[BoxData["\<\"What kind\"\>"], "Output",
+ CellChangeTimes->{3.66611178574063*^9}]
+}, Open  ]],
+
+Cell["\<\
+You can convert an entire string to Uppercase or Lowercase as follows\
+\>", "Text",
+ CellChangeTimes->{{3.666111796233526*^9, 3.666111808960927*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ToUpperCase", "[", "\"\<What kind of thing is this?\>\"", 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.6661118119469137`*^9, 3.6661118175407143`*^9}}],
+
+Cell[BoxData["\<\"WHAT KIND OF THING IS THIS?\"\>"], "Output",
+ CellChangeTimes->{3.666111818239188*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ToLowerCase", "[", "\"\<What kind of thing is this?\>\"", 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.666111820478581*^9, 3.666111822488018*^9}}],
+
+Cell[BoxData["\<\"what kind of thing is this?\"\>"], "Output",
+ CellChangeTimes->{3.666111822919279*^9}]
+}, Open  ]],
+
+Cell[TextData[{
+ "You can break a string into a list of characters with ",
+ StyleBox["Characters",
+  FontWeight->"Bold"]
+}], "Text",
+ CellChangeTimes->{{3.66611183907248*^9, 3.666111856407279*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Characters", "[", "\"\<what\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.666111846930444*^9, 3.666111852031474*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"w\"\>", ",", "\<\"h\"\>", ",", "\<\"a\"\>", ",", "\<\"t\"\>"}],
+   "}"}]], "Output",
+ CellChangeTimes->{3.666111852383892*^9}]
+}, Open  ]],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["StringJoin",
+  FontWeight->"Bold"],
+ " command takes a list of strings and joins them to create a single string. \
+Note that blank spaces are not automatically included."
+}], "Text",
+ CellChangeTimes->{{3.6661119038934402`*^9, 3.666111950371765*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"StringJoin", "[", 
+  RowBox[{"{", 
+   RowBox[{
+   "\"\<what\>\"", ",", "\"\<kind\>\"", ",", "\"\<of\>\"", ",", 
+    "\"\<thing\>\""}], "}"}], "]"}]], "Input",
+ CellChangeTimes->{{3.6661119202163343`*^9, 3.666111937452183*^9}}],
+
+Cell[BoxData["\<\"whatkindofthing\"\>"], "Output",
+ CellChangeTimes->{3.666111938095195*^9}]
+}, Open  ]],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["StringRiffle",
+  FontWeight->"Bold"],
+ " command joins a list of strings together separated by a separator. Here a \
+blank space is used."
+}], "Text",
+ CellChangeTimes->{{3.6661119688509007`*^9, 3.6661119895062304`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"StringRiffle", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+    "\"\<what\>\"", ",", "\"\<kind\>\"", ",", "\"\<of\>\"", ",", 
+     "\"\<thing\>\""}], "}"}], ",", "\"\< \>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.666111952841277*^9, 3.666111964659151*^9}}],
+
+Cell[BoxData["\<\"what kind of thing\"\>"], "Output",
+ CellChangeTimes->{3.666111965418035*^9}]
+}, Open  ]],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["StringSplit",
+  FontWeight->"Bold"],
+ " command splits a string into a list of strings, using whitespace as the \
+default separator."
+}], "Text",
+ CellChangeTimes->{{3.666112060928117*^9, 3.666112107629671*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"StringSplit", "[", "\"\<What kind of thing is this?\>\"", 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.6661119202163343`*^9, 3.666111937452183*^9}, {
+  3.6661120740399*^9, 3.66611208198514*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"What\"\>", ",", "\<\"kind\"\>", ",", "\<\"of\"\>", 
+   ",", "\<\"thing\"\>", ",", "\<\"is\"\>", ",", "\<\"this?\"\>"}], 
+  "}"}]], "Output",
+ CellChangeTimes->{3.666112082779792*^9}]
+}, Open  ]],
+
+Cell[TextData[{
+ "We can use ",
+ StyleBox["Map",
+  FontWeight->"Bold"],
+ " to map a string function across a list of strings."
+}], "Text",
+ CellChangeTimes->{{3.6661120253533697`*^9, 3.666112037992344*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"StringRiffle", "[", 
+  RowBox[{
+   RowBox[{"Map", "[", 
+    RowBox[{"StringReverse", ",", 
+     RowBox[{
+     "StringSplit", "[", "\"\<What kind of thing is this?\>\"", "]"}]}], 
+    "]"}], ",", "\"\< \>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.666112040579857*^9, 3.6661120446081667`*^9}, {
+  3.6661121161210747`*^9, 3.6661121373646727`*^9}}],
+
+Cell[BoxData["\<\"tahW dnik fo gniht si ?siht\"\>"], "Output",
+ CellChangeTimes->{{3.666112118419455*^9, 3.666112137748865*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["camelCase", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.666112165140983*^9, 3.666112166251349*^9}}],
+
+Cell[TextData[{
+ "When we name a symbol in ",
+ StyleBox["Mathematica,",
+  FontSlant->"Italic"],
+ " we usually capitalize all words except the first one. This is sometimes \
+known as \[OpenCurlyQuote]camel case\[CloseCurlyQuote]. \
+Let\[CloseCurlyQuote]s make a function that takes a string and returns camel \
+case."
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.6661121696434383`*^9, 3.66611219971416*^9}, {3.6661122466091022`*^9, 
+  3.666112272311388*^9}}],
+
+Cell[TextData[{
+ "First we need a function that can capitalize a word.  The ",
+ StyleBox["Module",
+  FontWeight->"Bold"],
+ " command allows us to create symbols that are only defined inside of a \
+function. "
+}], "Text",
+ CellChangeTimes->{{3.666112274951029*^9, 3.666112292006665*^9}, {
+  3.6661123294690638`*^9, 3.6661123872510033`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"capitalize", "[", "word_", "]"}], ":=", "\[IndentingNewLine]", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", "characters", "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"characters", "=", 
+      RowBox[{"Characters", "[", "word", "]"}]}], ";", "\[IndentingNewLine]", 
+     
+     RowBox[{"StringJoin", "[", 
+      RowBox[{
+       RowBox[{"ToUpperCase", "[", 
+        RowBox[{"First", "[", "characters", "]"}], "]"}], ",", 
+       RowBox[{"ToLowerCase", "[", 
+        RowBox[{"Rest", "[", "characters", "]"}], "]"}]}], "]"}]}]}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.6661122948327*^9, 3.6661123514843683`*^9}, {
+  3.666112391234589*^9, 3.666112427009581*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"capitalize", "[", "\"\<test\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.666112431647805*^9, 3.666112440640823*^9}}],
+
+Cell[BoxData["\<\"Test\"\>"], "Output",
+ CellChangeTimes->{3.666112441375331*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"capitalize", "[", "\"\<TEST\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.6661124426793127`*^9, 3.666112450656417*^9}}],
+
+Cell[BoxData["\<\"Test\"\>"], "Output",
+ CellChangeTimes->{3.666112450959598*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"capitalize", "[", "\"\<tEsT\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.666112452359263*^9, 3.6661124594882517`*^9}}],
+
+Cell[BoxData["\<\"Test\"\>"], "Output",
+ CellChangeTimes->{3.666112460040537*^9}]
+}, Open  ]],
+
+Cell[TextData[{
+ "Now we can create our camel case function. Once again we use ",
+ StyleBox["Module",
+  FontWeight->"Bold"],
+ " to define a local symbol."
+}], "Text",
+ CellChangeTimes->{{3.666112623017898*^9, 3.6661126578254423`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"camelCase", "[", "string_", "]"}], ":=", "\[IndentingNewLine]", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", "words", "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"words", "=", 
+      RowBox[{"StringSplit", "[", "string", "]"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"StringJoin", "[", 
+      RowBox[{
+       RowBox[{"ToLowerCase", "[", 
+        RowBox[{"First", "[", "words", "]"}], "]"}], ",", 
+       RowBox[{"Map", "[", 
+        RowBox[{"capitalize", ",", 
+         RowBox[{"Rest", "[", "words", "]"}]}], "]"}]}], "]"}]}]}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.66611263538582*^9, 3.666112728925877*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"camelCase", "[", "\"\<This IS A tEST of OUR Camel case SYSTEM\>\"", 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.666112561073316*^9, 3.666112596938726*^9}, {
+  3.666112735734746*^9, 3.6661127407742147`*^9}}],
+
+Cell[BoxData["\<\"thisIsATestOfOurCamelCaseSystem\"\>"], "Output",
+ CellChangeTimes->{3.666112597916342*^9, 3.6661127415143003`*^9}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Ciphers", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.666113052875516*^9, 3.666113059169113*^9}}],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["StringReplace",
+  FontWeight->"Bold"],
+ " command takes a string and a list of replacements. You can use it to make \
+a simple cipher. Here we replace only a single character."
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.6661131693727713`*^9, 3.6661131959720182`*^9}, {3.6661133312394247`*^9, 
+  3.6661133668454733`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"StringReplace", "[", 
+  RowBox[{"\"\<This is a message to be encrypted\>\"", ",", 
+   RowBox[{"{", 
+    RowBox[{"\"\<a\>\"", "\[Rule]", "\"\<c\>\""}], "}"}], ",", 
+   RowBox[{"IgnoreCase", "\[Rule]", "True"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.666113063082747*^9, 3.6661131182316027`*^9}, {
+   3.66611315147103*^9, 3.6661131603332367`*^9}, {3.6661132508267527`*^9, 
+   3.6661132565218573`*^9}, 3.666113321472283*^9}],
+
+Cell[BoxData["\<\"This is c messcge to be encrypted\"\>"], "Output",
+ CellChangeTimes->{
+  3.666113119433339*^9, {3.666113152497025*^9, 3.666113161227903*^9}, 
+   3.666113256932385*^9, 3.666113324079153*^9}]
+}, Open  ]],
+
+Cell[TextData[{
+ "We could type in our whole list of rules for encryption, but we will build \
+the list using some list commands and ",
+ StyleBox["MapThread",
+  FontWeight->"Bold"],
+ " instead."
+}], "Text",
+ CellChangeTimes->{{3.666114045803768*^9, 3.666114109584868*^9}, {
+  3.666114164206737*^9, 3.6661141754623823`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"CharacterRange", "[", 
+  RowBox[{"\"\<a\>\"", ",", "\"\<z\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.6661140636921997`*^9, 3.6661140729464083`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"a\"\>", ",", "\<\"b\"\>", ",", "\<\"c\"\>", ",", "\<\"d\"\>", 
+   ",", "\<\"e\"\>", ",", "\<\"f\"\>", ",", "\<\"g\"\>", ",", "\<\"h\"\>", 
+   ",", "\<\"i\"\>", ",", "\<\"j\"\>", ",", "\<\"k\"\>", ",", "\<\"l\"\>", 
+   ",", "\<\"m\"\>", ",", "\<\"n\"\>", ",", "\<\"o\"\>", ",", "\<\"p\"\>", 
+   ",", "\<\"q\"\>", ",", "\<\"r\"\>", ",", "\<\"s\"\>", ",", "\<\"t\"\>", 
+   ",", "\<\"u\"\>", ",", "\<\"v\"\>", ",", "\<\"w\"\>", ",", "\<\"x\"\>", 
+   ",", "\<\"y\"\>", ",", "\<\"z\"\>"}], "}"}]], "Output",
+ CellChangeTimes->{{3.6661140691280107`*^9, 3.66611407359653*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Join", "[", 
+  RowBox[{
+   RowBox[{"CharacterRange", "[", 
+    RowBox[{"\"\<c\>\"", ",", "\"\<z\>\""}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\"\<a\>\"", ",", "\"\<b\>\""}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.666114112900238*^9, 3.666114153016017*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"c\"\>", ",", "\<\"d\"\>", ",", "\<\"e\"\>", ",", "\<\"f\"\>", 
+   ",", "\<\"g\"\>", ",", "\<\"h\"\>", ",", "\<\"i\"\>", ",", "\<\"j\"\>", 
+   ",", "\<\"k\"\>", ",", "\<\"l\"\>", ",", "\<\"m\"\>", ",", "\<\"n\"\>", 
+   ",", "\<\"o\"\>", ",", "\<\"p\"\>", ",", "\<\"q\"\>", ",", "\<\"r\"\>", 
+   ",", "\<\"s\"\>", ",", "\<\"t\"\>", ",", "\<\"u\"\>", ",", "\<\"v\"\>", 
+   ",", "\<\"w\"\>", ",", "\<\"x\"\>", ",", "\<\"y\"\>", ",", "\<\"z\"\>", 
+   ",", "\<\"a\"\>", ",", "\<\"b\"\>"}], "}"}]], "Output",
+ CellChangeTimes->{{3.6661141364540157`*^9, 3.666114153870365*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"encryptionRules", "=", 
+  RowBox[{"MapThread", "[", 
+   RowBox[{"Rule", ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"CharacterRange", "[", 
+       RowBox[{"\"\<a\>\"", ",", "\"\<z\>\""}], "]"}], ",", 
+      RowBox[{"Join", "[", 
+       RowBox[{
+        RowBox[{"CharacterRange", "[", 
+         RowBox[{"\"\<c\>\"", ",", "\"\<z\>\""}], "]"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"\"\<a\>\"", ",", "\"\<b\>\""}], "}"}]}], "]"}]}], "}"}]}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.666114179578588*^9, 3.666114208533215*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"\<\"a\"\>", "\[Rule]", "\<\"c\"\>"}], ",", 
+   RowBox[{"\<\"b\"\>", "\[Rule]", "\<\"d\"\>"}], ",", 
+   RowBox[{"\<\"c\"\>", "\[Rule]", "\<\"e\"\>"}], ",", 
+   RowBox[{"\<\"d\"\>", "\[Rule]", "\<\"f\"\>"}], ",", 
+   RowBox[{"\<\"e\"\>", "\[Rule]", "\<\"g\"\>"}], ",", 
+   RowBox[{"\<\"f\"\>", "\[Rule]", "\<\"h\"\>"}], ",", 
+   RowBox[{"\<\"g\"\>", "\[Rule]", "\<\"i\"\>"}], ",", 
+   RowBox[{"\<\"h\"\>", "\[Rule]", "\<\"j\"\>"}], ",", 
+   RowBox[{"\<\"i\"\>", "\[Rule]", "\<\"k\"\>"}], ",", 
+   RowBox[{"\<\"j\"\>", "\[Rule]", "\<\"l\"\>"}], ",", 
+   RowBox[{"\<\"k\"\>", "\[Rule]", "\<\"m\"\>"}], ",", 
+   RowBox[{"\<\"l\"\>", "\[Rule]", "\<\"n\"\>"}], ",", 
+   RowBox[{"\<\"m\"\>", "\[Rule]", "\<\"o\"\>"}], ",", 
+   RowBox[{"\<\"n\"\>", "\[Rule]", "\<\"p\"\>"}], ",", 
+   RowBox[{"\<\"o\"\>", "\[Rule]", "\<\"q\"\>"}], ",", 
+   RowBox[{"\<\"p\"\>", "\[Rule]", "\<\"r\"\>"}], ",", 
+   RowBox[{"\<\"q\"\>", "\[Rule]", "\<\"s\"\>"}], ",", 
+   RowBox[{"\<\"r\"\>", "\[Rule]", "\<\"t\"\>"}], ",", 
+   RowBox[{"\<\"s\"\>", "\[Rule]", "\<\"u\"\>"}], ",", 
+   RowBox[{"\<\"t\"\>", "\[Rule]", "\<\"v\"\>"}], ",", 
+   RowBox[{"\<\"u\"\>", "\[Rule]", "\<\"w\"\>"}], ",", 
+   RowBox[{"\<\"v\"\>", "\[Rule]", "\<\"x\"\>"}], ",", 
+   RowBox[{"\<\"w\"\>", "\[Rule]", "\<\"y\"\>"}], ",", 
+   RowBox[{"\<\"x\"\>", "\[Rule]", "\<\"z\"\>"}], ",", 
+   RowBox[{"\<\"y\"\>", "\[Rule]", "\<\"a\"\>"}], ",", 
+   RowBox[{"\<\"z\"\>", "\[Rule]", "\<\"b\"\>"}]}], "}"}]], "Output",
+ CellChangeTimes->{{3.666114198123624*^9, 3.666114209635571*^9}}]
+}, Open  ]],
+
+Cell["Here is how we encrypt a message now", "Text",
+ CellChangeTimes->{{3.666114218333091*^9, 3.666114223092269*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"StringReplace", "[", 
+  RowBox[{
+  "\"\<This is a message to be encrypted\>\"", ",", "encryptionRules", ",", 
+   RowBox[{"IgnoreCase", "\[Rule]", "True"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.666113063082747*^9, 3.6661131182316027`*^9}, {
+   3.66611315147103*^9, 3.6661131603332367`*^9}, {3.6661132508267527`*^9, 
+   3.6661132565218573`*^9}, 3.666113321472283*^9, {3.666114228381322*^9, 
+   3.6661142295238028`*^9}}],
+
+Cell[BoxData["\<\"vjku ku c oguucig vq dg gpetarvgf\"\>"], "Output",
+ CellChangeTimes->{3.66611423081039*^9}]
+}, Open  ]],
+
+Cell[TextData[{
+ "To decrypt a message, we need to reverse each rule in our ",
+ StyleBox["encryptionRules",
+  FontSlant->"Italic"]
+}], "Text",
+ CellChangeTimes->{{3.666114252051785*^9, 3.666114269292378*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"decryptionRules", "=", 
+  RowBox[{"Map", "[", 
+   RowBox[{"Reverse", ",", "encryptionRules"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.666114274854314*^9, 3.66611428919412*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"\<\"c\"\>", "\[Rule]", "\<\"a\"\>"}], ",", 
+   RowBox[{"\<\"d\"\>", "\[Rule]", "\<\"b\"\>"}], ",", 
+   RowBox[{"\<\"e\"\>", "\[Rule]", "\<\"c\"\>"}], ",", 
+   RowBox[{"\<\"f\"\>", "\[Rule]", "\<\"d\"\>"}], ",", 
+   RowBox[{"\<\"g\"\>", "\[Rule]", "\<\"e\"\>"}], ",", 
+   RowBox[{"\<\"h\"\>", "\[Rule]", "\<\"f\"\>"}], ",", 
+   RowBox[{"\<\"i\"\>", "\[Rule]", "\<\"g\"\>"}], ",", 
+   RowBox[{"\<\"j\"\>", "\[Rule]", "\<\"h\"\>"}], ",", 
+   RowBox[{"\<\"k\"\>", "\[Rule]", "\<\"i\"\>"}], ",", 
+   RowBox[{"\<\"l\"\>", "\[Rule]", "\<\"j\"\>"}], ",", 
+   RowBox[{"\<\"m\"\>", "\[Rule]", "\<\"k\"\>"}], ",", 
+   RowBox[{"\<\"n\"\>", "\[Rule]", "\<\"l\"\>"}], ",", 
+   RowBox[{"\<\"o\"\>", "\[Rule]", "\<\"m\"\>"}], ",", 
+   RowBox[{"\<\"p\"\>", "\[Rule]", "\<\"n\"\>"}], ",", 
+   RowBox[{"\<\"q\"\>", "\[Rule]", "\<\"o\"\>"}], ",", 
+   RowBox[{"\<\"r\"\>", "\[Rule]", "\<\"p\"\>"}], ",", 
+   RowBox[{"\<\"s\"\>", "\[Rule]", "\<\"q\"\>"}], ",", 
+   RowBox[{"\<\"t\"\>", "\[Rule]", "\<\"r\"\>"}], ",", 
+   RowBox[{"\<\"u\"\>", "\[Rule]", "\<\"s\"\>"}], ",", 
+   RowBox[{"\<\"v\"\>", "\[Rule]", "\<\"t\"\>"}], ",", 
+   RowBox[{"\<\"w\"\>", "\[Rule]", "\<\"u\"\>"}], ",", 
+   RowBox[{"\<\"x\"\>", "\[Rule]", "\<\"v\"\>"}], ",", 
+   RowBox[{"\<\"y\"\>", "\[Rule]", "\<\"w\"\>"}], ",", 
+   RowBox[{"\<\"z\"\>", "\[Rule]", "\<\"x\"\>"}], ",", 
+   RowBox[{"\<\"a\"\>", "\[Rule]", "\<\"y\"\>"}], ",", 
+   RowBox[{"\<\"b\"\>", "\[Rule]", "\<\"z\"\>"}]}], "}"}]], "Output",
+ CellChangeTimes->{{3.6661142810306597`*^9, 3.666114289728663*^9}}]
+}, Open  ]],
+
+Cell["Now we can decrypt our message", "Text",
+ CellChangeTimes->{{3.666114295338249*^9, 3.666114300433465*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"StringReplace", "[", 
+  RowBox[{
+  "\"\<vjku ku c oguucig vq dg gpetarvgf\>\"", ",", "decryptionRules"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.666114306316629*^9, 3.6661143202405777`*^9}}],
+
+Cell[BoxData["\<\"this is a message to be encrypted\"\>"], "Output",
+ CellChangeTimes->{3.66611432116737*^9}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Frequency analysis", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.666114354457342*^9, 3.666114359583385*^9}}],
+
+Cell[TextData[{
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " has a number of built-texts. Here we retrieve the contents of",
+ StyleBox[" Alice in Wonderland",
+  FontSlant->"Italic"],
+ " as a long string."
+}], "Text",
+ CellChangeTimes->{{3.666114510049177*^9, 3.666114568759263*^9}, {
+  3.666114843318486*^9, 3.666114849228874*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"aliceInWonderland", "=", 
+   RowBox[{"ExampleData", "[", 
+    RowBox[{"{", 
+     RowBox[{"\"\<Text\>\"", ",", "\"\<AliceInWonderland\>\""}], "}"}], 
+    "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.666114475409547*^9, 3.666114495209958*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"StringLength", "[", "aliceInWonderland", "]"}]], "Input",
+ CellChangeTimes->{{3.666114552480483*^9, 3.666114558264532*^9}}],
+
+Cell[BoxData["51722"], "Output",
+ CellChangeTimes->{3.666114558509321*^9}]
+}, Open  ]],
+
+Cell["Here are the first 500 characters of the book.", "Text",
+ CellChangeTimes->{{3.666114571711072*^9, 3.666114579695002*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"StringTake", "[", 
+  RowBox[{"aliceInWonderland", ",", "500"}], "]"}]], "Input",
+ CellChangeTimes->{{3.666114498532131*^9, 3.66611450457778*^9}}],
+
+Cell[BoxData["\<\"I--DOWN THE RABBIT-HOLE Alice was beginning to get very \
+tired of sitting by her sister on the bank, and of having nothing to do. Once \
+or twice she had peeped into the book her sister was reading, but it had no \
+pictures or conversations in it, \\\"and what is the use of a book,\\\" \
+thought Alice, \\\"without pictures or conversations?\\\" So she was \
+considering in her own mind (as well as she could, for the day made her feel \
+very sleepy and stupid), whether the pleasure of making a daisy-chain would \
+be worth\"\>"], "Output",
+ CellChangeTimes->{3.666114504886915*^9}]
+}, Open  ]],
+
+Cell[TextData[{
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " has commands that analyze how frequently particular words appear. The ",
+ StyleBox["WordCounts",
+  FontWeight->"Bold"],
+ " command takes a string and returns an ",
+ StyleBox["association",
+  FontSlant->"Italic"],
+ " of words linked to word counts. (We will learn more about associations \
+later). Here we use ",
+ StyleBox["Take",
+  FontWeight->"Bold"],
+ " to get the twenty most frequent words. Of these, only the name \
+\[OpenCurlyQuote]Alice\[CloseCurlyQuote] would be uncommon in most texts. "
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.666114440182076*^9, 3.66611445057994*^9}, {3.666114590006263*^9, 
+  3.666114607077723*^9}, {3.666114639012278*^9, 3.666114720209812*^9}, {
+  3.666114762824786*^9, 3.6661147717677526`*^9}, {3.6661148087836723`*^9, 
+  3.666114830205567*^9}, {3.666114867389818*^9, 3.66611487552381*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Take", "[", 
+  RowBox[{
+   RowBox[{"WordCounts", "[", 
+    RowBox[{"aliceInWonderland", ",", 
+     RowBox[{"IgnoreCase", "\[Rule]", "True"}]}], "]"}], ",", "20"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.6661146092326717`*^9, 3.6661146348697357`*^9}, {
+  3.6661146697955503`*^9, 3.6661146909067993`*^9}, {3.666114732506412*^9, 
+  3.666114741448956*^9}, {3.666114775632464*^9, 3.666114779631535*^9}}],
+
+Cell[BoxData[
+ RowBox[{"\[LeftAssociation]", 
+  RowBox[{
+   RowBox[{"\<\"the\"\>", "\[Rule]", "630"}], ",", 
+   RowBox[{"\<\"and\"\>", "\[Rule]", "338"}], ",", 
+   RowBox[{"\<\"a\"\>", "\[Rule]", "275"}], ",", 
+   RowBox[{"\<\"to\"\>", "\[Rule]", "249"}], ",", 
+   RowBox[{"\<\"she\"\>", "\[Rule]", "239"}], ",", 
+   RowBox[{"\<\"of\"\>", "\[Rule]", "198"}], ",", 
+   RowBox[{"\<\"it\"\>", "\[Rule]", "171"}], ",", 
+   RowBox[{"\<\"was\"\>", "\[Rule]", "167"}], ",", 
+   RowBox[{"\<\"in\"\>", "\[Rule]", "162"}], ",", 
+   RowBox[{"\<\"alice\"\>", "\[Rule]", "161"}], ",", 
+   RowBox[{"\<\"said\"\>", "\[Rule]", "144"}], ",", 
+   RowBox[{"\<\"i\"\>", "\[Rule]", "128"}], ",", 
+   RowBox[{"\<\"her\"\>", "\[Rule]", "108"}], ",", 
+   RowBox[{"\<\"you\"\>", "\[Rule]", "103"}], ",", 
+   RowBox[{"\<\"that\"\>", "\[Rule]", "96"}], ",", 
+   RowBox[{"\<\"as\"\>", "\[Rule]", "91"}], ",", 
+   RowBox[{"\<\"at\"\>", "\[Rule]", "79"}], ",", 
+   RowBox[{"\<\"with\"\>", "\[Rule]", "67"}], ",", 
+   RowBox[{"\<\"had\"\>", "\[Rule]", "65"}], ",", 
+   RowBox[{"\<\"on\"\>", "\[Rule]", "64"}]}], 
+  "\[RightAssociation]"}]], "Output",
+ CellChangeTimes->{{3.6661146819117603`*^9, 3.666114691757145*^9}, {
+   3.666114736195036*^9, 3.666114742257368*^9}, 3.666114780303391*^9}]
+}, Open  ]],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["LetterCounts",
+  FontWeight->"Bold"],
+ " command returns the frequency of each letter."
+}], "Text",
+ CellChangeTimes->{{3.6661148883396683`*^9, 3.6661149342016478`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"LetterCounts", "[", 
+  RowBox[{"aliceInWonderland", ",", 
+   RowBox[{"IgnoreCase", "\[Rule]", "True"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6661149093007317`*^9, 3.666114922403771*^9}}],
+
+Cell[BoxData[
+ RowBox[{"\[LeftAssociation]", 
+  RowBox[{
+   RowBox[{"\<\"e\"\>", "\[Rule]", "5000"}], ",", 
+   RowBox[{"\<\"t\"\>", "\[Rule]", "3798"}], ",", 
+   RowBox[{"\<\"a\"\>", "\[Rule]", "3340"}], ",", 
+   RowBox[{"\<\"o\"\>", "\[Rule]", "2963"}], ",", 
+   RowBox[{"\<\"i\"\>", "\[Rule]", "2724"}], ",", 
+   RowBox[{"\<\"h\"\>", "\[Rule]", "2681"}], ",", 
+   RowBox[{"\<\"n\"\>", "\[Rule]", "2555"}], ",", 
+   RowBox[{"\<\"s\"\>", "\[Rule]", "2407"}], ",", 
+   RowBox[{"\<\"r\"\>", "\[Rule]", "2020"}], ",", 
+   RowBox[{"\<\"d\"\>", "\[Rule]", "1810"}], ",", 
+   RowBox[{"\<\"l\"\>", "\[Rule]", "1743"}], ",", 
+   RowBox[{"\<\"u\"\>", "\[Rule]", "1146"}], ",", 
+   RowBox[{"\<\"w\"\>", "\[Rule]", "982"}], ",", 
+   RowBox[{"\<\"g\"\>", "\[Rule]", "932"}], ",", 
+   RowBox[{"\<\"c\"\>", "\[Rule]", "922"}], ",", 
+   RowBox[{"\<\"m\"\>", "\[Rule]", "774"}], ",", 
+   RowBox[{"\<\"f\"\>", "\[Rule]", "763"}], ",", 
+   RowBox[{"\<\"y\"\>", "\[Rule]", "710"}], ",", 
+   RowBox[{"\<\"p\"\>", "\[Rule]", "531"}], ",", 
+   RowBox[{"\<\"b\"\>", "\[Rule]", "522"}], ",", 
+   RowBox[{"\<\"k\"\>", "\[Rule]", "413"}], ",", 
+   RowBox[{"\<\"v\"\>", "\[Rule]", "294"}], ",", 
+   RowBox[{"\<\"q\"\>", "\[Rule]", "85"}], ",", 
+   RowBox[{"\<\"j\"\>", "\[Rule]", "53"}], ",", 
+   RowBox[{"\<\"x\"\>", "\[Rule]", "46"}], ",", 
+   RowBox[{"\<\"z\"\>", "\[Rule]", "32"}], ",", 
+   RowBox[{"\<\"\[ATilde]\"\>", "\[Rule]", "1"}]}], 
+  "\[RightAssociation]"}]], "Output",
+ CellChangeTimes->{{3.666114914742997*^9, 3.666114922781776*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Simple cryptanalysis", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.6661158110337276`*^9, 3.666115826239826*^9}}],
+
+Cell[TextData[{
+ "Because letter frequencies tend to be fairly consistent from one long \
+English text to another, you can use frequency analysis to break simple \
+substitution ciphers (like the one above). Let\[CloseCurlyQuote]s start by \
+encrypting the first 1000 characters of ",
+ StyleBox["Alice in Wonderland",
+  FontSlant->"Italic"],
+ ", using our rules above."
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.666115828567721*^9, 3.66611592687591*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"aliceCipherText", "=", 
+  RowBox[{"StringReplace", "[", 
+   RowBox[{
+    RowBox[{"StringTake", "[", 
+     RowBox[{"aliceInWonderland", ",", "1000"}], "]"}], ",", 
+    "encryptionRules", ",", 
+    RowBox[{"IgnoreCase", "\[Rule]", "True"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.6661158997190104`*^9, 3.66611594494742*^9}}],
+
+Cell[BoxData["\<\"k--fqyp vjg tcddkv-jqng cnkeg ycu dgikppkpi vq igv xgta \
+vktgf qh ukvvkpi da jgt ukuvgt qp vjg dcpm, cpf qh jcxkpi pqvjkpi vq fq. qpeg \
+qt vykeg ujg jcf rggrgf kpvq vjg dqqm jgt ukuvgt ycu tgcfkpi, dwv kv jcf pq \
+rkevwtgu qt eqpxgtucvkqpu kp kv, \\\"cpf yjcv ku vjg wug qh c dqqm,\\\" \
+vjqwijv cnkeg, \\\"ykvjqwv rkevwtgu qt eqpxgtucvkqpu?\\\" uq ujg ycu \
+eqpukfgtkpi kp jgt qyp okpf (cu ygnn cu ujg eqwnf, hqt vjg fca ocfg jgt hggn \
+xgta unggra cpf uvwrkf), yjgvjgt vjg rngcuwtg qh ocmkpi c fckua-ejckp yqwnf \
+dg yqtvj vjg vtqwdng qh igvvkpi wr cpf rkemkpi vjg fckukgu, yjgp uwffgpna c \
+yjkvg tcddkv ykvj rkpm gagu tcp enqug da jgt. vjgtg ycu pqvjkpi uq xgta \
+tgoctmcdng kp vjcv, pqt fkf cnkeg vjkpm kv uq xgta owej qwv qh vjg yca vq \
+jgct vjg tcddkv uca vq kvugnh, \\\"qj fgct! qj fgct! k ujcnn dg vqq ncvg!\\\" \
+dwv yjgp vjg tcddkv cevwcnna vqqm c ycvej qwv qh kvu yckuveqcv-rqemgv cpf \
+nqqmgf cv kv cpf vjgp jwttkgf qp, cnkeg uvctvgf vq jgt hggv, hqt kv hncujgf \
+cetquu jgt okpf vjcv ujg jcf pgxgt dghqtg uggp c tcddkv ykvj gkv\"\>"], \
+"Output",
+ CellChangeTimes->{3.666115947884592*^9}]
+}, Open  ]],
+
+Cell["\<\
+Now suppose we don\[CloseCurlyQuote]t know what rules were used for the \
+encryption. We start by counting letter frequencies in our ciphertext.\
+\>", "Text",
+ CellChangeTimes->{{3.666115954651341*^9, 3.666116000777154*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"LetterCounts", "[", "aliceCipherText", "]"}]], "Input",
+ CellChangeTimes->{{3.666116003146962*^9, 3.666116009497617*^9}}],
+
+Cell[BoxData[
+ RowBox[{"\[LeftAssociation]", 
+  RowBox[{
+   RowBox[{"\<\"g\"\>", "\[Rule]", "94"}], ",", 
+   RowBox[{"\<\"v\"\>", "\[Rule]", "80"}], ",", 
+   RowBox[{"\<\"c\"\>", "\[Rule]", "63"}], ",", 
+   RowBox[{"\<\"q\"\>", "\[Rule]", "62"}], ",", 
+   RowBox[{"\<\"k\"\>", "\[Rule]", "62"}], ",", 
+   RowBox[{"\<\"j\"\>", "\[Rule]", "55"}], ",", 
+   RowBox[{"\<\"p\"\>", "\[Rule]", "49"}], ",", 
+   RowBox[{"\<\"t\"\>", "\[Rule]", "48"}], ",", 
+   RowBox[{"\<\"u\"\>", "\[Rule]", "46"}], ",", 
+   RowBox[{"\<\"f\"\>", "\[Rule]", "34"}], ",", 
+   RowBox[{"\<\"n\"\>", "\[Rule]", "24"}], ",", 
+   RowBox[{"\<\"d\"\>", "\[Rule]", "23"}], ",", 
+   RowBox[{"\<\"y\"\>", "\[Rule]", "21"}], ",", 
+   RowBox[{"\<\"e\"\>", "\[Rule]", "21"}], ",", 
+   RowBox[{"\<\"w\"\>", "\[Rule]", "19"}], ",", 
+   RowBox[{"\<\"i\"\>", "\[Rule]", "14"}], ",", 
+   RowBox[{"\<\"h\"\>", "\[Rule]", "14"}], ",", 
+   RowBox[{"\<\"a\"\>", "\[Rule]", "14"}], ",", 
+   RowBox[{"\<\"r\"\>", "\[Rule]", "11"}], ",", 
+   RowBox[{"\<\"m\"\>", "\[Rule]", "11"}], ",", 
+   RowBox[{"\<\"x\"\>", "\[Rule]", "8"}], ",", 
+   RowBox[{"\<\"o\"\>", "\[Rule]", "6"}]}], "\[RightAssociation]"}]], "Output",\
+
+ CellChangeTimes->{3.666116010182541*^9}]
+}, Open  ]],
+
+Cell["\<\
+Since g is the most common letter, let\[CloseCurlyQuote]s hypothesize that is \
+\[OpenCurlyDoubleQuote]E\[CloseCurlyDoubleQuote]. The next most common is \
+\[OpenCurlyDoubleQuote]v\[CloseCurlyDoubleQuote], so let\[CloseCurlyQuote]s \
+replace that with \[OpenCurlyDoubleQuote]T\[CloseCurlyDoubleQuote], and the \
+third most common is \[OpenCurlyDoubleQuote]c\[CloseCurlyDoubleQuote], which \
+we will replace with \[OpenCurlyDoubleQuote]A\[CloseCurlyDoubleQuote]. Here \
+is what we have so far...\
+\>", "Text",
+ CellChangeTimes->{{3.6661160127693243`*^9, 3.6661160304400663`*^9}, {
+  3.666116061919919*^9, 3.6661161008695307`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"StringReplace", "[", 
+  RowBox[{"aliceCipherText", ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"\"\<g\>\"", "\[Rule]", "\"\<E\>\""}], ",", 
+     RowBox[{"\"\<v\>\"", "\[Rule]", "\"\<T\>\""}], ",", 
+     RowBox[{"\"\<c\>\"", "\[Rule]", "\"\<A\>\""}]}], "}"}]}], "]"}]], "Input",\
+
+ CellChangeTimes->{{3.666116034940942*^9, 3.666116048735579*^9}, {
+  3.666116104414373*^9, 3.6661161137731647`*^9}}],
+
+Cell[BoxData["\<\"k--fqyp TjE tAddkT-jqnE AnkeE yAu dEikppkpi Tq iET xEta \
+TktEf qh ukTTkpi da jEt ukuTEt qp TjE dApm, Apf qh jAxkpi pqTjkpi Tq fq. qpeE \
+qt TykeE ujE jAf rEErEf kpTq TjE dqqm jEt ukuTEt yAu tEAfkpi, dwT kT jAf pq \
+rkeTwtEu qt eqpxEtuATkqpu kp kT, \\\"Apf yjAT ku TjE wuE qh A dqqm,\\\" \
+TjqwijT AnkeE, \\\"ykTjqwT rkeTwtEu qt eqpxEtuATkqpu?\\\" uq ujE yAu \
+eqpukfEtkpi kp jEt qyp okpf (Au yEnn Au ujE eqwnf, hqt TjE fAa oAfE jEt hEEn \
+xEta unEEra Apf uTwrkf), yjETjEt TjE rnEAuwtE qh oAmkpi A fAkua-ejAkp yqwnf \
+dE yqtTj TjE TtqwdnE qh iETTkpi wr Apf rkemkpi TjE fAkukEu, yjEp uwffEpna A \
+yjkTE tAddkT ykTj rkpm EaEu tAp enquE da jEt. TjEtE yAu pqTjkpi uq xEta \
+tEoAtmAdnE kp TjAT, pqt fkf AnkeE Tjkpm kT uq xEta owej qwT qh TjE yAa Tq \
+jEAt TjE tAddkT uAa Tq kTuEnh, \\\"qj fEAt! qj fEAt! k ujAnn dE Tqq nATE!\\\" \
+dwT yjEp TjE tAddkT AeTwAnna Tqqm A yATej qwT qh kTu yAkuTeqAT-rqemET Apf \
+nqqmEf AT kT Apf TjEp jwttkEf qp, AnkeE uTAtTEf Tq jEt hEET, hqt kT hnAujEf \
+Aetquu jEt okpf TjAT ujE jAf pExEt dEhqtE uEEp A tAddkT ykTj EkT\"\>"], \
+"Output",
+ CellChangeTimes->{3.666116049752059*^9, 3.666116115019162*^9}]
+}, Open  ]],
+
+Cell["\<\
+Looking at the text above, we se \[OpenCurlyDoubleQuote]TjE\
+\[CloseCurlyDoubleQuote] and \[OpenCurlyDoubleQuote]TjAT\
+\[CloseCurlyDoubleQuote], so \[OpenCurlyDoubleQuote]j\[CloseCurlyDoubleQuote] \
+must be \[OpenCurlyDoubleQuote]h\[CloseCurlyDoubleQuote].\
+\>", "Text",
+ CellChangeTimes->{{3.6661161329319353`*^9, 3.6661161582032003`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"StringReplace", "[", 
+  RowBox[{"aliceCipherText", ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"\"\<g\>\"", "\[Rule]", "\"\<E\>\""}], ",", 
+     RowBox[{"\"\<v\>\"", "\[Rule]", "\"\<T\>\""}], ",", 
+     RowBox[{"\"\<c\>\"", "\[Rule]", "\"\<A\>\""}], ",", 
+     RowBox[{"\"\<j\>\"", "\[Rule]", "\"\<H\>\""}]}], "}"}]}], "]"}]], "Input",\
+
+ CellChangeTimes->{{3.666116034940942*^9, 3.666116048735579*^9}, {
+  3.666116104414373*^9, 3.6661161137731647`*^9}, {3.666116167011651*^9, 
+  3.666116172306933*^9}}],
+
+Cell[BoxData["\<\"k--fqyp THE tAddkT-HqnE AnkeE yAu dEikppkpi Tq iET xEta \
+TktEf qh ukTTkpi da HEt ukuTEt qp THE dApm, Apf qh HAxkpi pqTHkpi Tq fq. qpeE \
+qt TykeE uHE HAf rEErEf kpTq THE dqqm HEt ukuTEt yAu tEAfkpi, dwT kT HAf pq \
+rkeTwtEu qt eqpxEtuATkqpu kp kT, \\\"Apf yHAT ku THE wuE qh A dqqm,\\\" \
+THqwiHT AnkeE, \\\"ykTHqwT rkeTwtEu qt eqpxEtuATkqpu?\\\" uq uHE yAu \
+eqpukfEtkpi kp HEt qyp okpf (Au yEnn Au uHE eqwnf, hqt THE fAa oAfE HEt hEEn \
+xEta unEEra Apf uTwrkf), yHETHEt THE rnEAuwtE qh oAmkpi A fAkua-eHAkp yqwnf \
+dE yqtTH THE TtqwdnE qh iETTkpi wr Apf rkemkpi THE fAkukEu, yHEp uwffEpna A \
+yHkTE tAddkT ykTH rkpm EaEu tAp enquE da HEt. THEtE yAu pqTHkpi uq xEta \
+tEoAtmAdnE kp THAT, pqt fkf AnkeE THkpm kT uq xEta oweH qwT qh THE yAa Tq \
+HEAt THE tAddkT uAa Tq kTuEnh, \\\"qH fEAt! qH fEAt! k uHAnn dE Tqq nATE!\\\" \
+dwT yHEp THE tAddkT AeTwAnna Tqqm A yATeH qwT qh kTu yAkuTeqAT-rqemET Apf \
+nqqmEf AT kT Apf THEp HwttkEf qp, AnkeE uTAtTEf Tq HEt hEET, hqt kT hnAuHEf \
+Aetquu HEt okpf THAT uHE HAf pExEt dEhqtE uEEp A tAddkT ykTH EkT\"\>"], \
+"Output",
+ CellChangeTimes->{3.666116172989229*^9}]
+}, Open  ]],
+
+Cell["\<\
+Now we see \[OpenCurlyDoubleQuote]uHE\[CloseCurlyDoubleQuote] and \
+\[OpenCurlyDoubleQuote]HEt\[CloseCurlyDoubleQuote]. Those are probably \
+\[OpenCurlyDoubleQuote]SHE\[CloseCurlyDoubleQuote] and \
+\[OpenCurlyDoubleQuote]HER\[CloseCurlyDoubleQuote].\
+\>", "Text",
+ CellChangeTimes->{{3.66611618744998*^9, 3.666116225848469*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"StringReplace", "[", 
+  RowBox[{"aliceCipherText", ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"\"\<g\>\"", "\[Rule]", "\"\<E\>\""}], ",", 
+     RowBox[{"\"\<v\>\"", "\[Rule]", "\"\<T\>\""}], ",", 
+     RowBox[{"\"\<c\>\"", "\[Rule]", "\"\<A\>\""}], ",", 
+     RowBox[{"\"\<j\>\"", "\[Rule]", "\"\<H\>\""}], ",", 
+     RowBox[{"\"\<u\>\"", "\[Rule]", "\"\<S\>\""}], ",", 
+     RowBox[{"\"\<t\>\"", "\[Rule]", "\"\<R\>\""}]}], "}"}]}], "]"}]], "Input",\
+
+ CellChangeTimes->{{3.666116034940942*^9, 3.666116048735579*^9}, {
+  3.666116104414373*^9, 3.6661161137731647`*^9}, {3.666116167011651*^9, 
+  3.666116172306933*^9}, {3.666116233824327*^9, 3.666116248064006*^9}}],
+
+Cell[BoxData["\<\"k--fqyp THE RAddkT-HqnE AnkeE yAS dEikppkpi Tq iET xERa \
+TkREf qh SkTTkpi da HER SkSTER qp THE dApm, Apf qh HAxkpi pqTHkpi Tq fq. qpeE \
+qR TykeE SHE HAf rEErEf kpTq THE dqqm HER SkSTER yAS REAfkpi, dwT kT HAf pq \
+rkeTwRES qR eqpxERSATkqpS kp kT, \\\"Apf yHAT kS THE wSE qh A dqqm,\\\" \
+THqwiHT AnkeE, \\\"ykTHqwT rkeTwRES qR eqpxERSATkqpS?\\\" Sq SHE yAS \
+eqpSkfERkpi kp HER qyp okpf (AS yEnn AS SHE eqwnf, hqR THE fAa oAfE HER hEEn \
+xERa SnEEra Apf STwrkf), yHETHER THE rnEASwRE qh oAmkpi A fAkSa-eHAkp yqwnf \
+dE yqRTH THE TRqwdnE qh iETTkpi wr Apf rkemkpi THE fAkSkES, yHEp SwffEpna A \
+yHkTE RAddkT ykTH rkpm EaES RAp enqSE da HER. THERE yAS pqTHkpi Sq xERa \
+REoARmAdnE kp THAT, pqR fkf AnkeE THkpm kT Sq xERa oweH qwT qh THE yAa Tq \
+HEAR THE RAddkT SAa Tq kTSEnh, \\\"qH fEAR! qH fEAR! k SHAnn dE Tqq nATE!\\\" \
+dwT yHEp THE RAddkT AeTwAnna Tqqm A yATeH qwT qh kTS yAkSTeqAT-rqemET Apf \
+nqqmEf AT kT Apf THEp HwRRkEf qp, AnkeE STARTEf Tq HER hEET, hqR kT hnASHEf \
+AeRqSS HER okpf THAT SHE HAf pExER dEhqRE SEEp A RAddkT ykTH EkT\"\>"], \
+"Output",
+ CellChangeTimes->{3.666116249910652*^9}]
+}, Open  ]],
+
+Cell["Now we see \[OpenCurlyDoubleQuote]SkSTER\[CloseCurlyDoubleQuote], \
+\[OpenCurlyDoubleQuote]hEET\[CloseCurlyDoubleQuote], \
+\[OpenCurlyDoubleQuote]qR\[CloseCurlyDoubleQuote] and \
+\[OpenCurlyDoubleQuote]STARTEf\[CloseCurlyDoubleQuote].", "Text",
+ CellChangeTimes->{{3.666116303125537*^9, 3.6661163361804457`*^9}, {
+  3.6661163872822866`*^9, 3.666116391058461*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"StringReplace", "[", 
+  RowBox[{"aliceCipherText", ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"\"\<g\>\"", "\[Rule]", "\"\<E\>\""}], ",", 
+     RowBox[{"\"\<v\>\"", "\[Rule]", "\"\<T\>\""}], ",", 
+     RowBox[{"\"\<c\>\"", "\[Rule]", "\"\<A\>\""}], ",", 
+     RowBox[{"\"\<j\>\"", "\[Rule]", "\"\<H\>\""}], ",", 
+     RowBox[{"\"\<u\>\"", "\[Rule]", "\"\<S\>\""}], ",", 
+     RowBox[{"\"\<t\>\"", "\[Rule]", "\"\<R\>\""}], ",", 
+     RowBox[{"\"\<k\>\"", "\[Rule]", "\"\<I\>\""}], ",", 
+     RowBox[{"\"\<h\>\"", "\[Rule]", "\"\<F\>\""}], ",", 
+     RowBox[{"\"\<f\>\"", "\[Rule]", "\"\<D\>\""}], ",", 
+     RowBox[{"\"\<q\>\"", "\[Rule]", "\"\<O\>\""}]}], "}"}]}], "]"}]], "Input",\
+
+ CellChangeTimes->{{3.666116034940942*^9, 3.666116048735579*^9}, {
+  3.666116104414373*^9, 3.6661161137731647`*^9}, {3.666116167011651*^9, 
+  3.666116172306933*^9}, {3.666116233824327*^9, 3.666116248064006*^9}, {
+  3.666116343709174*^9, 3.666116364171678*^9}, {3.666116394954585*^9, 
+  3.666116398954301*^9}}],
+
+Cell[BoxData["\<\"I--DOyp THE RAddIT-HOnE AnIeE yAS dEiIppIpi TO iET xERa \
+TIRED OF SITTIpi da HER SISTER Op THE dApm, ApD OF HAxIpi pOTHIpi TO DO. OpeE \
+OR TyIeE SHE HAD rEErED IpTO THE dOOm HER SISTER yAS READIpi, dwT IT HAD pO \
+rIeTwRES OR eOpxERSATIOpS Ip IT, \\\"ApD yHAT IS THE wSE OF A dOOm,\\\" \
+THOwiHT AnIeE, \\\"yITHOwT rIeTwRES OR eOpxERSATIOpS?\\\" SO SHE yAS \
+eOpSIDERIpi Ip HER Oyp oIpD (AS yEnn AS SHE eOwnD, FOR THE DAa oADE HER FEEn \
+xERa SnEEra ApD STwrID), yHETHER THE rnEASwRE OF oAmIpi A DAISa-eHAIp yOwnD \
+dE yORTH THE TROwdnE OF iETTIpi wr ApD rIemIpi THE DAISIES, yHEp SwDDEpna A \
+yHITE RAddIT yITH rIpm EaES RAp enOSE da HER. THERE yAS pOTHIpi SO xERa \
+REoARmAdnE Ip THAT, pOR DID AnIeE THIpm IT SO xERa oweH OwT OF THE yAa TO \
+HEAR THE RAddIT SAa TO ITSEnF, \\\"OH DEAR! OH DEAR! I SHAnn dE TOO nATE!\\\" \
+dwT yHEp THE RAddIT AeTwAnna TOOm A yATeH OwT OF ITS yAISTeOAT-rOemET ApD \
+nOOmED AT IT ApD THEp HwRRIED Op, AnIeE STARTED TO HER FEET, FOR IT FnASHED \
+AeROSS HER oIpD THAT SHE HAD pExER dEFORE SEEp A RAddIT yITH EIT\"\>"], \
+"Output",
+ CellChangeTimes->{3.666116365062101*^9, 3.666116399780905*^9}]
+}, Open  ]],
+
+Cell["\[OpenCurlyDoubleQuote]pi\[CloseCurlyDoubleQuote] is obviously \
+\[OpenCurlyDoubleQuote]NG\[CloseCurlyDoubleQuote], \[OpenCurlyDoubleQuote]d\
+\[CloseCurlyDoubleQuote] is \[OpenCurlyDoubleQuote]B\[CloseCurlyDoubleQuote], \
+and \[OpenCurlyDoubleQuote]y\[CloseCurlyDoubleQuote] is \
+\[OpenCurlyDoubleQuote]W\[CloseCurlyDoubleQuote]", "Text",
+ CellChangeTimes->{{3.666116412497212*^9, 3.666116431736833*^9}, {
+  3.666116500991507*^9, 3.666116509870027*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"StringReplace", "[", 
+  RowBox[{"aliceCipherText", ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"\"\<g\>\"", "\[Rule]", "\"\<E\>\""}], ",", 
+     RowBox[{"\"\<v\>\"", "\[Rule]", "\"\<T\>\""}], ",", 
+     RowBox[{"\"\<c\>\"", "\[Rule]", "\"\<A\>\""}], ",", 
+     RowBox[{"\"\<j\>\"", "\[Rule]", "\"\<H\>\""}], ",", 
+     RowBox[{"\"\<u\>\"", "\[Rule]", "\"\<S\>\""}], ",", 
+     RowBox[{"\"\<t\>\"", "\[Rule]", "\"\<R\>\""}], ",", 
+     RowBox[{"\"\<k\>\"", "\[Rule]", "\"\<I\>\""}], ",", 
+     RowBox[{"\"\<h\>\"", "\[Rule]", "\"\<F\>\""}], ",", 
+     RowBox[{"\"\<f\>\"", "\[Rule]", "\"\<D\>\""}], ",", 
+     RowBox[{"\"\<q\>\"", "\[Rule]", "\"\<O\>\""}], ",", 
+     RowBox[{"\"\<p\>\"", "\[Rule]", "\"\<N\>\""}], ",", 
+     RowBox[{"\"\<i\>\"", "\[Rule]", "\"\<G\>\""}], ",", 
+     RowBox[{"\"\<d\>\"", "\[Rule]", "\"\<B\>\""}], ",", 
+     RowBox[{"\"\<y\>\"", "\[Rule]", "\"\<W\>\""}]}], "}"}]}], "]"}]], "Input",\
+
+ CellChangeTimes->{{3.666116034940942*^9, 3.666116048735579*^9}, {
+  3.666116104414373*^9, 3.6661161137731647`*^9}, {3.666116167011651*^9, 
+  3.666116172306933*^9}, {3.666116233824327*^9, 3.666116248064006*^9}, {
+  3.666116343709174*^9, 3.666116364171678*^9}, {3.666116394954585*^9, 
+  3.666116398954301*^9}, {3.6661164418655033`*^9, 3.666116457712072*^9}, {
+  3.6661165139899693`*^9, 3.666116517093943*^9}}],
+
+Cell[BoxData["\<\"I--DOWN THE RABBIT-HOnE AnIeE WAS BEGINNING TO GET xERa \
+TIRED OF SITTING Ba HER SISTER ON THE BANm, AND OF HAxING NOTHING TO DO. ONeE \
+OR TWIeE SHE HAD rEErED INTO THE BOOm HER SISTER WAS READING, BwT IT HAD NO \
+rIeTwRES OR eONxERSATIONS IN IT, \\\"AND WHAT IS THE wSE OF A BOOm,\\\" \
+THOwGHT AnIeE, \\\"WITHOwT rIeTwRES OR eONxERSATIONS?\\\" SO SHE WAS \
+eONSIDERING IN HER OWN oIND (AS WEnn AS SHE eOwnD, FOR THE DAa oADE HER FEEn \
+xERa SnEEra AND STwrID), WHETHER THE rnEASwRE OF oAmING A DAISa-eHAIN WOwnD \
+BE WORTH THE TROwBnE OF GETTING wr AND rIemING THE DAISIES, WHEN SwDDENna A \
+WHITE RABBIT WITH rINm EaES RAN enOSE Ba HER. THERE WAS NOTHING SO xERa \
+REoARmABnE IN THAT, NOR DID AnIeE THINm IT SO xERa oweH OwT OF THE WAa TO \
+HEAR THE RABBIT SAa TO ITSEnF, \\\"OH DEAR! OH DEAR! I SHAnn BE TOO nATE!\\\" \
+BwT WHEN THE RABBIT AeTwAnna TOOm A WATeH OwT OF ITS WAISTeOAT-rOemET AND \
+nOOmED AT IT AND THEN HwRRIED ON, AnIeE STARTED TO HER FEET, FOR IT FnASHED \
+AeROSS HER oIND THAT SHE HAD NExER BEFORE SEEN A RABBIT WITH EIT\"\>"], \
+"Output",
+ CellChangeTimes->{3.666116458651074*^9, 3.666116518175619*^9}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["In-Class Activity", "Section",
+ CellChangeTimes->{{3.647716402186221*^9, 3.647716405353856*^9}, {
+  3.6583374723271*^9, 3.658337478437811*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Try using frequency analysis to decrypt the following ciphertext\
+\>", "Subsection",
+ CellChangeTimes->{{3.666114399245659*^9, 3.666114417036922*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+  "secretCipher", "=", 
+   "\"\<qknxulpr1rturtfrnrupsukrsgtolpfnjjernqigmbjldyldruknurnrftgyjlrwngrtgr\
+xmfflfftmgrmhrnrymmdrhmpusglrwsfurvlrtgrbngurmhrnrbthlrkmblolprjtuujlrigmbgruk\
+lrhlljtgyfrmprotlbfrmhrfsqkrnrwngrwnervlrmgrktfrhtpfurlgulptgyrnrgltykvmspkmmd\
+ruktfrupsukrtfrfmrbljjrhtcldrtgruklrwtgdfrmhruklrfsppmsgdtgyrhnwtjtlfruknurklr\
+tfrqmgftdlpldruklrptykuhsjrxpmxlpuermhrfmwlrmglrmprmuklprmhrukltprdnsykulpfrwe\
+rdlnprwp.rvlgglurfntdrktfrjnderumrktwrmglrdnerknolremsrklnpdruknurgluklphtljdr\
+xnpirtfrjlurnurjnfurwp.\
+rvlgglurplxjtldruknurklrkndrgmurvsurturtfrpluspgldrfklrhmprwpf.\
+rjmgyrknfrzsfurvllgrklplrngdrfklrumjdrwlrnjjrnvmsurturwp.\
+rvlgglurwndlrgmrngfblprdmremsrgmurbngurumrigmbrbkmrknfrunilgrturqptldrktfrbthl\
+rtwxnutlgujeremsrbngurumruljjrwlrngdrtrknolrgmrmvzlqutmgrumrklnptgyrturuktfrbn\
+frtgotunutmgrlgmsykrbkerwerdlnpremsrwsfurigmbrwpf.\
+rjmgyrfnefruknurgluklphtljdrtfrunilgrvernremsgyrwngrmhrjnpylrhmpusglrhpmwruklr\
+gmpukrmhrlgyjngdruknurklrqnwlrdmbgrmgrwmgdnertgrnrqkntflrngdrhmsprumrfllruklrx\
+jnqlrngdrbnfrfmrwsqkrdljtykuldrbtukrturuknurklrnyplldrbtukrwp.\
+rwmpptfrtwwldtnuljeruknurklrtfrumrunilrxmfflfftmgrvlhmplrwtqknljwnfrngdrfmwlrm\
+hrktfrflpongufrnplrumrvlrtgruklrkmsflrveruklrlgdrmhrglcurbllirbknurtfrktfrgnwl\
+rvtgyjlertfrklrwnpptldrmprftgyjlrmkrftgyjlrwerdlnprumrvlrfsplrnrftgyjlrwngrmhr\
+jnpylrhmpusglrhmsprmprhtolrukmsfngdrnrelnprbknurnrhtglruktgyrhmprmsprytpjfrkmb\
+rfmrkmbrqngrturnhhlquruklwrwerdlnprwp.\
+rvlgglurplxjtldrktfrbthlrkmbrqngremsrvlrfmrutplfmwlremsrwsfurigmbruknurtrnwruk\
+tgitgyrmhrktfrwnppetgy\>\""}], ";"}]], "Input",
+ CellChangeTimes->{{3.666115579019528*^9, 3.666115605408064*^9}}],
+
+Cell["NAME:", "Subsubsection",
+ CellChangeTimes->{{3.658337538475717*^9, 3.658337539778943*^9}}],
+
+Cell["STUDENT NUMBER:", "Subsubsection",
+ CellChangeTimes->{{3.658337543114833*^9, 3.658337546026588*^9}}],
+
+Cell["DATE:", "Subsubsection",
+ CellChangeTimes->{{3.6583375490023537`*^9, 3.658337550162354*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Upload your notebook", "Section",
+ CellChangeTimes->{{3.649950784924818*^9, 3.649950788859275*^9}}],
+
+Cell["\<\
+Don\[CloseCurlyQuote]t forget to upload a copy of your notebook for this day\
+\[CloseCurlyQuote]s class to the OWL Site for the course\
+\>", "Text",
+ CellChangeTimes->{{3.649950792779258*^9, 3.649950818634288*^9}, {
+  3.658337509093232*^9, 3.658337512508254*^9}}]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1422, 1107},
+WindowMargins->{{Automatic, 25}, {Automatic, 96}},
+TaggingRules->{"SlideShow" -> True},
+Magnification:>1.25 Inherited,
+FrontEndVersion->"11.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (July 28, \
+2016)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "SlideShowHeader"->{
+  Cell[580, 22, 4383, 98, 75, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[5964, 149, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[12410, 373, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[16382, 499, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[25267, 726, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[32030, 903, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[48049, 1233, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[50522, 1291, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"SlideShowHeader", 51401, 1321}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 4383, 98, 75, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[4966, 122, 596, 11, 183, "Title"],
+Cell[5565, 135, 362, 9, 99, "Subtitle"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5964, 149, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[6053, 154, 217, 3, 80, "Section"],
+Cell[6273, 159, 389, 10, 61, "Text"],
+Cell[CellGroupData[{
+Cell[6687, 173, 161, 2, 39, "Input"],
+Cell[6851, 177, 77, 1, 39, "Output"]
+}, Open  ]],
+Cell[6943, 181, 207, 6, 37, "Text"],
+Cell[CellGroupData[{
+Cell[7175, 191, 168, 3, 39, "Input"],
+Cell[7346, 196, 71, 1, 39, "Output"]
+}, Open  ]],
+Cell[7432, 200, 135, 1, 37, "Text"],
+Cell[CellGroupData[{
+Cell[7592, 205, 171, 3, 39, "Input"],
+Cell[7766, 210, 103, 1, 39, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7906, 216, 188, 3, 39, "Input"],
+Cell[8097, 221, 85, 1, 39, "Output"]
+}, Open  ]],
+Cell[8197, 225, 159, 3, 37, "Text"],
+Cell[CellGroupData[{
+Cell[8381, 232, 171, 3, 39, "Input"],
+Cell[8555, 237, 104, 1, 39, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8696, 243, 167, 3, 39, "Input"],
+Cell[8866, 248, 104, 1, 39, "Output"]
+}, Open  ]],
+Cell[8985, 252, 197, 5, 37, "Text"],
+Cell[CellGroupData[{
+Cell[9207, 261, 140, 2, 39, "Input"],
+Cell[9350, 265, 170, 4, 39, "Output"]
+}, Open  ]],
+Cell[9535, 272, 286, 7, 37, "Text"],
+Cell[CellGroupData[{
+Cell[9846, 283, 250, 6, 39, "Input"],
+Cell[10099, 291, 92, 1, 39, "Output"]
+}, Open  ]],
+Cell[10206, 295, 256, 7, 37, "Text"],
+Cell[CellGroupData[{
+Cell[10487, 306, 285, 7, 39, "Input"],
+Cell[10775, 315, 95, 1, 39, "Output"]
+}, Open  ]],
+Cell[10885, 319, 247, 7, 37, "Text"],
+Cell[CellGroupData[{
+Cell[11157, 330, 215, 4, 39, "Input"],
+Cell[11375, 336, 226, 5, 39, "Output"]
+}, Open  ]],
+Cell[11616, 344, 206, 6, 37, "Text"],
+Cell[CellGroupData[{
+Cell[11847, 354, 371, 9, 39, "Input"],
+Cell[12221, 365, 128, 1, 39, "Output"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[12410, 373, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[12499, 378, 145, 2, 80, "Section"],
+Cell[12647, 382, 497, 11, 61, "Text"],
+Cell[13147, 395, 339, 8, 37, "Text"],
+Cell[13489, 405, 726, 18, 118, "Input"],
+Cell[CellGroupData[{
+Cell[14240, 427, 140, 2, 39, "Input"],
+Cell[14383, 431, 81, 1, 39, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[14501, 437, 142, 2, 39, "Input"],
+Cell[14646, 441, 81, 1, 39, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[14764, 447, 142, 2, 39, "Input"],
+Cell[14909, 451, 81, 1, 39, "Output"]
+}, Open  ]],
+Cell[15005, 455, 234, 6, 37, "Text"],
+Cell[15242, 463, 691, 18, 118, "Input"],
+Cell[CellGroupData[{
+Cell[15958, 485, 228, 4, 39, "Input"],
+Cell[16189, 491, 132, 1, 39, "Output"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[16382, 499, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[16471, 504, 143, 2, 80, "Section"],
+Cell[16617, 508, 398, 9, 37, "Text"],
+Cell[CellGroupData[{
+Cell[17040, 521, 447, 8, 39, "Input"],
+Cell[17490, 531, 207, 3, 39, "Output"]
+}, Open  ]],
+Cell[17712, 537, 323, 8, 37, "Text"],
+Cell[CellGroupData[{
+Cell[18060, 549, 176, 3, 39, "Input"],
+Cell[18239, 554, 612, 9, 39, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[18888, 568, 294, 7, 39, "Input"],
+Cell[19185, 577, 613, 9, 39, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[19835, 591, 567, 15, 39, "Input"],
+Cell[20405, 608, 1575, 29, 66, "Output"]
+}, Open  ]],
+Cell[21995, 640, 118, 1, 37, "Text"],
+Cell[CellGroupData[{
+Cell[22138, 645, 445, 8, 39, "Input"],
+Cell[22586, 655, 109, 1, 39, "Output"]
+}, Open  ]],
+Cell[22710, 659, 208, 5, 37, "Text"],
+Cell[CellGroupData[{
+Cell[22943, 668, 202, 4, 39, "Input"],
+Cell[23148, 674, 1577, 29, 66, "Output"]
+}, Open  ]],
+Cell[24740, 706, 112, 1, 37, "Text"],
+Cell[CellGroupData[{
+Cell[24877, 711, 217, 5, 39, "Input"],
+Cell[25097, 718, 109, 1, 39, "Output"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[25267, 726, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[25356, 731, 154, 2, 80, "Section"],
+Cell[25513, 735, 338, 9, 37, "Text"],
+Cell[25854, 746, 279, 7, 39, "Input"],
+Cell[CellGroupData[{
+Cell[26158, 757, 147, 2, 39, "Input"],
+Cell[26308, 761, 74, 1, 39, "Output"]
+}, Open  ]],
+Cell[26397, 765, 128, 1, 37, "Text"],
+Cell[CellGroupData[{
+Cell[26550, 770, 169, 3, 39, "Input"],
+Cell[26722, 775, 603, 8, 118, "Output"]
+}, Open  ]],
+Cell[27340, 786, 934, 20, 85, "Text"],
+Cell[CellGroupData[{
+Cell[28299, 810, 425, 9, 39, "Input"],
+Cell[28727, 821, 1259, 25, 66, "Output"]
+}, Open  ]],
+Cell[30001, 849, 205, 6, 37, "Text"],
+Cell[CellGroupData[{
+Cell[30231, 859, 214, 4, 39, "Input"],
+Cell[30448, 865, 1521, 31, 66, "Output"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[32030, 903, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[32119, 908, 158, 2, 80, "Section"],
+Cell[32280, 912, 496, 10, 61, "Text"],
+Cell[CellGroupData[{
+Cell[32801, 926, 350, 8, 39, "Input"],
+Cell[33154, 936, 1123, 15, 248, "Output"]
+}, Open  ]],
+Cell[34292, 954, 234, 4, 37, "Text"],
+Cell[CellGroupData[{
+Cell[34551, 962, 145, 2, 39, "Input"],
+Cell[34699, 966, 1208, 26, 66, "Output"]
+}, Open  ]],
+Cell[35922, 995, 639, 10, 61, "Text"],
+Cell[CellGroupData[{
+Cell[36586, 1009, 425, 10, 39, "Input"],
+Cell[37014, 1021, 1145, 15, 248, "Output"]
+}, Open  ]],
+Cell[38174, 1039, 350, 6, 37, "Text"],
+Cell[CellGroupData[{
+Cell[38549, 1049, 532, 12, 39, "Input"],
+Cell[39084, 1063, 1123, 15, 248, "Output"]
+}, Open  ]],
+Cell[40222, 1081, 338, 6, 37, "Text"],
+Cell[CellGroupData[{
+Cell[40585, 1091, 694, 14, 39, "Input"],
+Cell[41282, 1107, 1123, 15, 248, "Output"]
+}, Open  ]],
+Cell[42420, 1125, 369, 5, 37, "Text"],
+Cell[CellGroupData[{
+Cell[42814, 1134, 1024, 20, 66, "Input"],
+Cell[43841, 1156, 1145, 15, 248, "Output"]
+}, Open  ]],
+Cell[45001, 1174, 459, 6, 37, "Text"],
+Cell[CellGroupData[{
+Cell[45485, 1184, 1355, 25, 66, "Input"],
+Cell[46843, 1211, 1145, 15, 248, "Output"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[48049, 1233, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[48138, 1238, 149, 2, 80, "Section"],
+Cell[CellGroupData[{
+Cell[48312, 1244, 160, 3, 54, "Subsection"],
+Cell[48475, 1249, 1677, 26, 378, "Input"],
+Cell[50155, 1277, 96, 1, 43, "Subsubsection"],
+Cell[50254, 1280, 106, 1, 34, "Subsubsection"],
+Cell[50363, 1283, 98, 1, 34, "Subsubsection"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[50522, 1291, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[50611, 1296, 105, 1, 80, "Section"],
+Cell[50719, 1299, 273, 5, 37, "Text"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
